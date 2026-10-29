@@ -2,7 +2,8 @@
 
 Machine-readable twin of the x402 buyer-failure report, refreshed hourly by the audit loop (`x402-audit export` over its SQLite database). Every file below sits at the root of this repository; fetch it from `https://raw.githubusercontent.com/sarmadahsan/paidfor-data/main/<file>`.
 
-Schedule: unpaid probes every hour; scheduled purchases four times a day at 00:00, 06:00, 12:00 and 18:00 UTC (at most 1.00 USDC per run and 4.00 per day, 0.10 per call, a fresh seller sample each run so time-of-day behaviour is sampled), each followed by an export, so `last_buy_run` is never more than about six hours old. Triggered audits may follow the 12:00 run (see `audit_purchases`).
+Schedule: unpaid probes every hour; scheduled purchases four times a day at 00:00, 06:00, 12:00 and 18:00 UTC (at most 1.00 USDC per run and 4.00 per day, 0.10 per call), each followed by an export, so `last_buy_run` is never more than about six hours old. Each run spends most of its budget on sellers below 30 denominator calls (fewest first, at most 4 calls each per run, so a seller reaches 30 across several runs and times of day) and the rest on sellers already at 30 or more. Triggered audits may follow the 12:00 run (see `audit_purchases`); a weekly breadth run may follow one 12:00 run (see `breadth_purchases`). Discovery (`discover refresh`) runs daily after the 00:00 run.
+The headline is a rolling figure over the current sample: it moves as the sample widens. The report's study-window figure (2026-10-24 to 2026-10-26) is a separate, frozen line and is never recomputed from these files.
 Every rate uses the report's definitions: the paid denominator is ok, overcharge, non_delivery, wrong_goods, injection and duplicate buy rows;
 a failure is overcharge, non_delivery, wrong_goods or duplicate. Intervals are 95% Wilson. Rates are fractions in [0, 1]. Money is USDC (6 decimals) as decimal strings.
 All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness commit that wrote them).
@@ -10,11 +11,11 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 ## summary.json
 - `last_updated`: when this export ran (ISO 8601 UTC).
 - `study_window.first_call` / `last_call`: first and last buy or stress call in the database.
-- `denominator_paid_calls`: buy calls in the paid denominator.
+- `denominator_paid_calls`: scheduled and breadth calls in the paid denominator.
 - `count_weighted`: failures, rate and Wilson interval over denominator calls.
 - `dollar_weighted`: USDC in the denominator, USDC on failed calls, rate, and approximate Wilson interval using Kish effective n.
 - `failures_by_type`: per failure outcome, count, share of denominator calls, share of failures, USDC, and how many were resolved late on-chain.
-- `sellers_reached` / `resources_reached`: distinct sellers and resources with at least one buy call.
+- `sellers_reached` / `resources_reached`: distinct sellers and resources with at least one scheduled or breadth call.
 - `sellers_with_min_calls`: sellers with at least 30 denominator calls (the rows in sellers.json `sellers`).
 - `usdc_spent`: USDC settled on-chain for our paid calls, buy and stress; `usdc_signed` is the upper bound we authorized (some authorizations were never settled); `usdc_spent_by_source` splits both by source.
 - `outside_denominator`: rows kept out of the rate (our_error, indeterminate, not_paid, unclassified, unpaid overcharge and its quoted exposure).
@@ -22,6 +23,12 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 - `overcharge_sensitivity`: headline rate if overcharges below a quote/reference ratio of 1.1 or 2.0 were not counted.
 - `by_tier` / `by_category`: denominator calls, failures, rate, Wilson interval and dollar-weighted rate per seller tier and category.
 - `audit_purchases`: paid audit calls and sellers audited, by source (`audit_disagreement`, `audit_demand`). Audit purchases count in each seller's own figures and evidence, never in the headline (`count_weighted`, `dollar_weighted`, `failures_by_type`), `by_tier` or `by_category`: triggered sampling oversamples contested and popular sellers. Sellers that entered through the user-candidate import stay out of those three until their first scheduled purchase is 7 days old.
+- `sellers_below_30`: sellers with at least one resource quoting at or under the scheduled per-call cap and fewer than 30 denominator calls: the coverage pool the next scheduled run draws from (sellers with no calls yet included).
+- `sellers_new_7d`: sellers first seen in the last 7 days, through any route (Bazaar recrawl, seed list, user candidates), not counting the initial universe (the first Bazaar crawl, 2026-10-24).
+- `sellers_measured_trend`: the last seven daily values of `sellers_with_min_calls`, oldest first, as `{ date, sellers_with_min_calls }`; each is the count at the end of that UTC day, the last one is now (equal to `sellers_with_min_calls`).
+- `discovery_last_run`: the last `discover refresh`: `finished_at`, `new_sellers`, `probe_set_added`, `bazaar_resources`, `seed_sellers_added`, `new_unmapped_payees`, `facilitators`, `receipts_sampled`, `errors`; null before the first one.
+- `breadth_purchases`: paid calls and sellers from the weekly breadth run (source `breadth`): one call per seller whose every resource quotes above the scheduled per-call cap, at up to 0.50 USDC. Breadth purchases count in the headline, `by_tier`, `by_category`, and each seller's own figures and evidence: these sellers were in the original stratified universe and the cap, not the design, excluded them. Most sit in `low_sample` for weeks.
+- `unmapped_payees` / `unmapped_payee_inflow_30d_usdc`: Base addresses that received facilitator settlements in a daily sample and match no pay-to of any seller we know (listing or quote), and the sum of their 30-day non-dust USDC inflow: money flowing to x402 sellers nobody can name. `unmapped_payees_with_inflow` says how many of them have a measured inflow so far (at most 20 are measured per day); the sum covers only those. Method in the harness's docs/discovery.md.
 
 ## sellers.json
 `sellers` holds sellers with at least 30 denominator calls; `low_sample` holds sellers with 5 to 29, each marked `low_sample: true`. Both are sorted by failure rate descending, then by calls descending.
@@ -39,7 +46,10 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 - `pay_to_addresses`: addresses the seller listed or quoted for payment (lowercase).
 - `bazaar_listing_count`: resources the seller lists in the Coinbase Bazaar discovery API.
 - `audit_purchases` / `audit_purchases_by_source`: paid audit calls included in this seller's figures ("includes N audit purchases").
-- `source`: `discovery` (Bazaar, chain scan or our own list) or `user` (entered through the user-candidate import); a `user` seller also has `entered_at`, `entered_after_checks` and `entered_after_payments` (the index's counts at import).
+- `breadth_purchases`: paid breadth-run calls included in this seller's figures; `purchases_by_source`: paid calls per source (`buy`, `breadth`, `audit_disagreement`, `audit_demand`).
+- `discovered_at`: when the seller entered our database (the discovery run that found it, else the first time any listing or import named it).
+- `first_buy_at`: our first paid call to the seller, any measured source ("measured since").
+- `source`: `discovery` (Bazaar, chain scan or our own list), `seed` (config/seed-sellers.yaml, a hand-kept list of ecosystem hosts) or `user` (entered through the user-candidate import); a `user` seller also has `entered_at`, `entered_after_checks` and `entered_after_payments` (the index's counts at import).
 
 ## resources.json
 Resources with at least 10 denominator calls, sorted by failure rate descending.
@@ -55,7 +65,7 @@ Resources with at least 10 denominator calls, sorted by failure rate descending.
 One file per seller in sellers.json (both arrays); up to 25 most recent failures.
 - `failures_total` / `shown`: failures for the seller and how many samples follow.
 - `outcome`: failure type.
-- `source`: `buy` (scheduled purchase), `audit_disagreement` or `audit_demand` (triggered audit purchase).
+- `source`: `buy` (scheduled purchase), `breadth` (weekly breadth run), `audit_disagreement` or `audit_demand` (triggered audit purchase).
 - `timestamp`: when the call was made.
 - `resource` / `method`: resource called.
 - `quote_usdc`: price the seller quoted in its 402 response.
@@ -74,10 +84,11 @@ Resources users checked or paid through the index (GET /v1/candidates) that we h
 Candidate sellers count in their own figures and evidence like any seller and stay out of the headline, `by_tier` and `by_category` until their first scheduled purchase is 7 days old.
 
 ## too_expensive.json
-Resources whose quote is above the per-call cap that applies to them (0.10 USDC in scheduled runs, MAX_PER_CALL_USD in audits, a seller's own cap from config/expensive-sellers.yaml). Recorded and never bought.
+Resources whose quote is above the per-call cap that applies to them (0.10 USDC in scheduled runs, MAX_PER_CALL_USD in audits, a seller's own cap from config/expensive-sellers.yaml, 0.50 in the breadth run), for sellers with no endpoint at or under the scheduled cap: a seller with one affordable endpoint is bought on it and leaves this file. Recorded and never bought at the scheduled cap.
 - `url` / `method` / `seller`: the resource.
 - `quoted_usdc` / `cap_usdc`: what it quoted and the cap it exceeded; `basis`: probe, declared (listing) or quote (seen while buying).
 - `recorded_at`: last time it was seen above the cap.
+- `breadth_eligible`: the quote is at or under the breadth cap (0.50), so the weekly breadth run can buy it once it is enabled.
 
 ## stress.json
 - `summary`: duplicate test (intents, intents settled twice, rate, Wilson interval) and timeout test (intents, settled despite abort, retried, second settlement on retry).
