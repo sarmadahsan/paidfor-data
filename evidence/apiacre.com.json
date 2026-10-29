@@ -1,10 +1,39 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "apiacre.com",
   "seller_id": 582,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": []
+  "failures_total": 2,
+  "shown": 2,
+  "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:14:04.533Z",
+      "resource": "https://apiacre.com/v1/data/current-weather",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x4b74f0e2e5a0e5702f1dbfc02c7543f030a910501c320c9c697b5c7877c151e4",
+      "basescan_url": "https://basescan.org/tx/0x4b74f0e2e5a0e5702f1dbfc02c7543f030a910501c320c9c697b5c7877c151e4"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:10:27.410Z",
+      "resource": "https://apiacre.com/v1/data/timezone-convert",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xd416c4439674885f51bae6918db3aeef983d14b45a20ae38859b161f1e53bf35",
+      "basescan_url": "https://basescan.org/tx/0xd416c4439674885f51bae6918db3aeef983d14b45a20ae38859b161f1e53bf35"
+    }
+  ]
 }

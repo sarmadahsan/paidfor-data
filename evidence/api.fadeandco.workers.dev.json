@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "api.fadeandco.workers.dev",
   "seller_id": 1609,
-  "failures_total": 33,
+  "failures_total": 35,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:12:50.210Z",
+      "resource": "https://api.fadeandco.workers.dev/api/agent-intel/crosschain-gas-priority-fee",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xb174cfece4c1a6333443e6d39234de45e2191729483afdf1f85a2d95b645319c",
+      "basescan_url": "https://basescan.org/tx/0xb174cfece4c1a6333443e6d39234de45e2191729483afdf1f85a2d95b645319c"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:09:15.163Z",
+      "resource": "https://api.fadeandco.workers.dev/api/agent-intel/known-scams-blacklist-db",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xd83f523cc41ebbb2cadda3a30f068e577d952b68018c9bb48dca65b5ccb10da5",
+      "basescan_url": "https://basescan.org/tx/0xd83f523cc41ebbb2cadda3a30f068e577d952b68018c9bb48dca65b5ccb10da5"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
@@ -328,34 +356,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0xb8c2bca53fd6af8bc215f162aef0264d68d43e3deab00c287e4f6177f4aa2b5a",
       "basescan_url": "https://basescan.org/tx/0xb8c2bca53fd6af8bc215f162aef0264d68d43e3deab00c287e4f6177f4aa2b5a"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:00:07.726Z",
-      "resource": "https://api.fadeandco.workers.dev/api/agent-intel/html-dom-to-clean-markdown",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x668210e8f14168b93bdae179bd669df2357e1a301461d50d06282176131ba1cb",
-      "basescan_url": "https://basescan.org/tx/0x668210e8f14168b93bdae179bd669df2357e1a301461d50d06282176131ba1cb"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T14:53:04.305Z",
-      "resource": "https://api.fadeandco.workers.dev/api/agent-intel/agent-json-schema-guard",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x451b32020c31616e28cbc38eb42a5d2271cbb8b86e20f702b3c6615c27ca31c5",
-      "basescan_url": "https://basescan.org/tx/0x451b32020c31616e28cbc38eb42a5d2271cbb8b86e20f702b3c6615c27ca31c5"
     }
   ]
 }

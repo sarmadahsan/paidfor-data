@@ -1,10 +1,67 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "bess-x402.onrender.com",
   "seller_id": 999,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": []
+  "failures_total": 4,
+  "shown": 4,
+  "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:17:09.376Z",
+      "resource": "https://bess-x402.onrender.com/v1/chain/gas",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x43b9b123a5d1b99429f6404d9826ef0ca8e169e8dd7295fa33eb2c547627555e",
+      "basescan_url": "https://basescan.org/tx/0x43b9b123a5d1b99429f6404d9826ef0ca8e169e8dd7295fa33eb2c547627555e"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:15:06.386Z",
+      "resource": "https://bess-x402.onrender.com/v1/finance/fx",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x0c5f522e573953ff9bf862cc4517c6bb4dfca2ee11be7775636dd448ac516839",
+      "basescan_url": "https://basescan.org/tx/0x0c5f522e573953ff9bf862cc4517c6bb4dfca2ee11be7775636dd448ac516839"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:11:37.192Z",
+      "resource": "https://bess-x402.onrender.com/v1/dev/cron",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xcc9032d7de5bf4949b2d85e251ea0355e9d6320b965045a0e3e15a11b1f8a02d",
+      "basescan_url": "https://basescan.org/tx/0xcc9032d7de5bf4949b2d85e251ea0355e9d6320b965045a0e3e15a11b1f8a02d"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:06:48.347Z",
+      "resource": "https://bess-x402.onrender.com/v1/geo/weather",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xd7d8c5f15e6b441a93964088cf279ce8165a472eea6f0919121e165cef52c646",
+      "basescan_url": "https://basescan.org/tx/0xd7d8c5f15e6b441a93964088cf279ce8165a472eea6f0919121e165cef52c646"
+    }
+  ]
 }

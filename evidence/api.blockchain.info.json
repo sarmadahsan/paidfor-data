@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "api.blockchain.info",
   "seller_id": 418,
-  "failures_total": 22,
-  "shown": 22,
+  "failures_total": 24,
+  "shown": 24,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:12:45.380Z",
+      "resource": "https://api.blockchain.info/explorer-gateway-kt/x402/charts/pools",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x6283b58b98e0407b49076e51b9c93bbb19fcb1c8e757ff7832b5b0b20a45de91",
+      "basescan_url": "https://basescan.org/tx/0x6283b58b98e0407b49076e51b9c93bbb19fcb1c8e757ff7832b5b0b20a45de91"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:09:08.305Z",
+      "resource": "https://api.blockchain.info/explorer-gateway-kt/x402/bch/address",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x5cd31182f35a8c41865146d7564b4727cb973105be028aeabbd82daf67f1f5b8",
+      "basescan_url": "https://basescan.org/tx/0x5cd31182f35a8c41865146d7564b4727cb973105be028aeabbd82daf67f1f5b8"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",

@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "workspace-x402-paywall.onrender.com",
   "seller_id": 2068,
-  "failures_total": 4,
-  "shown": 4,
+  "failures_total": 5,
+  "shown": 5,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:11:33.364Z",
+      "resource": "https://workspace-x402-paywall.onrender.com/utils/ip",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "not_truncated",
+          "reason": "shorter_than_declared"
+        }
+      ],
+      "settlement_tx_hash": "0x5b22bc847247bb0fb866b3a597e212fdb5c6125c5fc0a2258caae33daa4455aa",
+      "basescan_url": "https://basescan.org/tx/0x5b22bc847247bb0fb866b3a597e212fdb5c6125c5fc0a2258caae33daa4455aa"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "odds.rjhsignaltech.workers.dev",
   "seller_id": 1503,
-  "failures_total": 65,
+  "failures_total": 67,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:12:11.263Z",
+      "resource": "https://odds.rjhsignaltech.workers.dev/v1/chat",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x9234b8c777da5c720e170166505e19570f01c242d02121cb5475a3ca5d00e93e",
+      "basescan_url": "https://basescan.org/tx/0x9234b8c777da5c720e170166505e19570f01c242d02121cb5475a3ca5d00e93e"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:08:28.294Z",
+      "resource": "https://odds.rjhsignaltech.workers.dev/v1/balance",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x0218051efbd049dd490377de867840e2cbc217691fa806843d325c6ad39bda28",
+      "basescan_url": "https://basescan.org/tx/0x0218051efbd049dd490377de867840e2cbc217691fa806843d325c6ad39bda28"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
@@ -328,34 +356,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x5617d61dc442d17228eade72222c753acbedacd4ebed12c1d42418222949179c",
       "basescan_url": "https://basescan.org/tx/0x5617d61dc442d17228eade72222c753acbedacd4ebed12c1d42418222949179c"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T20:51:44.295Z",
-      "resource": "https://odds.rjhsignaltech.workers.dev/v1/balance",
-      "method": "GET",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x809f17eedc924b37e16876daa18d12ab5f15b3c04e8cc0ef649a80b910aa8162",
-      "basescan_url": "https://basescan.org/tx/0x809f17eedc924b37e16876daa18d12ab5f15b3c04e8cc0ef649a80b910aa8162"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T20:48:55.305Z",
-      "resource": "https://odds.rjhsignaltech.workers.dev/v1/chat",
-      "method": "GET",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x8fdf20f70cd7b70b4eb9d5f93b8e978713ce4309ea26ac459eec96724c3f4f78",
-      "basescan_url": "https://basescan.org/tx/0x8fdf20f70cd7b70b4eb9d5f93b8e978713ce4309ea26ac459eec96724c3f4f78"
     }
   ]
 }

@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-10-29T17:57:13.031Z",
+  "generated_at": "2026-10-29T18:22:05.218Z",
   "network": "eip155:8453",
   "git_commit": "45a4bd1d09d6dfc088052fc3b9dea5b63761cb97",
   "domain": "quantagentshop.com",
   "seller_id": 1138,
-  "failures_total": 9,
-  "shown": 9,
+  "failures_total": 11,
+  "shown": 11,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:13:08.114Z",
+      "resource": "https://quantagentshop.com/v1/weather",
+      "method": "POST",
+      "quote_usdc": "0.009900",
+      "reference_price_usdc": "0.001300",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x67aee8013db9cf8e7f679b38c1b40551055f49e5b7d3fd39f3c924d14b43bb94",
+      "basescan_url": "https://basescan.org/tx/0x67aee8013db9cf8e7f679b38c1b40551055f49e5b7d3fd39f3c924d14b43bb94"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T18:09:29.864Z",
+      "resource": "https://quantagentshop.com/v1/ip-geo",
+      "method": "POST",
+      "quote_usdc": "0.009900",
+      "reference_price_usdc": "0.001300",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xb94a0ea573c6250c76752eda4a1d929bb6886f955d7e38cb20dd47db891027db",
+      "basescan_url": "https://basescan.org/tx/0xb94a0ea573c6250c76752eda4a1d929bb6886f955d7e38cb20dd47db891027db"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
