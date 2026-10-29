@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-10-29T06:13:50.264Z",
+  "generated_at": "2026-10-29T06:31:05.408Z",
   "network": "eip155:8453",
   "git_commit": "ce0a5edd710c82c433a90f2cc16cdae8642c9ccb",
   "domain": "palmyr.ai",
   "seller_id": 383,
-  "failures_total": 27,
+  "failures_total": 30,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-29T06:21:29.388Z",
+      "resource": "https://palmyr.ai/social/twitter/post",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x95982f0d67254c4d714acef849b9ec89a9ffc7fed186eee50ba9fda42c1a5c9f",
+      "basescan_url": "https://basescan.org/tx/0x95982f0d67254c4d714acef849b9ec89a9ffc7fed186eee50ba9fda42c1a5c9f"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-29T06:20:59.430Z",
+      "resource": "https://palmyr.ai/social/twitter/unfollow",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x081bad07bd8746a65d80ada2c61688a1166a516e943cb3630dcb8eb7e7fa8702",
+      "basescan_url": "https://basescan.org/tx/0x081bad07bd8746a65d80ada2c61688a1166a516e943cb3630dcb8eb7e7fa8702"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-29T06:18:09.452Z",
+      "resource": "https://palmyr.ai/social/twitter/profile",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x6f752e2c2a3974e8a2427baefcfe8dad9c579e6daf98937570f0b533590cddd0",
+      "basescan_url": "https://basescan.org/tx/0x6f752e2c2a3974e8a2427baefcfe8dad9c579e6daf98937570f0b533590cddd0"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
@@ -419,63 +476,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x286fd7691c7ea2f566a7481e1e3d5588cb5b75ac4e761cf055e943d3cd905412",
       "basescan_url": "https://basescan.org/tx/0x286fd7691c7ea2f566a7481e1e3d5588cb5b75ac4e761cf055e943d3cd905412"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T12:38:27.206Z",
-      "resource": "https://palmyr.ai/social/twitter/profile",
-      "method": "POST",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0xd26af47ec98b7f9c10f2cee7504e9835cf89e24300d6241a324699ad2b179459",
-      "basescan_url": "https://basescan.org/tx/0xd26af47ec98b7f9c10f2cee7504e9835cf89e24300d6241a324699ad2b179459"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T11:28:09.755Z",
-      "resource": "https://palmyr.ai/social/twitter/profile",
-      "method": "POST",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x73ad8ccccbfe51aa2a8743c333fb1f11ce6520759b85dc9cd787f672282d7be8",
-      "basescan_url": "https://basescan.org/tx/0x73ad8ccccbfe51aa2a8743c333fb1f11ce6520759b85dc9cd787f672282d7be8"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T10:13:21.924Z",
-      "resource": "https://palmyr.ai/social/twitter/profile",
-      "method": "POST",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x750a8c598392cf4e6b5230a54e6a3f17d78f9298d794ad9f357bc7390b6d1687",
-      "basescan_url": "https://basescan.org/tx/0x750a8c598392cf4e6b5230a54e6a3f17d78f9298d794ad9f357bc7390b6d1687"
     }
   ]
 }

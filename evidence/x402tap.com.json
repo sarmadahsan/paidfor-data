@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-29T06:13:50.264Z",
+  "generated_at": "2026-10-29T06:31:05.408Z",
   "network": "eip155:8453",
   "git_commit": "ce0a5edd710c82c433a90f2cc16cdae8642c9ccb",
   "domain": "x402tap.com",
   "seller_id": 19,
-  "failures_total": 7,
-  "shown": 7,
+  "failures_total": 8,
+  "shown": 8,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-29T06:17:35.644Z",
+      "resource": "https://x402tap.com/api/insights",
+      "method": "GET",
+      "quote_usdc": "0.025000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x6c895feead51d5e24de48027777ad83b24e7afb2feb7c9bfcecd960c2e41dfdb",
+      "basescan_url": "https://basescan.org/tx/0x6c895feead51d5e24de48027777ad83b24e7afb2feb7c9bfcecd960c2e41dfdb"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
