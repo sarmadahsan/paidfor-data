@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T03:03:33.601Z",
+  "generated_at": "2026-10-30T03:46:03.372Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "note": "Resources users checked or paid through the index that we had never measured, imported from GET /v1/candidates and probed once without paying.",
@@ -10,6 +10,19 @@
     "measuring": "first purchase landed; in the seller's own series"
   },
   "candidates": [
+    {
+      "url": "https://api.xpay.com/",
+      "host": "api.xpay.com",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 3,
+      "payments": 0,
+      "first_seen": "2026-10-29T19:17:18.773Z",
+      "last_seen": "2026-10-29T19:27:02.317Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:08.308Z",
+      "new_seller": true
+    },
     {
       "url": "https://api.prompt10-proof-seller.net/v1/quote",
       "host": "api.prompt10-proof-seller.net",
@@ -24,6 +37,97 @@
       "new_seller": true
     },
     {
+      "url": "https://x402scan.com/",
+      "host": "x402scan.com",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 2,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:29.869Z",
+      "last_seen": "2026-10-29T23:48:30.446Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:08.702Z",
+      "new_seller": false
+    },
+    {
+      "url": "https://agentcash.dev/",
+      "host": "agentcash.dev",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:31.457Z",
+      "last_seen": "2026-10-29T23:48:31.457Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:13.874Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://api.conway.tech/",
+      "host": "api.conway.tech",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:27.179Z",
+      "last_seen": "2026-10-29T23:48:27.179Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:15.984Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://api.example.com/",
+      "host": "api.example.com",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T21:52:56.523Z",
+      "last_seen": "2026-10-29T21:52:56.523Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:15.998Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://api.merit.systems/",
+      "host": "api.merit.systems",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:31.971Z",
+      "last_seen": "2026-10-29T23:48:31.971Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:10.530Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://conway.tech/",
+      "host": "conway.tech",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:27.750Z",
+      "last_seen": "2026-10-29T23:48:27.750Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:15.673Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://echo.merit.systems/",
+      "host": "echo.merit.systems",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:32.492Z",
+      "last_seen": "2026-10-29T23:48:32.492Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:10.256Z",
+      "new_seller": true
+    },
+    {
       "url": "https://feed.second-proof-seller.org/api/v3/ticks",
       "host": "feed.second-proof-seller.org",
       "state": "not_x402",
@@ -34,6 +138,58 @@
       "last_seen": "2026-10-29T11:37:53.590Z",
       "imported_at": "2026-10-29T12:15:50.443Z",
       "probed_at": "2026-10-29T12:15:50.559Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://heurist.ai/",
+      "host": "heurist.ai",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:28.797Z",
+      "last_seen": "2026-10-29T23:48:28.797Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:15.195Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://heurist.xyz/",
+      "host": "heurist.xyz",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:29.340Z",
+      "last_seen": "2026-10-29T23:48:29.340Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:15.041Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://merit.systems/",
+      "host": "merit.systems",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:30.958Z",
+      "last_seen": "2026-10-29T23:48:30.958Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:14.791Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://mesh.heurist.xyz/",
+      "host": "mesh.heurist.xyz",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 1,
+      "payments": 0,
+      "first_seen": "2026-10-29T23:48:28.255Z",
+      "last_seen": "2026-10-29T23:48:28.255Z",
+      "imported_at": "2026-10-30T03:19:08.187Z",
+      "probed_at": "2026-10-30T03:19:15.388Z",
       "new_seller": true
     }
   ]

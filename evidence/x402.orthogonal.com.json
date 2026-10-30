@@ -1,12 +1,50 @@
 {
-  "generated_at": "2026-10-30T03:03:33.601Z",
+  "generated_at": "2026-10-30T03:46:03.372Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "x402.orthogonal.com",
   "seller_id": 2332,
-  "failures_total": 18,
-  "shown": 18,
+  "failures_total": 20,
+  "shown": 20,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:10:25.007Z",
+      "resource": "https://x402.orthogonal.com/exchange-rates/v1/convert",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x6b4afb2aa22ea933954fe25111fc7985b89ff17cf5d77a5993ec54be164ead8f",
+      "basescan_url": "https://basescan.org/tx/0x6b4afb2aa22ea933954fe25111fc7985b89ff17cf5d77a5993ec54be164ead8f"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:08:17.748Z",
+      "resource": "https://x402.orthogonal.com/abstractapi/v1/convert",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x8608bc1224001869bd82412f5c96f566ba79fbf2d3607688ca325396cda7a71f",
+      "basescan_url": "https://basescan.org/tx/0x8608bc1224001869bd82412f5c96f566ba79fbf2d3607688ca325396cda7a71f"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

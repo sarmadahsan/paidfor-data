@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T03:03:33.601Z",
+  "generated_at": "2026-10-30T03:46:03.372Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "api.gondola-ai.com",
   "seller_id": 23,
-  "failures_total": 48,
+  "failures_total": 49,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:06:42.209Z",
+      "resource": "https://api.gondola-ai.com/v1/images/generations",
+      "method": "POST",
+      "quote_usdc": "0.021929",
+      "reference_price_usdc": "0.011808",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x90a7fa2643f0964a2f61edcf5fae31d4ccf32c5995f769cc7e874b6d3a0cea00",
+      "basescan_url": "https://basescan.org/tx/0x90a7fa2643f0964a2f61edcf5fae31d4ccf32c5995f769cc7e874b6d3a0cea00"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
@@ -342,20 +356,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x874cb8cb4d712b839827d02ccd4920e6240a9c5d60a62c491b896537907c96c1",
       "basescan_url": "https://basescan.org/tx/0x874cb8cb4d712b839827d02ccd4920e6240a9c5d60a62c491b896537907c96c1"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T18:05:55.242Z",
-      "resource": "https://api.gondola-ai.com/v1/images/generations",
-      "method": "POST",
-      "quote_usdc": "0.012820",
-      "reference_price_usdc": "0.011808",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xfff566e3c2943e808fc34e7e8ed34b540602eb99dfc4aec9d670e561c8b341c3",
-      "basescan_url": "https://basescan.org/tx/0xfff566e3c2943e808fc34e7e8ed34b540602eb99dfc4aec9d670e561c8b341c3"
     }
   ]
 }

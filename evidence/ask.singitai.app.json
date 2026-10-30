@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-30T03:03:33.601Z",
+  "generated_at": "2026-10-30T03:46:03.372Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "ask.singitai.app",
   "seller_id": 1037,
-  "failures_total": 4,
-  "shown": 4,
+  "failures_total": 5,
+  "shown": 5,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:07:46.499Z",
+      "resource": "https://ask.singitai.app/v1/audio/speech",
+      "method": "POST",
+      "quote_usdc": "0.001082",
+      "reference_price_usdc": "0.001082",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x6d2e92516cb1efa761f918fd5542ea42f4b3de70b3ea1622b548c0cea3ce8ebe",
+      "basescan_url": "https://basescan.org/tx/0x6d2e92516cb1efa761f918fd5542ea42f4b3de70b3ea1622b548c0cea3ce8ebe"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

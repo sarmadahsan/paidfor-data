@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T03:03:33.601Z",
+  "generated_at": "2026-10-30T03:46:03.372Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "api.sitecheck-api.workers.dev",
   "seller_id": 1211,
-  "failures_total": 19,
-  "shown": 19,
+  "failures_total": 20,
+  "shown": 20,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:06:33.561Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/rpc/evm",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x3b2783c814a031b49f6ea922f3aec5e0c5b5aed80c22b2fed638077df5cf61b8",
+      "basescan_url": "https://basescan.org/tx/0x3b2783c814a031b49f6ea922f3aec5e0c5b5aed80c22b2fed638077df5cf61b8"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",

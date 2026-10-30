@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-10-30T03:03:33.601Z",
+  "generated_at": "2026-10-30T03:46:03.372Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "gibbr.app",
   "seller_id": 2397,
-  "failures_total": 16,
-  "shown": 16,
+  "failures_total": 19,
+  "shown": 19,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:16:43.676Z",
+      "resource": "https://gibbr.app/agent/translate",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x2e0039fe2b6c4c3701b84e16b1bd06d02f04048828f73bede7bf374d27ea3ec3",
+      "basescan_url": "https://basescan.org/tx/0x2e0039fe2b6c4c3701b84e16b1bd06d02f04048828f73bede7bf374d27ea3ec3"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:15:43.433Z",
+      "resource": "https://gibbr.app/agent/translate",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x90a5ca9458477d04fa18ed6004cca9379c9d52d2397915775e93251e070bb473",
+      "basescan_url": "https://basescan.org/tx/0x90a5ca9458477d04fa18ed6004cca9379c9d52d2397915775e93251e070bb473"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:12:35.742Z",
+      "resource": "https://gibbr.app/agent/translate",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x41ec37bd73d21e9017d92a087f00d841c3054d6ee4067287bd1afc0b5463a9da",
+      "basescan_url": "https://basescan.org/tx/0x41ec37bd73d21e9017d92a087f00d841c3054d6ee4067287bd1afc0b5463a9da"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
