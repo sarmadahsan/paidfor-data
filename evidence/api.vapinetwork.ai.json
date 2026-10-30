@@ -1,12 +1,35 @@
 {
-  "generated_at": "2026-10-30T18:19:55.454Z",
+  "generated_at": "2026-10-30T18:55:09.073Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "api.vapinetwork.ai",
   "seller_id": 1337,
-  "failures_total": 70,
+  "failures_total": 71,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T18:43:33.802Z",
+      "resource": "https://api.vapinetwork.ai/shim/o1/token",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        },
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xef9fd346d3c436a583c0462fd6ee529c4529248b6ea67541aa76ba387ccf7cf7",
+      "basescan_url": "https://basescan.org/tx/0xef9fd346d3c436a583c0462fd6ee529c4529248b6ea67541aa76ba387ccf7cf7"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
@@ -558,29 +581,6 @@
       ],
       "settlement_tx_hash": "0x85a7687c3551682b861e8e29d634cd27af7150e7e13e908a8be06353e8c54b51",
       "basescan_url": "https://basescan.org/tx/0x85a7687c3551682b861e8e29d634cd27af7150e7e13e908a8be06353e8c54b51"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T18:05:07.733Z",
-      "resource": "https://api.vapinetwork.ai/shim/o1/token",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 404,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        },
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x929a8713a45f18491734d4a971ad2e71215f2c1a71ecc1f0fb4150b7259fd77d",
-      "basescan_url": "https://basescan.org/tx/0x929a8713a45f18491734d4a971ad2e71215f2c1a71ecc1f0fb4150b7259fd77d"
     }
   ]
 }

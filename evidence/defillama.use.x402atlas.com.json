@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-10-30T18:55:09.073Z",
+  "network": "eip155:8453",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
+  "domain": "defillama.use.x402atlas.com",
+  "seller_id": 145,
+  "failures_total": 3,
+  "shown": 3,
+  "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T18:32:09.605Z",
+      "resource": "https://defillama.use.x402atlas.com/protocols",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x56953d59e3ebb6b0811320486ba05af612ac590f9f26b5a2e8042c8e465e6ff4",
+      "basescan_url": "https://basescan.org/tx/0x56953d59e3ebb6b0811320486ba05af612ac590f9f26b5a2e8042c8e465e6ff4"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T12:31:01.935Z",
+      "resource": "https://defillama.use.x402atlas.com/protocols",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x36d64b4f2e7a143074e29f8554d0cc56d4b83b3a6dc7922a734ea01daf0f3179",
+      "basescan_url": "https://basescan.org/tx/0x36d64b4f2e7a143074e29f8554d0cc56d4b83b3a6dc7922a734ea01daf0f3179"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:00:37.341Z",
+      "resource": "https://defillama.use.x402atlas.com/protocols",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x4099683671e8f4f48e3b1d96bf2001c74aafa4b6d01eaf4d40cb0b7c346d6fb9",
+      "basescan_url": "https://basescan.org/tx/0x4099683671e8f4f48e3b1d96bf2001c74aafa4b6d01eaf4d40cb0b7c346d6fb9"
+    }
+  ]
+}

@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-30T18:19:55.454Z",
+  "generated_at": "2026-10-30T18:55:09.073Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "x402.orthogonal.com",
   "seller_id": 2332,
-  "failures_total": 23,
-  "shown": 23,
+  "failures_total": 24,
+  "shown": 24,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T18:31:26.527Z",
+      "resource": "https://x402.orthogonal.com/abstractapi/v1",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x68661067c63ed9a095a86770a21deeffad0000d1a01ec55b6e0553578e1ce7f9",
+      "basescan_url": "https://basescan.org/tx/0x68661067c63ed9a095a86770a21deeffad0000d1a01ec55b6e0553578e1ce7f9"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

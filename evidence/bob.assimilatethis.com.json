@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T18:19:55.454Z",
+  "generated_at": "2026-10-30T18:55:09.073Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "bob.assimilatethis.com",
   "seller_id": 1111,
-  "failures_total": 1,
-  "shown": 1,
+  "failures_total": 2,
+  "shown": 2,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T18:40:43.636Z",
+      "resource": "https://bob.assimilatethis.com/search",
+      "method": "GET",
+      "quote_usdc": "0.050000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xfd0ce601e4a74b0d6df77879b0b828c404b3d3372f4bca428092f40aa92c6c9f",
+      "basescan_url": "https://basescan.org/tx/0xfd0ce601e4a74b0d6df77879b0b828c404b3d3372f4bca428092f40aa92c6c9f"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
