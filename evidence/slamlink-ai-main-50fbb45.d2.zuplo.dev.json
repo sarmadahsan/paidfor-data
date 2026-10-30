@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T12:19:02.523Z",
+  "generated_at": "2026-10-30T13:04:17.742Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "slamlink-ai-main-50fbb45.d2.zuplo.dev",
   "seller_id": 2241,
-  "failures_total": 2,
-  "shown": 2,
+  "failures_total": 3,
+  "shown": 3,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T12:32:11.274Z",
+      "resource": "https://slamlink-ai-main-50fbb45.d2.zuplo.dev/chain/tokens/trending",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xb341370edf1902ffa08eb0e1a1abbd1a49e20712e2bcfe2f713c0e95ce13c899",
+      "basescan_url": "https://basescan.org/tx/0xb341370edf1902ffa08eb0e1a1abbd1a49e20712e2bcfe2f713c0e95ce13c899"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
