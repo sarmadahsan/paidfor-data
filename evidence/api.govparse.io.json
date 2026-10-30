@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "api.govparse.io",
   "seller_id": 2417,
-  "failures_total": 3,
-  "shown": 3,
+  "failures_total": 4,
+  "shown": 4,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:02:27.358Z",
+      "resource": "https://api.govparse.io/v1/stats/opportunities",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 503,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x374388c53c373c4d82c102a430f3a29915755e35a274425af7cfa7b10fc781b7",
+      "basescan_url": "https://basescan.org/tx/0x374388c53c373c4d82c102a430f3a29915755e35a274425af7cfa7b10fc781b7"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "api.fadeandco.workers.dev",
   "seller_id": 1609,
-  "failures_total": 35,
+  "failures_total": 36,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:01:26.199Z",
+      "resource": "https://api.fadeandco.workers.dev/api/agent-intel/citation-verifier",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xe17221d3dfda9f120058bd0c0550faa35f05fc49a0f1d6e223943fd04212bc0c",
+      "basescan_url": "https://basescan.org/tx/0xe17221d3dfda9f120058bd0c0550faa35f05fc49a0f1d6e223943fd04212bc0c"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
@@ -342,20 +356,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x99f76cd6ef3f3c3883b59c00342ce430e41e28bddafe4866e7b3403052219efa",
       "basescan_url": "https://basescan.org/tx/0x99f76cd6ef3f3c3883b59c00342ce430e41e28bddafe4866e7b3403052219efa"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:03:10.482Z",
-      "resource": "https://api.fadeandco.workers.dev/api/agent-intel/highres-qr-code-generator",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xb8c2bca53fd6af8bc215f162aef0264d68d43e3deab00c287e4f6177f4aa2b5a",
-      "basescan_url": "https://basescan.org/tx/0xb8c2bca53fd6af8bc215f162aef0264d68d43e3deab00c287e4f6177f4aa2b5a"
     }
   ]
 }

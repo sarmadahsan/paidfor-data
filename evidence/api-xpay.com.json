@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "api-xpay.com",
   "seller_id": 2,
-  "failures_total": 282,
+  "failures_total": 283,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:01:11.349Z",
+      "resource": "https://www.api-xpay.com/x402/network",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x2d918697cf5fb1f14242f4610a4b4d175c0fa079055da1d43faf7d9d0c09a3af",
+      "basescan_url": "https://basescan.org/tx/0x2d918697cf5fb1f14242f4610a4b4d175c0fa079055da1d43faf7d9d0c09a3af"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
@@ -342,20 +356,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x2f3f6893a85a31a92934a09495ff926140b1cd784c2fae53d829b58027051af4",
       "basescan_url": "https://basescan.org/tx/0x2f3f6893a85a31a92934a09495ff926140b1cd784c2fae53d829b58027051af4"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-26T00:04:09.215Z",
-      "resource": "https://www.api-xpay.com/x402/network",
-      "method": "GET",
-      "quote_usdc": "0.005000",
-      "reference_price_usdc": "0.005000",
-      "reference_source": "bazaar",
-      "http_status": null,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x6e58c93cce82ff4e2c3677635d97e33bd09d78c009f5cb6e62cea638f8ac7034",
-      "basescan_url": "https://basescan.org/tx/0x6e58c93cce82ff4e2c3677635d97e33bd09d78c009f5cb6e62cea638f8ac7034"
     }
   ]
 }

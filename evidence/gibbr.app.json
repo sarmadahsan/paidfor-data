@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "gibbr.app",
   "seller_id": 2397,
-  "failures_total": 15,
-  "shown": 15,
+  "failures_total": 16,
+  "shown": 16,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-30T02:56:42.075Z",
+      "resource": "https://gibbr.app/agent/translate",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xf02e7d1edc2764b822c8911428b37bba91c8a221b1ae952b015d9351657afc57",
+      "basescan_url": "https://basescan.org/tx/0xf02e7d1edc2764b822c8911428b37bba91c8a221b1ae952b015d9351657afc57"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

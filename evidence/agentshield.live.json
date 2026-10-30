@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "agentshield.live",
   "seller_id": 1707,
-  "failures_total": 2,
-  "shown": 2,
+  "failures_total": 3,
+  "shown": 3,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T03:01:46.497Z",
+      "resource": "https://agentshield.live/ean",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x98858909751d1c6409615164eea57527d3889f19245d934e9b10a1acc8108e3c",
+      "basescan_url": "https://basescan.org/tx/0x98858909751d1c6409615164eea57527d3889f19245d934e9b10a1acc8108e3c"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",

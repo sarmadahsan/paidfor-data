@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "summary": {
-    "rounds": 96,
-    "probes": 85270,
-    "ok": 78886,
-    "overcharge": 1470,
+    "rounds": 97,
+    "probes": 86590,
+    "ok": 80082,
+    "overcharge": 1496,
     "our_error": 0,
     "price_discrimination": 0,
     "payto_changed": 3,
-    "quote_drift": 68
+    "quote_drift": 70
   },
   "report_summary": {
-    "Date range": "2026-10-24T02:57:21.693Z to 2026-10-30T02:12:13.767Z",
-    "Rounds": "96",
-    "Probes": "85270",
+    "Date range": "2026-10-24T02:57:21.693Z to 2026-10-30T03:02:33.704Z",
+    "Rounds": "97",
+    "Probes": "86590",
     "Resources in active probe set": "660 (top 60, tail 600)",
     "Client identities used": "A, B",
     "Note": "Identities differ only in HTTP headers. The unpaid x402 request carries no buyer wallet (the payer appears only in the signed PAYMENT-SIGNATURE header), so wallet-based price discrimination is not observable by probing."
@@ -27,22 +27,22 @@
         {
           "Seller": "verdict.kechlab.com",
           "Resources": "2",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "99.5%",
           "Modal price": "$0.0091",
           "Min": "$0.0087",
           "Max": "$0.0092",
-          "Drift events": "32",
+          "Drift events": "34",
           "Pay-to changes": "0",
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "966 ms"
+          "Median latency": "982 ms"
         },
         {
           "Seller": "api.babyblueviper.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.04",
           "Min": "$0.03875",
@@ -57,7 +57,7 @@
         {
           "Seller": "api.losbeto.xyz",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -65,14 +65,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "8",
+          "Overcharge probes": "10",
           "Slow probes": "0",
           "Median latency": "110 ms"
         },
         {
           "Seller": "bess-x402.onrender.com",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "99.5%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -80,14 +80,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "79",
+          "Overcharge probes": "81",
           "Slow probes": "0",
           "Median latency": "76 ms"
         },
         {
           "Seller": "api.blockchain.info",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.0015",
@@ -95,14 +95,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "76",
+          "Overcharge probes": "78",
           "Slow probes": "0",
           "Median latency": "226 ms"
         },
         {
           "Seller": "quantagentshop.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.0099",
           "Min": "$0.0013",
@@ -110,14 +110,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "78",
+          "Overcharge probes": "80",
           "Slow probes": "0",
           "Median latency": "243 ms"
         },
         {
           "Seller": "x402-bazaar-rank.x402-bazaar-rank-worker.workers.dev",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.008",
           "Min": "$0.008",
@@ -127,12 +127,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "30",
           "Slow probes": "0",
-          "Median latency": "1390 ms"
+          "Median latency": "1112 ms"
         },
         {
           "Seller": "agentx.sale",
           "Resources": "2",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "98.2%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -147,7 +147,7 @@
         {
           "Seller": "agent-tools.jbarkules.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.0018",
@@ -155,14 +155,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "80",
+          "Overcharge probes": "82",
           "Slow probes": "0",
           "Median latency": "74 ms"
         },
         {
           "Seller": "agentshield.live",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.001",
@@ -170,14 +170,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "80",
+          "Overcharge probes": "82",
           "Slow probes": "0",
           "Median latency": "340 ms"
         },
         {
           "Seller": "scraplingdata.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.005",
           "Min": "$0.001",
@@ -192,8 +192,8 @@
         {
           "Seller": "aurifex.kder-ai.com",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "92.6%",
+          "Probes": "110",
+          "402 rate": "92.7%",
           "Modal price": "$0.01",
           "Min": "$0.005",
           "Max": "$0.01",
@@ -207,7 +207,7 @@
         {
           "Seller": "money-reactor.makar52nn2016.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -222,7 +222,7 @@
         {
           "Seller": "serp402.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.01",
@@ -230,14 +230,14 @@
           "Drift events": "2",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "108",
+          "Overcharge probes": "110",
           "Slow probes": "0",
           "Median latency": "182 ms"
         },
         {
           "Seller": "api.aizamon.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.25",
           "Min": "$0.25",
@@ -252,7 +252,7 @@
         {
           "Seller": "api.bitrefill.com",
           "Resources": "1",
-          "Probes": "190",
+          "Probes": "192",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -267,7 +267,7 @@
         {
           "Seller": "api.surplusintelligence.ai",
           "Resources": "1",
-          "Probes": "190",
+          "Probes": "192",
           "402 rate": "100.0%",
           "Modal price": "$0.003301",
           "Min": "$0.003301",
@@ -282,7 +282,7 @@
         {
           "Seller": "tariffmonkee.com",
           "Resources": "3",
-          "Probes": "190",
+          "Probes": "192",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -297,7 +297,7 @@
         {
           "Seller": "agents.chain.link",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -312,7 +312,7 @@
         {
           "Seller": "api.apify.com",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$1.00",
           "Min": "$1.00",
@@ -322,12 +322,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "182 ms"
+          "Median latency": "181 ms"
         },
         {
           "Seller": "api.aurelianflo.com",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -342,7 +342,7 @@
         {
           "Seller": "api.hivemindos.app",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -357,7 +357,7 @@
         {
           "Seller": "api.locus.report",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.29",
           "Min": "$0.29",
@@ -372,7 +372,7 @@
         {
           "Seller": "api.slamai.dev",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -387,7 +387,7 @@
         {
           "Seller": "api.vapinetwork.ai",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -397,12 +397,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "280 ms"
+          "Median latency": "277 ms"
         },
         {
           "Seller": "base-gas-x402-production.up.railway.app",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -417,7 +417,7 @@
         {
           "Seller": "chat-api.memchat.io",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.98",
           "Min": "$0.98",
@@ -432,7 +432,7 @@
         {
           "Seller": "gate402.app",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -447,7 +447,7 @@
         {
           "Seller": "laso.finance",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -462,8 +462,8 @@
         {
           "Seller": "market.datapackvibe.com",
           "Resources": "1",
-          "Probes": "188",
-          "402 rate": "86.7%",
+          "Probes": "190",
+          "402 rate": "86.8%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -477,7 +477,7 @@
         {
           "Seller": "odds.rjhsignaltech.workers.dev",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -485,14 +485,14 @@
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "188",
+          "Overcharge probes": "190",
           "Slow probes": "0",
           "Median latency": "165 ms"
         },
         {
           "Seller": "solene-fa2010da.base44.app",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -502,12 +502,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "229 ms"
+          "Median latency": "228 ms"
         },
         {
           "Seller": "x402.agentutility.ai",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -522,7 +522,7 @@
         {
           "Seller": "x402.miroshark.xyz",
           "Resources": "1",
-          "Probes": "188",
+          "Probes": "190",
           "402 rate": "100.0%",
           "Modal price": "$1.00",
           "Min": "$1.00",
@@ -537,7 +537,7 @@
         {
           "Seller": "agent.pocket.network",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -552,7 +552,7 @@
         {
           "Seller": "agent402.tools",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -567,8 +567,8 @@
         {
           "Seller": "agents.driftflight.com",
           "Resources": "2",
-          "Probes": "186",
-          "402 rate": "97.8%",
+          "Probes": "188",
+          "402 rate": "96.8%",
           "Modal price": "$0.06",
           "Min": "$0.06",
           "Max": "$0.06",
@@ -582,7 +582,7 @@
         {
           "Seller": "agents.withzero.xyz",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.01",
@@ -597,8 +597,8 @@
         {
           "Seller": "agentshelf.syntexa.ch",
           "Resources": "2",
-          "Probes": "186",
-          "402 rate": "57.0%",
+          "Probes": "188",
+          "402 rate": "56.4%",
           "Modal price": "$0.001",
           "Min": "$0.001",
           "Max": "$0.003",
@@ -607,12 +607,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "523 ms"
+          "Median latency": "528 ms"
         },
         {
           "Seller": "api-xpay.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -627,7 +627,7 @@
         {
           "Seller": "api.ai-open-models.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -642,7 +642,7 @@
         {
           "Seller": "api.aidress.ai",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -657,8 +657,8 @@
         {
           "Seller": "api.arysphere.com",
           "Resources": "2",
-          "Probes": "186",
-          "402 rate": "18.3%",
+          "Probes": "188",
+          "402 rate": "18.1%",
           "Modal price": "$0.008",
           "Min": "$0.008",
           "Max": "$0.008",
@@ -672,7 +672,7 @@
         {
           "Seller": "api.blockchainmoneymap.com",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -687,7 +687,7 @@
         {
           "Seller": "api.botpay.network",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -697,12 +697,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "218 ms"
+          "Median latency": "217 ms"
         },
         {
           "Seller": "api.builtwith.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "98.9%",
           "Modal price": "$0.0495",
           "Min": "$0.0495",
@@ -717,7 +717,7 @@
         {
           "Seller": "api.gondola-ai.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -732,7 +732,7 @@
         {
           "Seller": "api.healthtravel-api.workers.dev",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -747,7 +747,7 @@
         {
           "Seller": "api.interzoid.com",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -762,7 +762,7 @@
         {
           "Seller": "api.macaroonnetwork.com",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "98.9%",
           "Modal price": "$0.01",
           "Min": "$0.005",
@@ -777,7 +777,7 @@
         {
           "Seller": "api.nansen.ai",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -792,7 +792,7 @@
         {
           "Seller": "api.x402node.dev",
           "Resources": "3",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.0022",
@@ -807,7 +807,7 @@
         {
           "Seller": "ausca.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -822,7 +822,7 @@
         {
           "Seller": "blockchainiq.co",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -837,7 +837,7 @@
         {
           "Seller": "blockrun.ai",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -852,7 +852,7 @@
         {
           "Seller": "business-frameworks.matryoshka-paradigms.workers.dev",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -867,7 +867,7 @@
         {
           "Seller": "ca-tax-api-mainnet.lxtap.workers.dev",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -882,7 +882,7 @@
         {
           "Seller": "cheaptokens.ai",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$1.00",
           "Min": "$1.00",
@@ -897,7 +897,7 @@
         {
           "Seller": "dns.intel.rallylive.ca",
           "Resources": "3",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -912,7 +912,7 @@
         {
           "Seller": "fabair-agents.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -927,7 +927,7 @@
         {
           "Seller": "gamemaxxing.baes.so",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -937,12 +937,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "171 ms"
+          "Median latency": "170 ms"
         },
         {
           "Seller": "hubvibe-io.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "99.5%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -957,7 +957,7 @@
         {
           "Seller": "intel.degenscan.io",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -967,12 +967,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "179 ms"
+          "Median latency": "180 ms"
         },
         {
           "Seller": "jev-x402.vercel.app",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -987,7 +987,7 @@
         {
           "Seller": "kari.mayim-mayim.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1002,7 +1002,7 @@
         {
           "Seller": "macro-pulse-x402.onrender.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -1017,7 +1017,7 @@
         {
           "Seller": "palmyr.ai",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "99.5%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1032,7 +1032,7 @@
         {
           "Seller": "peerlytics.xyz",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.25",
           "Min": "$0.25",
@@ -1047,7 +1047,7 @@
         {
           "Seller": "scvd.store",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1062,7 +1062,7 @@
         {
           "Seller": "settled.tools",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -1077,7 +1077,7 @@
         {
           "Seller": "stableenrich.dev",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1092,7 +1092,7 @@
         {
           "Seller": "tanod.dev",
           "Resources": "3",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "98.9%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1107,7 +1107,7 @@
         {
           "Seller": "x402-factory.com",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1122,7 +1122,7 @@
         {
           "Seller": "x402-gateway.blackwoodstate8.workers.dev",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.023",
           "Min": "$0.007",
@@ -1132,12 +1132,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "534 ms"
+          "Median latency": "445 ms"
         },
         {
           "Seller": "x402.clashofcoins.com",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1152,7 +1152,7 @@
         {
           "Seller": "x402.dtelecom.org",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$5.00",
           "Min": "$5.00",
@@ -1167,7 +1167,7 @@
         {
           "Seller": "x402.ochinimus.app",
           "Resources": "2",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -1182,7 +1182,7 @@
         {
           "Seller": "x402.pulsescanner.io",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -1192,12 +1192,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "130 ms"
+          "Median latency": "121 ms"
         },
         {
           "Seller": "aether-x402.vercel.app",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1212,7 +1212,7 @@
         {
           "Seller": "api.24klabs.ai",
           "Resources": "2",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1227,7 +1227,7 @@
         {
           "Seller": "api.agents-trust.com",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1242,7 +1242,7 @@
         {
           "Seller": "api.annalist.dev",
           "Resources": "2",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.005",
@@ -1257,7 +1257,7 @@
         {
           "Seller": "api.strale.io",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.0324",
           "Min": "$0.0324",
@@ -1272,7 +1272,7 @@
         {
           "Seller": "ax1.vc",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -1287,7 +1287,7 @@
         {
           "Seller": "bitwise.openverbs.com",
           "Resources": "2",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -1302,8 +1302,8 @@
         {
           "Seller": "clinkagent.com",
           "Resources": "2",
-          "Probes": "184",
-          "402 rate": "57.6%",
+          "Probes": "186",
+          "402 rate": "57.0%",
           "Modal price": "$0.02",
           "Min": "$0.005",
           "Max": "$0.02",
@@ -1317,7 +1317,7 @@
         {
           "Seller": "cloud.trycorpus.ai",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1332,7 +1332,7 @@
         {
           "Seller": "coil.trade",
           "Resources": "2",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -1347,7 +1347,7 @@
         {
           "Seller": "cultos.dev",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1362,7 +1362,7 @@
         {
           "Seller": "draconic21-x402-api.onrender.com",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -1377,7 +1377,7 @@
         {
           "Seller": "horizonpulse.dev",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -1392,7 +1392,7 @@
         {
           "Seller": "keyring-agent.blockchhub.link",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -1407,7 +1407,7 @@
         {
           "Seller": "mahastrategies.com",
           "Resources": "3",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.24",
           "Min": "$0.013002",
@@ -1422,7 +1422,7 @@
         {
           "Seller": "modelmarket.dev",
           "Resources": "2",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.006",
           "Min": "$0.001",
@@ -1437,7 +1437,7 @@
         {
           "Seller": "onchainpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -1452,8 +1452,8 @@
         {
           "Seller": "phion.systems",
           "Resources": "2",
-          "Probes": "184",
-          "402 rate": "57.6%",
+          "Probes": "186",
+          "402 rate": "57.0%",
           "Modal price": "$0.006",
           "Min": "$0.001",
           "Max": "$0.006",
@@ -1467,7 +1467,7 @@
         {
           "Seller": "polymarket-signal-api.pwnker-polymarket-signals.workers.dev",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "99.5%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1482,8 +1482,8 @@
         {
           "Seller": "saylorinnovations.com",
           "Resources": "2",
-          "Probes": "184",
-          "402 rate": "72.8%",
+          "Probes": "186",
+          "402 rate": "72.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -1492,12 +1492,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "268 ms"
+          "Median latency": "262 ms"
         },
         {
           "Seller": "stablesocial.dev",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.06",
           "Min": "$0.06",
@@ -1512,8 +1512,8 @@
         {
           "Seller": "vape-x402.vapex402.workers.dev",
           "Resources": "2",
-          "Probes": "184",
-          "402 rate": "57.6%",
+          "Probes": "186",
+          "402 rate": "57.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -1527,7 +1527,7 @@
         {
           "Seller": "win.oneshotagent.com",
           "Resources": "1",
-          "Probes": "184",
+          "Probes": "186",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -1542,7 +1542,7 @@
         {
           "Seller": "agents.smarterway.tech",
           "Resources": "1",
-          "Probes": "182",
+          "Probes": "184",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1557,7 +1557,7 @@
         {
           "Seller": "api.arkm.com",
           "Resources": "1",
-          "Probes": "182",
+          "Probes": "184",
           "402 rate": "100.0%",
           "Modal price": "$0.2",
           "Min": "$0.2",
@@ -1572,7 +1572,7 @@
         {
           "Seller": "x402.orthogonal.com",
           "Resources": "1",
-          "Probes": "182",
+          "Probes": "184",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -1587,8 +1587,8 @@
         {
           "Seller": "agents.citiviewgroup.com",
           "Resources": "3",
-          "Probes": "136",
-          "402 rate": "39.7%",
+          "Probes": "138",
+          "402 rate": "39.1%",
           "Modal price": "$0.005",
           "Min": "$0.003",
           "Max": "$0.009",
@@ -1602,7 +1602,7 @@
         {
           "Seller": "api.jobsproperty-api.workers.dev",
           "Resources": "3",
-          "Probes": "136",
+          "Probes": "138",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -1617,8 +1617,8 @@
         {
           "Seller": "api.vextorium.com",
           "Resources": "3",
-          "Probes": "136",
-          "402 rate": "94.1%",
+          "Probes": "138",
+          "402 rate": "94.2%",
           "Modal price": "$0.002",
           "Min": "$0.002",
           "Max": "$0.003",
@@ -1632,22 +1632,22 @@
         {
           "Seller": "agents.daedalusdevelopmentgroup.com",
           "Resources": "3",
-          "Probes": "134",
-          "402 rate": "74.6%",
+          "Probes": "136",
+          "402 rate": "75.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "90",
+          "Overcharge probes": "92",
           "Slow probes": "0",
           "Median latency": "136 ms"
         },
         {
           "Seller": "email.intel.rallylive.ca",
           "Resources": "3",
-          "Probes": "134",
+          "Probes": "136",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1662,7 +1662,7 @@
         {
           "Seller": "minia2a.uk",
           "Resources": "2",
-          "Probes": "134",
+          "Probes": "136",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1672,12 +1672,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "270 ms"
+          "Median latency": "302 ms"
         },
         {
           "Seller": "modelprices.xyz",
           "Resources": "3",
-          "Probes": "134",
+          "Probes": "136",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1692,7 +1692,7 @@
         {
           "Seller": "proxy.suverse.io",
           "Resources": "2",
-          "Probes": "134",
+          "Probes": "136",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.001",
@@ -1707,7 +1707,7 @@
         {
           "Seller": "x402stock.xyz",
           "Resources": "3",
-          "Probes": "134",
+          "Probes": "136",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.01",
@@ -1722,7 +1722,7 @@
         {
           "Seller": "2s.io",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.0045",
           "Min": "$0.0025",
@@ -1737,7 +1737,7 @@
         {
           "Seller": "47620.xyz",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1745,14 +1745,14 @@
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "120",
+          "Overcharge probes": "122",
           "Slow probes": "0",
           "Median latency": "390 ms"
         },
         {
           "Seller": "7mavs5vu7ggbhtxvbavdgs26qa0cbawg.lambda-url.us-east-1.on.aws",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1767,7 +1767,7 @@
         {
           "Seller": "agent-data.centorprat.workers.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.01",
@@ -1775,14 +1775,14 @@
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "110",
+          "Overcharge probes": "112",
           "Slow probes": "0",
-          "Median latency": "465 ms"
+          "Median latency": "461 ms"
         },
         {
           "Seller": "agent-kg.ai",
           "Resources": "1",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1797,7 +1797,7 @@
         {
           "Seller": "agent-treats-production.up.railway.app",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.001",
@@ -1812,7 +1812,7 @@
         {
           "Seller": "agentbit.app",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.015",
           "Min": "$0.003",
@@ -1827,7 +1827,7 @@
         {
           "Seller": "agentx402pay.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1842,7 +1842,7 @@
         {
           "Seller": "ai-data-marketplace-1042299154756.us-central1.run.app",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.04",
           "Min": "$0.02",
@@ -1857,7 +1857,7 @@
         {
           "Seller": "api.agentstools.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -1872,7 +1872,7 @@
         {
           "Seller": "api.aiskills402.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -1887,7 +1887,7 @@
         {
           "Seller": "api.aurenic.org",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1902,7 +1902,7 @@
         {
           "Seller": "api.avedaris.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1917,7 +1917,7 @@
         {
           "Seller": "api.carbon-cashmere.de",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.02",
@@ -1932,7 +1932,7 @@
         {
           "Seller": "api.chainmarket-api.workers.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -1947,8 +1947,8 @@
         {
           "Seller": "api.companyrecords-api.workers.dev",
           "Resources": "2",
-          "Probes": "132",
-          "402 rate": "99.2%",
+          "Probes": "134",
+          "402 rate": "99.3%",
           "Modal price": "$0.002",
           "Min": "$0.002",
           "Max": "$0.002",
@@ -1957,12 +1957,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "71 ms"
+          "Median latency": "67 ms"
         },
         {
           "Seller": "api.delx.ai",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -1972,12 +1972,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "390 ms"
+          "Median latency": "470 ms"
         },
         {
           "Seller": "api.duoleads.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -1987,12 +1987,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "53 ms"
+          "Median latency": "51 ms"
         },
         {
           "Seller": "api.invoket.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2007,7 +2007,7 @@
         {
           "Seller": "api.relaystation.ai",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2022,7 +2022,7 @@
         {
           "Seller": "api.sirenic.eu",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.02",
@@ -2037,7 +2037,7 @@
         {
           "Seller": "api.solenrich.com",
           "Resources": "1",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2052,7 +2052,7 @@
         {
           "Seller": "api.tradeenergy-api.workers.dev",
           "Resources": "3",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -2067,7 +2067,7 @@
         {
           "Seller": "api.ysaere.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -2082,7 +2082,7 @@
         {
           "Seller": "botsrated.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -2092,12 +2092,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "120 ms"
+          "Median latency": "114 ms"
         },
         {
           "Seller": "chain.intel.rallylive.ca",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -2112,7 +2112,7 @@
         {
           "Seller": "chainverdict.xyz",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2127,7 +2127,7 @@
         {
           "Seller": "companies.use.x402atlas.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -2142,7 +2142,7 @@
         {
           "Seller": "currency-api-production-4a8d.up.railway.app",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2157,7 +2157,7 @@
         {
           "Seller": "defi-api.agenticfi.wtf",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2172,7 +2172,7 @@
         {
           "Seller": "deskfeed.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -2182,12 +2182,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "252 ms"
+          "Median latency": "275 ms"
         },
         {
           "Seller": "fiatdock.com",
           "Resources": "3",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2202,7 +2202,7 @@
         {
           "Seller": "filingspulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -2217,7 +2217,7 @@
         {
           "Seller": "grantpulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -2232,7 +2232,7 @@
         {
           "Seller": "homepulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -2242,12 +2242,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "161 ms"
+          "Median latency": "158 ms"
         },
         {
           "Seller": "http--forest-gas-station-mainnet--lcjl27p8lmjs.code.run",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2262,7 +2262,7 @@
         {
           "Seller": "latamref.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -2277,7 +2277,7 @@
         {
           "Seller": "lionx402.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -2287,12 +2287,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "391 ms"
+          "Median latency": "390 ms"
         },
         {
           "Seller": "mart402.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.0025",
@@ -2307,7 +2307,7 @@
         {
           "Seller": "mcp.dropenginehq.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -2322,7 +2322,7 @@
         {
           "Seller": "medien.halowerk.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.031",
           "Min": "$0.031",
@@ -2337,7 +2337,7 @@
         {
           "Seller": "nordata.hihat.workers.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.002",
@@ -2352,7 +2352,7 @@
         {
           "Seller": "pay.edge-agents.ai",
           "Resources": "3",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2367,7 +2367,7 @@
         {
           "Seller": "physician-payment-screen.iykykblog.workers.dev",
           "Resources": "1",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -2382,7 +2382,7 @@
         {
           "Seller": "prospectpulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.25",
           "Min": "$0.25",
@@ -2392,12 +2392,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "166 ms"
+          "Median latency": "164 ms"
         },
         {
           "Seller": "readx.sh",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2412,8 +2412,8 @@
         {
           "Seller": "relay.straelo.com",
           "Resources": "2",
-          "Probes": "132",
-          "402 rate": "98.5%",
+          "Probes": "134",
+          "402 rate": "97.0%",
           "Modal price": "$0.03",
           "Min": "$0.02",
           "Max": "$0.03",
@@ -2427,7 +2427,7 @@
         {
           "Seller": "scdoscan.io",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$1.00",
           "Min": "$1.00",
@@ -2442,7 +2442,7 @@
         {
           "Seller": "signalpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "98.5%",
           "Modal price": "$1.00",
           "Min": "$1.00",
@@ -2457,7 +2457,7 @@
         {
           "Seller": "simulate.cyberwarex.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.005",
@@ -2472,8 +2472,8 @@
         {
           "Seller": "soren.com",
           "Resources": "2",
-          "Probes": "132",
-          "402 rate": "97.7%",
+          "Probes": "134",
+          "402 rate": "97.8%",
           "Modal price": "$0.01",
           "Min": "$0.003",
           "Max": "$0.01",
@@ -2487,7 +2487,7 @@
         {
           "Seller": "tolca.tonbot.ca",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.02",
@@ -2502,7 +2502,7 @@
         {
           "Seller": "toll402.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$1.00",
           "Min": "$0.001",
@@ -2517,7 +2517,7 @@
         {
           "Seller": "tools.halowerk.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -2532,7 +2532,7 @@
         {
           "Seller": "twin.unykorn.org",
           "Resources": "3",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -2542,12 +2542,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "293 ms"
+          "Median latency": "281 ms"
         },
         {
           "Seller": "underground.substratesymposium.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2562,7 +2562,7 @@
         {
           "Seller": "vaunt-dispatch-production.up.railway.app",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2577,7 +2577,7 @@
         {
           "Seller": "x402-agent-api.onrender.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.015",
           "Min": "$0.005",
@@ -2592,7 +2592,7 @@
         {
           "Seller": "x402-agent-tools.nerolabs.workers.dev",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.004",
@@ -2602,12 +2602,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "77 ms"
+          "Median latency": "76 ms"
         },
         {
           "Seller": "x402.agentindex.world",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2622,7 +2622,7 @@
         {
           "Seller": "x402.deepsense.stream",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.001",
@@ -2637,7 +2637,7 @@
         {
           "Seller": "x402.openwebninja.com",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -2652,7 +2652,7 @@
         {
           "Seller": "x402engine.app",
           "Resources": "2",
-          "Probes": "132",
+          "Probes": "134",
           "402 rate": "100.0%",
           "Modal price": "$0.070723",
           "Min": "$0.003237",
@@ -2662,12 +2662,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "142 ms"
+          "Median latency": "137 ms"
         },
         {
           "Seller": "afriref.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "96.2%",
           "Modal price": "$0.35",
           "Min": "$0.01",
@@ -2682,7 +2682,7 @@
         {
           "Seller": "agent-data-tools.revmesh2074.workers.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2697,7 +2697,7 @@
         {
           "Seller": "agent-tools-production-e6aa.up.railway.app",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -2712,7 +2712,7 @@
         {
           "Seller": "agentforge-taupe.vercel.app",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.015",
           "Min": "$0.001",
@@ -2727,7 +2727,7 @@
         {
           "Seller": "agentreadiness.halowerk.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2742,7 +2742,7 @@
         {
           "Seller": "agents.bytemine.ai",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2757,7 +2757,7 @@
         {
           "Seller": "agents.machina.gg",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2772,7 +2772,7 @@
         {
           "Seller": "agents.pubrio.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "99.2%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -2787,7 +2787,7 @@
         {
           "Seller": "agents.rtrvr.ai",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "98.5%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -2802,8 +2802,8 @@
         {
           "Seller": "agentstoolshub.com",
           "Resources": "2",
-          "Probes": "130",
-          "402 rate": "40.0%",
+          "Probes": "132",
+          "402 rate": "39.4%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -2817,7 +2817,7 @@
         {
           "Seller": "agentsvc.io",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.5",
           "Min": "$0.0025",
@@ -2832,7 +2832,7 @@
         {
           "Seller": "apexfaucet.xyz",
           "Resources": "1",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "99.2%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2847,7 +2847,7 @@
         {
           "Seller": "apexrunner.ai",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.007",
           "Min": "$0.007",
@@ -2862,8 +2862,8 @@
         {
           "Seller": "api.agentic-swarm-marketplace.com",
           "Resources": "2",
-          "Probes": "130",
-          "402 rate": "83.1%",
+          "Probes": "132",
+          "402 rate": "83.3%",
           "Modal price": "$0.03",
           "Min": "$0.03",
           "Max": "$0.06",
@@ -2877,7 +2877,7 @@
         {
           "Seller": "api.cn402.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.016",
           "Min": "$0.016",
@@ -2887,12 +2887,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "100 ms"
+          "Median latency": "99 ms"
         },
         {
           "Seller": "api.cryptoetfsentinel.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.5",
           "Min": "$0.1",
@@ -2907,7 +2907,7 @@
         {
           "Seller": "api.eucompliance.tools",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.001",
@@ -2922,7 +2922,7 @@
         {
           "Seller": "api.fadeandco.workers.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -2937,7 +2937,7 @@
         {
           "Seller": "api.getanyapi.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -2952,7 +2952,7 @@
         {
           "Seller": "api.loyalspark.online",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -2967,7 +2967,7 @@
         {
           "Seller": "api.manylives.me",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -2982,7 +2982,7 @@
         {
           "Seller": "api.marketintelligenceapi.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -2997,7 +2997,7 @@
         {
           "Seller": "api.myceliasignal.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3012,7 +3012,7 @@
         {
           "Seller": "api.reloadpi.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.001",
@@ -3027,7 +3027,7 @@
         {
           "Seller": "api.shopsocial-api.workers.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -3042,7 +3042,7 @@
         {
           "Seller": "api.sitecheck-api.workers.dev",
           "Resources": "3",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.001",
@@ -3057,7 +3057,7 @@
         {
           "Seller": "api.socialfetch.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.014",
           "Min": "$0.014",
@@ -3072,7 +3072,7 @@
         {
           "Seller": "api.teardrop.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3087,7 +3087,7 @@
         {
           "Seller": "api.webintel-api.workers.dev",
           "Resources": "3",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -3102,7 +3102,7 @@
         {
           "Seller": "api.xynaptic.io",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.015",
           "Min": "$0.015",
@@ -3117,7 +3117,7 @@
         {
           "Seller": "api.zkrobotics.fr",
           "Resources": "3",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "99.2%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -3132,7 +3132,7 @@
         {
           "Seller": "archtools.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3147,7 +3147,7 @@
         {
           "Seller": "br-intelligence.brverify-api.workers.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "98.5%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -3157,12 +3157,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "78 ms"
+          "Median latency": "77 ms"
         },
         {
           "Seller": "buero.halowerk.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -3177,7 +3177,7 @@
         {
           "Seller": "data.greeneris.io",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "99.2%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -3192,7 +3192,7 @@
         {
           "Seller": "defillama.use.x402atlas.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3207,7 +3207,7 @@
         {
           "Seller": "desk.grokaiapps.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.03",
@@ -3222,7 +3222,7 @@
         {
           "Seller": "dt0ur.online",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3237,7 +3237,7 @@
         {
           "Seller": "elements-live.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3252,7 +3252,7 @@
         {
           "Seller": "eltociear-tokenguard.hf.space",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -3267,7 +3267,7 @@
         {
           "Seller": "emailauth.openverbs.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -3282,8 +3282,8 @@
         {
           "Seller": "factline.dev",
           "Resources": "2",
-          "Probes": "130",
-          "402 rate": "92.3%",
+          "Probes": "132",
+          "402 rate": "92.4%",
           "Modal price": "$0.002",
           "Min": "$0.002",
           "Max": "$0.003",
@@ -3297,7 +3297,7 @@
         {
           "Seller": "geospatial.openverbs.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -3312,7 +3312,7 @@
         {
           "Seller": "kya-br-agents.marcelfons.workers.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -3327,7 +3327,7 @@
         {
           "Seller": "manylives.me",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3342,7 +3342,7 @@
         {
           "Seller": "marketpulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.08",
@@ -3357,7 +3357,7 @@
         {
           "Seller": "mcp.gapup.io",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.01",
@@ -3372,8 +3372,8 @@
         {
           "Seller": "mpp.tracefast.xyz",
           "Resources": "2",
-          "Probes": "130",
-          "402 rate": "83.1%",
+          "Probes": "132",
+          "402 rate": "83.3%",
           "Modal price": "$0.1",
           "Min": "$0.1",
           "Max": "$0.1",
@@ -3382,12 +3382,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "68 ms"
+          "Median latency": "67 ms"
         },
         {
           "Seller": "netintel.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3402,7 +3402,7 @@
         {
           "Seller": "opendata402.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.001",
@@ -3417,7 +3417,7 @@
         {
           "Seller": "openwebninja-x402.vercel.app",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3432,7 +3432,7 @@
         {
           "Seller": "pennypress.org",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3447,7 +3447,7 @@
         {
           "Seller": "ppu43fkyhimq5fiqpmo42eh5ri0yypid.lambda-url.us-east-1.on.aws",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3462,7 +3462,7 @@
         {
           "Seller": "preflight402.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -3477,7 +3477,7 @@
         {
           "Seller": "rentcast.x402.paywithlocus.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.033",
           "Min": "$0.033",
@@ -3492,7 +3492,7 @@
         {
           "Seller": "resolve402.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3507,7 +3507,7 @@
         {
           "Seller": "rpc.nodeflare.app",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.001",
@@ -3522,7 +3522,7 @@
         {
           "Seller": "seniorpulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -3537,7 +3537,7 @@
         {
           "Seller": "site.intel.rallylive.ca",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3552,7 +3552,7 @@
         {
           "Seller": "skyemeta.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.5",
           "Min": "$0.15",
@@ -3567,7 +3567,7 @@
         {
           "Seller": "stabletravel.dev",
           "Resources": "1",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3582,7 +3582,7 @@
         {
           "Seller": "stack.halowerk.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3597,7 +3597,7 @@
         {
           "Seller": "tempo.halowerk.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -3612,7 +3612,7 @@
         {
           "Seller": "toolrail.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.002",
@@ -3627,7 +3627,7 @@
         {
           "Seller": "tradepilotusa.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.25",
           "Min": "$0.25",
@@ -3642,7 +3642,7 @@
         {
           "Seller": "transitpulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "98.5%",
           "Modal price": "$2.00",
           "Min": "$0.12",
@@ -3657,7 +3657,7 @@
         {
           "Seller": "vaaya.ai",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3672,7 +3672,7 @@
         {
           "Seller": "venturepulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -3687,7 +3687,7 @@
         {
           "Seller": "workspace-x402-paywall.onrender.com",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3702,7 +3702,7 @@
         {
           "Seller": "x402-data-api.sigrunner.workers.dev",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -3717,7 +3717,7 @@
         {
           "Seller": "x402.forgemesh.io",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -3732,7 +3732,7 @@
         {
           "Seller": "x402.twit.sh",
           "Resources": "2",
-          "Probes": "130",
+          "Probes": "132",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3747,7 +3747,7 @@
         {
           "Seller": "agents.factstamp.dev",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.438119",
           "Min": "$0.02",
@@ -3762,7 +3762,7 @@
         {
           "Seller": "crawlspur.halowerk.com",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -3777,7 +3777,7 @@
         {
           "Seller": "cryptyx.ai",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.01",
@@ -3792,7 +3792,7 @@
         {
           "Seller": "fitpulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.08",
@@ -3807,7 +3807,7 @@
         {
           "Seller": "foundry-api-production-95ae.up.railway.app",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3822,7 +3822,7 @@
         {
           "Seller": "karte.halowerk.com",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3837,7 +3837,7 @@
         {
           "Seller": "policypulse.theaslangroupllc.com",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "99.2%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -3852,7 +3852,7 @@
         {
           "Seller": "x402.ottoai.services",
           "Resources": "2",
-          "Probes": "128",
+          "Probes": "130",
           "402 rate": "100.0%",
           "Modal price": "$0.006",
           "Min": "$0.003",
@@ -3867,7 +3867,7 @@
         {
           "Seller": "agents.dyoeway.org",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -3882,7 +3882,7 @@
         {
           "Seller": "api.ransomware-tracker.com",
           "Resources": "2",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.01",
@@ -3897,7 +3897,7 @@
         {
           "Seller": "api.signalfuse.co",
           "Resources": "2",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.001",
@@ -3912,7 +3912,7 @@
         {
           "Seller": "app.tenna.ai",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "99.1%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -3920,14 +3920,14 @@
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "111",
+          "Overcharge probes": "113",
           "Slow probes": "0",
           "Median latency": "387 ms"
         },
         {
           "Seller": "concordancehq.duckdns.org",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -3942,7 +3942,7 @@
         {
           "Seller": "defi.hugen.tokyo",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -3957,7 +3957,7 @@
         {
           "Seller": "handel.halowerk.com",
           "Resources": "2",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.002",
@@ -3972,7 +3972,7 @@
         {
           "Seller": "hcrb.in",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "99.1%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -3987,7 +3987,7 @@
         {
           "Seller": "hivemindos-paid-agent-gateway.hivemindos.workers.dev",
           "Resources": "2",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.25",
           "Min": "$0.01",
@@ -4002,7 +4002,7 @@
         {
           "Seller": "insurepulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -4017,7 +4017,7 @@
         {
           "Seller": "ip.intel.rallylive.ca",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "99.1%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -4032,7 +4032,7 @@
         {
           "Seller": "locus.report",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4047,7 +4047,7 @@
         {
           "Seller": "risk.yo.xyz",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4062,7 +4062,7 @@
         {
           "Seller": "x402-seller-pmlm.onrender.com",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "99.1%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4077,7 +4077,7 @@
         {
           "Seller": "x402render-u5vwpxpyua-uc.a.run.app",
           "Resources": "1",
-          "Probes": "112",
+          "Probes": "114",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4092,7 +4092,7 @@
         {
           "Seller": "89-116-220-218.sslip.io",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4107,7 +4107,7 @@
         {
           "Seller": "agent-arcade.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4122,7 +4122,7 @@
         {
           "Seller": "agent-artifact-eta.vercel.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4137,7 +4137,7 @@
         {
           "Seller": "agent-budget-guard.onrender.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -4152,7 +4152,7 @@
         {
           "Seller": "agent-enviro-screen.iykykblog.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -4167,7 +4167,7 @@
         {
           "Seller": "agent-reader.agent-reader.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -4177,12 +4177,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "70 ms"
+          "Median latency": "69 ms"
         },
         {
           "Seller": "agent-reader.gm-tools.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -4197,7 +4197,7 @@
         {
           "Seller": "agent.connskill.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -4212,7 +4212,7 @@
         {
           "Seller": "agent402-arb.rosariovitale0096.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.0014",
           "Min": "$0.0014",
@@ -4227,7 +4227,7 @@
         {
           "Seller": "agentdata-api.sander-van-aard.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.006",
           "Min": "$0.006",
@@ -4242,7 +4242,7 @@
         {
           "Seller": "agentdatafeed.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4252,13 +4252,13 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "260 ms"
+          "Median latency": "257 ms"
         },
         {
           "Seller": "agentic-ask.ai",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "27.3%",
+          "Probes": "112",
+          "402 rate": "26.8%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -4267,13 +4267,13 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "97 ms"
+          "Median latency": "93 ms"
         },
         {
           "Seller": "agentic-disclosure.ai",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "27.3%",
+          "Probes": "112",
+          "402 rate": "26.8%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -4287,7 +4287,7 @@
         {
           "Seller": "agenticfinancegraph.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -4302,7 +4302,7 @@
         {
           "Seller": "agentreader.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4317,7 +4317,7 @@
         {
           "Seller": "agents.dexl.io",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -4332,7 +4332,7 @@
         {
           "Seller": "agents.x402stock.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4347,7 +4347,7 @@
         {
           "Seller": "agosint.shveik.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -4362,7 +4362,7 @@
         {
           "Seller": "alpha402x.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4372,12 +4372,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "91 ms"
+          "Median latency": "89 ms"
         },
         {
           "Seller": "api-staging.vapinetwork.ai",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4392,7 +4392,7 @@
         {
           "Seller": "api.17711.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4407,7 +4407,7 @@
         {
           "Seller": "api.agent-payload-tools.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -4417,12 +4417,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "66 ms"
+          "Median latency": "65 ms"
         },
         {
           "Seller": "api.anchor-x402.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4432,12 +4432,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "343 ms"
+          "Median latency": "367 ms"
         },
         {
           "Seller": "api.creativeforesight.io",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4447,12 +4447,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "907 ms"
+          "Median latency": "900 ms"
         },
         {
           "Seller": "api.exa.ai",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -4467,7 +4467,7 @@
         {
           "Seller": "api.hyperextend.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1258",
           "Min": "$0.1258",
@@ -4477,12 +4477,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "304 ms"
+          "Median latency": "303 ms"
         },
         {
           "Seller": "api.ishob.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -4497,7 +4497,7 @@
         {
           "Seller": "api.kadec0.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -4512,7 +4512,7 @@
         {
           "Seller": "api.kakerapetit.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -4527,7 +4527,7 @@
         {
           "Seller": "api.linkedpanda.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4542,7 +4542,7 @@
         {
           "Seller": "api.loopholetape.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4557,7 +4557,7 @@
         {
           "Seller": "api.mekler.ai",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4572,7 +4572,7 @@
         {
           "Seller": "api.nimatron.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4587,7 +4587,7 @@
         {
           "Seller": "api.oldcolonyweb.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -4597,12 +4597,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "30 ms"
+          "Median latency": "28 ms"
         },
         {
           "Seller": "api.orioncmd.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4617,8 +4617,8 @@
         {
           "Seller": "api.particle.pro",
           "Resources": "2",
-          "Probes": "110",
-          "402 rate": "92.7%",
+          "Probes": "112",
+          "402 rate": "91.1%",
           "Modal price": "$0.03",
           "Min": "$0.01",
           "Max": "$0.03",
@@ -4632,7 +4632,7 @@
         {
           "Seller": "api.prereason.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4647,7 +4647,7 @@
         {
           "Seller": "api.qist.info",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4662,7 +4662,7 @@
         {
           "Seller": "api.scrapebench.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "98.2%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -4672,12 +4672,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "357 ms"
+          "Median latency": "335 ms"
         },
         {
           "Seller": "api.spendpreflight.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4692,7 +4692,7 @@
         {
           "Seller": "api.stocktrends.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.0075",
           "Min": "$0.0075",
@@ -4702,12 +4702,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "375 ms"
+          "Median latency": "372 ms"
         },
         {
           "Seller": "api.sys84.org",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4722,7 +4722,7 @@
         {
           "Seller": "api.tcgapi.dev",
           "Resources": "2",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4737,7 +4737,7 @@
         {
           "Seller": "api.textus.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -4752,7 +4752,7 @@
         {
           "Seller": "api.usenami.io",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -4767,7 +4767,7 @@
         {
           "Seller": "api.webbersites.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -4777,12 +4777,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "267 ms"
+          "Median latency": "271 ms"
         },
         {
           "Seller": "api.x-402.online",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4797,7 +4797,7 @@
         {
           "Seller": "api2ls.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4812,7 +4812,7 @@
         {
           "Seller": "apiacre.com",
           "Resources": "2",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.008",
           "Min": "$0.008",
@@ -4822,12 +4822,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "259 ms"
+          "Median latency": "245 ms"
         },
         {
           "Seller": "astro-agent.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -4842,7 +4842,7 @@
         {
           "Seller": "automaton-tx-explainer.vercel.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4852,12 +4852,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "137 ms"
+          "Median latency": "136 ms"
         },
         {
           "Seller": "backend-production-69ff.up.railway.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -4872,7 +4872,7 @@
         {
           "Seller": "base-facts.yankii.fr",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "98.2%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -4887,7 +4887,7 @@
         {
           "Seller": "base64encode.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4902,7 +4902,7 @@
         {
           "Seller": "billitright.co",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -4917,7 +4917,7 @@
         {
           "Seller": "bob.assimilatethis.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -4927,12 +4927,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "198 ms"
+          "Median latency": "172 ms"
         },
         {
           "Seller": "bykaranteli.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -4947,7 +4947,7 @@
         {
           "Seller": "checksum.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -4962,7 +4962,7 @@
         {
           "Seller": "climatepulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -4977,7 +4977,7 @@
         {
           "Seller": "clinicalintelpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -4992,8 +4992,8 @@
         {
           "Seller": "cm-kg.io",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "27.3%",
+          "Probes": "112",
+          "402 rate": "26.8%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -5007,7 +5007,7 @@
         {
           "Seller": "commsharbor.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -5022,7 +5022,7 @@
         {
           "Seller": "compliancepulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -5037,7 +5037,7 @@
         {
           "Seller": "computeindex.lonestaroracle.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -5052,7 +5052,7 @@
         {
           "Seller": "conclavex402p04.pythonanywhere.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5067,7 +5067,7 @@
         {
           "Seller": "cpi-report-us.underscoredone.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5082,7 +5082,7 @@
         {
           "Seller": "crypto.forgemesh.io",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -5097,7 +5097,7 @@
         {
           "Seller": "crypto.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -5112,7 +5112,7 @@
         {
           "Seller": "cryptofeed402.site",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.0025",
           "Min": "$0.0025",
@@ -5127,7 +5127,7 @@
         {
           "Seller": "data.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -5142,7 +5142,7 @@
         {
           "Seller": "datastand.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -5157,7 +5157,7 @@
         {
           "Seller": "debtpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.12",
           "Min": "$0.12",
@@ -5172,7 +5172,7 @@
         {
           "Seller": "decipherranker.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -5187,8 +5187,8 @@
         {
           "Seller": "dev-5090-box.tailfb4c1f.ts.net",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "49.1%",
+          "Probes": "112",
+          "402 rate": "48.2%",
           "Modal price": "$0.02",
           "Min": "$0.02",
           "Max": "$0.02",
@@ -5202,7 +5202,7 @@
         {
           "Seller": "edgar.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.008",
           "Min": "$0.008",
@@ -5217,7 +5217,7 @@
         {
           "Seller": "edupulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.5",
           "Min": "$0.5",
@@ -5232,7 +5232,7 @@
         {
           "Seller": "eltociear-skill-audit.hf.space",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "98.2%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5247,7 +5247,7 @@
         {
           "Seller": "emailiq.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -5262,7 +5262,7 @@
         {
           "Seller": "ens-resolver.underscoredone.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5277,7 +5277,7 @@
         {
           "Seller": "fanpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -5292,7 +5292,7 @@
         {
           "Seller": "ffpipe.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5307,7 +5307,7 @@
         {
           "Seller": "flat-rate-llm.kikoribera03.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5322,7 +5322,7 @@
         {
           "Seller": "fmcsa-mcp-843680657471.us-central1.run.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -5337,7 +5337,7 @@
         {
           "Seller": "geld-machen-x402.fly.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -5352,7 +5352,7 @@
         {
           "Seller": "globalrules-api.onrender.com",
           "Resources": "2",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5362,12 +5362,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "78 ms"
+          "Median latency": "79 ms"
         },
         {
           "Seller": "glowpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.2",
           "Min": "$0.2",
@@ -5382,7 +5382,7 @@
         {
           "Seller": "golf-evm-math.x402-evm-math.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5397,7 +5397,7 @@
         {
           "Seller": "goodsong.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5412,7 +5412,7 @@
         {
           "Seller": "harvestpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -5427,7 +5427,7 @@
         {
           "Seller": "hk-cm-kg.ai",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5442,7 +5442,7 @@
         {
           "Seller": "hyperliquid.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5457,7 +5457,7 @@
         {
           "Seller": "ip.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5472,7 +5472,7 @@
         {
           "Seller": "israel-counterparty-intelligence.vercel.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5482,12 +5482,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "140 ms"
+          "Median latency": "139 ms"
         },
         {
           "Seller": "kertivo.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5502,7 +5502,7 @@
         {
           "Seller": "keyless.run",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "96.4%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5512,12 +5512,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "176 ms"
+          "Median latency": "175 ms"
         },
         {
           "Seller": "keywords.duoleads.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.045",
           "Min": "$0.045",
@@ -5532,7 +5532,7 @@
         {
           "Seller": "kronos.forgemesh.io",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -5547,7 +5547,7 @@
         {
           "Seller": "legalpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.5",
           "Min": "$0.5",
@@ -5557,12 +5557,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "162 ms"
+          "Median latency": "165 ms"
         },
         {
           "Seller": "longevitypulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.2",
           "Min": "$0.2",
@@ -5577,7 +5577,7 @@
         {
           "Seller": "macro-data-api-313m.onrender.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -5592,7 +5592,7 @@
         {
           "Seller": "markt.halowerk.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5607,7 +5607,7 @@
         {
           "Seller": "mcp.yield.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -5622,7 +5622,7 @@
         {
           "Seller": "md.fastdb.in",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5637,7 +5637,7 @@
         {
           "Seller": "my-agent-tau.vercel.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -5647,12 +5647,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "156 ms"
+          "Median latency": "155 ms"
         },
         {
           "Seller": "nato.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5667,7 +5667,7 @@
         {
           "Seller": "nojunk-moderate.mick8511.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5682,7 +5682,7 @@
         {
           "Seller": "numberintel.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -5697,7 +5697,7 @@
         {
           "Seller": "nzdata.zakwins.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5712,7 +5712,7 @@
         {
           "Seller": "omniguchi.0000402.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5727,7 +5727,7 @@
         {
           "Seller": "open-pay.jp",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5742,7 +5742,7 @@
         {
           "Seller": "ozmium.org",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5757,7 +5757,7 @@
         {
           "Seller": "patentpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.12",
           "Min": "$0.12",
@@ -5772,8 +5772,8 @@
         {
           "Seller": "pegproof.com",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "30.9%",
+          "Probes": "112",
+          "402 rate": "32.1%",
           "Modal price": "$0.002",
           "Min": "$0.002",
           "Max": "$0.002",
@@ -5787,7 +5787,7 @@
         {
           "Seller": "perp-gap-api.perpgap.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -5802,7 +5802,7 @@
         {
           "Seller": "play.0000402.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -5817,7 +5817,7 @@
         {
           "Seller": "pulsefeed.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -5832,7 +5832,7 @@
         {
           "Seller": "quantum.halowerk.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -5847,7 +5847,7 @@
         {
           "Seller": "quartermaster.surewhynot.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -5862,7 +5862,7 @@
         {
           "Seller": "racingpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.07",
           "Min": "$0.07",
@@ -5872,12 +5872,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "147 ms"
+          "Median latency": "148 ms"
         },
         {
           "Seller": "read.skuuy.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -5887,12 +5887,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "143 ms"
+          "Median latency": "140 ms"
         },
         {
           "Seller": "reader.outbid.sh",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5907,7 +5907,7 @@
         {
           "Seller": "recalls.recordsforagents.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -5922,7 +5922,7 @@
         {
           "Seller": "robbiegeorgephotography.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5937,7 +5937,7 @@
         {
           "Seller": "rubric-protocol.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -5952,7 +5952,7 @@
         {
           "Seller": "safepulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -5967,7 +5967,7 @@
         {
           "Seller": "scrapecheck.fly.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -5982,7 +5982,7 @@
         {
           "Seller": "scry.solanahub.de",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -5997,7 +5997,7 @@
         {
           "Seller": "seo.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -6012,7 +6012,7 @@
         {
           "Seller": "sift.srv1996466.hstgr.cloud",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -6027,7 +6027,7 @@
         {
           "Seller": "social.duoleads.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -6042,7 +6042,7 @@
         {
           "Seller": "softbot-screenshot-mainnet.softbot.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "96.4%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6052,12 +6052,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "119 ms"
+          "Median latency": "117 ms"
         },
         {
           "Seller": "speedbot.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$2.00",
           "Min": "$2.00",
@@ -6072,7 +6072,7 @@
         {
           "Seller": "squeezeos-api.onrender.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "98.2%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6087,8 +6087,8 @@
         {
           "Seller": "stable-media-git-ben-test-agentcash-router-pr-227-merit-systems.vercel.app",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "56.4%",
+          "Probes": "112",
+          "402 rate": "55.4%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -6097,12 +6097,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "115 ms"
+          "Median latency": "113 ms"
         },
         {
           "Seller": "stablecrypto.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6117,7 +6117,7 @@
         {
           "Seller": "stableproduct.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6127,12 +6127,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "200 ms"
+          "Median latency": "201 ms"
         },
         {
           "Seller": "stockvaluelens.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -6142,13 +6142,13 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "68 ms"
+          "Median latency": "65 ms"
         },
         {
           "Seller": "stockwaves.net",
           "Resources": "1",
-          "Probes": "110",
-          "402 rate": "89.1%",
+          "Probes": "112",
+          "402 rate": "87.5%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -6162,7 +6162,7 @@
         {
           "Seller": "store-production-8add.up.railway.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$29.00",
           "Min": "$29.00",
@@ -6177,7 +6177,7 @@
         {
           "Seller": "theartillerist.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -6192,7 +6192,7 @@
         {
           "Seller": "toolcall.click",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6207,7 +6207,7 @@
         {
           "Seller": "trading-perps.vercel.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "96.4%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -6222,7 +6222,7 @@
         {
           "Seller": "verdict.scriptmasterlabs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6237,7 +6237,7 @@
         {
           "Seller": "veridictum.legal",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6252,7 +6252,7 @@
         {
           "Seller": "verifier.quantumshieldlabs.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -6267,7 +6267,7 @@
         {
           "Seller": "via-router.floot.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6277,12 +6277,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "499 ms"
+          "Median latency": "498 ms"
         },
         {
           "Seller": "vibesprings.net",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -6297,7 +6297,7 @@
         {
           "Seller": "wazir-x402.duckdns.org",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -6312,7 +6312,7 @@
         {
           "Seller": "web-production-220a3.up.railway.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.006",
           "Min": "$0.006",
@@ -6327,7 +6327,7 @@
         {
           "Seller": "web.openverbs.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -6342,7 +6342,7 @@
         {
           "Seller": "well-002-url-to-markdown.rainmaker-wells.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -6357,7 +6357,7 @@
         {
           "Seller": "well-003-json-to-markdown.rainmaker-wells.workers.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -6367,12 +6367,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "72 ms"
+          "Median latency": "71 ms"
         },
         {
           "Seller": "whale.hugen.tokyo",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6387,7 +6387,7 @@
         {
           "Seller": "whaletape.xyz",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -6402,7 +6402,7 @@
         {
           "Seller": "wiki.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -6417,7 +6417,7 @@
         {
           "Seller": "wtsp.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -6432,7 +6432,7 @@
         {
           "Seller": "x402-api.aubr.ai",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -6442,12 +6442,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "237 ms"
+          "Median latency": "236 ms"
         },
         {
           "Seller": "x402-scalogy-production.up.railway.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -6462,7 +6462,7 @@
         {
           "Seller": "x402-seller-0ay3.onrender.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -6477,7 +6477,7 @@
         {
           "Seller": "x402-tools-production-2755.up.railway.app",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -6492,7 +6492,7 @@
         {
           "Seller": "x402.agentharbor.agency",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -6507,7 +6507,7 @@
         {
           "Seller": "x402.creative-tim.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6522,7 +6522,7 @@
         {
           "Seller": "x402.shizu.me",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -6537,7 +6537,7 @@
         {
           "Seller": "x402.sumeria.ar",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -6552,7 +6552,7 @@
         {
           "Seller": "x402.swaphunt.dev",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -6567,7 +6567,7 @@
         {
           "Seller": "x402.tbs-digital.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "99.1%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -6582,7 +6582,7 @@
         {
           "Seller": "x402.telnyx.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.005214",
           "Min": "$0.005214",
@@ -6597,7 +6597,7 @@
         {
           "Seller": "x402.valunaria.com",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -6612,7 +6612,7 @@
         {
           "Seller": "x402factory.ai",
           "Resources": "1",
-          "Probes": "110",
+          "Probes": "112",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -6627,7 +6627,7 @@
         {
           "Seller": "1gateway.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.009",
           "Min": "$0.009",
@@ -6642,7 +6642,7 @@
         {
           "Seller": "2-28-111-166.sslip.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -6657,7 +6657,7 @@
         {
           "Seller": "402.com.tr",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -6672,8 +6672,8 @@
         {
           "Seller": "402sentinel.com",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "88.9%",
+          "Probes": "110",
+          "402 rate": "87.3%",
           "Modal price": "$0.02",
           "Min": "$0.02",
           "Max": "$0.02",
@@ -6687,7 +6687,7 @@
         {
           "Seller": "ads.forgemesh.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6697,12 +6697,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "305 ms"
+          "Median latency": "300 ms"
         },
         {
           "Seller": "aero.lonestaroracle.xyz",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -6717,7 +6717,7 @@
         {
           "Seller": "agent-tools-7936.onrender.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -6732,7 +6732,7 @@
         {
           "Seller": "agent.chiemgaufilms.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.12",
           "Min": "$0.12",
@@ -6747,7 +6747,7 @@
         {
           "Seller": "agent.massive.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6762,7 +6762,7 @@
         {
           "Seller": "agent.wingmanprotocol.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.007",
           "Min": "$0.007",
@@ -6777,8 +6777,8 @@
         {
           "Seller": "agente.revenuerecoveryai.app",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "27.8%",
+          "Probes": "110",
+          "402 rate": "27.3%",
           "Modal price": "$0.05",
           "Min": "$0.05",
           "Max": "$0.05",
@@ -6787,12 +6787,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "10368 ms"
+          "Median latency": "10492 ms"
         },
         {
           "Seller": "agentic-radar.ai",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6807,7 +6807,7 @@
         {
           "Seller": "agentkit-x402-buy.netlify.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -6822,7 +6822,7 @@
         {
           "Seller": "agentpaystore.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -6837,7 +6837,7 @@
         {
           "Seller": "agenttalk.skyemeta.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -6852,7 +6852,7 @@
         {
           "Seller": "agoraverify.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.015",
           "Min": "$0.015",
@@ -6867,7 +6867,7 @@
         {
           "Seller": "agri.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -6882,7 +6882,7 @@
         {
           "Seller": "aialign.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -6897,7 +6897,7 @@
         {
           "Seller": "alphapulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -6912,8 +6912,8 @@
         {
           "Seller": "amanchain-relay.gitajhd.workers.dev",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "87.0%",
+          "Probes": "110",
+          "402 rate": "85.5%",
           "Modal price": "$0.007476",
           "Min": "$0.007476",
           "Max": "$0.007476",
@@ -6927,7 +6927,7 @@
         {
           "Seller": "api.aestheticdata.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -6942,7 +6942,7 @@
         {
           "Seller": "api.agentmercantile.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -6952,12 +6952,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "345 ms"
+          "Median latency": "343 ms"
         },
         {
           "Seller": "api.aioptitech.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -6972,8 +6972,8 @@
         {
           "Seller": "api.automaton-sovereign.workers.dev",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "97.2%",
+          "Probes": "110",
+          "402 rate": "97.3%",
           "Modal price": "$0.01",
           "Min": "$0.01",
           "Max": "$0.01",
@@ -6987,7 +6987,7 @@
         {
           "Seller": "api.block402.xyz",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.0025",
           "Min": "$0.0025",
@@ -7002,7 +7002,7 @@
         {
           "Seller": "api.blockscout.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -7012,12 +7012,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "196 ms"
+          "Median latency": "195 ms"
         },
         {
           "Seller": "api.brazilayer.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -7032,7 +7032,7 @@
         {
           "Seller": "api.clawfetch.ai",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -7047,7 +7047,7 @@
         {
           "Seller": "api.dexl.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -7062,7 +7062,7 @@
         {
           "Seller": "api.flipvo.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -7077,7 +7077,7 @@
         {
           "Seller": "api.glianalabs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7092,7 +7092,7 @@
         {
           "Seller": "api.helpmyagent.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -7107,7 +7107,7 @@
         {
           "Seller": "api.lightningeo.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.99",
           "Min": "$0.99",
@@ -7122,7 +7122,7 @@
         {
           "Seller": "api.messyvirgo.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -7137,7 +7137,7 @@
         {
           "Seller": "api.metalend.tech",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -7152,7 +7152,7 @@
         {
           "Seller": "api.newsgurus.ai",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -7167,7 +7167,7 @@
         {
           "Seller": "api.oblique.markets",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -7182,7 +7182,7 @@
         {
           "Seller": "api.onesource.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7197,7 +7197,7 @@
         {
           "Seller": "api.orcatrace.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7212,7 +7212,7 @@
         {
           "Seller": "api.paxie.fun",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7227,7 +7227,7 @@
         {
           "Seller": "api.polls.karbach.digital",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7242,7 +7242,7 @@
         {
           "Seller": "api.powahub.ai",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.007",
           "Min": "$0.007",
@@ -7257,7 +7257,7 @@
         {
           "Seller": "api.premiumpin.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.5",
           "Min": "$0.5",
@@ -7272,7 +7272,7 @@
         {
           "Seller": "api.stablecoingateways.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -7287,7 +7287,7 @@
         {
           "Seller": "api.telemost.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.0165",
           "Min": "$0.0165",
@@ -7302,7 +7302,7 @@
         {
           "Seller": "api.tickersfeed.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -7317,7 +7317,7 @@
         {
           "Seller": "api.tokenplans.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -7332,8 +7332,8 @@
         {
           "Seller": "api.tradingzones.app",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "81.5%",
+          "Probes": "110",
+          "402 rate": "81.8%",
           "Modal price": "$0.03",
           "Min": "$0.03",
           "Max": "$0.03",
@@ -7347,7 +7347,7 @@
         {
           "Seller": "api.wsystem.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.045",
           "Min": "$0.045",
@@ -7362,8 +7362,8 @@
         {
           "Seller": "api.x402-engine.com",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "92.6%",
+          "Probes": "110",
+          "402 rate": "90.9%",
           "Modal price": "$0.1",
           "Min": "$0.1",
           "Max": "$0.1",
@@ -7372,12 +7372,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "375 ms"
+          "Median latency": "312 ms"
         },
         {
           "Seller": "api.x402ai.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7392,7 +7392,7 @@
         {
           "Seller": "api.x402lint.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -7407,7 +7407,7 @@
         {
           "Seller": "api.youraitools.co",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -7422,7 +7422,7 @@
         {
           "Seller": "arbipulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -7437,8 +7437,8 @@
         {
           "Seller": "asiaref.dev",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "98.1%",
+          "Probes": "110",
+          "402 rate": "98.2%",
           "Modal price": "$0.25",
           "Min": "$0.25",
           "Max": "$0.25",
@@ -7452,7 +7452,7 @@
         {
           "Seller": "ask.singitai.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.0075",
           "Min": "$0.0075",
@@ -7467,7 +7467,7 @@
         {
           "Seller": "astro.openverbs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -7482,7 +7482,7 @@
         {
           "Seller": "ausref.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7497,7 +7497,7 @@
         {
           "Seller": "bio.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -7512,7 +7512,7 @@
         {
           "Seller": "booaip.vercel.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -7527,7 +7527,7 @@
         {
           "Seller": "bot-bazaar.fly.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7542,7 +7542,7 @@
         {
           "Seller": "clearcarepulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -7557,7 +7557,7 @@
         {
           "Seller": "cleared.ink",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7572,8 +7572,8 @@
         {
           "Seller": "clink-lithium-vault.fly.dev",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "27.8%",
+          "Probes": "110",
+          "402 rate": "27.3%",
           "Modal price": "$0.02",
           "Min": "$0.02",
           "Max": "$0.02",
@@ -7587,7 +7587,7 @@
         {
           "Seller": "coingecko.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -7602,7 +7602,7 @@
         {
           "Seller": "compute-api-production-245d.up.railway.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7617,7 +7617,7 @@
         {
           "Seller": "conclavex402.pythonanywhere.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7632,7 +7632,7 @@
         {
           "Seller": "creator.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -7647,7 +7647,7 @@
         {
           "Seller": "cryptodataapi.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7662,7 +7662,7 @@
         {
           "Seller": "cryptopulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.2",
           "Min": "$0.2",
@@ -7677,7 +7677,7 @@
         {
           "Seller": "cyberpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -7692,7 +7692,7 @@
         {
           "Seller": "cyre.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -7707,7 +7707,7 @@
         {
           "Seller": "data-cleaner.agent.amnt.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7717,12 +7717,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "604 ms"
+          "Median latency": "602 ms"
         },
         {
           "Seller": "data.intel.rallylive.ca",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7737,7 +7737,7 @@
         {
           "Seller": "data.spencermcw.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7752,7 +7752,7 @@
         {
           "Seller": "dataforagents.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.04",
           "Min": "$0.04",
@@ -7767,7 +7767,7 @@
         {
           "Seller": "datoka-agent.bhazarstudio.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -7782,7 +7782,7 @@
         {
           "Seller": "dealpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -7797,7 +7797,7 @@
         {
           "Seller": "defi.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.008",
           "Min": "$0.008",
@@ -7812,7 +7812,7 @@
         {
           "Seller": "degengraph.com",
           "Resources": "2",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -7827,7 +7827,7 @@
         {
           "Seller": "derivatives-pricer-production.up.railway.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7842,7 +7842,7 @@
         {
           "Seller": "econdash.org",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -7857,7 +7857,7 @@
         {
           "Seller": "escrowpulse.waltsoft.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -7872,7 +7872,7 @@
         {
           "Seller": "euroref.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.5",
           "Min": "$0.5",
@@ -7887,7 +7887,7 @@
         {
           "Seller": "fanfare.run",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -7902,7 +7902,7 @@
         {
           "Seller": "fetchharbor.benlab.download",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -7917,7 +7917,7 @@
         {
           "Seller": "fieldpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -7932,7 +7932,7 @@
         {
           "Seller": "filings-specs-api.onrender.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -7947,7 +7947,7 @@
         {
           "Seller": "finance.openverbs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -7957,12 +7957,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "99 ms"
+          "Median latency": "97 ms"
         },
         {
           "Seller": "footballpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -7977,7 +7977,7 @@
         {
           "Seller": "formwerk.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -7992,7 +7992,7 @@
         {
           "Seller": "fracht.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -8007,7 +8007,7 @@
         {
           "Seller": "gaming.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -8022,7 +8022,7 @@
         {
           "Seller": "gankdat.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -8037,7 +8037,7 @@
         {
           "Seller": "google-patents.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8052,7 +8052,7 @@
         {
           "Seller": "grokzilla.shop",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -8067,7 +8067,7 @@
         {
           "Seller": "health.memoryapi.org",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -8082,7 +8082,7 @@
         {
           "Seller": "heb-utils-x402.hebutils-api.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8092,12 +8092,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "71 ms"
+          "Median latency": "69 ms"
         },
         {
           "Seller": "hirescrape.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.00225",
           "Min": "$0.00225",
@@ -8112,7 +8112,7 @@
         {
           "Seller": "holdings-13f-verify.iykykblog.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -8127,7 +8127,7 @@
         {
           "Seller": "imagegen.coinopai.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.75",
           "Min": "$0.75",
@@ -8142,7 +8142,7 @@
         {
           "Seller": "intel.rallylive.ca",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8157,7 +8157,7 @@
         {
           "Seller": "keyronne.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8167,12 +8167,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "106 ms"
+          "Median latency": "105 ms"
         },
         {
           "Seller": "kino402.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.007",
           "Min": "$0.007",
@@ -8187,7 +8187,7 @@
         {
           "Seller": "kronossignals.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8202,7 +8202,7 @@
         {
           "Seller": "kya.lonestaroracle.xyz",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -8217,7 +8217,7 @@
         {
           "Seller": "library.intel.rallylive.ca",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8232,7 +8232,7 @@
         {
           "Seller": "mailferret.appin60.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -8247,7 +8247,7 @@
         {
           "Seller": "material.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8262,7 +8262,7 @@
         {
           "Seller": "mcp.zensched.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8277,7 +8277,7 @@
         {
           "Seller": "mearef.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8292,7 +8292,7 @@
         {
           "Seller": "minifetch.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -8307,7 +8307,7 @@
         {
           "Seller": "notary.forgemesh.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -8322,7 +8322,7 @@
         {
           "Seller": "numba2witcheese.tail7d8d44.ts.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -8337,7 +8337,7 @@
         {
           "Seller": "oracle.cyberwarex.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -8352,7 +8352,7 @@
         {
           "Seller": "pathmint.edge.report",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8367,7 +8367,7 @@
         {
           "Seller": "pay.botonomy.ai",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -8382,7 +8382,7 @@
         {
           "Seller": "pay.omnidev.tech",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.006",
           "Min": "$0.006",
@@ -8397,7 +8397,7 @@
         {
           "Seller": "pay.retraced.site",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -8412,7 +8412,7 @@
         {
           "Seller": "polynews.news",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -8422,12 +8422,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "389 ms"
+          "Median latency": "381 ms"
         },
         {
           "Seller": "poolproof.ru",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -8435,14 +8435,14 @@
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "108",
+          "Overcharge probes": "110",
           "Slow probes": "0",
           "Median latency": "571 ms"
         },
         {
           "Seller": "predator-ubuntu.taild9a745.ts.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -8457,7 +8457,7 @@
         {
           "Seller": "preipo-feed.vercel.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -8472,7 +8472,7 @@
         {
           "Seller": "pyfile-agent.taile3ff35.ts.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -8487,7 +8487,7 @@
         {
           "Seller": "regionfetch.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8502,7 +8502,7 @@
         {
           "Seller": "remittancepulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -8517,7 +8517,7 @@
         {
           "Seller": "rooms.aurmada.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8527,12 +8527,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "217 ms"
+          "Median latency": "202 ms"
         },
         {
           "Seller": "screenshot-api-production-fe7e.up.railway.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8547,7 +8547,7 @@
         {
           "Seller": "search.openverbs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8557,12 +8557,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "102 ms"
+          "Median latency": "101 ms"
         },
         {
           "Seller": "seo.forgemesh.io",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -8577,7 +8577,7 @@
         {
           "Seller": "seoul-weather-402.fly.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8592,8 +8592,8 @@
         {
           "Seller": "sh-origin.walls.sh",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "27.8%",
+          "Probes": "110",
+          "402 rate": "27.3%",
           "Modal price": "$0.005",
           "Min": "$0.005",
           "Max": "$0.005",
@@ -8607,7 +8607,7 @@
         {
           "Seller": "shelf.thirdmade.net",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -8622,7 +8622,7 @@
         {
           "Seller": "signal-foundry.replit.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -8637,7 +8637,7 @@
         {
           "Seller": "similarity.openverbs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -8652,7 +8652,7 @@
         {
           "Seller": "sports-predictor-api.fly.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -8667,7 +8667,7 @@
         {
           "Seller": "stationfx.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.008",
           "Min": "$0.008",
@@ -8682,7 +8682,7 @@
         {
           "Seller": "store.agentexchange.work",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8697,7 +8697,7 @@
         {
           "Seller": "store.cryptotradecalc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.008",
           "Min": "$0.008",
@@ -8712,7 +8712,7 @@
         {
           "Seller": "tailtrace-x402-prod.simonwakelin.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -8722,12 +8722,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "254 ms"
+          "Median latency": "252 ms"
         },
         {
           "Seller": "teuerung.halowerk.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -8742,7 +8742,7 @@
         {
           "Seller": "tick.hugen.tokyo",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -8752,12 +8752,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "484 ms"
+          "Median latency": "479 ms"
         },
         {
           "Seller": "tollbooth-hello.sjwilliams8.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -8772,7 +8772,7 @@
         {
           "Seller": "toolsmith-api.dassad10.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8787,7 +8787,7 @@
         {
           "Seller": "trade.chainverdict.xyz",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.004",
           "Min": "$0.004",
@@ -8802,7 +8802,7 @@
         {
           "Seller": "trezalabs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.42",
           "Min": "$0.42",
@@ -8812,12 +8812,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "210 ms"
+          "Median latency": "207 ms"
         },
         {
           "Seller": "u2a.com.au",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -8832,7 +8832,7 @@
         {
           "Seller": "us-rates.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8847,8 +8847,8 @@
         {
           "Seller": "usaref.dev",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "93.5%",
+          "Probes": "110",
+          "402 rate": "93.6%",
           "Modal price": "$0.05",
           "Min": "$0.05",
           "Max": "$0.05",
@@ -8857,12 +8857,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "851 ms"
+          "Median latency": "1204 ms"
         },
         {
           "Seller": "vat.openverbs.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.006",
           "Min": "$0.006",
@@ -8877,7 +8877,7 @@
         {
           "Seller": "waterpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -8892,7 +8892,7 @@
         {
           "Seller": "wealth-agent.wealthagent-app.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -8907,7 +8907,7 @@
         {
           "Seller": "web-production-77376.up.railway.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "-",
           "Min": "-",
@@ -8922,7 +8922,7 @@
         {
           "Seller": "well-009-url-change-watch.rainmaker-wells.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -8937,7 +8937,7 @@
         {
           "Seller": "workbot1.oddsys.org",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -8952,8 +8952,8 @@
         {
           "Seller": "x402-btc-radar.jinli-x402.workers.dev",
           "Resources": "1",
-          "Probes": "108",
-          "402 rate": "98.1%",
+          "Probes": "110",
+          "402 rate": "98.2%",
           "Modal price": "$0.5",
           "Min": "$0.5",
           "Max": "$0.5",
@@ -8967,7 +8967,7 @@
         {
           "Seller": "x402-echo-service.onrender.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -8982,7 +8982,7 @@
         {
           "Seller": "x402-gateway-production-1f21.up.railway.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -8997,7 +8997,7 @@
         {
           "Seller": "x402-hono-api.inraby.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.0045",
           "Min": "$0.0045",
@@ -9012,7 +9012,7 @@
         {
           "Seller": "x402-mcp.onrender.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9027,7 +9027,7 @@
         {
           "Seller": "x402-pricegap-poc.vercel.app",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9042,7 +9042,7 @@
         {
           "Seller": "x402-seller.onrender.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "99.1%",
           "Modal price": "$0.012",
           "Min": "$0.012",
@@ -9052,12 +9052,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "266 ms"
+          "Median latency": "264 ms"
         },
         {
           "Seller": "x402-watcher-api-main.jpgame-intel.workers.dev",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -9072,7 +9072,7 @@
         {
           "Seller": "x402.dailyelo.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -9087,7 +9087,7 @@
         {
           "Seller": "x402.hydratrader.ai",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.3",
           "Min": "$0.3",
@@ -9102,7 +9102,7 @@
         {
           "Seller": "x402financialdata.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -9117,7 +9117,7 @@
         {
           "Seller": "x402scan.com",
           "Resources": "1",
-          "Probes": "108",
+          "Probes": "110",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9132,7 +9132,7 @@
         {
           "Seller": "agents.forwardlane.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -9142,12 +9142,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "432 ms"
+          "Median latency": "431 ms"
         },
         {
           "Seller": "agentworld.me",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "99.1%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -9162,7 +9162,7 @@
         {
           "Seller": "aiagentoracle.ai",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9177,7 +9177,7 @@
         {
           "Seller": "alphapipeline-eu.onrender.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -9192,7 +9192,7 @@
         {
           "Seller": "api.aarn.space",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -9202,12 +9202,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "250 ms"
+          "Median latency": "253 ms"
         },
         {
           "Seller": "api.arcgate.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "0.0%",
           "Modal price": "-",
           "Min": "-",
@@ -9222,7 +9222,7 @@
         {
           "Seller": "api.craigmbrown.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.02",
           "Min": "$0.02",
@@ -9237,7 +9237,7 @@
         {
           "Seller": "api.deepentresearch.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -9252,7 +9252,7 @@
         {
           "Seller": "api.govparse.io",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9267,7 +9267,7 @@
         {
           "Seller": "api.healthparse.io",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -9282,7 +9282,7 @@
         {
           "Seller": "api.messari.io",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -9297,7 +9297,7 @@
         {
           "Seller": "api.verdixapi.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.1",
           "Min": "$0.1",
@@ -9312,7 +9312,7 @@
         {
           "Seller": "api.wickedapi.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9327,7 +9327,7 @@
         {
           "Seller": "api.xfuel.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -9342,7 +9342,7 @@
         {
           "Seller": "ch-cm-kg.ai",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9357,7 +9357,7 @@
         {
           "Seller": "chain-analyzer.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$3.00",
           "Min": "$3.00",
@@ -9372,7 +9372,7 @@
         {
           "Seller": "code-toll-production.up.railway.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9387,7 +9387,7 @@
         {
           "Seller": "contract.lonestaroracle.xyz",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -9402,7 +9402,7 @@
         {
           "Seller": "convrgent.ai",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9417,7 +9417,7 @@
         {
           "Seller": "crypto-market-data.zafermemon87.workers.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -9432,7 +9432,7 @@
         {
           "Seller": "dns.halowerk.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.009",
           "Min": "$0.009",
@@ -9447,7 +9447,7 @@
         {
           "Seller": "dns.use.x402atlas.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -9462,7 +9462,7 @@
         {
           "Seller": "econsignalpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -9477,7 +9477,7 @@
         {
           "Seller": "energy.halowerk.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9492,7 +9492,7 @@
         {
           "Seller": "fomo.x4o2.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9507,7 +9507,7 @@
         {
           "Seller": "gateway.spraay.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -9522,7 +9522,7 @@
         {
           "Seller": "gridpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.08",
           "Min": "$0.08",
@@ -9537,7 +9537,7 @@
         {
           "Seller": "grove.g-datalabs.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9552,7 +9552,7 @@
         {
           "Seller": "joyful-charm-production-bf6d.up.railway.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9567,7 +9567,7 @@
         {
           "Seller": "licenses.recordsforagents.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9582,7 +9582,7 @@
         {
           "Seller": "local-leads-api.vercel.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -9597,7 +9597,7 @@
         {
           "Seller": "macropulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -9612,7 +9612,7 @@
         {
           "Seller": "mcp.newstex.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9622,12 +9622,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "231 ms"
+          "Median latency": "228 ms"
         },
         {
           "Seller": "offercheck.offercheck.workers.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9642,7 +9642,7 @@
         {
           "Seller": "pay.brianbooms.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9657,7 +9657,7 @@
         {
           "Seller": "payments-intel-production.up.railway.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9672,7 +9672,7 @@
         {
           "Seller": "presign-guard.onrender.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9687,7 +9687,7 @@
         {
           "Seller": "resolve.exende.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9702,7 +9702,7 @@
         {
           "Seller": "scholarpulse.theaslangroupllc.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -9717,7 +9717,7 @@
         {
           "Seller": "sentedge.ai",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.03",
           "Min": "$0.03",
@@ -9732,7 +9732,7 @@
         {
           "Seller": "stableapify.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9747,7 +9747,7 @@
         {
           "Seller": "stableflare.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -9762,7 +9762,7 @@
         {
           "Seller": "tienda.textokit.store",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9772,12 +9772,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "768 ms"
+          "Median latency": "763 ms"
         },
         {
           "Seller": "timecode.openverbs.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -9792,7 +9792,7 @@
         {
           "Seller": "trust-agent.io",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.010002",
           "Min": "$0.010002",
@@ -9802,12 +9802,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "188 ms"
+          "Median latency": "190 ms"
         },
         {
           "Seller": "twitter.surf.cascade.fyi",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -9822,7 +9822,7 @@
         {
           "Seller": "url-uptime-checker.underscoredone.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -9837,7 +9837,7 @@
         {
           "Seller": "x402-boj-macro-snapshot.vercel.app",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.001",
           "Min": "$0.001",
@@ -9852,7 +9852,7 @@
         {
           "Seller": "x402-defi-signals.onrender.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.002",
           "Min": "$0.002",
@@ -9862,12 +9862,12 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "202 ms"
+          "Median latency": "201 ms"
         },
         {
           "Seller": "x402.glassnode.com",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.05",
           "Min": "$0.05",
@@ -9882,7 +9882,7 @@
         {
           "Seller": "x402check.xyz",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.0035",
           "Min": "$0.0035",
@@ -9897,7 +9897,7 @@
         {
           "Seller": "x402pulse.dev",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "100.0%",
           "Modal price": "$0.0028",
           "Min": "$0.0028",
@@ -9912,7 +9912,7 @@
         {
           "Seller": "zeroclass.pay.zeroclick.io",
           "Resources": "1",
-          "Probes": "106",
+          "Probes": "108",
           "402 rate": "99.1%",
           "Modal price": "$0.15",
           "Min": "$0.15",
@@ -11967,71 +11967,71 @@
       ]
     },
     {
-      "heading": "Not probeable (4914 probes)",
+      "heading": "Not probeable (5012 probes)",
       "rows": [
         {
           "Reason": "no_402:400",
-          "Probes": "982"
+          "Probes": "998"
         },
         {
           "Reason": "no_402:404",
-          "Probes": "843"
+          "Probes": "859"
         },
         {
           "Reason": "no_402:503",
-          "Probes": "611"
+          "Probes": "625"
         },
         {
           "Reason": "unreachable:network",
-          "Probes": "372"
+          "Probes": "380"
         },
         {
           "Reason": "no_402:200",
-          "Probes": "335"
+          "Probes": "341"
         },
         {
           "Reason": "no_402:406",
-          "Probes": "327"
+          "Probes": "333"
         },
         {
           "Reason": "no_402:502",
-          "Probes": "256"
+          "Probes": "260"
         },
         {
           "Reason": "no_402:410",
-          "Probes": "224"
+          "Probes": "232"
         },
         {
           "Reason": "no_402:405",
-          "Probes": "218"
+          "Probes": "222"
         },
         {
           "Reason": "unreachable:dns",
-          "Probes": "188"
+          "Probes": "190"
         },
         {
           "Reason": "no_402:530",
-          "Probes": "178"
+          "Probes": "182"
         },
         {
           "Reason": "no_base_exact_requirement",
-          "Probes": "144"
-        },
-        {
-          "Reason": "no_402:500",
-          "Probes": "83"
+          "Probes": "146"
         },
         {
           "Reason": "no_402:401",
-          "Probes": "82"
+          "Probes": "86"
+        },
+        {
+          "Reason": "no_402:500",
+          "Probes": "85"
+        },
+        {
+          "Reason": "unreachable:reset",
+          "Probes": "30"
         },
         {
           "Reason": "unreachable:timeout",
           "Probes": "29"
-        },
-        {
-          "Reason": "unreachable:reset",
-          "Probes": "28"
         },
         {
           "Reason": "unreachable:refused",

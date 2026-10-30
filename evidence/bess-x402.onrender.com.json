@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "bess-x402.onrender.com",
   "seller_id": 999,
-  "failures_total": 4,
-  "shown": 4,
+  "failures_total": 5,
+  "shown": 5,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T02:57:09.703Z",
+      "resource": "https://bess-x402.onrender.com/v1/crypto/btc-fees",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x63061f91e01276ea065a38c477072a46369ba195b9fed590bd747dc703e5ff20",
+      "basescan_url": "https://basescan.org/tx/0x63061f91e01276ea065a38c477072a46369ba195b9fed590bd747dc703e5ff20"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",

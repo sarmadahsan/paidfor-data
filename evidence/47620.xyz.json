@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-10-30T02:12:32.639Z",
+  "generated_at": "2026-10-30T03:03:33.601Z",
   "network": "eip155:8453",
-  "git_commit": "683a7e3b27802768124f6b7dda568dad1eba18fa",
+  "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "47620.xyz",
   "seller_id": 1265,
-  "failures_total": 9,
-  "shown": 9,
+  "failures_total": 10,
+  "shown": 10,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-10-30T02:58:09.687Z",
+      "resource": "https://47620.xyz/x/util/convert",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xcb3739423ad25a6b549e94257dda2080b6ad943557974994350d222fa7cc668d",
+      "basescan_url": "https://basescan.org/tx/0xcb3739423ad25a6b549e94257dda2080b6ad943557974994350d222fa7cc668d"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
