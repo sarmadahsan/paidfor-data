@@ -1,12 +1,31 @@
 {
-  "generated_at": "2026-10-31T00:17:53.453Z",
+  "generated_at": "2026-10-31T00:56:38.017Z",
   "network": "eip155:8453",
   "git_commit": "15de89b4bcd44f2052ca4f808228791aaeff1461",
   "domain": "palmyr.ai",
   "seller_id": 383,
-  "failures_total": 33,
+  "failures_total": 34,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-31T00:38:19.373Z",
+      "resource": "https://palmyr.ai/social/twitter/unfollow",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xe9427b7214ce577e1b5dd939cc17bb4d9d178bbbe51c318b19b2fc9dc2f42423",
+      "basescan_url": "https://basescan.org/tx/0xe9427b7214ce577e1b5dd939cc17bb4d9d178bbbe51c318b19b2fc9dc2f42423"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
@@ -462,25 +481,6 @@
       ],
       "settlement_tx_hash": "0x9f5599b2b67bc27b65b5a2a47378a593d8deb42fb6414fd126266857d7e1cc0b",
       "basescan_url": "https://basescan.org/tx/0x9f5599b2b67bc27b65b5a2a47378a593d8deb42fb6414fd126266857d7e1cc0b"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T14:46:42.239Z",
-      "resource": "https://palmyr.ai/social/twitter/unfollow",
-      "method": "POST",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0xc7813bad4d485b7224cc4d3066684876f4e2900f3fbf4a317dfc62e3e7a74da4",
-      "basescan_url": "https://basescan.org/tx/0xc7813bad4d485b7224cc4d3066684876f4e2900f3fbf4a317dfc62e3e7a74da4"
     }
   ]
 }
