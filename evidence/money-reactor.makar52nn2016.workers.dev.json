@@ -1,12 +1,69 @@
 {
-  "generated_at": "2026-11-01T12:23:15.348Z",
+  "generated_at": "2026-11-01T13:23:55.837Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 18,
-  "shown": 18,
+  "failures_total": 21,
+  "shown": 21,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:50:45.550Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-image",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.100000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xe9eb2c36c82e6008ccf3f4d16f1126674fd3e94eb78e86c5d73a59a0d4fd09f9",
+      "basescan_url": "https://basescan.org/tx/0xe9eb2c36c82e6008ccf3f4d16f1126674fd3e94eb78e86c5d73a59a0d4fd09f9"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:47:43.854Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-extract",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.100000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x82ae05c6357a30cc37b06b3d309bc20d8625eaea250d1683b03b8222a52720f5",
+      "basescan_url": "https://basescan.org/tx/0x82ae05c6357a30cc37b06b3d309bc20d8625eaea250d1683b03b8222a52720f5"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:43:56.492Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-code-review",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.100000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x3f90a36f1b23ac5d14a940dfec6a92832d29ac4d0c17ac03d7f905166775cb2e",
+      "basescan_url": "https://basescan.org/tx/0x3f90a36f1b23ac5d14a940dfec6a92832d29ac4d0c17ac03d7f905166775cb2e"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

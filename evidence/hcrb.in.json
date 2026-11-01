@@ -1,10 +1,25 @@
 {
-  "generated_at": "2026-11-01T12:23:15.348Z",
+  "generated_at": "2026-11-01T13:23:55.837Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "hcrb.in",
   "seller_id": 1555,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": []
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:50:41.408Z",
+      "resource": "https://hcrb.in/v1/tools/context-distill/call",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x99a1f62cfafc86a75b021672b7b58a7c1f8376480f563401ad064c3aa53440a6",
+      "basescan_url": "https://basescan.org/tx/0x99a1f62cfafc86a75b021672b7b58a7c1f8376480f563401ad064c3aa53440a6"
+    }
+  ]
 }

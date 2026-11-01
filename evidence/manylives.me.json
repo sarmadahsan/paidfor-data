@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-11-01T12:23:15.348Z",
+  "generated_at": "2026-11-01T13:23:55.837Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "manylives.me",
   "seller_id": 2554,
-  "failures_total": 21,
-  "shown": 21,
+  "failures_total": 23,
+  "shown": 23,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:47:22.001Z",
+      "resource": "https://manylives.me/paid/util/time",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x6d056adff19d6f643f7774a240591c902b9f9fae4e028dff2d421369f7ae2f55",
+      "basescan_url": "https://basescan.org/tx/0x6d056adff19d6f643f7774a240591c902b9f9fae4e028dff2d421369f7ae2f55"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:43:15.620Z",
+      "resource": "https://manylives.me/paid/util/uuid",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xcf30e80997d047149f02ea606e6ed4fd5d5fc4ed62773d47afeeab6e291a721c",
+      "basescan_url": "https://basescan.org/tx/0xcf30e80997d047149f02ea606e6ed4fd5d5fc4ed62773d47afeeab6e291a721c"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",

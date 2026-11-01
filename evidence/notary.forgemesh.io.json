@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-11-01T12:23:15.348Z",
+  "generated_at": "2026-11-01T13:23:55.837Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "notary.forgemesh.io",
   "seller_id": 669,
-  "failures_total": 2,
-  "shown": 2,
+  "failures_total": 4,
+  "shown": 4,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:52:52.574Z",
+      "resource": "https://notary.forgemesh.io/api/notarize",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xbf3790925607242eee5bd3331f45a1292212df49d9b9871f241f45e2abd41c12",
+      "basescan_url": "https://basescan.org/tx/0xbf3790925607242eee5bd3331f45a1292212df49d9b9871f241f45e2abd41c12"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T12:43:21.147Z",
+      "resource": "https://notary.forgemesh.io/api/notarize",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x79953de388a766cef2824cd3a6f307ccf8a88f7054a1fbeb417fa2de0e07b31a",
+      "basescan_url": "https://basescan.org/tx/0x79953de388a766cef2824cd3a6f307ccf8a88f7054a1fbeb417fa2de0e07b31a"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
