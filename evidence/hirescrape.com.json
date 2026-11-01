@@ -1,12 +1,50 @@
 {
-  "generated_at": "2026-11-01T06:23:47.611Z",
+  "generated_at": "2026-11-01T06:59:58.776Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "hirescrape.com",
   "seller_id": 916,
-  "failures_total": 5,
-  "shown": 5,
+  "failures_total": 7,
+  "shown": 7,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T06:57:21.841Z",
+      "resource": "https://hirescrape.com/api/tools/tiktok",
+      "method": "POST",
+      "quote_usdc": "0.002250",
+      "reference_price_usdc": "0.002250",
+      "reference_source": "bazaar",
+      "http_status": 401,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x1f2ea6f295e4442568f533e1cdea0779b550e316920f3097bed8739d9da4d502",
+      "basescan_url": "https://basescan.org/tx/0x1f2ea6f295e4442568f533e1cdea0779b550e316920f3097bed8739d9da4d502"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T06:46:19.918Z",
+      "resource": "https://hirescrape.com/api/tools/tiktok",
+      "method": "POST",
+      "quote_usdc": "0.002250",
+      "reference_price_usdc": "0.002250",
+      "reference_source": "bazaar",
+      "http_status": 401,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x8ebf25e9b99aa14268526347353800ac1ae5c290cb1be33f096968345d189b43",
+      "basescan_url": "https://basescan.org/tx/0x8ebf25e9b99aa14268526347353800ac1ae5c290cb1be33f096968345d189b43"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",

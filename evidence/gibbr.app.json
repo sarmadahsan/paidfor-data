@@ -1,12 +1,50 @@
 {
-  "generated_at": "2026-11-01T06:23:47.611Z",
+  "generated_at": "2026-11-01T06:59:58.776Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "gibbr.app",
   "seller_id": 2397,
-  "failures_total": 30,
+  "failures_total": 32,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T06:57:17.533Z",
+      "resource": "https://gibbr.app/agent/translate",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x71158dd11824cdab4b49278c54a0a056110e0ed3bd10b50e455c53052a52e512",
+      "basescan_url": "https://basescan.org/tx/0x71158dd11824cdab4b49278c54a0a056110e0ed3bd10b50e455c53052a52e512"
+    },
+    {
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-01T06:45:59.743Z",
+      "resource": "https://gibbr.app/agent/translate",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x5753ff5a44d22f15ed8a889c439082a4ab585bde9efc09219872f85664190125",
+      "basescan_url": "https://basescan.org/tx/0x5753ff5a44d22f15ed8a889c439082a4ab585bde9efc09219872f85664190125"
+    },
     {
       "outcome": "non_delivery",
       "source": "buy",
@@ -443,44 +481,6 @@
       ],
       "settlement_tx_hash": "0x5eef7e88fa45ae2b07410e6ec8b15bd230f91dc1e0a21947a1c6460dafb3538c",
       "basescan_url": "https://basescan.org/tx/0x5eef7e88fa45ae2b07410e6ec8b15bd230f91dc1e0a21947a1c6460dafb3538c"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T01:23:02.333Z",
-      "resource": "https://gibbr.app/agent/translate",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0xe081f82e5067efc9bad49135b1453c0632045a30f6b7f9716224e55aa436c971",
-      "basescan_url": "https://basescan.org/tx/0xe081f82e5067efc9bad49135b1453c0632045a30f6b7f9716224e55aa436c971"
-    },
-    {
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T00:50:32.013Z",
-      "resource": "https://gibbr.app/agent/translate",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x971c046a86ccdf6e38fdfd127a5c060cd7326a99ea698f4bb6fd2a2f74b618e0",
-      "basescan_url": "https://basescan.org/tx/0x971c046a86ccdf6e38fdfd127a5c060cd7326a99ea698f4bb6fd2a2f74b618e0"
     }
   ]
 }
