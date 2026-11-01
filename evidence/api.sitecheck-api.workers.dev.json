@@ -1,125 +1,65 @@
 {
-  "generated_at": "2026-11-01T18:24:08.229Z",
+  "generated_at": "2026-11-01T19:03:34.801Z",
   "network": "eip155:8453",
-  "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
+  "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "api.sitecheck-api.workers.dev",
   "seller_id": 1211,
-  "failures_total": 20,
-  "shown": 20,
+  "failures_total": 9,
+  "shown": 9,
   "samples": [
     {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-30T03:06:33.561Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/rpc/evm",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x3b2783c814a031b49f6ea922f3aec5e0c5b5aed80c22b2fed638077df5cf61b8",
-      "basescan_url": "https://basescan.org/tx/0x3b2783c814a031b49f6ea922f3aec5e0c5b5aed80c22b2fed638077df5cf61b8"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-30T03:01:23.280Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/macro",
-      "method": "GET",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xe4039e11ed49bd9b6334312710906b32b50097348a5576162e98b34d7185cb84",
-      "basescan_url": "https://basescan.org/tx/0xe4039e11ed49bd9b6334312710906b32b50097348a5576162e98b34d7185cb84"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:29:06.635Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/qr",
-      "method": "GET",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xe62d30cf5fac861e1d71153c70c1bbbc4263ad1a50f244b96cc51aa9b925ac4f",
-      "basescan_url": "https://basescan.org/tx/0xe62d30cf5fac861e1d71153c70c1bbbc4263ad1a50f244b96cc51aa9b925ac4f"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:26:13.177Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/hash",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xf1b3c5818e316c7b4ab2a2c0601168e074b3292b6a9d99d0aa7cb8053d14363b",
-      "basescan_url": "https://basescan.org/tx/0xf1b3c5818e316c7b4ab2a2c0601168e074b3292b6a9d99d0aa7cb8053d14363b"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:23:11.948Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/json-validate",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x966443abc658d5a0f5c322defc38dcc13873da9916bcd844c15247fc3b375340",
-      "basescan_url": "https://basescan.org/tx/0x966443abc658d5a0f5c322defc38dcc13873da9916bcd844c15247fc3b375340"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:19:51.239Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/text/chunk",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x4518b4e8eb6ae6d540dab63a5e63ce1106813cc6510d2b030129f11165271118",
-      "basescan_url": "https://basescan.org/tx/0x4518b4e8eb6ae6d540dab63a5e63ce1106813cc6510d2b030129f11165271118"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:16:11.355Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/markdown",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x8fc7809545d02827913887e2e1060c3a3198d4351df9e29356e7b73dcdda86d0",
-      "basescan_url": "https://basescan.org/tx/0x8fc7809545d02827913887e2e1060c3a3198d4351df9e29356e7b73dcdda86d0"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T15:12:38.093Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/embed",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x309228c40c7f9468782b143d6ef06844540c13061843ca23e51fe52e32db9a04",
-      "basescan_url": "https://basescan.org/tx/0x309228c40c7f9468782b143d6ef06844540c13061843ca23e51fe52e32db9a04"
-    },
-    {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.291Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T14:59:55.187Z",
@@ -134,6 +74,58 @@
       "basescan_url": "https://basescan.org/tx/0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4"
     },
     {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.291Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T14:55:41.706Z",
@@ -148,6 +140,58 @@
       "basescan_url": "https://basescan.org/tx/0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa"
     },
     {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T14:52:21.205Z",
@@ -162,6 +206,58 @@
       "basescan_url": "https://basescan.org/tx/0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1"
     },
     {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T14:47:55.947Z",
@@ -176,6 +272,58 @@
       "basescan_url": "https://basescan.org/tx/0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075"
     },
     {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T14:43:11.028Z",
@@ -190,6 +338,58 @@
       "basescan_url": "https://basescan.org/tx/0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8"
     },
     {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T14:38:06.838Z",
@@ -204,20 +404,58 @@
       "basescan_url": "https://basescan.org/tx/0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69"
     },
     {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T14:32:26.380Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/json/repair",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xcbcad3c7a90d4229365cf9b9ce686c1c459a5c890aa640d5b282edd92dcd9331",
-      "basescan_url": "https://basescan.org/tx/0xcbcad3c7a90d4229365cf9b9ce686c1c459a5c890aa640d5b282edd92dcd9331"
-    },
-    {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T11:48:21.038Z",
@@ -232,34 +470,58 @@
       "basescan_url": "https://basescan.org/tx/0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec"
     },
     {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T11:09:10.629Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/rpc/evm",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x145d7a548eaf7746f0c74acd3a3b7efc8c9dba78bb623243cba5bb98575952ae",
-      "basescan_url": "https://basescan.org/tx/0x145d7a548eaf7746f0c74acd3a3b7efc8c9dba78bb623243cba5bb98575952ae"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T10:27:41.660Z",
-      "resource": "https://api.sitecheck-api.workers.dev/api/macro",
-      "method": "GET",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xad658ede9bfd0a267d96ad42acea4c7a0d40c6a31bf5856ffaba0137eb017bd8",
-      "basescan_url": "https://basescan.org/tx/0xad658ede9bfd0a267d96ad42acea4c7a0d40c6a31bf5856ffaba0137eb017bd8"
-    },
-    {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T09:51:14.972Z",
@@ -274,6 +536,58 @@
       "basescan_url": "https://basescan.org/tx/0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b"
     },
     {
+      "correction": {
+        "kind": "stale_listing",
+        "at": "2026-11-01T18:45:31.290Z",
+        "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+        "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+        "old_reference_price_usdc": "0.001000",
+        "new_reference_price_usdc": "0.001000",
+        "old_outcome": "overcharge",
+        "new_outcome": "overcharge",
+        "evidence": {
+          "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+          "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+          "bazaar_now": {
+            "/api/macro": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:32:28.275Z"
+            },
+            "/api/rpc/evm": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:15:17.867Z"
+            },
+            "/api/json/repair": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:24:14.315Z"
+            },
+            "/api/embed": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-10-25T15:12:41.181Z"
+            },
+            "/api/markdown": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:16:30.143Z"
+            },
+            "/api/text/chunk": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:38:51.697Z"
+            },
+            "/api/json-validate": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T07:45:09.987Z"
+            },
+            "/api/hash": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T10:17:48.525Z"
+            },
+            "/api/qr": {
+              "amount_usdc": "0.002000",
+              "lastUpdated": "2026-11-01T15:11:47.872Z"
+            }
+          }
+        }
+      },
       "outcome": "overcharge",
       "source": "buy",
       "timestamp": "2026-10-25T08:48:01.889Z",
@@ -286,6 +600,1677 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
       "basescan_url": "https://basescan.org/tx/0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff"
+    }
+  ],
+  "corrections_total": 20,
+  "corrections": [
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.291Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:59:55.187Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/qr",
+      "method": "GET",
+      "settlement_tx_hash": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+      "basescan_url": "https://basescan.org/tx/0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.291Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:55:41.706Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/hash",
+      "method": "POST",
+      "settlement_tx_hash": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+      "basescan_url": "https://basescan.org/tx/0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:52:21.205Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/json-validate",
+      "method": "POST",
+      "settlement_tx_hash": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+      "basescan_url": "https://basescan.org/tx/0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:47:55.947Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/text/chunk",
+      "method": "POST",
+      "settlement_tx_hash": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+      "basescan_url": "https://basescan.org/tx/0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:43:11.028Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/markdown",
+      "method": "POST",
+      "settlement_tx_hash": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+      "basescan_url": "https://basescan.org/tx/0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:38:06.838Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/embed",
+      "method": "POST",
+      "settlement_tx_hash": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+      "basescan_url": "https://basescan.org/tx/0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T11:48:21.038Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/json/repair",
+      "method": "POST",
+      "settlement_tx_hash": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+      "basescan_url": "https://basescan.org/tx/0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T09:51:14.972Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/rpc/evm",
+      "method": "POST",
+      "settlement_tx_hash": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+      "basescan_url": "https://basescan.org/tx/0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b"
+    },
+    {
+      "kind": "stale_listing",
+      "at": "2026-11-01T18:45:31.290Z",
+      "reason": "first purchase of this resource after the seller raised its price; our Bazaar snapshot still listed the previous price and no settlement of ours at the new price preceded it",
+      "note": "Stale listing: when we bought, the Bazaar still listed the seller's previous price. The seller had raised its price without re-registering, and the listing was rewritten to the quoted price at this settlement. Counted as overcharge: a buyer reading the listing met this gap once per resource.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.001000",
+      "old_outcome": "overcharge",
+      "new_outcome": "overcharge",
+      "evidence": {
+        "basis": "first purchase of this resource after the seller raised its price; our Bazaar snapshot (discover run 2026-10-24T01:40Z) listed 0.001000 and no settlement of ours at 0.002000 preceded it",
+        "seller_statement": "the seller states the price change was made early 2026-10-25 UTC without refreshing the Bazaar entries and accepts the first-purchase rows",
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T08:48:01.889Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/macro",
+      "method": "GET",
+      "settlement_tx_hash": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+      "basescan_url": "https://basescan.org/tx/0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.292Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-30T03:06:33.561Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/rpc/evm",
+      "method": "POST",
+      "settlement_tx_hash": "0x3b2783c814a031b49f6ea922f3aec5e0c5b5aed80c22b2fed638077df5cf61b8",
+      "basescan_url": "https://basescan.org/tx/0x3b2783c814a031b49f6ea922f3aec5e0c5b5aed80c22b2fed638077df5cf61b8"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.267Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-30T03:01:23.280Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/macro",
+      "method": "GET",
+      "settlement_tx_hash": "0xe4039e11ed49bd9b6334312710906b32b50097348a5576162e98b34d7185cb84",
+      "basescan_url": "https://basescan.org/tx/0xe4039e11ed49bd9b6334312710906b32b50097348a5576162e98b34d7185cb84"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.259Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T15:29:06.635Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/qr",
+      "method": "GET",
+      "settlement_tx_hash": "0xe62d30cf5fac861e1d71153c70c1bbbc4263ad1a50f244b96cc51aa9b925ac4f",
+      "basescan_url": "https://basescan.org/tx/0xe62d30cf5fac861e1d71153c70c1bbbc4263ad1a50f244b96cc51aa9b925ac4f"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.250Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T15:26:13.177Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/hash",
+      "method": "POST",
+      "settlement_tx_hash": "0xf1b3c5818e316c7b4ab2a2c0601168e074b3292b6a9d99d0aa7cb8053d14363b",
+      "basescan_url": "https://basescan.org/tx/0xf1b3c5818e316c7b4ab2a2c0601168e074b3292b6a9d99d0aa7cb8053d14363b"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.243Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T15:23:11.948Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/json-validate",
+      "method": "POST",
+      "settlement_tx_hash": "0x966443abc658d5a0f5c322defc38dcc13873da9916bcd844c15247fc3b375340",
+      "basescan_url": "https://basescan.org/tx/0x966443abc658d5a0f5c322defc38dcc13873da9916bcd844c15247fc3b375340"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.236Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T15:19:51.239Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/text/chunk",
+      "method": "POST",
+      "settlement_tx_hash": "0x4518b4e8eb6ae6d540dab63a5e63ce1106813cc6510d2b030129f11165271118",
+      "basescan_url": "https://basescan.org/tx/0x4518b4e8eb6ae6d540dab63a5e63ce1106813cc6510d2b030129f11165271118"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.226Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T15:16:11.355Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/markdown",
+      "method": "POST",
+      "settlement_tx_hash": "0x8fc7809545d02827913887e2e1060c3a3198d4351df9e29356e7b73dcdda86d0",
+      "basescan_url": "https://basescan.org/tx/0x8fc7809545d02827913887e2e1060c3a3198d4351df9e29356e7b73dcdda86d0"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.217Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T15:12:38.093Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/embed",
+      "method": "POST",
+      "settlement_tx_hash": "0x309228c40c7f9468782b143d6ef06844540c13061843ca23e51fe52e32db9a04",
+      "basescan_url": "https://basescan.org/tx/0x309228c40c7f9468782b143d6ef06844540c13061843ca23e51fe52e32db9a04"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.208Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T14:32:26.380Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/json/repair",
+      "method": "POST",
+      "settlement_tx_hash": "0xcbcad3c7a90d4229365cf9b9ce686c1c459a5c890aa640d5b282edd92dcd9331",
+      "basescan_url": "https://basescan.org/tx/0xcbcad3c7a90d4229365cf9b9ce686c1c459a5c890aa640d5b282edd92dcd9331"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.199Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T11:09:10.629Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/rpc/evm",
+      "method": "POST",
+      "settlement_tx_hash": "0x145d7a548eaf7746f0c74acd3a3b7efc8c9dba78bb623243cba5bb98575952ae",
+      "basescan_url": "https://basescan.org/tx/0x145d7a548eaf7746f0c74acd3a3b7efc8c9dba78bb623243cba5bb98575952ae"
+    },
+    {
+      "kind": "reference_price",
+      "at": "2026-11-01T18:45:28.186Z",
+      "reason": "Bazaar listing at purchase time: the listing had been rewritten to the quoted price by our own earlier settlement on this resource; the reference used was a crawl snapshot taken before the seller raised its price",
+      "note": "Re-scored: the Bazaar listing already read the quoted price when we bought, because it had been rewritten at our earlier settlement on this resource. The reference was corrected to the listing at purchase time and the row classified again.",
+      "old_reference_price_usdc": "0.001000",
+      "new_reference_price_usdc": "0.002000",
+      "old_outcome": "overcharge",
+      "new_outcome": "ok",
+      "evidence": {
+        "basis": "Bazaar listing at purchase time",
+        "bazaar_mechanism": "the Bazaar rewrites an entry at every settlement (live lastUpdated equals quality.lastCalledAt for all 1238 entries of pay-to 0xb8491F953e6860D3b5840b73c60883Ff099ceAfA, checked 2026-11-01 18:04 UTC)",
+        "snapshot_used": "discover run 2026-10-24T01:40Z (declared 0.001000); next crawl 2026-10-30T03:19Z",
+        "first_settlement_at_quoted_price": {
+          "/api/macro": {
+            "ts": "2026-10-25T08:48:01.889Z",
+            "tx": "0x40b55a62601bc4477824555a4e8c686d782cb04375d8c3aa9bac5da14a8855ff",
+            "call_id": 2458
+          },
+          "/api/rpc/evm": {
+            "ts": "2026-10-25T09:51:14.972Z",
+            "tx": "0x976f5dd584b754ae8fd0557d1120693a2b460808bdceda2d5f11d64a0267504b",
+            "call_id": 2625
+          },
+          "/api/json/repair": {
+            "ts": "2026-10-25T11:48:21.038Z",
+            "tx": "0x36cee3bbce8c35437016932d78ad625df505a6d581d88aa0128d5b35fa6f57ec",
+            "call_id": 3029
+          },
+          "/api/embed": {
+            "ts": "2026-10-25T14:38:06.838Z",
+            "tx": "0x09a1efa4f7b824103f47ea5dd144c5a79ca967ef54f8d2e851e2c0ad21288c69",
+            "call_id": 3476
+          },
+          "/api/markdown": {
+            "ts": "2026-10-25T14:43:11.028Z",
+            "tx": "0x250f7aa05450e0f17709dfa9726e1110522492a06388f03f7a54f105569fd3f8",
+            "call_id": 3579
+          },
+          "/api/text/chunk": {
+            "ts": "2026-10-25T14:47:55.947Z",
+            "tx": "0x87c68aa84e4dca562b1c298c4580682eec00a2e7b72c57c9c029cc6302ad2075",
+            "call_id": 3667
+          },
+          "/api/json-validate": {
+            "ts": "2026-10-25T14:52:21.205Z",
+            "tx": "0xa62a58bd8d80846fa0567873229d5fcb6ae700052e57e55aaffbf761e72f9ea1",
+            "call_id": 3739
+          },
+          "/api/hash": {
+            "ts": "2026-10-25T14:55:41.706Z",
+            "tx": "0xef892a94d79fb101935b9d488f72c26dd2e0b836791379ba2274e0c8e224e0aa",
+            "call_id": 3802
+          },
+          "/api/qr": {
+            "ts": "2026-10-25T14:59:55.187Z",
+            "tx": "0xaacbb62b578c784095f511e968bf95093de56743c90c9490020c722ccbd9d2a4",
+            "call_id": 3866
+          }
+        },
+        "bazaar_now": {
+          "/api/macro": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:32:28.275Z"
+          },
+          "/api/rpc/evm": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:15:17.867Z"
+          },
+          "/api/json/repair": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:24:14.315Z"
+          },
+          "/api/embed": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-10-25T15:12:41.181Z"
+          },
+          "/api/markdown": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:16:30.143Z"
+          },
+          "/api/text/chunk": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:38:51.697Z"
+          },
+          "/api/json-validate": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T07:45:09.987Z"
+          },
+          "/api/hash": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T10:17:48.525Z"
+          },
+          "/api/qr": {
+            "amount_usdc": "0.002000",
+            "lastUpdated": "2026-11-01T15:11:47.872Z"
+          }
+        }
+      },
+      "call_timestamp": "2026-10-25T10:27:41.660Z",
+      "resource": "https://api.sitecheck-api.workers.dev/api/macro",
+      "method": "GET",
+      "settlement_tx_hash": "0xad658ede9bfd0a267d96ad42acea4c7a0d40c6a31bf5856ffaba0137eb017bd8",
+      "basescan_url": "https://basescan.org/tx/0xad658ede9bfd0a267d96ad42acea4c7a0d40c6a31bf5856ffaba0137eb017bd8"
     }
   ]
 }

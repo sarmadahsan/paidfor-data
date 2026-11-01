@@ -22,7 +22,7 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 - `flagged_injection`: denominator rows flagged for possible prompt injection, not counted as failures.
 - `overcharge_sensitivity`: headline rate if overcharges below a quote/reference ratio of 1.1 or 2.0 were not counted.
 - `by_tier` / `by_category`: denominator calls, failures, rate, Wilson interval and dollar-weighted rate per seller tier and category.
-- `audit_purchases`: paid audit calls and sellers audited, by source (`audit_disagreement`, `audit_demand`). Audit purchases count in each seller's own figures and evidence, never in the headline (`count_weighted`, `dollar_weighted`, `failures_by_type`), `by_tier` or `by_category`: triggered sampling oversamples contested and popular sellers. Sellers that entered through the user-candidate import stay out of those three until their first scheduled purchase is 7 days old.
+- `audit_purchases`: paid audit calls and sellers audited, by source (`audit_disagreement`, `audit_demand`, `audit_operator`). Audit purchases count in each seller's own figures and evidence, never in the headline (`count_weighted`, `dollar_weighted`, `failures_by_type`), `by_tier` or `by_category`: triggered sampling oversamples contested and popular sellers. Sellers that entered through the user-candidate import stay out of those three until their first scheduled purchase is 7 days old.
 - `sellers_below_30`: sellers with at least one resource quoting at or under the scheduled per-call cap and fewer than 30 denominator calls: the coverage pool the next scheduled run draws from (sellers with no calls yet included).
 - `sellers_new_7d`: sellers first seen in the last 7 days, through any route (Bazaar recrawl, seed list, user candidates), not counting the initial universe (the first Bazaar crawl, 2026-10-24).
 - `sellers_measured_trend`: the last seven daily values of `sellers_with_min_calls`, oldest first, as `{ date, sellers_with_min_calls }`; each is the count at the end of that UTC day, the last one is now (equal to `sellers_with_min_calls`).
@@ -46,7 +46,7 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 - `pay_to_addresses`: addresses the seller listed or quoted for payment (lowercase).
 - `bazaar_listing_count`: resources the seller lists in the Coinbase Bazaar discovery API.
 - `audit_purchases` / `audit_purchases_by_source`: paid audit calls included in this seller's figures ("includes N audit purchases").
-- `breadth_purchases`: paid breadth-run calls included in this seller's figures; `purchases_by_source`: paid calls per source (`buy`, `breadth`, `audit_disagreement`, `audit_demand`).
+- `breadth_purchases`: paid breadth-run calls included in this seller's figures; `purchases_by_source`: paid calls per source (`buy`, `breadth`, `audit_disagreement`, `audit_demand`, `audit_operator`).
 - `discovered_at`: when the seller entered our database (the discovery run that found it, else the first time any listing or import named it).
 - `first_buy_at`: our first paid call to the seller, any measured source ("measured since").
 - `source`: `discovery` (Bazaar, chain scan or our own list), `seed` (config/seed-sellers.yaml, a hand-kept list of ecosystem hosts) or `user` (entered through the user-candidate import); a `user` seller also has `entered_at`, `entered_after_checks` and `entered_after_payments` (the index's counts at import).
@@ -65,7 +65,7 @@ Resources with at least 10 denominator calls, sorted by failure rate descending.
 One file per seller in sellers.json (both arrays); up to 25 most recent failures.
 - `failures_total` / `shown`: failures for the seller and how many samples follow.
 - `outcome`: failure type.
-- `source`: `buy` (scheduled purchase), `breadth` (weekly breadth run), `audit_disagreement` or `audit_demand` (triggered audit purchase).
+- `source`: `buy` (scheduled purchase), `breadth` (weekly breadth run), `audit_disagreement` or `audit_demand` (triggered audit purchase), `audit_operator` (operator-requested audit of a named host, e.g. a re-measurement after a seller's reply).
 - `timestamp`: when the call was made.
 - `resource` / `method`: resource called.
 - `quote_usdc`: price the seller quoted in its 402 response.
@@ -73,6 +73,8 @@ One file per seller in sellers.json (both arrays); up to 25 most recent failures
 - `http_status`: status of the paid response (null if none arrived).
 - `validator_failures`: validators that failed, with their reason code.
 - `settlement_tx_hash` / `basescan_url`: on-chain settlement of the payment, if one was matched.
+- `correction`: the row's latest operator correction, or null. `kind` is `reference_price` (the reference the row was judged against was wrong at purchase time; the row was re-classified: `old_reference_price_usdc` / `new_reference_price_usdc`, `old_outcome` / `new_outcome`) or `stale_listing` (the row stands: the Bazaar really listed the lower price when we bought; `note` says so). `at`, `reason` and `evidence` are public.
+- `corrections_total` / `corrections`: every correction to this seller's calls, newest first, with the call's `call_timestamp`, `resource`, `method` and settlement; a re-scored row that is no longer a failure is still here.
 
 ## candidates.json
 Resources users checked or paid through the index (GET /v1/candidates) that we had never measured, each probed once without paying.
