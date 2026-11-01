@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-11-01T00:23:23.883Z",
+  "generated_at": "2026-11-01T00:59:13.148Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "amanchain-relay.gitajhd.workers.dev",
   "seller_id": 1946,
-  "failures_total": 152,
+  "failures_total": 154,
   "shown": 25,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T00:48:18.314Z",
+      "resource": "https://amanchain-relay.gitajhd.workers.dev/api/x402/aman-weather",
+      "method": "POST",
+      "quote_usdc": "0.007476",
+      "reference_price_usdc": "0.001866",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xf03951717385591e613a0157e6b5cdaf4de9b4ac238b0502c69932d0e7782c75",
+      "basescan_url": "https://basescan.org/tx/0xf03951717385591e613a0157e6b5cdaf4de9b4ac238b0502c69932d0e7782c75"
+    },
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T00:43:06.157Z",
+      "resource": "https://amanchain-relay.gitajhd.workers.dev/api/x402/aman-address-validator",
+      "method": "POST",
+      "quote_usdc": "0.007476",
+      "reference_price_usdc": "0.002488",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x496fd223e03eb21783acbc38f26d2ecb403a53980f2294ddc765887b589e391c",
+      "basescan_url": "https://basescan.org/tx/0x496fd223e03eb21783acbc38f26d2ecb403a53980f2294ddc765887b589e391c"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
@@ -328,34 +356,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0xdfd2beb61049a76a6fc29fa72d249221a4110c2aa85ad7a6f2344ba52c718c8a",
       "basescan_url": "https://basescan.org/tx/0xdfd2beb61049a76a6fc29fa72d249221a4110c2aa85ad7a6f2344ba52c718c8a"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T19:25:52.935Z",
-      "resource": "https://amanchain-relay.gitajhd.workers.dev/api/x402/aman-evm-balance",
-      "method": "POST",
-      "quote_usdc": "0.007476",
-      "reference_price_usdc": "0.001244",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x905242d8facfd14336a5ce6e0826470e5148ad5e13168dd975bff2af67f9f5b9",
-      "basescan_url": "https://basescan.org/tx/0x905242d8facfd14336a5ce6e0826470e5148ad5e13168dd975bff2af67f9f5b9"
-    },
-    {
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T19:25:45.924Z",
-      "resource": "https://amanchain-relay.gitajhd.workers.dev/api/x402/aman-gas-price",
-      "method": "POST",
-      "quote_usdc": "0.007476",
-      "reference_price_usdc": "0.001244",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xada088a72abe302d082f861942ee74c8adedce851dd4a2f8d35eafb937a427de",
-      "basescan_url": "https://basescan.org/tx/0xada088a72abe302d082f861942ee74c8adedce851dd4a2f8d35eafb937a427de"
     }
   ]
 }

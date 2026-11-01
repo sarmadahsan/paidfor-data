@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-11-01T00:23:23.883Z",
+  "generated_at": "2026-11-01T00:59:13.148Z",
   "network": "eip155:8453",
   "git_commit": "a8a8167a42a1acab71f7b2b90b47d584d65ca5c1",
   "domain": "47620.xyz",
   "seller_id": 1265,
-  "failures_total": 10,
-  "shown": 10,
+  "failures_total": 11,
+  "shown": 11,
   "samples": [
+    {
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-01T00:40:40.658Z",
+      "resource": "https://47620.xyz/x/polygon/gas",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x30caed615d226023385158c8677a93c3c1159c03dce0ed6643c817c0cda1c660",
+      "basescan_url": "https://basescan.org/tx/0x30caed615d226023385158c8677a93c3c1159c03dce0ed6643c817c0cda1c660"
+    },
     {
       "outcome": "overcharge",
       "source": "buy",
