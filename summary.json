@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T07:23:33.466Z",
+  "generated_at": "2026-11-02T08:22:47.138Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
-  "last_updated": "2026-11-02T07:23:33.466Z",
+  "last_updated": "2026-11-02T08:22:47.138Z",
   "last_buy_run": {
     "started_at": "2026-11-02T06:45:26.631Z",
     "finished_at": "2026-11-02T06:57:21.936Z",
@@ -11,15 +11,15 @@
     "reason": null
   },
   "last_probe_run": {
-    "started_at": "2026-11-02T07:00:33.699Z",
-    "finished_at": "2026-11-02T07:22:53.456Z",
+    "started_at": "2026-11-02T08:00:33.235Z",
+    "finished_at": "2026-11-02T08:22:21.351Z",
     "status": "ok",
-    "last_activity": "2026-11-02T07:22:53.423Z",
+    "last_activity": "2026-11-02T08:22:21.325Z",
     "reason": null
   },
   "study_window": {
     "first_call": "2026-10-24T20:25:34.157Z",
-    "last_call": "2026-11-02T06:57:14.660Z"
+    "last_call": "2026-11-02T07:42:16.216Z"
   },
   "denominator_paid_calls": 17689,
   "count_weighted": {
@@ -74,14 +74,20 @@
   "sellers_reached": 655,
   "resources_reached": 2411,
   "sellers_with_min_calls": 210,
-  "usdc_spent": "74.803445",
-  "usdc_signed": "87.710582",
+  "usdc_spent": "74.935445",
+  "usdc_signed": "87.842582",
   "usdc_spent_by_source": [
     {
       "source": "audit_demand",
       "paid_calls": 260,
       "spent_usdc": "0.358000",
       "settled_usdc": "0.177000"
+    },
+    {
+      "source": "audit_operator",
+      "paid_calls": 66,
+      "spent_usdc": "0.132000",
+      "settled_usdc": "0.132000"
     },
     {
       "source": "buy",
@@ -217,8 +223,8 @@
       "sellers": 17
     },
     "audit_operator": {
-      "paid_calls": 0,
-      "sellers": 0
+      "paid_calls": 66,
+      "sellers": 2
     }
   },
   "sellers_below_30": 996,
