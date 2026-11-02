@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-02T18:59:52.137Z",
+  "network": "eip155:8453",
+  "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
+  "domain": "apexrunner.ai",
+  "seller_id": 1625,
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T13:05:42.738Z",
+      "resource": "https://apexrunner.ai/signals/combined-alpha",
+      "method": "GET",
+      "quote_usdc": "0.007000",
+      "reference_price_usdc": "0.007000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x7047f0bd75e948195ddf05b4b8c4e2f91e50d95fd40cfe5a11332859877e90e2",
+      "basescan_url": "https://basescan.org/tx/0x7047f0bd75e948195ddf05b4b8c4e2f91e50d95fd40cfe5a11332859877e90e2"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
