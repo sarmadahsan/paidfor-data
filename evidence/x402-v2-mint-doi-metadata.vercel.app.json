@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "x402-v2-mint-doi-metadata.vercel.app",
   "seller_id": 3086,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T13:03:09.685Z",
+      "resource": "https://x402-v2-mint-doi-metadata.vercel.app/v1/doi-metadata",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x57f6a30af5fe5fbc3bc65da70644b7750939e6432dee8b75a49fe0d6be5c3a87",
+      "basescan_url": "https://basescan.org/tx/0x57f6a30af5fe5fbc3bc65da70644b7750939e6432dee8b75a49fe0d6be5c3a87"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

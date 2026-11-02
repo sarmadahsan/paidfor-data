@@ -1,12 +1,53 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "nzdata.zakwins.workers.dev",
   "seller_id": 1064,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 2,
+  "shown": 2,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T13:13:19.129Z",
+      "resource": "https://nzdata.zakwins.workers.dev/nz/working-days",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0xeb295f591a4da4022ee3d1d35fe9abb86127bfba978926fc6f6330e281e9bc48",
+      "basescan_url": "https://basescan.org/tx/0xeb295f591a4da4022ee3d1d35fe9abb86127bfba978926fc6f6330e281e9bc48"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:52:02.319Z",
+      "resource": "https://nzdata.zakwins.workers.dev/nz/working-days",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x50de26eb44318112b96100e17f67bcacffbbad2c3ad589f35d100564107b7ee7",
+      "basescan_url": "https://basescan.org/tx/0x50de26eb44318112b96100e17f67bcacffbbad2c3ad589f35d100564107b7ee7"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

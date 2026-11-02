@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "x402-v2-mint-datamuse-words.vercel.app",
   "seller_id": 3091,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:59:49.724Z",
+      "resource": "https://x402-v2-mint-datamuse-words.vercel.app/v1/datamuse-words",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x429ed07c8608abced72f6140b2c6d50da98144b6c86cc00fc914a8d42c193b04",
+      "basescan_url": "https://basescan.org/tx/0x429ed07c8608abced72f6140b2c6d50da98144b6c86cc00fc914a8d42c193b04"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

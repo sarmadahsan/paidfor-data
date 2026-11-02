@@ -1,12 +1,53 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "x402pulse.dev",
   "seller_id": 1218,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 2,
+  "shown": 2,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T13:04:32.839Z",
+      "resource": "https://www.x402pulse.dev/v1/wallstreet/yield-curve",
+      "method": "GET",
+      "quote_usdc": "0.001400",
+      "reference_price_usdc": "0.001400",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0xc57d3ec5018e79015ed1163224cc1451fa355c22ca264a3211f4b493025da4b2",
+      "basescan_url": "https://basescan.org/tx/0xc57d3ec5018e79015ed1163224cc1451fa355c22ca264a3211f4b493025da4b2"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:49:10.220Z",
+      "resource": "https://www.x402pulse.dev/v1/travel/weather",
+      "method": "GET",
+      "quote_usdc": "0.001400",
+      "reference_price_usdc": "0.001400",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0xefede69ef019bde51f8386b1c5216445779a9ecc3f3bb8f486ac8e00bda17560",
+      "basescan_url": "https://basescan.org/tx/0xefede69ef019bde51f8386b1c5216445779a9ecc3f3bb8f486ac8e00bda17560"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

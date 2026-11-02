@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "api.helpmyagent.com",
   "seller_id": 1662,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:57:38.631Z",
+      "resource": "https://api.helpmyagent.com/v1/company/fr/search",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 503,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x0ae0b48a0d72d2b9dbf80f32b6cffb8b7ace75a3d5ee296024b2ebdbb7dd17c7",
+      "basescan_url": "https://basescan.org/tx/0x0ae0b48a0d72d2b9dbf80f32b6cffb8b7ace75a3d5ee296024b2ebdbb7dd17c7"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

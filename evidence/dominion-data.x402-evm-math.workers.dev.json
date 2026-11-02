@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "dominion-data.x402-evm-math.workers.dev",
   "seller_id": 2706,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:56:53.539Z",
+      "resource": "https://dominion-data.x402-evm-math.workers.dev/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x4e23a53366ca53f3aa2a7a6e650a47e1dd0d270ddb320eb727c078b0e52aabd2",
+      "basescan_url": "https://basescan.org/tx/0x4e23a53366ca53f3aa2a7a6e650a47e1dd0d270ddb320eb727c078b0e52aabd2"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

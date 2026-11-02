@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "chainread.genexxis.com",
   "seller_id": 2822,
-  "failures_total": 0,
-  "shown": 0,
-  "samples": [],
+  "failures_total": 1,
+  "shown": 1,
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T13:03:24.688Z",
+      "resource": "https://chainread.genexxis.com/token",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.003000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0xcae2577a7234743922bffa7a7c32b15d88c0935dd637371cc2c4f24a8af7304b",
+      "basescan_url": "https://basescan.org/tx/0xcae2577a7234743922bffa7a7c32b15d88c0935dd637371cc2c4f24a8af7304b"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

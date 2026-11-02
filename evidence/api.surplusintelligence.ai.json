@@ -1,12 +1,32 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "api.surplusintelligence.ai",
   "seller_id": 252,
-  "failures_total": 2,
-  "shown": 2,
+  "failures_total": 3,
+  "shown": 3,
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:55:07.778Z",
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.003302",
+      "reference_price_usdc": "0.003302",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x9e0c317d69b30c95da33a305a235e6ac6beb65068360ba7d82a41d1338c76e4b",
+      "basescan_url": "https://basescan.org/tx/0x9e0c317d69b30c95da33a305a235e6ac6beb65068360ba7d82a41d1338c76e4b"
+    },
     {
       "correction": null,
       "outcome": "overcharge",

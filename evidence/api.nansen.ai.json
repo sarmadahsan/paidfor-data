@@ -1,12 +1,32 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "api.nansen.ai",
   "seller_id": 40,
-  "failures_total": 1,
-  "shown": 1,
+  "failures_total": 2,
+  "shown": 2,
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:56:54.381Z",
+      "resource": "https://api.nansen.ai/api/v1/tgm/token-information",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0xb4833ddf3cadb6af8daa7f31a9e7b92b30e2a86f22e1f382ec7843041260209b",
+      "basescan_url": "https://basescan.org/tx/0xb4833ddf3cadb6af8daa7f31a9e7b92b30e2a86f22e1f382ec7843041260209b"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",

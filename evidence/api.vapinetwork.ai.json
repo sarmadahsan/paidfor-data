@@ -1,12 +1,60 @@
 {
-  "generated_at": "2026-11-02T12:23:16.474Z",
+  "generated_at": "2026-11-02T13:23:59.957Z",
   "network": "eip155:8453",
   "git_commit": "f504a486bdd9e1244865131efc052ae19b7b8b1c",
   "domain": "api.vapinetwork.ai",
   "seller_id": 1337,
-  "failures_total": 79,
+  "failures_total": 81,
   "shown": 25,
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T13:07:25.547Z",
+      "resource": "https://api.vapinetwork.ai/shim/o1/token",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        },
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xad7c15e60875026b3a1ad3175f6b5279d45bb3cdebddafe7c9abe9c9577522ff",
+      "basescan_url": "https://basescan.org/tx/0xad7c15e60875026b3a1ad3175f6b5279d45bb3cdebddafe7c9abe9c9577522ff"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-02T12:54:31.211Z",
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        },
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x7a5856a760a867b61825f25f3616377d70b0f4c886dff90ff4d1e9eeb918514a",
+      "basescan_url": "https://basescan.org/tx/0x7a5856a760a867b61825f25f3616377d70b0f4c886dff90ff4d1e9eeb918514a"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -558,54 +606,6 @@
       ],
       "settlement_tx_hash": "0xd8ea07debf6221ba753a0abd326cb2f687ad7079a9584a3545c95ea0a0307b7f",
       "basescan_url": "https://basescan.org/tx/0xd8ea07debf6221ba753a0abd326cb2f687ad7079a9584a3545c95ea0a0307b7f"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T18:15:41.006Z",
-      "resource": "https://api.vapinetwork.ai/shim/o1/token",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 404,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        },
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x8183f76281aab487e161bad1d3cc5985016b60c32c850df682056e136bb47a30",
-      "basescan_url": "https://basescan.org/tx/0x8183f76281aab487e161bad1d3cc5985016b60c32c850df682056e136bb47a30"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T18:14:40.954Z",
-      "resource": "https://api.vapinetwork.ai/shim/o1/token",
-      "method": "POST",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 404,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        },
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x9612e787fe0e774b2b04b1eda4e024bd4e62c9e27070d78eb55588d546fa545a",
-      "basescan_url": "https://basescan.org/tx/0x9612e787fe0e774b2b04b1eda4e024bd4e62c9e27070d78eb55588d546fa545a"
     }
   ],
   "corrections_total": 0,
