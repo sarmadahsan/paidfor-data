@@ -1,29 +1,54 @@
 {
-  "generated_at": "2026-11-03T12:24:31.764Z",
+  "generated_at": "2026-11-03T13:26:29.945Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "tienda.textokit.store",
   "seller_id": 1161,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 1,
+  "shown": 1,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.07134760017861413,
+    "failures": 1,
+    "failure_rate": 0.02,
+    "wilson_low": 0.003539259232504602,
+    "wilson_high": 0.10495443693896496,
     "by_type": {
-      "non_delivery": 0,
+      "non_delivery": 1,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-10-25T19:19:11.470Z",
-    "last_ts": "2026-11-01T06:50:55.741Z",
-    "last_failure_ts": null
+    "first_ts": "2026-10-25T19:19:28.456Z",
+    "last_ts": "2026-11-03T12:56:17.196Z",
+    "last_failure_ts": "2026-11-03T12:54:01.648Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-03T12:54:01.648Z",
+      "resource": "https://tienda.textokit.store/api/fx-rates",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 502,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        },
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x24e273fe03b348a654a662930b60cac9aa50dac6b89ae2f1af60f19c5c5bab88",
+      "basescan_url": "https://basescan.org/tx/0x24e273fe03b348a654a662930b60cac9aa50dac6b89ae2f1af60f19c5c5bab88"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

@@ -1,29 +1,69 @@
 {
-  "generated_at": "2026-11-03T12:24:31.764Z",
+  "generated_at": "2026-11-03T13:26:29.945Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "kino402.com",
   "seller_id": 405,
-  "failures_total": 5,
-  "shown": 5,
+  "failures_total": 7,
+  "shown": 7,
   "window": {
     "size": 50,
-    "calls": 5,
-    "failures": 5,
+    "calls": 7,
+    "failures": 7,
     "failure_rate": 1,
-    "wilson_low": 0.5655175313406071,
+    "wilson_low": 0.6456695613241317,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 5,
+      "non_delivery": 7,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-02T06:47:28.805Z",
-    "last_ts": "2026-11-02T18:46:58.402Z",
-    "last_failure_ts": "2026-11-02T18:46:58.402Z"
+    "last_ts": "2026-11-03T13:00:02.645Z",
+    "last_failure_ts": "2026-11-03T13:00:02.645Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-03T13:00:02.645Z",
+      "resource": "https://kino402.com/v1/audio/tts",
+      "method": "POST",
+      "quote_usdc": "0.007000",
+      "reference_price_usdc": "0.007000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xc8a556b403cdd63296a926d713cf2e1fb8f0ba969b44f7bfe6744fc2d1d89278",
+      "basescan_url": "https://basescan.org/tx/0xc8a556b403cdd63296a926d713cf2e1fb8f0ba969b44f7bfe6744fc2d1d89278"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-03T12:54:30.349Z",
+      "resource": "https://kino402.com/v1/audio/tts",
+      "method": "POST",
+      "quote_usdc": "0.007000",
+      "reference_price_usdc": "0.007000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x8e157dc0caac154012f1f33f832c3ea3a379e2d9f33f6191e1858ad8a3b9f928",
+      "basescan_url": "https://basescan.org/tx/0x8e157dc0caac154012f1f33f832c3ea3a379e2d9f33f6191e1858ad8a3b9f928"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
