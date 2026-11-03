@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:26:29.945Z",
+  "generated_at": "2026-11-03T13:48:23.143Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "min_calls": 30,
@@ -650,6 +650,71 @@
         "first_ts": "2026-10-31T00:36:31.473Z",
         "last_ts": "2026-11-03T13:14:21.622Z",
         "last_failure_ts": "2026-11-03T13:14:21.622Z"
+      },
+      "source": "user",
+      "entered_at": "2026-10-30T18:55:00.387Z",
+      "entered_after_checks": 4,
+      "entered_after_payments": 0
+    },
+    {
+      "seller_id": 3241,
+      "domain": "mr-river8.makar52nn2016.workers.dev",
+      "canonical_domain": "makar52nn2016.workers.dev",
+      "tier": null,
+      "category": null,
+      "denominator_calls": 30,
+      "failures": 14,
+      "failure_rate": 0.4666666666666667,
+      "wilson_low": 0.30232388795369436,
+      "wilson_high": 0.6385770050304025,
+      "failures_by_type": {
+        "non_delivery": 14,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0.466666666666666,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-03T13:44:52.198Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xa4773efe0e753f5230149bd58a878814b2b54a8b",
+        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
+      ],
+      "bazaar_listing_count": 0,
+      "audit_purchases": 40,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 40,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 18,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 40,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T18:55:00.387Z",
+      "first_buy_at": "2026-10-31T00:36:38.890Z",
+      "window": {
+        "size": 50,
+        "calls": 30,
+        "failures": 14,
+        "failure_rate": 0.4666666666666667,
+        "wilson_low": 0.30232388795369436,
+        "wilson_high": 0.6385770050304025,
+        "by_type": {
+          "non_delivery": 14,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-31T00:36:38.890Z",
+        "last_ts": "2026-11-03T13:44:52.198Z",
+        "last_failure_ts": "2026-11-03T13:44:52.198Z"
       },
       "source": "user",
       "entered_at": "2026-10-30T18:55:00.387Z",
@@ -14938,20 +15003,20 @@
       "canonical_domain": "makar52nn2016.workers.dev",
       "tier": null,
       "category": null,
-      "denominator_calls": 12,
-      "failures": 6,
+      "denominator_calls": 14,
+      "failures": 7,
       "failure_rate": 0.5,
-      "wilson_low": 0.2537815961625239,
-      "wilson_high": 0.7462184038374762,
+      "wilson_low": 0.2679920230881164,
+      "wilson_high": 0.7320079769118836,
       "failures_by_type": {
-        "non_delivery": 6,
+        "non_delivery": 7,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
       "dollar_weighted_rate": 0.5,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-03T13:26:00.612Z",
+      "last_seen": "2026-11-03T13:27:00.759Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -14959,10 +15024,10 @@
         "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
       ],
       "bazaar_listing_count": 0,
-      "audit_purchases": 38,
+      "audit_purchases": 40,
       "audit_purchases_by_source": {
         "audit_disagreement": 0,
-        "audit_demand": 38,
+        "audit_demand": 40,
         "audit_operator": 0
       },
       "breadth_purchases": 0,
@@ -14977,20 +15042,20 @@
       "first_buy_at": "2026-10-31T00:36:21.875Z",
       "window": {
         "size": 50,
-        "calls": 12,
-        "failures": 6,
+        "calls": 14,
+        "failures": 7,
         "failure_rate": 0.5,
-        "wilson_low": 0.2537815961625239,
-        "wilson_high": 0.7462184038374762,
+        "wilson_low": 0.2679920230881164,
+        "wilson_high": 0.7320079769118836,
         "by_type": {
-          "non_delivery": 6,
+          "non_delivery": 7,
           "overcharge": 0,
           "duplicate": 0,
           "wrong_goods": 0
         },
         "first_ts": "2026-10-31T00:36:21.875Z",
-        "last_ts": "2026-11-03T13:26:00.612Z",
-        "last_failure_ts": "2026-11-03T13:26:00.612Z"
+        "last_ts": "2026-11-03T13:27:00.759Z",
+        "last_failure_ts": "2026-11-03T13:27:00.759Z"
       },
       "source": "user",
       "entered_at": "2026-10-30T18:55:00.387Z",
@@ -14999,29 +15064,95 @@
       "low_sample": true
     },
     {
-      "seller_id": 3241,
-      "domain": "mr-river8.makar52nn2016.workers.dev",
+      "seller_id": 3238,
+      "domain": "mr-river7.makar52nn2016.workers.dev",
       "canonical_domain": "makar52nn2016.workers.dev",
       "tier": null,
       "category": null,
-      "denominator_calls": 20,
-      "failures": 9,
-      "failure_rate": 0.45,
-      "wilson_low": 0.25819785703764037,
-      "wilson_high": 0.6579146589808726,
+      "denominator_calls": 14,
+      "failures": 7,
+      "failure_rate": 0.5,
+      "wilson_low": 0.2679920230881164,
+      "wilson_high": 0.7320079769118836,
       "failures_by_type": {
-        "non_delivery": 9,
+        "non_delivery": 7,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.45,
+      "dollar_weighted_rate": 0.5,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-03T12:57:38.761Z",
+      "last_seen": "2026-11-03T13:31:46.369Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
-        "0xa4773efe0e753f5230149bd58a878814b2b54a8b",
+        "0x3428e33aac2677c519036280257fb090062229b3",
+        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
+      ],
+      "bazaar_listing_count": 0,
+      "audit_purchases": 40,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 40,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 12,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 40,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T18:55:00.387Z",
+      "first_buy_at": "2026-10-31T00:36:33.096Z",
+      "window": {
+        "size": 50,
+        "calls": 14,
+        "failures": 7,
+        "failure_rate": 0.5,
+        "wilson_low": 0.2679920230881164,
+        "wilson_high": 0.7320079769118836,
+        "by_type": {
+          "non_delivery": 7,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-31T00:36:33.096Z",
+        "last_ts": "2026-11-03T13:31:46.369Z",
+        "last_failure_ts": "2026-11-03T13:31:46.369Z"
+      },
+      "source": "user",
+      "entered_at": "2026-10-30T18:55:00.387Z",
+      "entered_after_checks": 5,
+      "entered_after_payments": 0,
+      "low_sample": true
+    },
+    {
+      "seller_id": 3240,
+      "domain": "mr-river9.makar52nn2016.workers.dev",
+      "canonical_domain": "makar52nn2016.workers.dev",
+      "tier": null,
+      "category": null,
+      "denominator_calls": 14,
+      "failures": 7,
+      "failure_rate": 0.5,
+      "wilson_low": 0.2679920230881164,
+      "wilson_high": 0.7320079769118836,
+      "failures_by_type": {
+        "non_delivery": 7,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0.5,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-03T13:36:23.014Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x73543bcf64851efddc18844e5c2cc773bf23ba52",
         "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
       ],
       "bazaar_listing_count": 0,
@@ -15033,30 +15164,96 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 18,
+        "buy": 12,
         "breadth": 0,
         "audit_disagreement": 0,
-        "audit_demand": 35,
+        "audit_demand": 30,
         "audit_operator": 0
       },
       "discovered_at": "2026-10-30T18:55:00.387Z",
-      "first_buy_at": "2026-10-31T00:36:38.890Z",
+      "first_buy_at": "2026-10-31T00:36:37.339Z",
       "window": {
         "size": 50,
-        "calls": 20,
-        "failures": 9,
-        "failure_rate": 0.45,
-        "wilson_low": 0.25819785703764037,
-        "wilson_high": 0.6579146589808726,
+        "calls": 14,
+        "failures": 7,
+        "failure_rate": 0.5,
+        "wilson_low": 0.2679920230881164,
+        "wilson_high": 0.7320079769118836,
         "by_type": {
-          "non_delivery": 9,
+          "non_delivery": 7,
           "overcharge": 0,
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-31T00:36:38.890Z",
-        "last_ts": "2026-11-03T12:57:38.761Z",
-        "last_failure_ts": "2026-11-03T12:57:38.761Z"
+        "first_ts": "2026-10-31T00:36:37.339Z",
+        "last_ts": "2026-11-03T13:36:23.014Z",
+        "last_failure_ts": "2026-11-03T13:36:23.014Z"
+      },
+      "source": "user",
+      "entered_at": "2026-10-30T18:55:00.387Z",
+      "entered_after_checks": 4,
+      "entered_after_payments": 0,
+      "low_sample": true
+    },
+    {
+      "seller_id": 3239,
+      "domain": "mr-river10.makar52nn2016.workers.dev",
+      "canonical_domain": "makar52nn2016.workers.dev",
+      "tier": null,
+      "category": null,
+      "denominator_calls": 26,
+      "failures": 12,
+      "failure_rate": 0.46153846153846156,
+      "wilson_low": 0.2875585341413244,
+      "wilson_high": 0.6454206138301055,
+      "failures_by_type": {
+        "non_delivery": 12,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0.461538461538461,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-03T13:40:37.147Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x960cb2440d9291724235b9b24b6e0a560a8160dd",
+        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
+      ],
+      "bazaar_listing_count": 0,
+      "audit_purchases": 40,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 40,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 18,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 40,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T18:55:00.387Z",
+      "first_buy_at": "2026-10-31T00:36:33.340Z",
+      "window": {
+        "size": 50,
+        "calls": 26,
+        "failures": 12,
+        "failure_rate": 0.46153846153846156,
+        "wilson_low": 0.2875585341413244,
+        "wilson_high": 0.6454206138301055,
+        "by_type": {
+          "non_delivery": 12,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-31T00:36:33.340Z",
+        "last_ts": "2026-11-03T13:40:37.147Z",
+        "last_failure_ts": "2026-11-03T13:40:37.147Z"
       },
       "source": "user",
       "entered_at": "2026-10-30T18:55:00.387Z",
@@ -15127,72 +15324,6 @@
       "source": "user",
       "entered_at": "2026-10-30T18:55:00.387Z",
       "entered_after_checks": 5,
-      "entered_after_payments": 0,
-      "low_sample": true
-    },
-    {
-      "seller_id": 3239,
-      "domain": "mr-river10.makar52nn2016.workers.dev",
-      "canonical_domain": "makar52nn2016.workers.dev",
-      "tier": null,
-      "category": null,
-      "denominator_calls": 16,
-      "failures": 7,
-      "failure_rate": 0.4375,
-      "wilson_low": 0.23098652281405668,
-      "wilson_high": 0.6682144375606189,
-      "failures_by_type": {
-        "non_delivery": 7,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0.4375,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-03T12:57:39.315Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x960cb2440d9291724235b9b24b6e0a560a8160dd",
-        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
-      ],
-      "bazaar_listing_count": 0,
-      "audit_purchases": 30,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 30,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 18,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 40,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-30T18:55:00.387Z",
-      "first_buy_at": "2026-10-31T00:36:33.340Z",
-      "window": {
-        "size": 50,
-        "calls": 16,
-        "failures": 7,
-        "failure_rate": 0.4375,
-        "wilson_low": 0.23098652281405668,
-        "wilson_high": 0.6682144375606189,
-        "by_type": {
-          "non_delivery": 7,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-31T00:36:33.340Z",
-        "last_ts": "2026-11-03T12:57:39.315Z",
-        "last_failure_ts": "2026-11-03T12:57:39.315Z"
-      },
-      "source": "user",
-      "entered_at": "2026-10-30T18:55:00.387Z",
-      "entered_after_checks": 4,
       "entered_after_payments": 0,
       "low_sample": true
     },
