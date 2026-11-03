@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-02T23:50:45.802Z",
+  "generated_at": "2026-11-03T00:10:44.668Z",
   "network": "eip155:8453",
   "git_commit": "6f23b26c4b69cb2b9ef22eb4b7bbdeae282dba68",
-  "last_updated": "2026-11-02T23:50:45.802Z",
+  "last_updated": "2026-11-03T00:10:44.668Z",
   "last_buy_run": {
-    "started_at": "2026-11-02T18:46:34.180Z",
-    "finished_at": "2026-11-02T18:58:14.413Z",
-    "status": "ok",
+    "started_at": "2026-11-03T00:10:36.780Z",
+    "finished_at": "2026-11-03T00:10:36.780Z",
+    "status": "skipped",
     "last_activity": "2026-11-02T18:58:07.689Z",
-    "reason": null
+    "reason": "pnpm gate failed: tests failed (packages/policy/test/readme.test.ts)"
   },
   "last_probe_run": {
     "started_at": "2026-11-02T23:26:25.262Z",
@@ -237,10 +237,6 @@
   "sellers_new_7d": 653,
   "sellers_measured_trend": [
     {
-      "date": "2026-10-27",
-      "sellers_with_min_calls": 93
-    },
-    {
       "date": "2026-10-28",
       "sellers_with_min_calls": 93
     },
@@ -262,6 +258,10 @@
     },
     {
       "date": "2026-11-02",
+      "sellers_with_min_calls": 222
+    },
+    {
+      "date": "2026-11-03",
       "sellers_with_min_calls": 222
     }
   ],
