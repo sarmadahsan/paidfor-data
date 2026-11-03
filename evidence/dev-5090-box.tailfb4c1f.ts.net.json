@@ -1,29 +1,75 @@
 {
-  "generated_at": "2026-11-03T18:23:33.410Z",
+  "generated_at": "2026-11-03T19:04:19.698Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "dev-5090-box.tailfb4c1f.ts.net",
   "seller_id": 1147,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 3,
+  "shown": 3,
   "window": {
     "size": 50,
-    "calls": 6,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.39033429165637346,
+    "calls": 10,
+    "failures": 3,
+    "failure_rate": 0.3,
+    "wilson_low": 0.10779126655639398,
+    "wilson_high": 0.6032218546540291,
     "by_type": {
-      "non_delivery": 0,
+      "non_delivery": 3,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T18:33:41.624Z",
-    "last_ts": "2026-10-25T20:36:21.938Z",
-    "last_failure_ts": null
+    "last_ts": "2026-11-03T18:59:05.943Z",
+    "last_failure_ts": "2026-11-03T18:57:37.885Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-03T18:57:37.885Z",
+      "resource": "https://dev-5090-box.tailfb4c1f.ts.net/v1/coder/explain",
+      "method": "POST",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.020000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xaa0cd463b02207f6c95e95018b6c653ecb0752343f0383452843f44e30ae45ef",
+      "basescan_url": "https://basescan.org/tx/0xaa0cd463b02207f6c95e95018b6c653ecb0752343f0383452843f44e30ae45ef"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-03T18:54:36.319Z",
+      "resource": "https://dev-5090-box.tailfb4c1f.ts.net/v1/coder/explain",
+      "method": "POST",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.020000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x2e08a796983ae634b44758cc2631bd9b7770e4f60a30252f920d2d6d043ef2b9",
+      "basescan_url": "https://basescan.org/tx/0x2e08a796983ae634b44758cc2631bd9b7770e4f60a30252f920d2d6d043ef2b9"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-03T18:49:24.847Z",
+      "resource": "https://dev-5090-box.tailfb4c1f.ts.net/v1/coder/explain",
+      "method": "POST",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.020000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xc4763d19849b7f1527d5462a2c329863b9d457d12564032f98b5212cc4d4e8b5",
+      "basescan_url": "https://basescan.org/tx/0xc4763d19849b7f1527d5462a2c329863b9d457d12564032f98b5212cc4d4e8b5"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }
