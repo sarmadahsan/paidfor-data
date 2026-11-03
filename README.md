@@ -28,6 +28,7 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 - `sellers_measured_trend`: the last seven daily values of `sellers_with_min_calls`, oldest first, as `{ date, sellers_with_min_calls }`; each is the count at the end of that UTC day, the last one is now (equal to `sellers_with_min_calls`).
 - `discovery_last_run`: the last `discover refresh`: `finished_at`, `new_sellers`, `probe_set_added`, `bazaar_resources`, `seed_sellers_added`, `new_unmapped_payees`, `facilitators`, `receipts_sampled`, `errors`; null before the first one.
 - `breadth_purchases`: paid calls and sellers from the weekly breadth run (source `breadth`): one call per seller whose every resource quotes above the scheduled per-call cap, at up to 0.50 USDC. Breadth purchases count in the headline, `by_tier`, `by_category`, and each seller's own figures and evidence: these sellers were in the original stratified universe and the cap, not the design, excluded them. Most sit in `low_sample` for weeks.
+- `window_size` / `verdict_basis_note`: the rolling window every seller verdict is computed over (50: each seller's most recent 50 paid calls, see sellers.json `window`) and the one-line note the index shows for it. The headline (`count_weighted`, `dollar_weighted`) stays all-time.
 - `unmapped_payees` / `unmapped_payee_inflow_30d_usdc`: Base addresses that received facilitator settlements in a daily sample and match no pay-to of any seller we know (listing or quote), and the sum of their 30-day non-dust USDC inflow: money flowing to x402 sellers nobody can name. `unmapped_payees_with_inflow` says how many of them have a measured inflow so far (at most 20 are measured per day); the sum covers only those. Method in the harness's docs/discovery.md.
 
 ## sellers.json
@@ -50,6 +51,7 @@ All files carry `generated_at`, `network` (CAIP-2) and `git_commit` (harness com
 - `discovered_at`: when the seller entered our database (the discovery run that found it, else the first time any listing or import named it).
 - `first_buy_at`: our first paid call to the seller, any measured source ("measured since").
 - `source`: `discovery` (Bazaar, chain scan or our own list), `seed` (config/seed-sellers.yaml, a hand-kept list of ecosystem hosts) or `user` (entered through the user-candidate import); a `user` seller also has `entered_at`, `entered_after_checks` and `entered_after_payments` (the index's counts at import).
+- `window` (since 2026-11-02): the seller's most recent 50 paid denominator calls, the rows verdicts are computed over, so a seller that fixed a problem recovers and one that degrades is caught at the same speed; the all-time figures above stay as history. Same rows as `denominator_calls` counts (every source in `purchases_by_source`, corrections applied), same 95% Wilson interval. `size` is 50; `calls` is at most 50 and fewer for a seller with fewer calls (then it equals `denominator_calls`); `failures`, `failure_rate`, `wilson_low`, `wilson_high` (null when `calls` is 0); `by_type` splits the window's failures into non_delivery, overcharge, duplicate, wrong_goods; `first_ts` / `last_ts` are the oldest and newest call in the window and `last_failure_ts` the newest failure in it (ISO 8601 UTC, or null).
 
 ## resources.json
 Resources with at least 10 denominator calls, sorted by failure rate descending.
@@ -64,6 +66,7 @@ Resources with at least 10 denominator calls, sorted by failure rate descending.
 ## evidence/<domain>.json
 One file per seller in sellers.json (both arrays); up to 25 most recent failures.
 - `failures_total` / `shown`: failures for the seller and how many samples follow.
+- `window`: the same rolling-window block as the seller's row in sellers.json (most recent 50 paid calls).
 - `outcome`: failure type.
 - `source`: `buy` (scheduled purchase), `breadth` (weekly breadth run), `audit_disagreement` or `audit_demand` (triggered audit purchase), `audit_operator` (operator-requested audit of a named host, e.g. a re-measurement after a seller's reply).
 - `timestamp`: when the call was made.
