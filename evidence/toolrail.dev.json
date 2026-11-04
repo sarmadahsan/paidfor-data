@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-11-04T12:27:40.132Z",
+  "generated_at": "2026-11-04T13:29:02.592Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "toolrail.dev",
   "seller_id": 150,
-  "failures_total": 4,
-  "shown": 4,
+  "failures_total": 5,
+  "shown": 5,
   "window": {
     "size": 50,
-    "calls": 32,
-    "failures": 4,
-    "failure_rate": 0.125,
-    "wilson_low": 0.049701343529059624,
-    "wilson_high": 0.2806830562944506,
+    "calls": 34,
+    "failures": 5,
+    "failure_rate": 0.14705882352941177,
+    "wilson_low": 0.06449441403975857,
+    "wilson_high": 0.3012805663782785,
     "by_type": {
-      "non_delivery": 4,
+      "non_delivery": 5,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T08:29:25.199Z",
-    "last_ts": "2026-10-30T18:44:59.999Z",
-    "last_failure_ts": "2026-10-29T18:09:44.865Z"
+    "last_ts": "2026-11-04T13:06:28.267Z",
+    "last_failure_ts": "2026-11-04T13:06:28.267Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-04T13:06:28.267Z",
+      "resource": "https://toolrail.dev/qr",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xed360cb0bffb6575d740f695cef9c7103aa813c2d6d7138c03d7d6022742c417",
+      "basescan_url": "https://basescan.org/tx/0xed360cb0bffb6575d740f695cef9c7103aa813c2d6d7138c03d7d6022742c417"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
