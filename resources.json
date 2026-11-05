@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:29:40.621Z",
+  "generated_at": "2026-11-05T14:13:50.268Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "min_calls": 10,
@@ -505,6 +505,26 @@
       }
     },
     {
+      "url": "https://mr-river10.makar52nn2016.workers.dev/api/crypto-price",
+      "method": "GET",
+      "seller": "mr-river10.makar52nn2016.workers.dev",
+      "listed_price_usdc": "0.001000",
+      "modal_quote_usdc": "0.001000",
+      "max_quote_usdc": "0.010000",
+      "overcharge_ratio": 10,
+      "calls": 14,
+      "failures": 13,
+      "failure_rate": 0.9285714285714286,
+      "wilson_low": 0.6853129533326209,
+      "wilson_high": 0.9872777848933957,
+      "failures_by_type": {
+        "non_delivery": 13,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
       "url": "https://mr-river3.makar52nn2016.workers.dev/api/crypto-price",
       "method": "GET",
       "seller": "mr-river3.makar52nn2016.workers.dev",
@@ -519,26 +539,6 @@
       "wilson_high": 0.9872777848933957,
       "failures_by_type": {
         "non_delivery": 13,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://mr-river10.makar52nn2016.workers.dev/api/crypto-price",
-      "method": "GET",
-      "seller": "mr-river10.makar52nn2016.workers.dev",
-      "listed_price_usdc": "0.001000",
-      "modal_quote_usdc": "0.001000",
-      "max_quote_usdc": "0.001000",
-      "overcharge_ratio": 1,
-      "calls": 13,
-      "failures": 12,
-      "failure_rate": 0.9230769230769231,
-      "wilson_low": 0.666860488286395,
-      "wilson_high": 0.986289578909774,
-      "failures_by_type": {
-        "non_delivery": 12,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
@@ -1292,6 +1292,26 @@
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.002000",
       "overcharge_ratio": 1,
+      "calls": 14,
+      "failures": 1,
+      "failure_rate": 0.07142857142857142,
+      "wilson_low": 0.012722215106604179,
+      "wilson_high": 0.314687046667379,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 1,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://mr-river10.makar52nn2016.workers.dev/api/bounties",
+      "method": "GET",
+      "seller": "mr-river10.makar52nn2016.workers.dev",
+      "listed_price_usdc": "0.001000",
+      "modal_quote_usdc": "0.001000",
+      "max_quote_usdc": "0.100000",
+      "overcharge_ratio": 100,
       "calls": 14,
       "failures": 1,
       "failure_rate": 0.07142857142857142,
@@ -7111,26 +7131,6 @@
       "listed_price_usdc": "0.002000",
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
-      "overcharge_ratio": 1,
-      "calls": 13,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.22809537513180025,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://mr-river10.makar52nn2016.workers.dev/api/bounties",
-      "method": "GET",
-      "seller": "mr-river10.makar52nn2016.workers.dev",
-      "listed_price_usdc": "0.001000",
-      "modal_quote_usdc": "0.001000",
-      "max_quote_usdc": "0.001000",
       "overcharge_ratio": 1,
       "calls": 13,
       "failures": 0,
