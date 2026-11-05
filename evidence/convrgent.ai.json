@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-11-05T07:08:10.816Z",
+  "network": "eip155:8453",
+  "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
+  "domain": "convrgent.ai",
+  "seller_id": 860,
+  "failures_total": 5,
+  "shown": 5,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 5,
+    "failure_rate": 1,
+    "wilson_low": 0.5655175313406071,
+    "wilson_high": 1,
+    "by_type": {
+      "non_delivery": 5,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-04T19:01:33.987Z",
+    "last_ts": "2026-11-05T07:00:21.500Z",
+    "last_failure_ts": "2026-11-05T07:00:21.500Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-05T07:00:21.500Z",
+      "resource": "https://convrgent.ai/api/vault/delete",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x288ea71ba8de76475c43cef14e9e82bb61d039370c59e753d7cc09b7223e6ef3",
+      "basescan_url": "https://basescan.org/tx/0x288ea71ba8de76475c43cef14e9e82bb61d039370c59e753d7cc09b7223e6ef3"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-05T01:03:07.448Z",
+      "resource": "https://convrgent.ai/api/vault/delete",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xe9974413cc29271689d03d4eb91b0314a82124efbe4e5ff2f57c5e49141c276f",
+      "basescan_url": "https://basescan.org/tx/0xe9974413cc29271689d03d4eb91b0314a82124efbe4e5ff2f57c5e49141c276f"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-05T00:59:18.361Z",
+      "resource": "https://convrgent.ai/api/vault/delete",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xe851d8be8f3eacea26b81fc431bbbd86b7ce7d26fbc2c1b8786820b59d691f06",
+      "basescan_url": "https://basescan.org/tx/0xe851d8be8f3eacea26b81fc431bbbd86b7ce7d26fbc2c1b8786820b59d691f06"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-04T19:06:44.137Z",
+      "resource": "https://convrgent.ai/api/vault/delete",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x2ab9c5d99d2095ebc2cbfb3d2ef2211f8283b961298efa20940afb405647c786",
+      "basescan_url": "https://basescan.org/tx/0x2ab9c5d99d2095ebc2cbfb3d2ef2211f8283b961298efa20940afb405647c786"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-04T19:01:33.987Z",
+      "resource": "https://convrgent.ai/api/vault/delete",
+      "method": "POST",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 404,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x05f7c3b0a995fbbc66afe1efe1a979375f3280b29e25b7ff3d931fd4a24380ee",
+      "basescan_url": "https://basescan.org/tx/0x05f7c3b0a995fbbc66afe1efe1a979375f3280b29e25b7ff3d931fd4a24380ee"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
