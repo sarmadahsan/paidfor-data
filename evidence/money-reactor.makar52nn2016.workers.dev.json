@@ -1,29 +1,109 @@
 {
-  "generated_at": "2026-11-06T06:28:24.832Z",
+  "generated_at": "2026-11-06T07:08:07.844Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 60,
+  "failures_total": 64,
   "shown": 25,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 45,
-    "failure_rate": 0.9,
-    "wilson_low": 0.7863976845138676,
-    "wilson_high": 0.956524235343241,
+    "failures": 47,
+    "failure_rate": 0.94,
+    "wilson_low": 0.8378290820312557,
+    "wilson_high": 0.9793850298115638,
     "by_type": {
-      "non_delivery": 45,
+      "non_delivery": 47,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-01T00:54:19.756Z",
-    "last_ts": "2026-11-06T01:04:20.861Z",
-    "last_failure_ts": "2026-11-06T01:04:20.861Z"
+    "first_ts": "2026-11-01T06:54:15.311Z",
+    "last_ts": "2026-11-06T07:06:22.499Z",
+    "last_failure_ts": "2026-11-06T07:06:22.499Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-06T07:06:22.499Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/cron-next",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x37a70e0b79a60435d89bc951e83de1639fd06c6d55cf4df387bdfdbb4a91117d",
+      "basescan_url": "https://basescan.org/tx/0x37a70e0b79a60435d89bc951e83de1639fd06c6d55cf4df387bdfdbb4a91117d"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-06T07:06:15.163Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/color",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xaaf26bb308751eebf2cc847bc41735eeea5090cd668fa7a8535e074bfad4b6f9",
+      "basescan_url": "https://basescan.org/tx/0xaaf26bb308751eebf2cc847bc41735eeea5090cd668fa7a8535e074bfad4b6f9"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-06T07:04:29.012Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/base64",
+      "method": "GET",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x0d0751a08318f9dc77b2c2426c515fd088e64e80edf8629d88cff21c57193c7f",
+      "basescan_url": "https://basescan.org/tx/0x0d0751a08318f9dc77b2c2426c515fd088e64e80edf8629d88cff21c57193c7f"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-06T07:04:07.032Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-code-review",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.100000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x53f658d5c1428ac4337bb8acf741a9e00f3eb116257839f4da1792e734cdedad",
+      "basescan_url": "https://basescan.org/tx/0x53f658d5c1428ac4337bb8acf741a9e00f3eb116257839f4da1792e734cdedad"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -443,86 +523,6 @@
       ],
       "settlement_tx_hash": "0xd5ddcab12dd5f6a7bbe0a5412d06032263df5eff473fa44bf55b5b573c233b23",
       "basescan_url": "https://basescan.org/tx/0xd5ddcab12dd5f6a7bbe0a5412d06032263df5eff473fa44bf55b5b573c233b23"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-04T13:05:23.835Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-code-review",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.100000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x373bf36db05949a4f65b63910ff583e8a40b0266188422906d938f6338a830f6",
-      "basescan_url": "https://basescan.org/tx/0x373bf36db05949a4f65b63910ff583e8a40b0266188422906d938f6338a830f6"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-04T00:56:39.561Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-extract",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.100000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x7bdd16d218791ec96be18cac5d7c20182436b0a095c284fc56fb7e7f6b3672c8",
-      "basescan_url": "https://basescan.org/tx/0x7bdd16d218791ec96be18cac5d7c20182436b0a095c284fc56fb7e7f6b3672c8"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-04T00:52:44.488Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-code-review",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.100000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x3e6a1add1012aa90c4498625a650bd224e78ae99336ce7ba6cb19e03904cb921",
-      "basescan_url": "https://basescan.org/tx/0x3e6a1add1012aa90c4498625a650bd224e78ae99336ce7ba6cb19e03904cb921"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-03T12:57:40.142Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-      "method": "GET",
-      "quote_usdc": "0.050000",
-      "reference_price_usdc": "0.050000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0xaa37669ad4f65387a62eb215479dfc1091c67432c8ea1f64cc34e62ae4a40874",
-      "basescan_url": "https://basescan.org/tx/0xaa37669ad4f65387a62eb215479dfc1091c67432c8ea1f64cc34e62ae4a40874"
     }
   ],
   "corrections_total": 0,

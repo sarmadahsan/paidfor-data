@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:28:24.832Z",
+  "generated_at": "2026-11-06T07:08:07.844Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "min_calls": 30,
@@ -24,7 +24,7 @@
       },
       "dollar_weighted_rate": 1,
       "median_quote_usdc": "0.007476",
-      "last_seen": "2026-11-06T06:21:00.775Z",
+      "last_seen": "2026-11-06T07:06:31.406Z",
       "onchain_inflow_30d_usdc": "5.672849",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -124,6 +124,67 @@
         "first_ts": "2026-10-24T21:15:58.926Z",
         "last_ts": "2026-11-04T13:10:33.950Z",
         "last_failure_ts": "2026-11-04T13:10:33.950Z"
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 1566,
+      "domain": "money-reactor.makar52nn2016.workers.dev",
+      "canonical_domain": "makar52nn2016.workers.dev",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 81,
+      "failures": 64,
+      "failure_rate": 0.7901234567901234,
+      "wilson_low": 0.6893461794439177,
+      "wilson_high": 0.864628264415646,
+      "failures_by_type": {
+        "non_delivery": 64,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0.936385542168674,
+      "median_quote_usdc": "0.050000",
+      "last_seen": "2026-11-06T07:06:22.499Z",
+      "onchain_inflow_30d_usdc": "2.264000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
+      ],
+      "bazaar_listing_count": 66,
+      "audit_purchases": 10,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 10,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 78,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 10,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-30T02:58:21.380Z",
+      "window": {
+        "size": 50,
+        "calls": 50,
+        "failures": 47,
+        "failure_rate": 0.94,
+        "wilson_low": 0.8378290820312557,
+        "wilson_high": 0.9793850298115638,
+        "by_type": {
+          "non_delivery": 47,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-01T06:54:15.311Z",
+        "last_ts": "2026-11-06T07:06:22.499Z",
+        "last_failure_ts": "2026-11-06T07:06:22.499Z"
       },
       "source": "discovery"
     },
@@ -230,67 +291,6 @@
       "source": "discovery"
     },
     {
-      "seller_id": 1566,
-      "domain": "money-reactor.makar52nn2016.workers.dev",
-      "canonical_domain": "makar52nn2016.workers.dev",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 77,
-      "failures": 60,
-      "failure_rate": 0.7792207792207793,
-      "wilson_low": 0.6745693244827249,
-      "wilson_high": 0.8573359700906857,
-      "failures_by_type": {
-        "non_delivery": 60,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0.934718100890207,
-      "median_quote_usdc": "0.050000",
-      "last_seen": "2026-11-06T06:14:17.133Z",
-      "onchain_inflow_30d_usdc": "2.264000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
-      ],
-      "bazaar_listing_count": 66,
-      "audit_purchases": 10,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 10,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 74,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 10,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-30T02:58:21.380Z",
-      "window": {
-        "size": 50,
-        "calls": 50,
-        "failures": 45,
-        "failure_rate": 0.9,
-        "wilson_low": 0.7863976845138676,
-        "wilson_high": 0.956524235343241,
-        "by_type": {
-          "non_delivery": 45,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-01T00:54:19.756Z",
-        "last_ts": "2026-11-06T01:04:20.861Z",
-        "last_failure_ts": "2026-11-06T01:04:20.861Z"
-      },
-      "source": "discovery"
-    },
-    {
       "seller_id": 2554,
       "domain": "manylives.me",
       "canonical_domain": "manylives.me",
@@ -352,6 +352,71 @@
       "source": "discovery"
     },
     {
+      "seller_id": 3239,
+      "domain": "mr-river10.makar52nn2016.workers.dev",
+      "canonical_domain": "makar52nn2016.workers.dev",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 38,
+      "failures": 24,
+      "failure_rate": 0.631578947368421,
+      "wilson_low": 0.4728395943392636,
+      "wilson_high": 0.7661578084131104,
+      "failures_by_type": {
+        "non_delivery": 17,
+        "overcharge": 7,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0.97338403041825,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-06T07:04:30.754Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x960cb2440d9291724235b9b24b6e0a560a8160dd",
+        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
+      ],
+      "bazaar_listing_count": 3,
+      "audit_purchases": 60,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 60,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 28,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 60,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T18:55:00.387Z",
+      "first_buy_at": "2026-10-31T00:36:33.340Z",
+      "window": {
+        "size": 50,
+        "calls": 38,
+        "failures": 24,
+        "failure_rate": 0.631578947368421,
+        "wilson_low": 0.4728395943392636,
+        "wilson_high": 0.7661578084131104,
+        "by_type": {
+          "non_delivery": 17,
+          "overcharge": 7,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-31T00:36:33.340Z",
+        "last_ts": "2026-11-06T07:04:30.754Z",
+        "last_failure_ts": "2026-11-06T07:04:30.754Z"
+      },
+      "source": "user",
+      "entered_at": "2026-10-30T18:55:00.387Z",
+      "entered_after_checks": 4,
+      "entered_after_payments": 0
+    },
+    {
       "seller_id": 383,
       "domain": "palmyr.ai",
       "canonical_domain": "palmyr.ai",
@@ -411,71 +476,6 @@
         "last_failure_ts": "2026-11-02T18:53:35.456Z"
       },
       "source": "discovery"
-    },
-    {
-      "seller_id": 3239,
-      "domain": "mr-river10.makar52nn2016.workers.dev",
-      "canonical_domain": "makar52nn2016.workers.dev",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 36,
-      "failures": 22,
-      "failure_rate": 0.6111111111111112,
-      "wilson_low": 0.4486445897263513,
-      "wilson_high": 0.7521512702805644,
-      "failures_by_type": {
-        "non_delivery": 16,
-        "overcharge": 6,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0.966346153846153,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T01:03:56.447Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x960cb2440d9291724235b9b24b6e0a560a8160dd",
-        "0xf47b7e5912fd4218ac4c992cdc6fae04e1ff512e"
-      ],
-      "bazaar_listing_count": 3,
-      "audit_purchases": 60,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 60,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 26,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 60,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-30T18:55:00.387Z",
-      "first_buy_at": "2026-10-31T00:36:33.340Z",
-      "window": {
-        "size": 50,
-        "calls": 36,
-        "failures": 22,
-        "failure_rate": 0.6111111111111112,
-        "wilson_low": 0.4486445897263513,
-        "wilson_high": 0.7521512702805644,
-        "by_type": {
-          "non_delivery": 16,
-          "overcharge": 6,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-31T00:36:33.340Z",
-        "last_ts": "2026-11-06T01:03:56.447Z",
-        "last_failure_ts": "2026-11-06T01:03:56.447Z"
-      },
-      "source": "user",
-      "entered_at": "2026-10-30T18:55:00.387Z",
-      "entered_after_checks": 4,
-      "entered_after_payments": 0
     },
     {
       "seller_id": 1503,
@@ -544,20 +544,20 @@
       "canonical_domain": "vapinetwork.ai",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 168,
-      "failures": 94,
-      "failure_rate": 0.5595238095238095,
-      "wilson_low": 0.48395549337288046,
-      "wilson_high": 0.6324308555920426,
+      "denominator_calls": 170,
+      "failures": 95,
+      "failure_rate": 0.5588235294117647,
+      "wilson_low": 0.48370227963452506,
+      "wilson_high": 0.6313450751719977,
       "failures_by_type": {
-        "non_delivery": 94,
+        "non_delivery": 95,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.62051282051282,
+      "dollar_weighted_rate": 0.619289340101522,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:21:08.735Z",
+      "last_seen": "2026-11-06T07:04:14.752Z",
       "onchain_inflow_30d_usdc": "256554.875829",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -572,7 +572,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 168,
+        "buy": 170,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -593,9 +593,9 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-30T03:00:57.878Z",
-        "last_ts": "2026-11-06T01:03:14.965Z",
-        "last_failure_ts": "2026-11-06T01:03:14.965Z"
+        "first_ts": "2026-10-30T12:36:29.498Z",
+        "last_ts": "2026-11-06T07:04:14.752Z",
+        "last_failure_ts": "2026-11-06T07:04:14.752Z"
       },
       "source": "discovery"
     },
@@ -618,7 +618,7 @@
       },
       "dollar_weighted_rate": 0.534965034965034,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:08:54.357Z",
+      "last_seen": "2026-11-06T07:04:06.864Z",
       "onchain_inflow_30d_usdc": "8773.645000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1115,7 +1115,7 @@
       },
       "dollar_weighted_rate": 0.260869565217391,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:07:11.069Z",
+      "last_seen": "2026-11-06T07:03:51.337Z",
       "onchain_inflow_30d_usdc": "1.163000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1176,7 +1176,7 @@
       },
       "dollar_weighted_rate": 0.2125,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:25:26.327Z",
+      "last_seen": "2026-11-06T07:04:43.222Z",
       "onchain_inflow_30d_usdc": "108.774425",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1237,7 +1237,7 @@
       },
       "dollar_weighted_rate": 0.401891252955082,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:26:43.654Z",
+      "last_seen": "2026-11-06T07:03:16.101Z",
       "onchain_inflow_30d_usdc": "0.109000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1299,7 +1299,7 @@
       },
       "dollar_weighted_rate": 0.3,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:26:04.559Z",
+      "last_seen": "2026-11-06T07:05:22.823Z",
       "onchain_inflow_30d_usdc": "13.248342",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1360,7 +1360,7 @@
       },
       "dollar_weighted_rate": 0.086823944792168,
       "median_quote_usdc": "0.001500",
-      "last_seen": "2026-11-06T06:11:23.593Z",
+      "last_seen": "2026-11-06T07:03:19.863Z",
       "onchain_inflow_30d_usdc": "1.067244",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1665,7 +1665,7 @@
       },
       "dollar_weighted_rate": 0.115384615384615,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:26:11.121Z",
+      "last_seen": "2026-11-06T07:03:13.702Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -1848,7 +1848,7 @@
       },
       "dollar_weighted_rate": 0.074074074074074,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:05:23.755Z",
+      "last_seen": "2026-11-06T07:04:55.990Z",
       "onchain_inflow_30d_usdc": "0.131000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1909,7 +1909,7 @@
       },
       "dollar_weighted_rate": 0.088888888888888,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:04:09.532Z",
+      "last_seen": "2026-11-06T07:07:35.014Z",
       "onchain_inflow_30d_usdc": "1.048000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1970,7 +1970,7 @@
       },
       "dollar_weighted_rate": 0.06060606060606,
       "median_quote_usdc": "0.001400",
-      "last_seen": "2026-11-06T06:07:33.156Z",
+      "last_seen": "2026-11-06T07:07:48.939Z",
       "onchain_inflow_30d_usdc": "110.364245",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -2031,7 +2031,7 @@
       },
       "dollar_weighted_rate": 0.067796610169491,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:13:44.286Z",
+      "last_seen": "2026-11-06T07:07:27.915Z",
       "onchain_inflow_30d_usdc": "6.052306",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -2079,20 +2079,20 @@
       "canonical_domain": "slamai.dev",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 226,
+      "denominator_calls": 228,
       "failures": 14,
-      "failure_rate": 0.061946902654867256,
-      "wilson_low": 0.03725555025883581,
-      "wilson_high": 0.10128106988044397,
+      "failure_rate": 0.06140350877192982,
+      "wilson_low": 0.0369255974821649,
+      "wilson_high": 0.10041592475868238,
       "failures_by_type": {
         "non_delivery": 14,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.0497203231821,
+      "dollar_weighted_rate": 0.049268018018018,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:15:59.929Z",
+      "last_seen": "2026-11-06T07:06:13.759Z",
       "onchain_inflow_30d_usdc": "40682.147019",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -2107,7 +2107,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 227,
+        "buy": 229,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -2128,8 +2128,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-30T03:01:03.603Z",
-        "last_ts": "2026-11-06T01:03:17.688Z",
+        "first_ts": "2026-10-30T12:36:33.234Z",
+        "last_ts": "2026-11-06T07:06:13.759Z",
         "last_failure_ts": "2026-11-06T01:01:40.317Z"
       },
       "source": "discovery"
@@ -2275,7 +2275,7 @@
       },
       "dollar_weighted_rate": 0.244499326448136,
       "median_quote_usdc": "0.001300",
-      "last_seen": "2026-11-06T06:25:34.534Z",
+      "last_seen": "2026-11-06T07:01:55.369Z",
       "onchain_inflow_30d_usdc": "0.100100",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -2336,7 +2336,7 @@
       },
       "dollar_weighted_rate": 0.164383561643835,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:04:13.044Z",
+      "last_seen": "2026-11-06T07:07:53.403Z",
       "onchain_inflow_30d_usdc": "53.242000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -2458,7 +2458,7 @@
       },
       "dollar_weighted_rate": 0.087463556851311,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:03:37.148Z",
+      "last_seen": "2026-11-06T07:02:27.628Z",
       "onchain_inflow_30d_usdc": "0.085400",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -2824,7 +2824,7 @@
       },
       "dollar_weighted_rate": 0.022222222222222,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:19:38.845Z",
+      "last_seen": "2026-11-06T07:01:53.716Z",
       "onchain_inflow_30d_usdc": "0.094000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -3130,7 +3130,7 @@
       },
       "dollar_weighted_rate": 0.03030303030303,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:21:51.791Z",
+      "last_seen": "2026-11-06T07:06:15.483Z",
       "onchain_inflow_30d_usdc": "1.187000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -3252,7 +3252,7 @@
       },
       "dollar_weighted_rate": 0.027777777777777,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:03:45.884Z",
+      "last_seen": "2026-11-06T07:06:16.570Z",
       "onchain_inflow_30d_usdc": "2.687500",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -3435,7 +3435,7 @@
       },
       "dollar_weighted_rate": 0.026315789473684,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:07:48.875Z",
+      "last_seen": "2026-11-06T07:04:41.510Z",
       "onchain_inflow_30d_usdc": "2.799000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -3723,67 +3723,6 @@
       "source": "discovery"
     },
     {
-      "seller_id": 38,
-      "domain": "web.cyberwarex.com",
-      "canonical_domain": "cyberwarex.com",
-      "tier": "tail",
-      "category": "data",
-      "denominator_calls": 47,
-      "failures": 1,
-      "failure_rate": 0.02127659574468085,
-      "wilson_low": 0.003765767996945897,
-      "wilson_high": 0.11112981151296872,
-      "failures_by_type": {
-        "non_delivery": 1,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0.020408163265306,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-02T13:08:22.890Z",
-      "onchain_inflow_30d_usdc": "29.163000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x058d0cc5cc97e61e8a9f38d6d6365bce525921b2"
-      ],
-      "bazaar_listing_count": 10,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 49,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T08:26:17.417Z",
-      "window": {
-        "size": 50,
-        "calls": 47,
-        "failures": 1,
-        "failure_rate": 0.02127659574468085,
-        "wilson_low": 0.003765767996945897,
-        "wilson_high": 0.11112981151296872,
-        "by_type": {
-          "non_delivery": 1,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T08:26:17.417Z",
-        "last_ts": "2026-11-02T13:08:22.890Z",
-        "last_failure_ts": "2026-10-25T14:10:44.778Z"
-      },
-      "source": "discovery"
-    },
-    {
       "seller_id": 715,
       "domain": "polymarket-signal-api.pwnker-polymarket-signals.workers.dev",
       "canonical_domain": "pwnker-polymarket-signals.workers.dev",
@@ -3845,6 +3784,67 @@
       "source": "discovery"
     },
     {
+      "seller_id": 38,
+      "domain": "web.cyberwarex.com",
+      "canonical_domain": "cyberwarex.com",
+      "tier": "tail",
+      "category": "data",
+      "denominator_calls": 49,
+      "failures": 1,
+      "failure_rate": 0.02040816326530612,
+      "wilson_low": 0.003611672549881491,
+      "wilson_high": 0.10693521629394012,
+      "failures_by_type": {
+        "non_delivery": 1,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0.02,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-06T07:04:24.748Z",
+      "onchain_inflow_30d_usdc": "29.163000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x058d0cc5cc97e61e8a9f38d6d6365bce525921b2"
+      ],
+      "bazaar_listing_count": 10,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 51,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T08:26:17.417Z",
+      "window": {
+        "size": 50,
+        "calls": 49,
+        "failures": 1,
+        "failure_rate": 0.02040816326530612,
+        "wilson_low": 0.003611672549881491,
+        "wilson_high": 0.10693521629394012,
+        "by_type": {
+          "non_delivery": 1,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T08:26:17.417Z",
+        "last_ts": "2026-11-06T07:04:24.748Z",
+        "last_failure_ts": "2026-10-25T14:10:44.778Z"
+      },
+      "source": "discovery"
+    },
+    {
       "seller_id": 1809,
       "domain": "web.openverbs.com",
       "canonical_domain": "openverbs.com",
@@ -3863,7 +3863,7 @@
       },
       "dollar_weighted_rate": 0.023529411764705,
       "median_quote_usdc": "0.006000",
-      "last_seen": "2026-11-06T06:18:16.129Z",
+      "last_seen": "2026-11-06T07:06:43.874Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -3924,7 +3924,7 @@
       },
       "dollar_weighted_rate": 0.018518518518518,
       "median_quote_usdc": "0.050000",
-      "last_seen": "2026-11-06T06:10:02.099Z",
+      "last_seen": "2026-11-06T07:03:25.808Z",
       "onchain_inflow_30d_usdc": "3.700000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -3985,7 +3985,7 @@
       },
       "dollar_weighted_rate": 0.017543859649122,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:04:05.881Z",
+      "last_seen": "2026-11-06T07:06:14.198Z",
       "onchain_inflow_30d_usdc": "0.837000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4107,7 +4107,7 @@
       },
       "dollar_weighted_rate": 0.011494252873563,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:23:20.245Z",
+      "last_seen": "2026-11-06T07:04:17.744Z",
       "onchain_inflow_30d_usdc": "448.168100",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4122,7 +4122,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 102,
+        "buy": 104,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4155,20 +4155,20 @@
       "canonical_domain": "surplusintelligence.ai",
       "tier": "top",
       "category": "inference",
-      "denominator_calls": 187,
+      "denominator_calls": 189,
       "failures": 3,
-      "failure_rate": 0.016042780748663103,
-      "wilson_low": 0.005470736488416537,
-      "wilson_high": 0.046098031320141356,
+      "failure_rate": 0.015873015873015872,
+      "wilson_low": 0.005412689851672037,
+      "wilson_high": 0.04562124724042357,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 2,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.016046808862192,
+      "dollar_weighted_rate": 0.015876959176052,
       "median_quote_usdc": "0.003301",
-      "last_seen": "2026-11-06T06:26:36.734Z",
+      "last_seen": "2026-11-06T07:06:10.072Z",
       "onchain_inflow_30d_usdc": "136235.441000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4183,7 +4183,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 191,
+        "buy": 193,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4204,8 +4204,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-25T21:56:39.683Z",
-        "last_ts": "2026-11-06T01:04:08.346Z",
+        "first_ts": "2026-10-25T22:08:24.813Z",
+        "last_ts": "2026-11-06T07:06:10.072Z",
         "last_failure_ts": "2026-11-02T12:55:07.778Z"
       },
       "source": "discovery"
@@ -4521,20 +4521,20 @@
       "canonical_domain": "bitrefill.com",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 217,
+      "denominator_calls": 219,
       "failures": 1,
-      "failure_rate": 0.004608294930875576,
-      "wilson_low": 0.0008139409094061311,
-      "wilson_high": 0.02563697510467359,
+      "failure_rate": 0.0045662100456621,
+      "wilson_low": 0.0008065034581819768,
+      "wilson_high": 0.025407015833161607,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.002849002849002,
+      "dollar_weighted_rate": 0.002824858757062,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:04:14.123Z",
+      "last_seen": "2026-11-06T07:04:17.417Z",
       "onchain_inflow_30d_usdc": "607445.877402",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4549,7 +4549,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 402,
+        "buy": 404,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4570,8 +4570,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-26T00:13:09.646Z",
-        "last_ts": "2026-11-06T01:01:36.293Z",
+        "first_ts": "2026-10-26T00:14:53.156Z",
+        "last_ts": "2026-11-06T07:04:17.417Z",
         "last_failure_ts": "2026-11-02T12:55:09.002Z"
       },
       "source": "discovery"
@@ -4643,20 +4643,20 @@
       "canonical_domain": "locus.report",
       "tier": "top",
       "category": "other",
-      "denominator_calls": 346,
+      "denominator_calls": 347,
       "failures": 1,
-      "failure_rate": 0.002890173410404624,
-      "wilson_low": 0.0005103688845872305,
-      "wilson_high": 0.01618707715275637,
+      "failure_rate": 0.002881844380403458,
+      "wilson_low": 0.0005088975566156766,
+      "wilson_high": 0.01614095591259021,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.00251256281407,
+      "dollar_weighted_rate": 0.002421307506053,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:27:54.443Z",
+      "last_seen": "2026-11-06T07:04:04.830Z",
       "onchain_inflow_30d_usdc": "4205.340802",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4671,7 +4671,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 346,
+        "buy": 347,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4692,8 +4692,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-26T00:14:47.113Z",
-        "last_ts": "2026-11-06T01:02:46.687Z",
+        "first_ts": "2026-10-26T00:15:10.861Z",
+        "last_ts": "2026-11-06T07:04:04.830Z",
         "last_failure_ts": "2026-11-02T12:57:39.940Z"
       },
       "source": "discovery"
@@ -4766,11 +4766,11 @@
       "canonical_domain": "blockchhub.link",
       "tier": "top",
       "category": "compute",
-      "denominator_calls": 500,
+      "denominator_calls": 502,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.007624340580914839,
+      "wilson_high": 0.007594195402234639,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -4779,7 +4779,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.050000",
-      "last_seen": "2026-11-06T06:27:10.558Z",
+      "last_seen": "2026-11-06T07:04:20.122Z",
       "onchain_inflow_30d_usdc": "1461.950000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4794,7 +4794,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 505,
+        "buy": 507,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4815,8 +4815,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-26T00:17:41.909Z",
-        "last_ts": "2026-11-06T01:02:24.952Z",
+        "first_ts": "2026-10-29T06:19:07.633Z",
+        "last_ts": "2026-11-06T07:04:20.122Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -4840,7 +4840,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:07:20.335Z",
+      "last_seen": "2026-11-06T07:03:15.297Z",
       "onchain_inflow_30d_usdc": "2063.711611",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5084,7 +5084,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:09:04.029Z",
+      "last_seen": "2026-11-06T07:03:17.012Z",
       "onchain_inflow_30d_usdc": "2.777000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5500,11 +5500,11 @@
       "canonical_domain": "laso.finance",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 160,
+      "denominator_calls": 162,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.02344619553271408,
+      "wilson_high": 0.0231634411998606,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -5513,7 +5513,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:25:27.059Z",
+      "last_seen": "2026-11-06T07:06:13.191Z",
       "onchain_inflow_30d_usdc": "34680.733340",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5528,7 +5528,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 163,
+        "buy": 165,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -5549,8 +5549,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-30T03:01:05.754Z",
-        "last_ts": "2026-11-06T01:04:10.630Z",
+        "first_ts": "2026-10-30T12:36:41.557Z",
+        "last_ts": "2026-11-06T07:06:13.191Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -5574,7 +5574,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:15:46.170Z",
+      "last_seen": "2026-11-06T07:06:54.896Z",
       "onchain_inflow_30d_usdc": "20.775000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6369,7 +6369,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:09:08.544Z",
+      "last_seen": "2026-11-06T07:05:55.958Z",
       "onchain_inflow_30d_usdc": "14.515832",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6613,7 +6613,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:16:42.810Z",
+      "last_seen": "2026-11-06T07:05:19.986Z",
       "onchain_inflow_30d_usdc": "1.625675",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6674,7 +6674,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:14:05.086Z",
+      "last_seen": "2026-11-06T07:04:19.448Z",
       "onchain_inflow_30d_usdc": "1.125000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6861,7 +6861,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:08:40.837Z",
+      "last_seen": "2026-11-06T07:04:46.145Z",
       "onchain_inflow_30d_usdc": "5.885000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6922,7 +6922,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:24:03.420Z",
+      "last_seen": "2026-11-06T07:08:07.428Z",
       "onchain_inflow_30d_usdc": "36.087400",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6983,7 +6983,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:06:49.462Z",
+      "last_seen": "2026-11-06T07:07:12.182Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -7105,7 +7105,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:02:56.374Z",
+      "last_seen": "2026-11-06T07:06:59.379Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -7532,7 +7532,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:27:16.583Z",
+      "last_seen": "2026-11-06T07:05:14.641Z",
       "onchain_inflow_30d_usdc": "4.937000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -7837,7 +7837,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:16:32.548Z",
+      "last_seen": "2026-11-06T07:03:43.099Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -8204,7 +8204,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:15:24.627Z",
+      "last_seen": "2026-11-06T07:06:12.874Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -8265,7 +8265,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:18:33.676Z",
+      "last_seen": "2026-11-06T07:04:14.896Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -8631,7 +8631,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:27:14.146Z",
+      "last_seen": "2026-11-06T07:05:19.084Z",
       "onchain_inflow_30d_usdc": "34.615000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -9058,7 +9058,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:06:26.934Z",
+      "last_seen": "2026-11-06T07:06:38.131Z",
       "onchain_inflow_30d_usdc": "1.403500",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -9119,7 +9119,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:20:38.867Z",
+      "last_seen": "2026-11-06T07:05:35.643Z",
       "onchain_inflow_30d_usdc": "0.297000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -9279,6 +9279,67 @@
         },
         "first_ts": "2026-10-25T09:05:50.412Z",
         "last_ts": "2026-11-04T19:04:21.109Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 520,
+      "domain": "api.orcatrace.dev",
+      "canonical_domain": "orcatrace.dev",
+      "tier": "tail",
+      "category": "compute",
+      "denominator_calls": 35,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.0989009937303319,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-06T07:04:22.411Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xf444abc53f5e1e73caec7df64d147ddb119514a0"
+      ],
+      "bazaar_listing_count": 3,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 53,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T18:33:07.210Z",
+      "window": {
+        "size": 50,
+        "calls": 35,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.0989009937303319,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T18:33:07.210Z",
+        "last_ts": "2026-11-06T07:04:22.411Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -9790,7 +9851,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:05:51.568Z",
+      "last_seen": "2026-11-06T07:01:02.899Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -9988,7 +10049,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:03:26.674Z",
+      "last_seen": "2026-11-06T07:03:28.747Z",
       "onchain_inflow_30d_usdc": "3.370400",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -10171,7 +10232,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:17:57.070Z",
+      "last_seen": "2026-11-06T07:07:42.445Z",
       "onchain_inflow_30d_usdc": "2.989370",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -10293,7 +10354,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:24:16.822Z",
+      "last_seen": "2026-11-06T07:06:06.073Z",
       "onchain_inflow_30d_usdc": "6.136600",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -10599,7 +10660,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:10:58.409Z",
+      "last_seen": "2026-11-06T07:04:08.521Z",
       "onchain_inflow_30d_usdc": "284.270000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -10698,67 +10759,6 @@
         },
         "first_ts": "2026-10-25T08:44:15.580Z",
         "last_ts": "2026-11-03T12:54:30.584Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery"
-    },
-    {
-      "seller_id": 520,
-      "domain": "api.orcatrace.dev",
-      "canonical_domain": "orcatrace.dev",
-      "tier": "tail",
-      "category": "compute",
-      "denominator_calls": 33,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.10426999901587138,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:08:32.379Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0xf444abc53f5e1e73caec7df64d147ddb119514a0"
-      ],
-      "bazaar_listing_count": 3,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 51,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T18:33:07.210Z",
-      "window": {
-        "size": 50,
-        "calls": 33,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.10426999901587138,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T18:33:07.210Z",
-        "last_ts": "2026-10-31T12:42:00.428Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -10904,7 +10904,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:15:25.824Z",
+      "last_seen": "2026-11-06T07:04:43.878Z",
       "onchain_inflow_30d_usdc": "0.013000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -11331,7 +11331,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:24:29.116Z",
+      "last_seen": "2026-11-06T07:04:25.813Z",
       "onchain_inflow_30d_usdc": "25.490000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -11392,7 +11392,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:20:32.374Z",
+      "last_seen": "2026-11-06T07:06:56.569Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -12734,7 +12734,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:19:46.368Z",
+      "last_seen": "2026-11-06T07:04:40.061Z",
       "onchain_inflow_30d_usdc": "5.038250",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -13408,7 +13408,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:03:20.401Z",
+      "last_seen": "2026-11-06T07:05:58.117Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -13591,7 +13591,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:16:35.813Z",
+      "last_seen": "2026-11-06T07:02:45.172Z",
       "onchain_inflow_30d_usdc": "347.050675",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -13847,7 +13847,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:14:13.475Z",
+      "last_seen": "2026-11-06T07:03:39.497Z",
       "onchain_inflow_30d_usdc": "21.591573",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -13885,6 +13885,67 @@
         },
         "first_ts": "2026-10-25T08:48:14.212Z",
         "last_ts": "2026-11-01T21:59:02.070Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 654,
+      "domain": "api.munition.io",
+      "canonical_domain": "munition.io",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 30,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.11351339476145206,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.004000",
+      "last_seen": "2026-11-06T07:04:32.729Z",
+      "onchain_inflow_30d_usdc": "2.445000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x54d6c2c08e10f1a1d3da88df513bbe9bcf1a4afa"
+      ],
+      "bazaar_listing_count": 15,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 30,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T08:35:21.710Z",
+      "window": {
+        "size": 50,
+        "calls": 30,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.11351339476145206,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T08:35:21.710Z",
+        "last_ts": "2026-11-06T07:04:32.729Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -14030,7 +14091,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:04:45.994Z",
+      "last_seen": "2026-11-06T07:01:11.540Z",
       "onchain_inflow_30d_usdc": "1.653799",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -14518,7 +14579,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:08:29.598Z",
+      "last_seen": "2026-11-06T07:06:54.157Z",
       "onchain_inflow_30d_usdc": "2.078000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -14640,7 +14701,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:27:05.309Z",
+      "last_seen": "2026-11-06T07:03:20.871Z",
       "onchain_inflow_30d_usdc": "3.153000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -14884,7 +14945,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:23:07.568Z",
+      "last_seen": "2026-11-06T07:02:32.609Z",
       "onchain_inflow_30d_usdc": "0.118000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -15067,7 +15128,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:04:18.313Z",
+      "last_seen": "2026-11-06T07:02:04.364Z",
       "onchain_inflow_30d_usdc": "1.992225",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -15377,7 +15438,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:04:51.078Z",
+      "last_seen": "2026-11-06T07:01:28.185Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -16049,7 +16110,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002237",
-      "last_seen": "2026-11-06T06:25:30.349Z",
+      "last_seen": "2026-11-06T07:04:12.045Z",
       "onchain_inflow_30d_usdc": "48.282278",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -16422,7 +16483,7 @@
       },
       "dollar_weighted_rate": 1,
       "median_quote_usdc": "0.001500",
-      "last_seen": "2026-11-06T06:10:09.943Z",
+      "last_seen": "2026-11-06T07:07:10.274Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -16471,20 +16532,20 @@
       "canonical_domain": "agentworld.me",
       "tier": null,
       "category": "data",
-      "denominator_calls": 5,
-      "failures": 4,
-      "failure_rate": 0.8,
-      "wilson_low": 0.375534627029995,
-      "wilson_high": 0.9637758917743693,
+      "denominator_calls": 9,
+      "failures": 8,
+      "failure_rate": 0.8888888888888888,
+      "wilson_low": 0.565000291629209,
+      "wilson_high": 0.9801091125830901,
       "failures_by_type": {
-        "non_delivery": 4,
+        "non_delivery": 8,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       },
-      "dollar_weighted_rate": 0.857142857142857,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:15:14.570Z",
+      "dollar_weighted_rate": 0.933333333333333,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-06T07:07:21.915Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -16499,7 +16560,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 6,
+        "buy": 10,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -16509,20 +16570,20 @@
       "first_buy_at": "2026-10-25T20:37:03.547Z",
       "window": {
         "size": 50,
-        "calls": 5,
-        "failures": 4,
-        "failure_rate": 0.8,
-        "wilson_low": 0.375534627029995,
-        "wilson_high": 0.9637758917743693,
+        "calls": 9,
+        "failures": 8,
+        "failure_rate": 0.8888888888888888,
+        "wilson_low": 0.565000291629209,
+        "wilson_high": 0.9801091125830901,
         "by_type": {
-          "non_delivery": 4,
+          "non_delivery": 8,
           "overcharge": 0,
           "duplicate": 0,
           "wrong_goods": 0
         },
         "first_ts": "2026-10-25T20:37:03.547Z",
-        "last_ts": "2026-11-06T01:04:06.984Z",
-        "last_failure_ts": "2026-11-06T01:04:06.984Z"
+        "last_ts": "2026-11-06T07:07:21.915Z",
+        "last_failure_ts": "2026-11-06T07:07:21.915Z"
       },
       "source": "discovery",
       "low_sample": true
@@ -16609,7 +16670,7 @@
       },
       "dollar_weighted_rate": 0.6,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:09:38.988Z",
+      "last_seen": "2026-11-06T07:06:18.316Z",
       "onchain_inflow_30d_usdc": "9.290000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -17377,7 +17438,7 @@
       },
       "dollar_weighted_rate": 0.2,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:14:06.228Z",
+      "last_seen": "2026-11-06T07:06:36.581Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -17563,7 +17624,7 @@
       },
       "dollar_weighted_rate": 0.142857142857142,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:08:28.654Z",
+      "last_seen": "2026-11-06T07:06:21.801Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -17687,7 +17748,7 @@
       },
       "dollar_weighted_rate": 0.142857142857142,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:09:20.979Z",
+      "last_seen": "2026-11-06T07:00:49.808Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -18121,7 +18182,7 @@
       },
       "dollar_weighted_rate": 0.111111111111111,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:00:56.338Z",
+      "last_seen": "2026-11-06T07:03:33.457Z",
       "onchain_inflow_30d_usdc": "0.510000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -18413,9 +18474,9 @@
       "low_sample": true
     },
     {
-      "seller_id": 654,
-      "domain": "api.munition.io",
-      "canonical_domain": "munition.io",
+      "seller_id": 1176,
+      "domain": "draconic21-x402-api.onrender.com",
+      "canonical_domain": "draconic21-x402-api.onrender.com",
       "tier": null,
       "category": "data",
       "denominator_calls": 28,
@@ -18430,14 +18491,14 @@
         "wrong_goods": 0
       },
       "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.004000",
-      "last_seen": "2026-11-06T01:06:01.664Z",
-      "onchain_inflow_30d_usdc": "2.445000",
+      "median_quote_usdc": "0.005000",
+      "last_seen": "2026-11-06T07:07:16.061Z",
+      "onchain_inflow_30d_usdc": "1.959000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
-        "0x54d6c2c08e10f1a1d3da88df513bbe9bcf1a4afa"
+        "0x1520ef5530aa71350049be2903cf078b38c40ae5"
       ],
-      "bazaar_listing_count": 15,
+      "bazaar_listing_count": 44,
       "audit_purchases": 0,
       "audit_purchases_by_source": {
         "audit_disagreement": 0,
@@ -18453,7 +18514,7 @@
         "audit_operator": 0
       },
       "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T08:35:21.710Z",
+      "first_buy_at": "2026-10-25T08:44:52.290Z",
       "window": {
         "size": 50,
         "calls": 28,
@@ -18467,70 +18528,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-25T08:35:21.710Z",
-        "last_ts": "2026-11-06T01:06:01.664Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 1176,
-      "domain": "draconic21-x402-api.onrender.com",
-      "canonical_domain": "draconic21-x402-api.onrender.com",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 24,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.13797620655132792,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:04:42.104Z",
-      "onchain_inflow_30d_usdc": "1.959000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x1520ef5530aa71350049be2903cf078b38c40ae5"
-      ],
-      "bazaar_listing_count": 44,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 24,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T08:44:52.290Z",
-      "window": {
-        "size": 50,
-        "calls": 24,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.13797620655132792,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
         "first_ts": "2026-10-25T08:44:52.290Z",
-        "last_ts": "2026-11-06T01:06:01.987Z",
+        "last_ts": "2026-11-06T07:07:16.061Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -18542,11 +18541,11 @@
       "canonical_domain": "metalend.tech",
       "tier": null,
       "category": "other",
-      "denominator_calls": 22,
+      "denominator_calls": 26,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.1486548766051456,
+      "wilson_high": 0.12872892362858793,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -18555,7 +18554,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:22:18.353Z",
+      "last_seen": "2026-11-06T07:07:17.938Z",
       "onchain_inflow_30d_usdc": "5.166995",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -18570,7 +18569,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 22,
+        "buy": 26,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -18580,11 +18579,11 @@
       "first_buy_at": "2026-10-25T20:37:05.099Z",
       "window": {
         "size": 50,
-        "calls": 22,
+        "calls": 26,
         "failures": 0,
         "failure_rate": 0,
         "wilson_low": 0,
-        "wilson_high": 0.1486548766051456,
+        "wilson_high": 0.12872892362858793,
         "by_type": {
           "non_delivery": 0,
           "overcharge": 0,
@@ -18592,7 +18591,7 @@
           "wrong_goods": 0
         },
         "first_ts": "2026-10-25T20:37:05.099Z",
-        "last_ts": "2026-11-06T01:06:04.188Z",
+        "last_ts": "2026-11-06T07:07:17.938Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -18604,11 +18603,11 @@
       "canonical_domain": "flipvo.com",
       "tier": null,
       "category": "data",
-      "denominator_calls": 21,
+      "denominator_calls": 25,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.15463902098714374,
+      "wilson_high": 0.13319225276039096,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -18617,7 +18616,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.030000",
-      "last_seen": "2026-11-06T06:04:01.023Z",
+      "last_seen": "2026-11-06T07:07:18.417Z",
       "onchain_inflow_30d_usdc": "0.810000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -18632,7 +18631,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 21,
+        "buy": 25,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -18642,11 +18641,11 @@
       "first_buy_at": "2026-10-25T18:32:49.830Z",
       "window": {
         "size": 50,
-        "calls": 21,
+        "calls": 25,
         "failures": 0,
         "failure_rate": 0,
         "wilson_low": 0,
-        "wilson_high": 0.15463902098714374,
+        "wilson_high": 0.13319225276039096,
         "by_type": {
           "non_delivery": 0,
           "overcharge": 0,
@@ -18654,7 +18653,7 @@
           "wrong_goods": 0
         },
         "first_ts": "2026-10-25T18:32:49.830Z",
-        "last_ts": "2026-11-06T01:06:04.845Z",
+        "last_ts": "2026-11-06T07:07:18.417Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -18666,11 +18665,11 @@
       "canonical_domain": "paywithlocus.com",
       "tier": "tail",
       "category": "data",
-      "denominator_calls": 16,
+      "denominator_calls": 20,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.1936076829974049,
+      "wilson_high": 0.16112516018512968,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -18679,7 +18678,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T01:06:06.279Z",
+      "last_seen": "2026-11-06T07:07:19.523Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -18694,7 +18693,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 16,
+        "buy": 20,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -18704,11 +18703,11 @@
       "first_buy_at": "2026-10-25T18:34:59.313Z",
       "window": {
         "size": 50,
-        "calls": 16,
+        "calls": 20,
         "failures": 0,
         "failure_rate": 0,
         "wilson_low": 0,
-        "wilson_high": 0.1936076829974049,
+        "wilson_high": 0.16112516018512968,
         "by_type": {
           "non_delivery": 0,
           "overcharge": 0,
@@ -18716,7 +18715,69 @@
           "wrong_goods": 0
         },
         "first_ts": "2026-10-25T18:34:59.313Z",
-        "last_ts": "2026-11-06T01:06:06.279Z",
+        "last_ts": "2026-11-06T07:07:19.523Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 1446,
+      "domain": "2-28-111-166.sslip.io",
+      "canonical_domain": "sslip.io",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 18,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.17587922593328437,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.005000",
+      "last_seen": "2026-11-06T07:07:20.203Z",
+      "onchain_inflow_30d_usdc": "102.517431",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x9cd9d96ded1522b0a086c712d6860ea0cd834c46"
+      ],
+      "bazaar_listing_count": 7,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 18,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T18:34:10.230Z",
+      "window": {
+        "size": 50,
+        "calls": 18,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.17587922593328437,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T18:34:10.230Z",
+        "last_ts": "2026-11-06T07:07:20.203Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -18847,68 +18908,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 1446,
-      "domain": "2-28-111-166.sslip.io",
-      "canonical_domain": "sslip.io",
-      "tier": null,
-      "category": "other",
-      "denominator_calls": 14,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.21531080540298042,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:23:54.570Z",
-      "onchain_inflow_30d_usdc": "102.517431",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x9cd9d96ded1522b0a086c712d6860ea0cd834c46"
-      ],
-      "bazaar_listing_count": 7,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 14,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T18:34:10.230Z",
-      "window": {
-        "size": 50,
-        "calls": 14,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.21531080540298042,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T18:34:10.230Z",
-        "last_ts": "2026-11-06T01:06:06.278Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 2730,
       "domain": "dev.kagurazaka.dev",
       "canonical_domain": "kagurazaka.dev",
@@ -18971,6 +18970,68 @@
       "low_sample": true
     },
     {
+      "seller_id": 2467,
+      "domain": "agentkit-x402-buy.netlify.app",
+      "canonical_domain": "agentkit-x402-buy.netlify.app",
+      "tier": "tail",
+      "category": "data",
+      "denominator_calls": 13,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.22809537513180025,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-06T07:07:20.682Z",
+      "onchain_inflow_30d_usdc": "0.006000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0xeb76f3442eaf192ebddbc1f7eebd59cde5e00d35"
+      ],
+      "bazaar_listing_count": 1,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 13,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T18:34:58.718Z",
+      "window": {
+        "size": 50,
+        "calls": 13,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.22809537513180025,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T18:34:58.718Z",
+        "last_ts": "2026-11-06T07:07:20.682Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2319,
       "domain": "checksum.openverbs.com",
       "canonical_domain": "openverbs.com",
@@ -18989,7 +19050,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:20:12.111Z",
+      "last_seen": "2026-11-06T07:05:27.108Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -19175,7 +19236,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:23:05.592Z",
+      "last_seen": "2026-11-06T07:07:49.714Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -19485,7 +19546,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:19:34.915Z",
+      "last_seen": "2026-11-06T07:05:17.682Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -19795,7 +19856,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:19:42.812Z",
+      "last_seen": "2026-11-06T07:05:44.255Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -20211,68 +20272,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 2467,
-      "domain": "agentkit-x402-buy.netlify.app",
-      "canonical_domain": "agentkit-x402-buy.netlify.app",
-      "tier": "tail",
-      "category": "data",
-      "denominator_calls": 9,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.299145051727044,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:24:02.068Z",
-      "onchain_inflow_30d_usdc": "0.006000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0xeb76f3442eaf192ebddbc1f7eebd59cde5e00d35"
-      ],
-      "bazaar_listing_count": 1,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 9,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T18:34:58.718Z",
-      "window": {
-        "size": 50,
-        "calls": 9,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.299145051727044,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T18:34:58.718Z",
-        "last_ts": "2026-11-06T01:06:06.877Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 2677,
       "domain": "agents.crowdspark.me",
       "canonical_domain": "crowdspark.me",
@@ -20291,7 +20290,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:07:34.129Z",
+      "last_seen": "2026-11-06T07:05:52.517Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -20353,7 +20352,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:03:05.886Z",
+      "last_seen": "2026-11-06T07:07:44.224Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -20849,7 +20848,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:26:53.431Z",
+      "last_seen": "2026-11-06T07:06:07.684Z",
       "onchain_inflow_30d_usdc": "0.370000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -20911,7 +20910,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:06:59.737Z",
+      "last_seen": "2026-11-06T07:03:04.743Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -21221,7 +21220,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:18:35.549Z",
+      "last_seen": "2026-11-06T07:01:47.462Z",
       "onchain_inflow_30d_usdc": "0.120000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -21283,7 +21282,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:21:30.976Z",
+      "last_seen": "2026-11-06T07:08:01.318Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -21407,7 +21406,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:13:56.436Z",
+      "last_seen": "2026-11-06T07:06:42.234Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -21469,7 +21468,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:26:40.862Z",
+      "last_seen": "2026-11-06T07:03:10.981Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -21531,7 +21530,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:15:27.118Z",
+      "last_seen": "2026-11-06T07:07:25.629Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -21593,7 +21592,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:18:16.927Z",
+      "last_seen": "2026-11-06T07:06:35.341Z",
       "onchain_inflow_30d_usdc": "3.624131",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -21717,7 +21716,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:17:17.776Z",
+      "last_seen": "2026-11-06T07:07:52.618Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -21965,7 +21964,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:26:11.853Z",
+      "last_seen": "2026-11-06T07:05:00.607Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -22089,7 +22088,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:12:57.459Z",
+      "last_seen": "2026-11-06T07:05:24.519Z",
       "onchain_inflow_30d_usdc": "0.306000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -22213,7 +22212,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.008000",
-      "last_seen": "2026-11-06T06:20:23.570Z",
+      "last_seen": "2026-11-06T07:05:47.319Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -22337,7 +22336,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:23:14.437Z",
+      "last_seen": "2026-11-06T07:03:45.400Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -22399,7 +22398,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:13:22.070Z",
+      "last_seen": "2026-11-06T07:06:49.598Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -22709,7 +22708,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:02:16.688Z",
+      "last_seen": "2026-11-06T07:06:27.092Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -22771,7 +22770,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:14:50.555Z",
+      "last_seen": "2026-11-06T07:06:01.415Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -22833,7 +22832,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:13:14.263Z",
+      "last_seen": "2026-11-06T07:06:12.584Z",
       "onchain_inflow_30d_usdc": "0.584000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -23019,7 +23018,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:24:55.480Z",
+      "last_seen": "2026-11-06T07:01:52.517Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -23143,7 +23142,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:16:57.418Z",
+      "last_seen": "2026-11-06T07:02:12.920Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -23205,7 +23204,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.009000",
-      "last_seen": "2026-11-06T06:08:19.463Z",
+      "last_seen": "2026-11-06T07:02:24.467Z",
       "onchain_inflow_30d_usdc": "1.195100",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -23515,7 +23514,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:18:05.267Z",
+      "last_seen": "2026-11-06T07:03:49.717Z",
       "onchain_inflow_30d_usdc": "145.669698",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -23702,7 +23701,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:16:12.939Z",
+      "last_seen": "2026-11-06T07:02:07.434Z",
       "onchain_inflow_30d_usdc": "1.730000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -23764,7 +23763,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:05:05.991Z",
+      "last_seen": "2026-11-06T07:00:43.785Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -23826,7 +23825,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:09:00.298Z",
+      "last_seen": "2026-11-06T07:01:36.401Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -24818,7 +24817,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:16:05.600Z",
+      "last_seen": "2026-11-06T07:07:47.096Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -24880,7 +24879,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:27:49.938Z",
+      "last_seen": "2026-11-06T07:04:58.389Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -25066,7 +25065,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:16:41.791Z",
+      "last_seen": "2026-11-06T07:05:31.158Z",
       "onchain_inflow_30d_usdc": "0.205000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -25128,7 +25127,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:27:58.939Z",
+      "last_seen": "2026-11-06T07:02:06.443Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -25190,7 +25189,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.004000",
-      "last_seen": "2026-11-06T06:03:16.258Z",
+      "last_seen": "2026-11-06T07:07:16.313Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -25252,7 +25251,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.004000",
-      "last_seen": "2026-11-06T06:17:33.339Z",
+      "last_seen": "2026-11-06T07:01:57.228Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -25314,7 +25313,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:26:42.915Z",
+      "last_seen": "2026-11-06T07:07:25.024Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -25376,7 +25375,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:08:56.051Z",
+      "last_seen": "2026-11-06T07:06:47.150Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -25748,7 +25747,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:27:11.914Z",
+      "last_seen": "2026-11-06T07:06:26.187Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -26616,7 +26615,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.006000",
-      "last_seen": "2026-11-06T06:18:07.340Z",
+      "last_seen": "2026-11-06T07:06:51.173Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -26804,7 +26803,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:27:38.754Z",
+      "last_seen": "2026-11-06T07:05:59.934Z",
       "onchain_inflow_30d_usdc": "0.253000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -27146,7 +27145,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:02:06.943Z",
+      "last_seen": "2026-11-06T07:07:17.899Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -27270,7 +27269,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:04:29.666Z",
+      "last_seen": "2026-11-06T07:07:26.338Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -27394,7 +27393,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:07:19.508Z",
+      "last_seen": "2026-11-06T07:04:35.499Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -27828,7 +27827,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:26:55.986Z",
+      "last_seen": "2026-11-06T07:05:10.882Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -27996,6 +27995,68 @@
       "low_sample": true
     },
     {
+      "seller_id": 2971,
+      "domain": "x402-v2-mint-rubygems-lookup.vercel.app",
+      "canonical_domain": "x402-v2-mint-rubygems-lookup.vercel.app",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 7,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.35433043867586833,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-06T07:06:11.597Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xc22f9caebac37fe72d5142f35f21f6696ea9ef69"
+      ],
+      "bazaar_listing_count": 1,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 7,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T03:23:29.217Z",
+      "first_buy_at": "2026-10-30T12:34:58.521Z",
+      "window": {
+        "size": 50,
+        "calls": 7,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.35433043867586833,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-30T12:34:58.521Z",
+        "last_ts": "2026-11-06T07:06:11.597Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2967,
       "domain": "x402-v2-mint-schema-json-repair.vercel.app",
       "canonical_domain": "x402-v2-mint-schema-json-repair.vercel.app",
@@ -28014,7 +28075,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:08:14.184Z",
+      "last_seen": "2026-11-06T07:04:17.852Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -28200,7 +28261,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:15:41.829Z",
+      "last_seen": "2026-11-06T07:07:39.118Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -28262,7 +28323,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:13:53.816Z",
+      "last_seen": "2026-11-06T07:06:06.891Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -28634,7 +28695,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:04:15.869Z",
+      "last_seen": "2026-11-06T07:03:00.275Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -28696,7 +28757,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:20:33.752Z",
+      "last_seen": "2026-11-06T07:06:00.745Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -28883,7 +28944,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:20:00.200Z",
+      "last_seen": "2026-11-06T07:02:24.203Z",
       "onchain_inflow_30d_usdc": "1.354000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -28945,7 +29006,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:01:00.619Z",
+      "last_seen": "2026-11-06T07:07:51.202Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -29007,7 +29068,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:01:43.428Z",
+      "last_seen": "2026-11-06T07:05:37.298Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -29317,7 +29378,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.004000",
-      "last_seen": "2026-11-06T06:16:09.451Z",
+      "last_seen": "2026-11-06T07:04:37.979Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -29503,7 +29564,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:18:08.173Z",
+      "last_seen": "2026-11-06T07:04:11.383Z",
       "onchain_inflow_30d_usdc": "0.061000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -29751,7 +29812,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:04:47.576Z",
+      "last_seen": "2026-11-06T07:01:59.865Z",
       "onchain_inflow_30d_usdc": "0.769150",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -29937,7 +29998,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:22:27.051Z",
+      "last_seen": "2026-11-06T07:04:24.736Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -29999,7 +30060,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:17:47.400Z",
+      "last_seen": "2026-11-06T07:06:46.049Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -30185,7 +30246,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:08:05.190Z",
+      "last_seen": "2026-11-06T07:01:20.848Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -30557,7 +30618,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:13:24.088Z",
+      "last_seen": "2026-11-06T07:03:01.461Z",
       "onchain_inflow_30d_usdc": "38.140000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -30619,7 +30680,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:25:44.853Z",
+      "last_seen": "2026-11-06T07:07:20.307Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -30744,7 +30805,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:15:56.857Z",
+      "last_seen": "2026-11-06T07:06:32.738Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -30992,7 +31053,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:02:38.514Z",
+      "last_seen": "2026-11-06T07:00:50.960Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -31116,7 +31177,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:03:51.998Z",
+      "last_seen": "2026-11-06T07:03:24.974Z",
       "onchain_inflow_30d_usdc": "7.905000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -31488,7 +31549,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:25:56.126Z",
+      "last_seen": "2026-11-06T07:05:38.389Z",
       "onchain_inflow_30d_usdc": "0.270000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -31737,7 +31798,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:09:54.178Z",
+      "last_seen": "2026-11-06T07:07:18.874Z",
       "onchain_inflow_30d_usdc": "0.803000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -31861,7 +31922,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:18:44.055Z",
+      "last_seen": "2026-11-06T07:06:53.010Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -32109,7 +32170,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:22:39.614Z",
+      "last_seen": "2026-11-06T07:07:55.033Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -32295,7 +32356,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.004000",
-      "last_seen": "2026-11-06T06:22:32.496Z",
+      "last_seen": "2026-11-06T07:01:38.909Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -32587,6 +32648,68 @@
       "low_sample": true
     },
     {
+      "seller_id": 1038,
+      "domain": "datoka-agent.bhazarstudio.workers.dev",
+      "canonical_domain": "bhazarstudio.workers.dev",
+      "tier": null,
+      "category": "compute",
+      "denominator_calls": 5,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.4344824686593928,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-06T07:04:44.130Z",
+      "onchain_inflow_30d_usdc": "2.832669",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x4a7a972f84e2a64b3b9b64ac1383df5c413c0e59"
+      ],
+      "bazaar_listing_count": 1,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 98,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T18:33:29.996Z",
+      "window": {
+        "size": 50,
+        "calls": 5,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.4344824686593928,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T18:45:33.305Z",
+        "last_ts": "2026-11-06T07:04:44.130Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 119,
       "domain": "dns.use.x402atlas.com",
       "canonical_domain": "x402atlas.com",
@@ -32667,7 +32790,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:05:20.803Z",
+      "last_seen": "2026-11-06T07:05:33.411Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -33101,7 +33224,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:01:41.921Z",
+      "last_seen": "2026-11-06T07:02:39.274Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -33287,7 +33410,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:04:02.170Z",
+      "last_seen": "2026-11-06T07:03:32.543Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -33473,7 +33596,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:18:03.231Z",
+      "last_seen": "2026-11-06T07:07:45.418Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -33659,7 +33782,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:06:55.146Z",
+      "last_seen": "2026-11-06T07:01:32.406Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -33907,7 +34030,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.008000",
-      "last_seen": "2026-11-06T06:13:27.620Z",
+      "last_seen": "2026-11-06T07:00:54.923Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -33969,7 +34092,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:25:33.725Z",
+      "last_seen": "2026-11-06T07:01:04.279Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -34344,7 +34467,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:13:40.066Z",
+      "last_seen": "2026-11-06T07:05:54.082Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -34716,7 +34839,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:21:41.141Z",
+      "last_seen": "2026-11-06T07:03:52.341Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -35026,7 +35149,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-06T06:03:28.854Z",
+      "last_seen": "2026-11-06T07:00:36.895Z",
       "onchain_inflow_30d_usdc": "2.040000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -35461,7 +35584,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:17:45.046Z",
+      "last_seen": "2026-11-06T07:02:43.171Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -35709,7 +35832,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-06T06:27:47.355Z",
+      "last_seen": "2026-11-06T07:06:24.810Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -36019,7 +36142,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.008000",
-      "last_seen": "2026-11-06T06:23:43.664Z",
+      "last_seen": "2026-11-06T07:01:42.301Z",
       "onchain_inflow_30d_usdc": "11.561000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -36081,7 +36204,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:02:37.465Z",
+      "last_seen": "2026-11-06T07:06:57.476Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -36453,7 +36576,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.008800",
-      "last_seen": "2026-11-06T06:02:10.866Z",
+      "last_seen": "2026-11-06T07:05:12.773Z",
       "onchain_inflow_30d_usdc": "3.857100",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -36515,7 +36638,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:07:35.413Z",
+      "last_seen": "2026-11-06T07:02:22.026Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -36577,7 +36700,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-06T06:27:51.781Z",
+      "last_seen": "2026-11-06T07:04:00.134Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -36763,7 +36886,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001500",
-      "last_seen": "2026-11-06T06:18:40.595Z",
+      "last_seen": "2026-11-06T07:07:33.055Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -37259,7 +37382,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-06T06:27:17.262Z",
+      "last_seen": "2026-11-06T07:04:34.732Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -37321,7 +37444,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:22:49.303Z",
+      "last_seen": "2026-11-06T07:01:13.004Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -37693,7 +37816,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:08:11.191Z",
+      "last_seen": "2026-11-06T07:02:36.663Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -38109,68 +38232,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 2971,
-      "domain": "x402-v2-mint-rubygems-lookup.vercel.app",
-      "canonical_domain": "x402-v2-mint-rubygems-lookup.vercel.app",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 5,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.4344824686593928,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:12:45.161Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0xc22f9caebac37fe72d5142f35f21f6696ea9ef69"
-      ],
-      "bazaar_listing_count": 1,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 5,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-30T03:23:29.217Z",
-      "first_buy_at": "2026-10-30T12:34:58.521Z",
-      "window": {
-        "size": 50,
-        "calls": 5,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.4344824686593928,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-30T12:34:58.521Z",
-        "last_ts": "2026-10-31T00:30:40.026Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 2969,
       "domain": "x402-v2-mint-safe-math.vercel.app",
       "canonical_domain": "x402-v2-mint-safe-math.vercel.app",
@@ -38437,7 +38498,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:02:32.483Z",
+      "last_seen": "2026-11-06T07:01:10.560Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -38561,7 +38622,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:26:32.205Z",
+      "last_seen": "2026-11-06T07:01:56.107Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -38623,7 +38684,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:11:21.640Z",
+      "last_seen": "2026-11-06T07:04:22.835Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -39119,7 +39180,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-06T06:25:35.415Z",
+      "last_seen": "2026-11-06T07:06:22.781Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
