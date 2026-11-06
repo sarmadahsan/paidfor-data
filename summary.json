@@ -1,57 +1,57 @@
 {
-  "generated_at": "2026-11-06T12:28:47.933Z",
+  "generated_at": "2026-11-06T13:27:39.518Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
-  "last_updated": "2026-11-06T12:28:47.933Z",
+  "last_updated": "2026-11-06T13:27:39.518Z",
   "last_buy_run": {
-    "started_at": "2026-11-06T07:02:14.487Z",
-    "finished_at": "2026-11-06T07:07:24.529Z",
-    "status": "ok",
-    "last_activity": "2026-11-06T07:07:21.915Z",
+    "started_at": "2026-11-06T13:05:18.048Z",
+    "finished_at": "2026-11-06T13:10:09.209Z",
+    "status": "cap_reached",
+    "last_activity": "2026-11-06T13:09:44.359Z",
     "reason": null
   },
   "last_probe_run": {
-    "started_at": "2026-11-06T12:00:33.964Z",
-    "finished_at": "2026-11-06T12:28:27.520Z",
+    "started_at": "2026-11-06T13:00:34.111Z",
+    "finished_at": "2026-11-06T13:28:16.660Z",
     "status": "ok",
-    "last_activity": "2026-11-06T12:28:27.484Z",
+    "last_activity": "2026-11-06T13:28:16.616Z",
     "reason": null
   },
   "study_window": {
     "first_call": "2026-10-24T20:25:34.157Z",
-    "last_call": "2026-11-06T07:07:21.915Z"
+    "last_call": "2026-11-06T13:27:32.796Z"
   },
-  "denominator_paid_calls": 20422,
+  "denominator_paid_calls": 20516,
   "count_weighted": {
-    "failures": 1225,
-    "rate": 0.05998433062383704,
-    "wilson_low": 0.056809581274682136,
-    "wilson_high": 0.06332458621217793
+    "failures": 1232,
+    "rate": 0.06005069214271788,
+    "wilson_low": 0.05688134475248938,
+    "wilson_high": 0.06338476275260428
   },
   "dollar_weighted": {
-    "denominator_usdc": "91.687082",
-    "failed_usdc": "10.874511",
-    "rate": 0.118604614333783,
-    "wilson_low": 0.10725957973079742,
-    "wilson_high": 0.13097358401570208,
-    "effective_n": 2857.9,
+    "denominator_usdc": "92.295771",
+    "failed_usdc": "10.984511",
+    "rate": 0.11901423955817,
+    "wilson_low": 0.10765537483392376,
+    "wilson_high": 0.13139511950519048,
+    "effective_n": 2860.2,
     "interval_note": "Kish effective-n approximation"
   },
   "failures_by_type": [
     {
       "outcome": "overcharge",
       "n": 406,
-      "share_of_calls": 0.01988052100675742,
-      "share_of_failures": 0.3314285714285714,
+      "share_of_calls": 0.01978943263794112,
+      "share_of_failures": 0.32954545454545453,
       "usdc": "3.121499",
       "resolved_late": 0
     },
     {
       "outcome": "non_delivery",
-      "n": 819,
-      "share_of_calls": 0.04010380961707962,
-      "share_of_failures": 0.6685714285714286,
-      "usdc": "7.753012",
+      "n": 826,
+      "share_of_calls": 0.04026125950477676,
+      "share_of_failures": 0.6704545454545454,
+      "usdc": "7.863012",
       "resolved_late": 1
     },
     {
@@ -71,17 +71,17 @@
       "resolved_late": 0
     }
   ],
-  "sellers_reached": 813,
-  "resources_reached": 2613,
-  "sellers_with_min_calls": 263,
-  "usdc_spent": "92.748082",
-  "usdc_signed": "110.377019",
+  "sellers_reached": 816,
+  "resources_reached": 2617,
+  "sellers_with_min_calls": 265,
+  "usdc_spent": "95.496771",
+  "usdc_signed": "113.186508",
   "usdc_spent_by_source": [
     {
       "source": "audit_demand",
-      "paid_calls": 570,
-      "spent_usdc": "2.920000",
-      "settled_usdc": "0.470000"
+      "paid_calls": 640,
+      "spent_usdc": "4.730000",
+      "settled_usdc": "2.280000"
     },
     {
       "source": "audit_operator",
@@ -97,9 +97,9 @@
     },
     {
       "source": "buy",
-      "paid_calls": 22554,
-      "spent_usdc": "104.857019",
-      "settled_usdc": "90.248082"
+      "paid_calls": 22672,
+      "spent_usdc": "105.856508",
+      "settled_usdc": "91.186771"
     },
     {
       "source": "stress_duplicate",
@@ -115,9 +115,9 @@
     }
   ],
   "outside_denominator": {
-    "our_error": 822,
+    "our_error": 830,
     "indeterminate": 0,
-    "not_paid": 1634,
+    "not_paid": 1646,
     "unclassified": 0,
     "unpaid_overcharge": 1,
     "unpaid_overcharge_exposure_usdc": "0.250000"
@@ -128,95 +128,95 @@
       "min_ratio": "1.1",
       "overcharge_kept": 374,
       "overcharge_dropped": 32,
-      "rate": 0.05841739300754089,
-      "wilson_low": 0.055283055004472975,
-      "wilson_high": 0.06171782663324171,
-      "dollar_rate": 0.114465252585964
+      "rate": 0.05849093390524469,
+      "wilson_low": 0.05536169153682757,
+      "wilson_high": 0.06178548348878048,
+      "dollar_rate": 0.114902176828882
     },
     {
       "min_ratio": "2.0",
       "overcharge_kept": 339,
       "overcharge_dropped": 67,
-      "rate": 0.05670355498971697,
-      "wilson_low": 0.0536141642209937,
-      "wilson_high": 0.05995968601921821,
-      "dollar_rate": 0.110050573972896
+      "rate": 0.056784948333008387,
+      "wilson_low": 0.05370030831775467,
+      "wilson_high": 0.060035534308416016,
+      "dollar_rate": 0.11051661294427
     }
   ],
   "by_tier": [
     {
       "tier": "tail",
-      "n": 6023,
+      "n": 6031,
       "failures": 285,
-      "rate": 0.0473186119873817,
-      "wilson_low": 0.04223903858272578,
-      "wilson_high": 0.05297525613472853,
-      "dollar_rate": 0.0910557486632
+      "rate": 0.04725584480185707,
+      "wilson_low": 0.04218286903570612,
+      "wilson_high": 0.052905206233742876,
+      "dollar_rate": 0.091014211879306
     },
     {
       "tier": "top",
-      "n": 4779,
-      "failures": 477,
-      "rate": 0.09981167608286252,
-      "wilson_low": 0.09163203676825232,
-      "wilson_high": 0.1086341579438205,
-      "dollar_rate": 0.062692012946338
+      "n": 4796,
+      "failures": 478,
+      "rate": 0.09966638865721435,
+      "wilson_low": 0.09150629841741192,
+      "wilson_high": 0.10846727719002225,
+      "dollar_rate": 0.062404324248213
     },
     {
       "tier": "unassigned",
-      "n": 9620,
-      "failures": 463,
-      "rate": 0.04812889812889813,
-      "wilson_low": 0.04402918744114365,
-      "wilson_high": 0.0525893471486171,
-      "dollar_rate": 0.202421452038146
+      "n": 9689,
+      "failures": 469,
+      "rate": 0.04840540819486015,
+      "wilson_low": 0.04430800511799628,
+      "wilson_high": 0.0528607624592668,
+      "dollar_rate": 0.203351960375418
     }
   ],
   "by_category": [
     {
       "category": "compute",
-      "n": 2035,
+      "n": 2037,
       "failures": 155,
-      "rate": 0.07616707616707617,
-      "wilson_low": 0.06542369912713175,
-      "wilson_high": 0.08850757273031787,
-      "dollar_rate": 0.038640295541737
+      "rate": 0.07609229258713794,
+      "wilson_low": 0.06535912111228877,
+      "wilson_high": 0.08842129995644564,
+      "dollar_rate": 0.038635113325248
     },
     {
       "category": "data",
-      "n": 8460,
-      "failures": 398,
-      "rate": 0.047044917257683214,
-      "wilson_low": 0.042734981777899715,
-      "wilson_high": 0.05176601552539981,
-      "dollar_rate": 0.204399289524196
+      "n": 8520,
+      "failures": 405,
+      "rate": 0.04753521126760563,
+      "wilson_low": 0.04321739436362604,
+      "wilson_high": 0.05226085482803687,
+      "dollar_rate": 0.20560760824399
     },
     {
       "category": "inference",
-      "n": 3390,
+      "n": 3392,
       "failures": 179,
-      "rate": 0.0528023598820059,
-      "wilson_low": 0.045767522780773916,
-      "wilson_high": 0.06084955502479009,
-      "dollar_rate": 0.15557664117996
+      "rate": 0.05277122641509434,
+      "wilson_low": 0.04574044457851063,
+      "wilson_high": 0.06081384049712382,
+      "dollar_rate": 0.155472289800038
     },
     {
       "category": "other",
-      "n": 5128,
+      "n": 5156,
       "failures": 448,
-      "rate": 0.0873634945397816,
-      "wilson_low": 0.07994072410647826,
-      "wilson_high": 0.09540402613400459,
-      "dollar_rate": 0.115708401580113
+      "rate": 0.08688906128782002,
+      "wilson_low": 0.07950493010477207,
+      "wilson_high": 0.09488830775963132,
+      "dollar_rate": 0.114161626483833
     },
     {
       "category": "scraping",
-      "n": 1409,
+      "n": 1411,
       "failures": 45,
-      "rate": 0.0319375443577005,
-      "wilson_low": 0.023953667603659412,
-      "wilson_high": 0.042466706948203425,
-      "dollar_rate": 0.075567185590563
+      "rate": 0.031892274982282066,
+      "wilson_low": 0.02391959557529039,
+      "wilson_high": 0.042406888068676124,
+      "dollar_rate": 0.075547115691065
     }
   ],
   "audit_purchases": {
@@ -225,15 +225,15 @@
       "sellers": 0
     },
     "audit_demand": {
-      "paid_calls": 570,
-      "sellers": 17
+      "paid_calls": 640,
+      "sellers": 18
     },
     "audit_operator": {
       "paid_calls": 88,
       "sellers": 2
     }
   },
-  "sellers_below_30": 1237,
+  "sellers_below_30": 1234,
   "sellers_new_7d": 422,
   "sellers_measured_trend": [
     {
@@ -262,7 +262,7 @@
     },
     {
       "date": "2026-11-06",
-      "sellers_with_min_calls": 263
+      "sellers_with_min_calls": 265
     }
   ],
   "discovery_last_run": {
