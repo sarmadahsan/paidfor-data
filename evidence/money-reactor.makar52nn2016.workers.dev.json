@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T23:30:29.045Z",
+  "generated_at": "2026-11-07T00:14:29.609Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 67,
+  "failures_total": 68,
   "shown": 25,
   "window": {
     "size": 50,
@@ -19,11 +19,31 @@
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-01T12:50:45.550Z",
-    "last_ts": "2026-11-06T19:07:55.775Z",
-    "last_failure_ts": "2026-11-06T19:07:55.775Z"
+    "first_ts": "2026-11-01T22:05:09.167Z",
+    "last_ts": "2026-11-07T00:10:27.634Z",
+    "last_failure_ts": "2026-11-07T00:10:27.634Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-07T00:10:27.634Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-code-review",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.100000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x36026de670afa81f241975a3e992e292672593de332cb0228692f73ad76ed0ff",
+      "basescan_url": "https://basescan.org/tx/0x36026de670afa81f241975a3e992e292672593de332cb0228692f73ad76ed0ff"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -503,26 +523,6 @@
       ],
       "settlement_tx_hash": "0x68e43b8cb3698235b76f6a5d9dad18bfe2746a8221224ac29a3923b3e2cdce8b",
       "basescan_url": "https://basescan.org/tx/0x68e43b8cb3698235b76f6a5d9dad18bfe2746a8221224ac29a3923b3e2cdce8b"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-05T01:03:00.773Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/base64",
-      "method": "GET",
-      "quote_usdc": "0.002000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x09669829056bde2fadef19d36242e8374738151ec50083283714c9084325c429",
-      "basescan_url": "https://basescan.org/tx/0x09669829056bde2fadef19d36242e8374738151ec50083283714c9084325c429"
     }
   ],
   "corrections_total": 0,
