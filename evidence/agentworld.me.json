@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-11-07T06:30:15.119Z",
+  "generated_at": "2026-11-07T07:13:35.089Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "agentworld.me",
   "seller_id": 2263,
-  "failures_total": 12,
-  "shown": 12,
+  "failures_total": 13,
+  "shown": 13,
   "window": {
     "size": 50,
-    "calls": 13,
-    "failures": 12,
-    "failure_rate": 0.9230769230769231,
-    "wilson_low": 0.666860488286395,
-    "wilson_high": 0.986289578909774,
+    "calls": 14,
+    "failures": 13,
+    "failure_rate": 0.9285714285714286,
+    "wilson_low": 0.6853129533326209,
+    "wilson_high": 0.9872777848933957,
     "by_type": {
-      "non_delivery": 12,
+      "non_delivery": 13,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T20:37:03.547Z",
-    "last_ts": "2026-11-07T00:08:45.906Z",
-    "last_failure_ts": "2026-11-07T00:08:45.906Z"
+    "last_ts": "2026-11-07T07:08:13.480Z",
+    "last_failure_ts": "2026-11-07T07:08:13.480Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-07T07:08:13.480Z",
+      "resource": "https://agentworld.me/api/mlb/duke/ask",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 402,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "payment_rejected"
+        }
+      ],
+      "settlement_tx_hash": "0x0a1a2f5b2f6eda8396849ae76d20720f5e7e08428eccdda0639f601e7c16de80",
+      "basescan_url": "https://basescan.org/tx/0x0a1a2f5b2f6eda8396849ae76d20720f5e7e08428eccdda0639f601e7c16de80"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
