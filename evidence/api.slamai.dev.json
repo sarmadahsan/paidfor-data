@@ -1,29 +1,44 @@
 {
-  "generated_at": "2026-11-08T05:28:53.730Z",
+  "generated_at": "2026-11-08T06:13:59.222Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "api.slamai.dev",
   "seller_id": 1684,
-  "failures_total": 15,
-  "shown": 15,
+  "failures_total": 16,
+  "shown": 16,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 8,
-    "failure_rate": 0.16,
-    "wilson_low": 0.08337420635400901,
-    "wilson_high": 0.2851421617674486,
+    "failures": 9,
+    "failure_rate": 0.18,
+    "wilson_low": 0.09770192623042152,
+    "wilson_high": 0.30796053788389155,
     "by_type": {
-      "non_delivery": 8,
+      "non_delivery": 9,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-10-31T18:42:40.855Z",
-    "last_ts": "2026-11-08T00:11:42.947Z",
-    "last_failure_ts": "2026-11-07T13:10:03.782Z"
+    "first_ts": "2026-10-31T18:46:13.656Z",
+    "last_ts": "2026-11-08T06:11:31.694Z",
+    "last_failure_ts": "2026-11-08T06:11:31.694Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-08T06:11:31.694Z",
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x9fc4e13d923511de973a93420b961d6006af3b690884139e9a9a2b22fe199a11",
+      "basescan_url": "https://basescan.org/tx/0x9fc4e13d923511de973a93420b961d6006af3b690884139e9a9a2b22fe199a11"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",

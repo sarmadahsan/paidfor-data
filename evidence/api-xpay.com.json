@@ -1,29 +1,44 @@
 {
-  "generated_at": "2026-11-08T05:28:53.730Z",
+  "generated_at": "2026-11-08T06:13:59.222Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "api-xpay.com",
   "seller_id": 2,
-  "failures_total": 309,
+  "failures_total": 310,
   "shown": 25,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 25,
-    "failure_rate": 0.5,
-    "wilson_low": 0.36644514218998425,
-    "wilson_high": 0.6335548578100157,
+    "failures": 26,
+    "failure_rate": 0.52,
+    "wilson_low": 0.38511744790185476,
+    "wilson_high": 0.6520286480910008,
     "by_type": {
-      "non_delivery": 25,
+      "non_delivery": 26,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-10-30T12:42:23.357Z",
-    "last_ts": "2026-11-08T00:11:56.270Z",
-    "last_failure_ts": "2026-11-08T00:11:56.270Z"
+    "first_ts": "2026-10-30T18:39:17.323Z",
+    "last_ts": "2026-11-08T06:12:11.701Z",
+    "last_failure_ts": "2026-11-08T06:12:11.701Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-08T06:12:11.701Z",
+      "resource": "https://www.api-xpay.com/x402/status",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xe86f190470a8e83d47d5821cb6bba2474d68d5e3cbe2288c5dea371cc5d6978e",
+      "basescan_url": "https://basescan.org/tx/0xe86f190470a8e83d47d5821cb6bba2474d68d5e3cbe2288c5dea371cc5d6978e"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -383,21 +398,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0xbb98a9583a8c9207a9eb99f1ec88acda898a27b1500545f4a3b0aa4352bde727",
       "basescan_url": "https://basescan.org/tx/0xbb98a9583a8c9207a9eb99f1ec88acda898a27b1500545f4a3b0aa4352bde727"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-31T00:35:13.313Z",
-      "resource": "https://www.api-xpay.com/x402/time",
-      "method": "GET",
-      "quote_usdc": "0.005000",
-      "reference_price_usdc": "0.005000",
-      "reference_source": "bazaar",
-      "http_status": null,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x8c4bdf79431c00e07d865b1d8038f561c97cdcab5e49d2ee8d2e5c0172e256d6",
-      "basescan_url": "https://basescan.org/tx/0x8c4bdf79431c00e07d865b1d8038f561c97cdcab5e49d2ee8d2e5c0172e256d6"
     }
   ],
   "corrections_total": 0,
