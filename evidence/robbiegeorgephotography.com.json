@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-11-08T00:16:23.327Z",
+  "network": "eip155:8453",
+  "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
+  "domain": "robbiegeorgephotography.com",
+  "seller_id": 1523,
+  "failures_total": 5,
+  "shown": 5,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 5,
+    "failure_rate": 1,
+    "wilson_low": 0.5655175313406071,
+    "wilson_high": 1,
+    "by_type": {
+      "non_delivery": 5,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-10-25T18:34:11.519Z",
+    "last_ts": "2026-11-08T00:10:08.965Z",
+    "last_failure_ts": "2026-11-08T00:10:08.965Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-08T00:10:08.965Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x8430e71e62e4ea10a648da5f7b635e04d91c1bda36eebe46a494e2acad3766a4",
+      "basescan_url": "https://basescan.org/tx/0x8430e71e62e4ea10a648da5f7b635e04d91c1bda36eebe46a494e2acad3766a4"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-07T18:10:26.596Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x6e75853f5b56c62b0370248ae517a1717e2ae7850c83145dfd920c3f5d9fe45e",
+      "basescan_url": "https://basescan.org/tx/0x6e75853f5b56c62b0370248ae517a1717e2ae7850c83145dfd920c3f5d9fe45e"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-25T20:36:39.566Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x150f5e840f9006222b047a60c9c3da85e50e4788404369eb466820e49bc49985",
+      "basescan_url": "https://basescan.org/tx/0x150f5e840f9006222b047a60c9c3da85e50e4788404369eb466820e49bc49985"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-25T18:45:51.904Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x29d9465e6a6264d32e0f5ca0207449711c9eb2b7eb2d5ae6f7ba670dd6bc2fce",
+      "basescan_url": "https://basescan.org/tx/0x29d9465e6a6264d32e0f5ca0207449711c9eb2b7eb2d5ae6f7ba670dd6bc2fce"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-10-25T18:34:11.519Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x1de9599c716c35df99755a680ecf5f1773f6440bcf119d81a7cfab54fd47f02a",
+      "basescan_url": "https://basescan.org/tx/0x1de9599c716c35df99755a680ecf5f1773f6440bcf119d81a7cfab54fd47f02a"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
