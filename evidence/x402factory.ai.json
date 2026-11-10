@@ -1,29 +1,109 @@
 {
-  "generated_at": "2026-11-10T17:31:54.971Z",
+  "generated_at": "2026-11-10T18:35:50.780Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "x402factory.ai",
   "seller_id": 1180,
-  "failures_total": 17,
-  "shown": 17,
+  "failures_total": 21,
+  "shown": 21,
   "window": {
     "size": 50,
-    "calls": 17,
-    "failures": 17,
+    "calls": 21,
+    "failures": 21,
     "failure_rate": 1,
-    "wilson_low": 0.8156818626193445,
+    "wilson_low": 0.8453609790128563,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 17,
+      "non_delivery": 21,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T20:36:28.055Z",
-    "last_ts": "2026-11-10T12:25:01.649Z",
-    "last_failure_ts": "2026-11-10T12:25:01.649Z"
+    "last_ts": "2026-11-10T18:23:53.286Z",
+    "last_failure_ts": "2026-11-10T18:23:53.286Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-10T18:23:53.286Z",
+      "resource": "https://x402factory.ai/base/xprofile",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 500,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x73de2d5b10bb2b3441f3e0e5c8aa5508a94248d3176442f77edccc7a8625e0cc",
+      "basescan_url": "https://basescan.org/tx/0x73de2d5b10bb2b3441f3e0e5c8aa5508a94248d3176442f77edccc7a8625e0cc"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-10T18:22:53.148Z",
+      "resource": "https://x402factory.ai/base/xprofile",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 500,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xeb1faa24f1acfe5229797bba2c322e1857adb198d01e6faf6c6b71229fae7b63",
+      "basescan_url": "https://basescan.org/tx/0xeb1faa24f1acfe5229797bba2c322e1857adb198d01e6faf6c6b71229fae7b63"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-10T18:21:35.544Z",
+      "resource": "https://x402factory.ai/base/xprofile",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 500,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x453456dd1c572297aae983ff67dc6368bdaa428752e0a7938ac52af17b4e7af9",
+      "basescan_url": "https://basescan.org/tx/0x453456dd1c572297aae983ff67dc6368bdaa428752e0a7938ac52af17b4e7af9"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-10T18:17:41.854Z",
+      "resource": "https://x402factory.ai/base/xprofile",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 500,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x49b6880f4ca8005b5e92d354753144073734da2016f770dfdf93c271e391b724",
+      "basescan_url": "https://basescan.org/tx/0x49b6880f4ca8005b5e92d354753144073734da2016f770dfdf93c271e391b724"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
