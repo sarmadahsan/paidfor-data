@@ -1,29 +1,74 @@
 {
-  "generated_at": "2026-11-08T09:30:54.135Z",
+  "generated_at": "2026-11-09T23:43:18.822Z",
   "network": "eip155:8453",
   "git_commit": "ec0d2debe6cbda8222c187d015a012788c7a342e",
   "domain": "mr-river6.makar52nn2016.workers.dev",
   "seller_id": 3233,
-  "failures_total": 34,
+  "failures_total": 37,
   "shown": 25,
   "window": {
     "size": 50,
-    "calls": 41,
-    "failures": 34,
-    "failure_rate": 0.8292682926829268,
-    "wilson_low": 0.6873738747186828,
-    "wilson_high": 0.9147474806875768,
+    "calls": 44,
+    "failures": 37,
+    "failure_rate": 0.8409090909090909,
+    "wilson_low": 0.7063379481520559,
+    "wilson_high": 0.9207332303092001,
     "by_type": {
       "non_delivery": 15,
-      "overcharge": 19,
+      "overcharge": 22,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-31T00:36:21.875Z",
-    "last_ts": "2026-11-08T06:13:00.166Z",
-    "last_failure_ts": "2026-11-08T06:13:00.166Z"
+    "last_ts": "2026-11-09T00:40:58.564Z",
+    "last_failure_ts": "2026-11-09T00:40:58.564Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-09T00:40:58.564Z",
+      "resource": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xa4cc27c9f2ccf9858147733521010181fd3601f7e95d5ee9199d7012a30d2ce6",
+      "basescan_url": "https://basescan.org/tx/0xa4cc27c9f2ccf9858147733521010181fd3601f7e95d5ee9199d7012a30d2ce6"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-08T18:41:17.621Z",
+      "resource": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x7fb67aa706010e571e0c77711278043c8f752462e1abe39a3a568dc3d19d16ca",
+      "basescan_url": "https://basescan.org/tx/0x7fb67aa706010e571e0c77711278043c8f752462e1abe39a3a568dc3d19d16ca"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-08T12:40:44.804Z",
+      "resource": "https://mr-river6.makar52nn2016.workers.dev/api/bounties",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xe423380fe41213f9aa62fc39ac7dbc73bda70f718080fbb32607cf0f8ae4a176",
+      "basescan_url": "https://basescan.org/tx/0xe423380fe41213f9aa62fc39ac7dbc73bda70f718080fbb32607cf0f8ae4a176"
+    },
     {
       "correction": null,
       "outcome": "overcharge",
@@ -383,56 +428,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x3bfca3213548971a5945565a51a293a9a1c50c32fb1603ba42e55fff6c9c3e98",
       "basescan_url": "https://basescan.org/tx/0x3bfca3213548971a5945565a51a293a9a1c50c32fb1603ba42e55fff6c9c3e98"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "audit_demand",
-      "timestamp": "2026-11-06T13:12:22.534Z",
-      "resource": "https://mr-river6.makar52nn2016.workers.dev/api/verdict",
-      "method": "GET",
-      "quote_usdc": "0.020000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 503,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x3430e4ac7ac32de9913e7b03be532ae1ec4fad6748aa331a271f186e3993b3b9",
-      "basescan_url": "https://basescan.org/tx/0x3430e4ac7ac32de9913e7b03be532ae1ec4fad6748aa331a271f186e3993b3b9"
-    },
-    {
-      "correction": null,
-      "outcome": "overcharge",
-      "source": "audit_demand",
-      "timestamp": "2026-11-06T13:12:20.571Z",
-      "resource": "https://mr-river6.makar52nn2016.workers.dev/api/uuid",
-      "method": "GET",
-      "quote_usdc": "0.010000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xa78c10ce84c0d8f3d06a854803f780248358c1b2b09841ca6f5adc334af5df8a",
-      "basescan_url": "https://basescan.org/tx/0xa78c10ce84c0d8f3d06a854803f780248358c1b2b09841ca6f5adc334af5df8a"
-    },
-    {
-      "correction": null,
-      "outcome": "overcharge",
-      "source": "audit_demand",
-      "timestamp": "2026-11-06T13:12:18.437Z",
-      "resource": "https://mr-river6.makar52nn2016.workers.dev/api/crypto-price",
-      "method": "GET",
-      "quote_usdc": "0.010000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x309d67978c4ce41ec2719edb65518de88ae5ecc19fc99bbe57c258ed77db1764",
-      "basescan_url": "https://basescan.org/tx/0x309d67978c4ce41ec2719edb65518de88ae5ecc19fc99bbe57c258ed77db1764"
     }
   ],
   "corrections_total": 0,
