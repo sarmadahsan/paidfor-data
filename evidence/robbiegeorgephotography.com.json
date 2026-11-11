@@ -1,29 +1,109 @@
 {
-  "generated_at": "2026-11-11T12:32:42.540Z",
+  "generated_at": "2026-11-11T13:06:39.816Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "robbiegeorgephotography.com",
   "seller_id": 1523,
-  "failures_total": 14,
-  "shown": 14,
+  "failures_total": 18,
+  "shown": 18,
   "window": {
     "size": 50,
-    "calls": 14,
-    "failures": 14,
+    "calls": 18,
+    "failures": 18,
     "failure_rate": 1,
-    "wilson_low": 0.7846891945970195,
+    "wilson_low": 0.8241207740667156,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 14,
+      "non_delivery": 18,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T18:34:11.519Z",
-    "last_ts": "2026-11-11T07:09:35.930Z",
-    "last_failure_ts": "2026-11-11T07:09:35.930Z"
+    "last_ts": "2026-11-11T13:04:19.082Z",
+    "last_failure_ts": "2026-11-11T13:04:19.082Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-11T13:04:19.082Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xd97127504aab89980f5880d3b87c2aea94df28ef3b074cae1bceef197c54aa8b",
+      "basescan_url": "https://basescan.org/tx/0xd97127504aab89980f5880d3b87c2aea94df28ef3b074cae1bceef197c54aa8b"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-11T13:03:18.810Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x9246b4e2e16cab794150da2c178ee8e4b56aac831914681a6f5d2ddaa7058613",
+      "basescan_url": "https://basescan.org/tx/0x9246b4e2e16cab794150da2c178ee8e4b56aac831914681a6f5d2ddaa7058613"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-11T13:01:53.111Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x86c30aeb9e11ae65c8bf9bb7a75ae81ad6749cfd3ca79a2e0c8c8ec98e469ab6",
+      "basescan_url": "https://basescan.org/tx/0x86c30aeb9e11ae65c8bf9bb7a75ae81ad6749cfd3ca79a2e0c8c8ec98e469ab6"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-11T12:59:11.246Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xed7b71311dbbe6a486bc88c0c2de36d4777d3e01593478a2120b202f7804487c",
+      "basescan_url": "https://basescan.org/tx/0xed7b71311dbbe6a486bc88c0c2de36d4777d3e01593478a2120b202f7804487c"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
