@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-11-11T06:34:21.861Z",
+  "generated_at": "2026-11-11T07:10:29.379Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "workspace-x402-paywall.onrender.com",
   "seller_id": 2068,
-  "failures_total": 10,
-  "shown": 10,
+  "failures_total": 11,
+  "shown": 11,
   "window": {
     "size": 50,
-    "calls": 33,
-    "failures": 10,
-    "failure_rate": 0.30303030303030304,
-    "wilson_low": 0.17375531345237225,
-    "wilson_high": 0.4733813528266073,
+    "calls": 35,
+    "failures": 11,
+    "failure_rate": 0.3142857142857143,
+    "wilson_low": 0.18550844594159555,
+    "wilson_high": 0.4797976374439563,
     "by_type": {
-      "non_delivery": 10,
+      "non_delivery": 11,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T09:13:33.636Z",
-    "last_ts": "2026-11-05T01:02:55.376Z",
-    "last_failure_ts": "2026-11-05T01:01:56.020Z"
+    "last_ts": "2026-11-11T07:07:14.963Z",
+    "last_failure_ts": "2026-11-11T07:07:14.963Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-11T07:07:14.963Z",
+      "resource": "https://workspace-x402-paywall.onrender.com/utils/ip",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "not_truncated",
+          "reason": "shorter_than_declared"
+        }
+      ],
+      "settlement_tx_hash": "0x086c4f87703a8c2442aeaf261c94d4c2a38601c16648d58808086ddef58d8d3b",
+      "basescan_url": "https://basescan.org/tx/0x086c4f87703a8c2442aeaf261c94d4c2a38601c16648d58808086ddef58d8d3b"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
