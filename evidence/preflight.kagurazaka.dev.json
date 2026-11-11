@@ -1,29 +1,60 @@
 {
-  "generated_at": "2026-11-11T18:34:02.744Z",
+  "generated_at": "2026-11-11T19:07:07.999Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "preflight.kagurazaka.dev",
   "seller_id": 2729,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 2,
+  "shown": 2,
   "window": {
     "size": 50,
-    "calls": 9,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.299145051727044,
+    "calls": 11,
+    "failures": 2,
+    "failure_rate": 0.18181818181818182,
+    "wilson_low": 0.051367689278583956,
+    "wilson_high": 0.47698056435423286,
     "by_type": {
       "non_delivery": 0,
-      "overcharge": 0,
+      "overcharge": 2,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-30T12:35:18.392Z",
-    "last_ts": "2026-11-03T06:56:28.099Z",
-    "last_failure_ts": null
+    "last_ts": "2026-11-11T19:03:12.110Z",
+    "last_failure_ts": "2026-11-11T19:03:12.110Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-11T19:03:12.110Z",
+      "resource": "https://preflight.kagurazaka.dev/v1/preflight",
+      "method": "GET",
+      "quote_usdc": "0.007000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x8e707c608850dd010a2100caf5d4ba100e7dc132f8ad5d4a520e26f8b2a32c17",
+      "basescan_url": "https://basescan.org/tx/0x8e707c608850dd010a2100caf5d4ba100e7dc132f8ad5d4a520e26f8b2a32c17"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-11T19:01:11.535Z",
+      "resource": "https://preflight.kagurazaka.dev/v1/preflight",
+      "method": "GET",
+      "quote_usdc": "0.007000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xb369994e6ad626b2d406e713cec8019073a62e382a08b67e1c536a7595e74ec9",
+      "basescan_url": "https://basescan.org/tx/0xb369994e6ad626b2d406e713cec8019073a62e382a08b67e1c536a7595e74ec9"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }
