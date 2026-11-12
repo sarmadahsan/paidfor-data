@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-11-12T13:20:57.839Z",
+  "network": "eip155:8453",
+  "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
+  "domain": "aiact-api.com",
+  "seller_id": 2631,
+  "failures_total": 10,
+  "shown": 10,
+  "window": {
+    "size": 50,
+    "calls": 10,
+    "failures": 10,
+    "failure_rate": 1,
+    "wilson_low": 0.7224671969739421,
+    "wilson_high": 1,
+    "by_type": {
+      "non_delivery": 10,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-12T13:11:51.327Z",
+    "last_ts": "2026-11-12T13:20:51.597Z",
+    "last_failure_ts": "2026-11-12T13:20:51.597Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:20:51.597Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x78f3b75e9c087891f1e23e9b48ab4be7300bf2094c42a42616e25eea550190ca",
+      "basescan_url": "https://basescan.org/tx/0x78f3b75e9c087891f1e23e9b48ab4be7300bf2094c42a42616e25eea550190ca"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:19:51.570Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x008d74a7388f4feeea1612c3f0de3b0d2f9eced994befe9cb16e90ab3f5fbf62",
+      "basescan_url": "https://basescan.org/tx/0x008d74a7388f4feeea1612c3f0de3b0d2f9eced994befe9cb16e90ab3f5fbf62"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:18:51.604Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xbe2a054747395a6ef2b5c9bcfbfa200a482c49e874d65e732c1c1fb23bd8d95f",
+      "basescan_url": "https://basescan.org/tx/0xbe2a054747395a6ef2b5c9bcfbfa200a482c49e874d65e732c1c1fb23bd8d95f"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:17:51.486Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xc06701fe518f905bbc82644b019d89da8061ab2d845b472f66ca98ac7997247f",
+      "basescan_url": "https://basescan.org/tx/0xc06701fe518f905bbc82644b019d89da8061ab2d845b472f66ca98ac7997247f"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:16:51.474Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x0740f48ae47050342d64f732b127a466f188b814ee2b352111327056ec86b4fb",
+      "basescan_url": "https://basescan.org/tx/0x0740f48ae47050342d64f732b127a466f188b814ee2b352111327056ec86b4fb"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:15:51.682Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x27ea7ff8f8699e97ab3efee6983b3b36032c834d1de9d379211e3279f92c2f52",
+      "basescan_url": "https://basescan.org/tx/0x27ea7ff8f8699e97ab3efee6983b3b36032c834d1de9d379211e3279f92c2f52"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:14:51.380Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xfccd0a063cfd4c2ca9ba7fd70a9148be805e397a95e643b220f8f3a2accd81ee",
+      "basescan_url": "https://basescan.org/tx/0xfccd0a063cfd4c2ca9ba7fd70a9148be805e397a95e643b220f8f3a2accd81ee"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:13:51.352Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xd983b21166773ca42f06760b31fdf4bec203e01fa1407b55e461e1756e2a6b16",
+      "basescan_url": "https://basescan.org/tx/0xd983b21166773ca42f06760b31fdf4bec203e01fa1407b55e461e1756e2a6b16"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:12:51.370Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xd1a5ce7ae1158bca8215f7638b20a776ca011202ca6c8f61a77d48b40adad54e",
+      "basescan_url": "https://basescan.org/tx/0xd1a5ce7ae1158bca8215f7638b20a776ca011202ca6c8f61a77d48b40adad54e"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-12T13:11:51.327Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x78c70ab09f3ff4cdad890510e14e86dbaab547efeeaa78b86cba83d5579b31dd",
+      "basescan_url": "https://basescan.org/tx/0x78c70ab09f3ff4cdad890510e14e86dbaab547efeeaa78b86cba83d5579b31dd"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
