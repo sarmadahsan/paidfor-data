@@ -1,29 +1,109 @@
 {
-  "generated_at": "2026-11-12T06:32:54.242Z",
+  "generated_at": "2026-11-12T07:09:00.911Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "robbiegeorgephotography.com",
   "seller_id": 1523,
-  "failures_total": 26,
+  "failures_total": 30,
   "shown": 25,
   "window": {
     "size": 50,
-    "calls": 26,
-    "failures": 26,
+    "calls": 30,
+    "failures": 30,
     "failure_rate": 1,
-    "wilson_low": 0.871271076371412,
+    "wilson_low": 0.886486605238548,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 26,
+      "non_delivery": 30,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T18:34:11.519Z",
-    "last_ts": "2026-11-12T01:10:35.508Z",
-    "last_failure_ts": "2026-11-12T01:10:35.508Z"
+    "last_ts": "2026-11-12T07:06:54.822Z",
+    "last_failure_ts": "2026-11-12T07:06:54.822Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-12T07:06:54.822Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x0947ae71410c50b8816c7d18de8604de29a7146073e2c0f78c4d773cf3b9259e",
+      "basescan_url": "https://basescan.org/tx/0x0947ae71410c50b8816c7d18de8604de29a7146073e2c0f78c4d773cf3b9259e"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-12T07:05:53.999Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x3085b58926565a9dfb8f8d5c7aa1cf2b6d9f2b0dd60935fab267619038152185",
+      "basescan_url": "https://basescan.org/tx/0x3085b58926565a9dfb8f8d5c7aa1cf2b6d9f2b0dd60935fab267619038152185"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-12T07:04:01.352Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x5c6bf40f8faec8229091fdd308aa380a77a6f7e673e93a42eb088361b53b6270",
+      "basescan_url": "https://basescan.org/tx/0x5c6bf40f8faec8229091fdd308aa380a77a6f7e673e93a42eb088361b53b6270"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-12T07:00:47.704Z",
+      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x75f1fdbe04c13fa9cdc1e67be8e894c17784037e99cc39119e272c3c87e1bf2c",
+      "basescan_url": "https://basescan.org/tx/0x75f1fdbe04c13fa9cdc1e67be8e894c17784037e99cc39119e272c3c87e1bf2c"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -443,86 +523,6 @@
       ],
       "settlement_tx_hash": "0xcf51005d5baa6f1bfedd81b0844c10624efcf40f511c291698190379c683e639",
       "basescan_url": "https://basescan.org/tx/0xcf51005d5baa6f1bfedd81b0844c10624efcf40f511c291698190379c683e639"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-08T00:10:08.965Z",
-      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
-      "method": "GET",
-      "quote_usdc": "0.005000",
-      "reference_price_usdc": "0.005000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x8430e71e62e4ea10a648da5f7b635e04d91c1bda36eebe46a494e2acad3766a4",
-      "basescan_url": "https://basescan.org/tx/0x8430e71e62e4ea10a648da5f7b635e04d91c1bda36eebe46a494e2acad3766a4"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-07T18:10:26.596Z",
-      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
-      "method": "GET",
-      "quote_usdc": "0.005000",
-      "reference_price_usdc": "0.005000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x6e75853f5b56c62b0370248ae517a1717e2ae7850c83145dfd920c3f5d9fe45e",
-      "basescan_url": "https://basescan.org/tx/0x6e75853f5b56c62b0370248ae517a1717e2ae7850c83145dfd920c3f5d9fe45e"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T20:36:39.566Z",
-      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
-      "method": "GET",
-      "quote_usdc": "0.005000",
-      "reference_price_usdc": "0.005000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x150f5e840f9006222b047a60c9c3da85e50e4788404369eb466820e49bc49985",
-      "basescan_url": "https://basescan.org/tx/0x150f5e840f9006222b047a60c9c3da85e50e4788404369eb466820e49bc49985"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T18:45:51.904Z",
-      "resource": "https://www.robbiegeorgephotography.com/v1/query/atomic/robbie-george-biography-plate",
-      "method": "GET",
-      "quote_usdc": "0.005000",
-      "reference_price_usdc": "0.005000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x29d9465e6a6264d32e0f5ca0207449711c9eb2b7eb2d5ae6f7ba670dd6bc2fce",
-      "basescan_url": "https://basescan.org/tx/0x29d9465e6a6264d32e0f5ca0207449711c9eb2b7eb2d5ae6f7ba670dd6bc2fce"
     }
   ],
   "corrections_total": 0,
