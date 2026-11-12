@@ -1,29 +1,60 @@
 {
-  "generated_at": "2026-11-12T18:35:26.110Z",
+  "generated_at": "2026-11-12T19:15:33.408Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "api.agentweather.io",
   "seller_id": 1131,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 2,
+  "shown": 2,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.07134760017861413,
+    "failures": 2,
+    "failure_rate": 0.04,
+    "wilson_low": 0.011038884228173507,
+    "wilson_high": 0.13460090793615148,
     "by_type": {
       "non_delivery": 0,
-      "overcharge": 0,
+      "overcharge": 2,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-10-25T20:36:21.891Z",
-    "last_ts": "2026-11-04T07:06:13.597Z",
-    "last_failure_ts": null
+    "first_ts": "2026-10-25T20:39:35.573Z",
+    "last_ts": "2026-11-12T19:12:29.576Z",
+    "last_failure_ts": "2026-11-12T19:12:29.576Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-12T19:12:29.576Z",
+      "resource": "https://api.agentweather.io/v1/pulse/providers",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xf16bf9238818da5a78068883fdb32e9fca05d6c9af0bfd6051f2eae16ec46137",
+      "basescan_url": "https://basescan.org/tx/0xf16bf9238818da5a78068883fdb32e9fca05d6c9af0bfd6051f2eae16ec46137"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-12T19:08:32.034Z",
+      "resource": "https://api.agentweather.io/v1/pulse/providers",
+      "method": "GET",
+      "quote_usdc": "0.003000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x2ffd9b9fefaf8cb7191a96f3a892e2c9467be84658fbaf22cfb9b6f9dee6e1af",
+      "basescan_url": "https://basescan.org/tx/0x2ffd9b9fefaf8cb7191a96f3a892e2c9467be84658fbaf22cfb9b6f9dee6e1af"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }
