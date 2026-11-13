@@ -1,29 +1,60 @@
 {
-  "generated_at": "2026-11-13T06:33:04.760Z",
+  "generated_at": "2026-11-13T07:13:36.580Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "settle.moneytools.dev",
   "seller_id": 3795,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 2,
+  "shown": 2,
   "window": {
     "size": 50,
-    "calls": 5,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.4344824686593928,
+    "calls": 7,
+    "failures": 2,
+    "failure_rate": 0.2857142857142857,
+    "wilson_low": 0.08221892324928326,
+    "wilson_high": 0.6410655504689459,
     "by_type": {
       "non_delivery": 0,
-      "overcharge": 0,
+      "overcharge": 2,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-11T07:04:38.485Z",
-    "last_ts": "2026-11-11T18:59:34.937Z",
-    "last_failure_ts": null
+    "last_ts": "2026-11-13T07:10:43.292Z",
+    "last_failure_ts": "2026-11-13T07:10:43.292Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-13T07:10:43.292Z",
+      "resource": "https://settle.moneytools.dev/v1/spend/check",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xfb13d9410c20134211cf7196c88126d41831e8292848fc3303d991aed8227c45",
+      "basescan_url": "https://basescan.org/tx/0xfb13d9410c20134211cf7196c88126d41831e8292848fc3303d991aed8227c45"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-13T07:08:49.069Z",
+      "resource": "https://settle.moneytools.dev/v1/spend/check",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xa665f1a86b89fcb4b429877082bdb5c7d17e361a72d727840bf5e0ae2a864e96",
+      "basescan_url": "https://basescan.org/tx/0xa665f1a86b89fcb4b429877082bdb5c7d17e361a72d727840bf5e0ae2a864e96"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

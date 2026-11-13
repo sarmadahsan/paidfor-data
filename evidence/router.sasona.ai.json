@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-13T07:13:36.580Z",
+  "network": "eip155:8453",
+  "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
+  "domain": "router.sasona.ai",
+  "seller_id": 3322,
+  "failures_total": 1,
+  "shown": 1,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 1,
+    "failure_rate": 0.2,
+    "wilson_low": 0.03622410822563066,
+    "wilson_high": 0.6244653729700049,
+    "by_type": {
+      "non_delivery": 1,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-12T19:07:43.654Z",
+    "last_ts": "2026-11-13T07:07:18.234Z",
+    "last_failure_ts": "2026-11-13T07:07:18.234Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-13T07:07:18.234Z",
+      "resource": "https://router.sasona.ai/x402/goflightlabs-retrieve-countries/bazaar",
+      "method": "POST",
+      "quote_usdc": "0.006750",
+      "reference_price_usdc": "0.006750",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xcc027133abd29297adb219de179d74c05bae70bb358dc1efc7ba6f1c97d11719",
+      "basescan_url": "https://basescan.org/tx/0xcc027133abd29297adb219de179d74c05bae70bb358dc1efc7ba6f1c97d11719"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
