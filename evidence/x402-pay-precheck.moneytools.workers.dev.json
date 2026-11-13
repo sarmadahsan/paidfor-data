@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-13T18:17:42.881Z",
+  "network": "eip155:8453",
+  "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
+  "domain": "x402-pay-precheck.moneytools.workers.dev",
+  "seller_id": 3870,
+  "failures_total": 2,
+  "shown": 2,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 2,
+    "failure_rate": 0.4,
+    "wilson_low": 0.11762077314099717,
+    "wilson_high": 0.7692757205908813,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 2,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-13T07:08:19.790Z",
+    "last_ts": "2026-11-13T18:10:01.437Z",
+    "last_failure_ts": "2026-11-13T07:10:34.421Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-13T07:10:34.421Z",
+      "resource": "https://x402-pay-precheck.moneytools.workers.dev/v1/recommend",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.004000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x2023518f853488bf300f81e37a866478f4c0a1f4786783c35af22f118b97dbd4",
+      "basescan_url": "https://basescan.org/tx/0x2023518f853488bf300f81e37a866478f4c0a1f4786783c35af22f118b97dbd4"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-13T07:08:19.790Z",
+      "resource": "https://x402-pay-precheck.moneytools.workers.dev/v1/recommend",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.004000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xcba6e54b87e869d3236a5e0a96efd1abdcd5076ddb9376504c8d878447b54fef",
+      "basescan_url": "https://basescan.org/tx/0xcba6e54b87e869d3236a5e0a96efd1abdcd5076ddb9376504c8d878447b54fef"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
