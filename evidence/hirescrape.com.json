@@ -1,29 +1,69 @@
 {
-  "generated_at": "2026-11-13T00:33:41.136Z",
+  "generated_at": "2026-11-13T01:17:09.900Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "hirescrape.com",
   "seller_id": 916,
-  "failures_total": 7,
-  "shown": 7,
+  "failures_total": 9,
+  "shown": 9,
   "window": {
     "size": 50,
-    "calls": 7,
-    "failures": 7,
+    "calls": 9,
+    "failures": 9,
     "failure_rate": 1,
-    "wilson_low": 0.6456695613241317,
+    "wilson_low": 0.700854948272956,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 7,
+      "non_delivery": 9,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-30T02:59:57.481Z",
-    "last_ts": "2026-11-01T06:57:21.841Z",
-    "last_failure_ts": "2026-11-01T06:57:21.841Z"
+    "last_ts": "2026-11-13T01:12:54.676Z",
+    "last_failure_ts": "2026-11-13T01:12:54.676Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-13T01:12:54.676Z",
+      "resource": "https://hirescrape.com/api/tools/tiktok",
+      "method": "POST",
+      "quote_usdc": "0.002250",
+      "reference_price_usdc": "0.002250",
+      "reference_source": "bazaar",
+      "http_status": 401,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xd2c55164a4ebe75bd288166b95493b06e2b4746d3dbac1344c25ed4be5dbf26a",
+      "basescan_url": "https://basescan.org/tx/0xd2c55164a4ebe75bd288166b95493b06e2b4746d3dbac1344c25ed4be5dbf26a"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-13T01:08:30.391Z",
+      "resource": "https://hirescrape.com/api/tools/tiktok",
+      "method": "POST",
+      "quote_usdc": "0.002250",
+      "reference_price_usdc": "0.002250",
+      "reference_source": "bazaar",
+      "http_status": 401,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xd08d35bd0279b4ec549340cc3fdebfc7fb115371703541d3e64d815e37cd7ea4",
+      "basescan_url": "https://basescan.org/tx/0xd08d35bd0279b4ec549340cc3fdebfc7fb115371703541d3e64d815e37cd7ea4"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
