@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T12:32:22.962Z",
+  "generated_at": "2026-11-14T13:30:42.600Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 113,
+  "failures_total": 115,
   "shown": 25,
   "window": {
     "size": 50,
@@ -14,16 +14,51 @@
     "wilson_low": 0.9286523998213857,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 50,
-      "overcharge": 0,
+      "non_delivery": 49,
+      "overcharge": 1,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-06T07:06:22.499Z",
-    "last_ts": "2026-11-14T06:14:07.571Z",
-    "last_failure_ts": "2026-11-14T06:14:07.571Z"
+    "first_ts": "2026-11-06T13:08:16.793Z",
+    "last_ts": "2026-11-14T13:12:43.314Z",
+    "last_failure_ts": "2026-11-14T13:12:43.314Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T13:12:43.314Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.050000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x3145e298e12c35cf09ac9f3159c50031aa6e439323350a422d9d8885002c9d81",
+      "basescan_url": "https://basescan.org/tx/0x3145e298e12c35cf09ac9f3159c50031aa6e439323350a422d9d8885002c9d81"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-14T13:12:15.583Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/uuid",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x6c12a265d7a3ffc244a0aee91d5c899116013d4c1c4ab5f9ad076969a9399135",
+      "basescan_url": "https://basescan.org/tx/0x6c12a265d7a3ffc244a0aee91d5c899116013d4c1c4ab5f9ad076969a9399135"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -483,46 +518,6 @@
       ],
       "settlement_tx_hash": "0x8366b35b838a7e85c4c501040f567fb227246b5722aadc07ad8ad0aab0a66c24",
       "basescan_url": "https://basescan.org/tx/0x8366b35b838a7e85c4c501040f567fb227246b5722aadc07ad8ad0aab0a66c24"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-12T07:03:44.171Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.050000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x542e9ef7bafb6f53f657e795d5df7256602907938c7f877177913d0c9cdf564f",
-      "basescan_url": "https://basescan.org/tx/0x542e9ef7bafb6f53f657e795d5df7256602907938c7f877177913d0c9cdf564f"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-12T01:06:29.170Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.050000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x10464c49ccf4f5e9f8d37fea60d2a172444ca06cf8c114930e1228a8d83277a8",
-      "basescan_url": "https://basescan.org/tx/0x10464c49ccf4f5e9f8d37fea60d2a172444ca06cf8c114930e1228a8d83277a8"
     }
   ],
   "corrections_total": 0,

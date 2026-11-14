@@ -1,29 +1,69 @@
 {
-  "generated_at": "2026-11-14T12:32:22.962Z",
+  "generated_at": "2026-11-14T13:30:42.600Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "squeezeos-api.onrender.com",
   "seller_id": 152,
-  "failures_total": 2,
-  "shown": 2,
+  "failures_total": 4,
+  "shown": 4,
   "window": {
     "size": 50,
-    "calls": 36,
-    "failures": 2,
-    "failure_rate": 0.05555555555555555,
-    "wilson_low": 0.015369986525553617,
-    "wilson_high": 0.18144657344678355,
+    "calls": 38,
+    "failures": 4,
+    "failure_rate": 0.10526315789473684,
+    "wilson_low": 0.041702573185549874,
+    "wilson_high": 0.2413052185573279,
     "by_type": {
-      "non_delivery": 2,
+      "non_delivery": 4,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T20:35:21.012Z",
-    "last_ts": "2026-11-14T00:13:34.136Z",
-    "last_failure_ts": "2026-11-14T00:13:34.136Z"
+    "last_ts": "2026-11-14T13:15:14.490Z",
+    "last_failure_ts": "2026-11-14T13:15:14.490Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T13:15:14.490Z",
+      "resource": "https://squeezeos-api.onrender.com/v1/scrape",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xc4dab6597984625299a7f5254e33abcbd79a267bf5449eef4d42745530b660fe",
+      "basescan_url": "https://basescan.org/tx/0xc4dab6597984625299a7f5254e33abcbd79a267bf5449eef4d42745530b660fe"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T13:12:16.994Z",
+      "resource": "https://squeezeos-api.onrender.com/v1/scrape",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.010000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x4bddee3e15e9bc9ca570a9d29350950779239ec5543216594a10059558fc5abb",
+      "basescan_url": "https://basescan.org/tx/0x4bddee3e15e9bc9ca570a9d29350950779239ec5543216594a10059558fc5abb"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",

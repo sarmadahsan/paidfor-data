@@ -1,29 +1,229 @@
 {
-  "generated_at": "2026-11-14T12:32:22.962Z",
+  "generated_at": "2026-11-14T13:30:42.600Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "aiact-api.com",
   "seller_id": 2631,
-  "failures_total": 20,
-  "shown": 20,
+  "failures_total": 30,
+  "shown": 25,
   "window": {
     "size": 50,
-    "calls": 20,
-    "failures": 20,
+    "calls": 30,
+    "failures": 30,
     "failure_rate": 1,
-    "wilson_low": 0.8388748398148704,
+    "wilson_low": 0.886486605238548,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 20,
+      "non_delivery": 30,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-12T13:11:51.327Z",
-    "last_ts": "2026-11-13T12:25:10.261Z",
-    "last_failure_ts": "2026-11-13T12:25:10.261Z"
+    "last_ts": "2026-11-14T13:30:36.876Z",
+    "last_failure_ts": "2026-11-14T13:30:36.876Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:30:36.876Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x13a03cf74a1af59120ca44e0df713470335bf43875a1faeec8e8e2a89ec95c96",
+      "basescan_url": "https://basescan.org/tx/0x13a03cf74a1af59120ca44e0df713470335bf43875a1faeec8e8e2a89ec95c96"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:29:36.886Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x4a2c5c9e44f474e5eebc94586053cbcd6b3226010cadd50a13bf296d1877d067",
+      "basescan_url": "https://basescan.org/tx/0x4a2c5c9e44f474e5eebc94586053cbcd6b3226010cadd50a13bf296d1877d067"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:28:36.787Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x043297b1207bbc613a10773c9cdfcf438a0d3d6ea82379ee4eb26293479a417d",
+      "basescan_url": "https://basescan.org/tx/0x043297b1207bbc613a10773c9cdfcf438a0d3d6ea82379ee4eb26293479a417d"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:27:36.720Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x4c2ef522c452bcd347bd2e4105363d956a579b3115ddd1f2cddfd509b576d84b",
+      "basescan_url": "https://basescan.org/tx/0x4c2ef522c452bcd347bd2e4105363d956a579b3115ddd1f2cddfd509b576d84b"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:26:36.680Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x6c3c0790f1cd14e7d00e059d1176e2b9099207953fcc3fe39f33d3eaab1c0620",
+      "basescan_url": "https://basescan.org/tx/0x6c3c0790f1cd14e7d00e059d1176e2b9099207953fcc3fe39f33d3eaab1c0620"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:25:36.643Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x823aedf58a73dee3f9082be5a7fe88eeaccea5983d226c8852e6f13745868cb3",
+      "basescan_url": "https://basescan.org/tx/0x823aedf58a73dee3f9082be5a7fe88eeaccea5983d226c8852e6f13745868cb3"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:24:36.616Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x5f81b65f71e07cc03daebd993f4084b9ff8582f374d4ebabcfb2bed036cffb5a",
+      "basescan_url": "https://basescan.org/tx/0x5f81b65f71e07cc03daebd993f4084b9ff8582f374d4ebabcfb2bed036cffb5a"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:23:36.550Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x3f9020a71762f5c70668ead5fdf54a9bd5817d1176ccb3701f3a2195ead1a752",
+      "basescan_url": "https://basescan.org/tx/0x3f9020a71762f5c70668ead5fdf54a9bd5817d1176ccb3701f3a2195ead1a752"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:22:36.584Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xf7c2887c903fe8e0b465aa7a78250e90cf2c1f888b878a3db73fcbbdf73b1125",
+      "basescan_url": "https://basescan.org/tx/0xf7c2887c903fe8e0b465aa7a78250e90cf2c1f888b878a3db73fcbbdf73b1125"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-14T13:21:36.482Z",
+      "resource": "https://aiact-api.com/articles/006",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xcb3c1b9bffac61cc060c5d949844cab9c34a7333eba08a6615daff278bb9b49b",
+      "basescan_url": "https://basescan.org/tx/0xcb3c1b9bffac61cc060c5d949844cab9c34a7333eba08a6615daff278bb9b49b"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -323,106 +523,6 @@
       ],
       "settlement_tx_hash": "0x0740f48ae47050342d64f732b127a466f188b814ee2b352111327056ec86b4fb",
       "basescan_url": "https://basescan.org/tx/0x0740f48ae47050342d64f732b127a466f188b814ee2b352111327056ec86b4fb"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "audit_demand",
-      "timestamp": "2026-11-12T13:15:51.682Z",
-      "resource": "https://aiact-api.com/articles/006",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x27ea7ff8f8699e97ab3efee6983b3b36032c834d1de9d379211e3279f92c2f52",
-      "basescan_url": "https://basescan.org/tx/0x27ea7ff8f8699e97ab3efee6983b3b36032c834d1de9d379211e3279f92c2f52"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "audit_demand",
-      "timestamp": "2026-11-12T13:14:51.380Z",
-      "resource": "https://aiact-api.com/articles/006",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xfccd0a063cfd4c2ca9ba7fd70a9148be805e397a95e643b220f8f3a2accd81ee",
-      "basescan_url": "https://basescan.org/tx/0xfccd0a063cfd4c2ca9ba7fd70a9148be805e397a95e643b220f8f3a2accd81ee"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "audit_demand",
-      "timestamp": "2026-11-12T13:13:51.352Z",
-      "resource": "https://aiact-api.com/articles/006",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xd983b21166773ca42f06760b31fdf4bec203e01fa1407b55e461e1756e2a6b16",
-      "basescan_url": "https://basescan.org/tx/0xd983b21166773ca42f06760b31fdf4bec203e01fa1407b55e461e1756e2a6b16"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "audit_demand",
-      "timestamp": "2026-11-12T13:12:51.370Z",
-      "resource": "https://aiact-api.com/articles/006",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xd1a5ce7ae1158bca8215f7638b20a776ca011202ca6c8f61a77d48b40adad54e",
-      "basescan_url": "https://basescan.org/tx/0xd1a5ce7ae1158bca8215f7638b20a776ca011202ca6c8f61a77d48b40adad54e"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "audit_demand",
-      "timestamp": "2026-11-12T13:11:51.327Z",
-      "resource": "https://aiact-api.com/articles/006",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x78c70ab09f3ff4cdad890510e14e86dbaab547efeeaa78b86cba83d5579b31dd",
-      "basescan_url": "https://basescan.org/tx/0x78c70ab09f3ff4cdad890510e14e86dbaab547efeeaa78b86cba83d5579b31dd"
     }
   ],
   "corrections_total": 0,
