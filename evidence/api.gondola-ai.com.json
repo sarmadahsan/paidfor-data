@@ -1,29 +1,44 @@
 {
-  "generated_at": "2026-11-14T18:32:56.457Z",
+  "generated_at": "2026-11-14T19:17:38.813Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "api.gondola-ai.com",
   "seller_id": 23,
-  "failures_total": 56,
+  "failures_total": 57,
   "shown": 25,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 3,
-    "failure_rate": 0.06,
-    "wilson_low": 0.020614970188436152,
-    "wilson_high": 0.16217091796874428,
+    "failures": 4,
+    "failure_rate": 0.08,
+    "wilson_low": 0.031549513869311444,
+    "wilson_high": 0.1883824702807244,
     "by_type": {
       "non_delivery": 0,
-      "overcharge": 3,
+      "overcharge": 4,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-02T06:51:14.600Z",
-    "last_ts": "2026-11-13T18:12:54.605Z",
-    "last_failure_ts": "2026-11-13T07:09:04.798Z"
+    "first_ts": "2026-11-02T13:07:45.445Z",
+    "last_ts": "2026-11-14T19:12:30.335Z",
+    "last_failure_ts": "2026-11-14T19:12:10.068Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-14T19:12:10.068Z",
+      "resource": "https://api.gondola-ai.com/v1/images/generations",
+      "method": "POST",
+      "quote_usdc": "0.028339",
+      "reference_price_usdc": "0.016531",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xbc10f19210f6e0a76e0dd2fdb511a8d226735ff0e18b5a6e7903bb78e27a8ad3",
+      "basescan_url": "https://basescan.org/tx/0xbc10f19210f6e0a76e0dd2fdb511a8d226735ff0e18b5a6e7903bb78e27a8ad3"
+    },
     {
       "correction": null,
       "outcome": "overcharge",
@@ -383,21 +398,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x72d7aa6695db1649b33f439f319368eabe147eb08ec25b4eb0d3ad7b13097c92",
       "basescan_url": "https://basescan.org/tx/0x72d7aa6695db1649b33f439f319368eabe147eb08ec25b4eb0d3ad7b13097c92"
-    },
-    {
-      "correction": null,
-      "outcome": "overcharge",
-      "source": "buy",
-      "timestamp": "2026-10-25T18:14:22.068Z",
-      "resource": "https://api.gondola-ai.com/v1/images/generations",
-      "method": "POST",
-      "quote_usdc": "0.012820",
-      "reference_price_usdc": "0.011808",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0xd89003ad01ebc577549daa4c36870a594019920d553ee87400dec89a18ad162a",
-      "basescan_url": "https://basescan.org/tx/0xd89003ad01ebc577549daa4c36870a594019920d553ee87400dec89a18ad162a"
     }
   ],
   "corrections_total": 0,

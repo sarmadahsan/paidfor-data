@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T18:32:56.457Z",
+  "generated_at": "2026-11-14T19:17:38.813Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 115,
+  "failures_total": 117,
   "shown": 25,
   "window": {
     "size": 50,
@@ -19,11 +19,51 @@
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-06T13:08:16.793Z",
-    "last_ts": "2026-11-14T13:12:43.314Z",
-    "last_failure_ts": "2026-11-14T13:12:43.314Z"
+    "first_ts": "2026-11-07T00:10:27.634Z",
+    "last_ts": "2026-11-14T19:13:29.135Z",
+    "last_failure_ts": "2026-11-14T19:13:29.135Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T19:13:29.135Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/color",
+      "method": "GET",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x5880f9f74baeccd87f189c6ecd87ce31384f48edc853ede2ef482fe587c4e63e",
+      "basescan_url": "https://basescan.org/tx/0x5880f9f74baeccd87f189c6ecd87ce31384f48edc853ede2ef482fe587c4e63e"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T19:12:31.054Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/base64",
+      "method": "GET",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xf29a943f1064fc08d5e60f23d13377c7760c85c240f91d4675d6d3a343d1b6a8",
+      "basescan_url": "https://basescan.org/tx/0xf29a943f1064fc08d5e60f23d13377c7760c85c240f91d4675d6d3a343d1b6a8"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -478,46 +518,6 @@
       ],
       "settlement_tx_hash": "0x2e671beedf8a45d0f46458787c731e4cf01d95d474a214fe93112e9c8f6a47ee",
       "basescan_url": "https://basescan.org/tx/0x2e671beedf8a45d0f46458787c731e4cf01d95d474a214fe93112e9c8f6a47ee"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-12T13:04:02.414Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/color",
-      "method": "GET",
-      "quote_usdc": "0.020000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x45a4fd1b013499911516dd85556a79cc042710720023216a83b0bb55b5ebad6e",
-      "basescan_url": "https://basescan.org/tx/0x45a4fd1b013499911516dd85556a79cc042710720023216a83b0bb55b5ebad6e"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-12T13:03:58.649Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/base64",
-      "method": "GET",
-      "quote_usdc": "0.020000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x8366b35b838a7e85c4c501040f567fb227246b5722aadc07ad8ad0aab0a66c24",
-      "basescan_url": "https://basescan.org/tx/0x8366b35b838a7e85c4c501040f567fb227246b5722aadc07ad8ad0aab0a66c24"
     }
   ],
   "corrections_total": 0,
