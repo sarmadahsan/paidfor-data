@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-14T00:19:10.425Z",
+  "network": "eip155:8453",
+  "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
+  "domain": "tools.moneytools.dev",
+  "seller_id": 3861,
+  "failures_total": 2,
+  "shown": 2,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 2,
+    "failure_rate": 0.4,
+    "wilson_low": 0.11762077314099717,
+    "wilson_high": 0.7692757205908813,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 2,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-13T12:08:33.922Z",
+    "last_ts": "2026-11-14T00:10:14.716Z",
+    "last_failure_ts": "2026-11-13T12:10:37.274Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-13T12:10:37.274Z",
+      "resource": "https://tools.moneytools.dev/v1/token",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xa10105c6f7847fce487fc8b6b0701ba2c3acd5715a7f7655b2f676af72691d43",
+      "basescan_url": "https://basescan.org/tx/0xa10105c6f7847fce487fc8b6b0701ba2c3acd5715a7f7655b2f676af72691d43"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-13T12:08:33.922Z",
+      "resource": "https://tools.moneytools.dev/v1/token",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x018570362efcc433ac84824134952129467cfab12e5353740d9061c714751a16",
+      "basescan_url": "https://basescan.org/tx/0x018570362efcc433ac84824134952129467cfab12e5353740d9061c714751a16"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

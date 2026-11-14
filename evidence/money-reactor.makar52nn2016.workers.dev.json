@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T23:33:59.908Z",
+  "generated_at": "2026-11-14T00:19:10.425Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 108,
+  "failures_total": 110,
   "shown": 25,
   "window": {
     "size": 50,
@@ -19,11 +19,51 @@
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-06T01:04:17.110Z",
-    "last_ts": "2026-11-13T18:14:48.811Z",
-    "last_failure_ts": "2026-11-13T18:14:48.811Z"
+    "first_ts": "2026-11-06T07:04:07.032Z",
+    "last_ts": "2026-11-14T00:12:45.905Z",
+    "last_failure_ts": "2026-11-14T00:12:45.905Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T00:12:45.905Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/color",
+      "method": "GET",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x33781da654a493ccc6cc97250f9e0a4d17880ff570fe259ae9a9016963b9ec19",
+      "basescan_url": "https://basescan.org/tx/0x33781da654a493ccc6cc97250f9e0a4d17880ff570fe259ae9a9016963b9ec19"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-14T00:12:41.017Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/base64",
+      "method": "GET",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xf7975b54787139666e2bdd7500ed9b86f08619c612d54c656472c4ead39d6711",
+      "basescan_url": "https://basescan.org/tx/0xf7975b54787139666e2bdd7500ed9b86f08619c612d54c656472c4ead39d6711"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -483,46 +523,6 @@
       ],
       "settlement_tx_hash": "0x108627db8b2d2a707c8d7f739ff9922a1f5239db1fac04dd4b3877b26eb869a2",
       "basescan_url": "https://basescan.org/tx/0x108627db8b2d2a707c8d7f739ff9922a1f5239db1fac04dd4b3877b26eb869a2"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-11T13:03:23.048Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/cron-next",
-      "method": "GET",
-      "quote_usdc": "0.020000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0xc18b2158a5235f87d7ee7c09f09484003e02c9c4ca1fac68e2bbc6bb2fd8003a",
-      "basescan_url": "https://basescan.org/tx/0xc18b2158a5235f87d7ee7c09f09484003e02c9c4ca1fac68e2bbc6bb2fd8003a"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-11T13:03:13.118Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/color",
-      "method": "GET",
-      "quote_usdc": "0.020000",
-      "reference_price_usdc": "0.002000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x7ecb08da77ce4ac2497462f0535ed4e2c3205f3b632b2f5af2f558afa1f6dd54",
-      "basescan_url": "https://basescan.org/tx/0x7ecb08da77ce4ac2497462f0535ed4e2c3205f3b632b2f5af2f558afa1f6dd54"
     }
   ],
   "corrections_total": 0,
