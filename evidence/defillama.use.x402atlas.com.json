@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-11-15T00:32:54.007Z",
+  "generated_at": "2026-11-15T01:23:36.969Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "defillama.use.x402atlas.com",
   "seller_id": 145,
-  "failures_total": 3,
-  "shown": 3,
+  "failures_total": 4,
+  "shown": 4,
   "window": {
     "size": 50,
-    "calls": 5,
-    "failures": 3,
-    "failure_rate": 0.6,
-    "wilson_low": 0.2307242794091186,
-    "wilson_high": 0.8823792268590027,
+    "calls": 7,
+    "failures": 4,
+    "failure_rate": 0.5714285714285714,
+    "wilson_low": 0.25045836275303557,
+    "wilson_high": 0.8417801460075546,
     "by_type": {
-      "non_delivery": 3,
+      "non_delivery": 4,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-30T03:00:37.341Z",
-    "last_ts": "2026-10-30T18:32:09.605Z",
-    "last_failure_ts": "2026-10-30T18:32:09.605Z"
+    "last_ts": "2026-11-15T01:17:18.813Z",
+    "last_failure_ts": "2026-11-15T01:16:10.491Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-15T01:16:10.491Z",
+      "resource": "https://defillama.use.x402atlas.com/protocols",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x19dfa46457a6c72de7225eb244048fd29f625f10380a8a607652ce34cdfaf080",
+      "basescan_url": "https://basescan.org/tx/0x19dfa46457a6c72de7225eb244048fd29f625f10380a8a607652ce34cdfaf080"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
