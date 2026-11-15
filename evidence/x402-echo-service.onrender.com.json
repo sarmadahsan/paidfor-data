@@ -1,29 +1,69 @@
 {
-  "generated_at": "2026-11-15T18:36:01.729Z",
+  "generated_at": "2026-11-15T19:33:00.795Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "x402-echo-service.onrender.com",
   "seller_id": 194,
-  "failures_total": 7,
-  "shown": 7,
+  "failures_total": 9,
+  "shown": 9,
   "window": {
     "size": 50,
-    "calls": 7,
-    "failures": 7,
+    "calls": 9,
+    "failures": 9,
     "failure_rate": 1,
-    "wilson_low": 0.6456695613241317,
+    "wilson_low": 0.700854948272956,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 7,
+      "non_delivery": 9,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-01T06:43:10.759Z",
-    "last_ts": "2026-11-04T07:13:15.962Z",
-    "last_failure_ts": "2026-11-04T07:13:15.962Z"
+    "last_ts": "2026-11-15T19:30:30.762Z",
+    "last_failure_ts": "2026-11-15T19:30:30.762Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-15T19:30:30.762Z",
+      "resource": "https://x402-echo-service.onrender.com/base64",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "not_truncated",
+          "reason": "shorter_than_declared"
+        }
+      ],
+      "settlement_tx_hash": "0x85aa29f5ee40ad7351288be304f25e67bf00df442a433b6a532cd5fd9109f529",
+      "basescan_url": "https://basescan.org/tx/0x85aa29f5ee40ad7351288be304f25e67bf00df442a433b6a532cd5fd9109f529"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-15T19:27:43.931Z",
+      "resource": "https://x402-echo-service.onrender.com/base64",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "not_truncated",
+          "reason": "shorter_than_declared"
+        }
+      ],
+      "settlement_tx_hash": "0x6555b1784b4998ffd1259a5991ca0bbc17de45d368ab41272ec6326e954f3d1e",
+      "basescan_url": "https://basescan.org/tx/0x6555b1784b4998ffd1259a5991ca0bbc17de45d368ab41272ec6326e954f3d1e"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
