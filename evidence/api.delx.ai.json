@@ -1,29 +1,44 @@
 {
-  "generated_at": "2026-11-16T00:34:43.285Z",
+  "generated_at": "2026-11-16T01:24:18.606Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "api.delx.ai",
   "seller_id": 647,
-  "failures_total": 1,
-  "shown": 1,
+  "failures_total": 2,
+  "shown": 2,
   "window": {
     "size": 50,
     "calls": 50,
-    "failures": 1,
-    "failure_rate": 0.02,
-    "wilson_low": 0.003539259232504602,
-    "wilson_high": 0.10495443693896496,
+    "failures": 2,
+    "failure_rate": 0.04,
+    "wilson_low": 0.011038884228173507,
+    "wilson_high": 0.13460090793615148,
     "by_type": {
-      "non_delivery": 1,
+      "non_delivery": 2,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-10-25T18:40:07.662Z",
-    "last_ts": "2026-11-04T19:04:23.702Z",
-    "last_failure_ts": "2026-11-02T13:03:26.959Z"
+    "first_ts": "2026-10-25T18:41:17.310Z",
+    "last_ts": "2026-11-16T01:15:27.020Z",
+    "last_failure_ts": "2026-11-16T01:15:27.020Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-16T01:15:27.020Z",
+      "resource": "https://api.delx.ai/api/v1/x402/uuid",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x9ecbc51045ba3b06f1749e57178f16b6be138d57648d662671073ac417e7294a",
+      "basescan_url": "https://basescan.org/tx/0x9ecbc51045ba3b06f1749e57178f16b6be138d57648d662671073ac417e7294a"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
