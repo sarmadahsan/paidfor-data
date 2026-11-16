@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-11-16T06:35:02.903Z",
+  "generated_at": "2026-11-16T07:22:49.832Z",
   "network": "eip155:8453",
   "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
   "domain": "x402.orthogonal.com",
   "seller_id": 2332,
-  "failures_total": 30,
+  "failures_total": 31,
   "shown": 25,
   "window": {
     "size": 50,
-    "calls": 39,
-    "failures": 30,
-    "failure_rate": 0.7692307692307693,
-    "wilson_low": 0.6166374264149461,
-    "wilson_high": 0.873541959356819,
+    "calls": 41,
+    "failures": 31,
+    "failure_rate": 0.7560975609756098,
+    "wilson_low": 0.6065666365103692,
+    "wilson_high": 0.8617499732500549,
     "by_type": {
-      "non_delivery": 30,
+      "non_delivery": 31,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T09:16:38.004Z",
-    "last_ts": "2026-11-10T06:17:11.867Z",
-    "last_failure_ts": "2026-11-10T00:34:25.058Z"
+    "last_ts": "2026-11-16T07:18:33.210Z",
+    "last_failure_ts": "2026-11-16T07:18:33.210Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-16T07:18:33.210Z",
+      "resource": "https://x402.orthogonal.com/exchange-rates/v1/convert",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x395fe71164c50d767d1bb8838e8f6f834bd054b012875d3ce97c2429530181a0",
+      "basescan_url": "https://basescan.org/tx/0x395fe71164c50d767d1bb8838e8f6f834bd054b012875d3ce97c2429530181a0"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -503,26 +523,6 @@
       ],
       "settlement_tx_hash": "0x9b26a03d9decb9598531d0b0004bf58a822c7db81bac3e37de9d9e6dba9b22eb",
       "basescan_url": "https://basescan.org/tx/0x9b26a03d9decb9598531d0b0004bf58a822c7db81bac3e37de9d9e6dba9b22eb"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-25T14:53:59.074Z",
-      "resource": "https://x402.orthogonal.com/abstractapi/v1/convert",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x75ceef0355b4df2a12090c6bdd548f879d318574edd4936d915dee8b49682daf",
-      "basescan_url": "https://basescan.org/tx/0x75ceef0355b4df2a12090c6bdd548f879d318574edd4936d915dee8b49682daf"
     }
   ],
   "corrections_total": 0,
