@@ -1,230 +1,29 @@
 {
-  "generated_at": "2026-11-18T18:43:27.184Z",
+  "generated_at": "2026-11-18T20:28:59.735Z",
   "network": "eip155:8453",
-  "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
+  "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "domain": "kino402.com",
   "seller_id": 405,
-  "failures_total": 10,
-  "shown": 10,
+  "failures_total": 0,
+  "shown": 0,
   "window": {
     "size": 50,
     "calls": 10,
-    "failures": 10,
-    "failure_rate": 1,
-    "wilson_low": 0.7224671969739421,
-    "wilson_high": 1,
+    "failures": 0,
+    "failure_rate": 0,
+    "wilson_low": 0,
+    "wilson_high": 0.2775328030260577,
     "by_type": {
-      "non_delivery": 10,
+      "non_delivery": 0,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-02T06:47:28.805Z",
     "last_ts": "2026-11-15T13:15:52.441Z",
-    "last_failure_ts": "2026-11-15T13:15:52.441Z"
+    "last_failure_ts": null
   },
-  "samples": [
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-15T13:15:52.441Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x1cb886caf556e287568669f0f7f4b6322658b8d2307a50a7720036815940848e",
-      "basescan_url": "https://basescan.org/tx/0x1cb886caf556e287568669f0f7f4b6322658b8d2307a50a7720036815940848e"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-15T13:13:39.515Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x5fd111325c416fa9df18e9e0a40e1a7eb01eaa9b61f50e70b078c09bd12ae7f6",
-      "basescan_url": "https://basescan.org/tx/0x5fd111325c416fa9df18e9e0a40e1a7eb01eaa9b61f50e70b078c09bd12ae7f6"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-08T18:40:48.415Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x3ffd70117b3b491bfc85b533eac5eff567bbfb4715bf37c0f75eab9b05acfcbb",
-      "basescan_url": "https://basescan.org/tx/0x3ffd70117b3b491bfc85b533eac5eff567bbfb4715bf37c0f75eab9b05acfcbb"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-03T13:00:02.645Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xc8a556b403cdd63296a926d713cf2e1fb8f0ba969b44f7bfe6744fc2d1d89278",
-      "basescan_url": "https://basescan.org/tx/0xc8a556b403cdd63296a926d713cf2e1fb8f0ba969b44f7bfe6744fc2d1d89278"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-03T12:54:30.349Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x8e157dc0caac154012f1f33f832c3ea3a379e2d9f33f6191e1858ad8a3b9f928",
-      "basescan_url": "https://basescan.org/tx/0x8e157dc0caac154012f1f33f832c3ea3a379e2d9f33f6191e1858ad8a3b9f928"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-02T18:46:58.402Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x817f0e1bc517e3c7cebbed566f705bc284e0fffec61f84e0b0ed8385b7b3109b",
-      "basescan_url": "https://basescan.org/tx/0x817f0e1bc517e3c7cebbed566f705bc284e0fffec61f84e0b0ed8385b7b3109b"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-02T13:09:39.579Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x493e44995534d41d3ae3289db843dd575d31ed8b27660b6c0589ce5c8b34ac0f",
-      "basescan_url": "https://basescan.org/tx/0x493e44995534d41d3ae3289db843dd575d31ed8b27660b6c0589ce5c8b34ac0f"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-02T12:49:55.103Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xd1c2845c0b61fb2fd9709943fa7f01d72282f70dbf51aea0b6ed88b8a649c18e",
-      "basescan_url": "https://basescan.org/tx/0xd1c2845c0b61fb2fd9709943fa7f01d72282f70dbf51aea0b6ed88b8a649c18e"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-02T06:54:05.937Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x45e2f3ae5071e39c3581a5e031c871d64cb25192573b3d5f001f5c1d1c6ec2c5",
-      "basescan_url": "https://basescan.org/tx/0x45e2f3ae5071e39c3581a5e031c871d64cb25192573b3d5f001f5c1d1c6ec2c5"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-02T06:47:28.805Z",
-      "resource": "https://kino402.com/v1/audio/tts",
-      "method": "POST",
-      "quote_usdc": "0.007000",
-      "reference_price_usdc": "0.007000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xebf8a55f6440c21c280d24c366fcfee3cf9598ab8c271552b92eca5cab07527c",
-      "basescan_url": "https://basescan.org/tx/0xebf8a55f6440c21c280d24c366fcfee3cf9598ab8c271552b92eca5cab07527c"
-    }
-  ],
+  "samples": [],
   "corrections_total": 0,
   "corrections": []
 }

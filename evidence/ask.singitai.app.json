@@ -1,130 +1,29 @@
 {
-  "generated_at": "2026-11-18T18:43:27.184Z",
+  "generated_at": "2026-11-18T20:28:59.735Z",
   "network": "eip155:8453",
-  "git_commit": "2f1ac0f2acb3cdd087ee62740623531e468f1b60",
+  "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "domain": "ask.singitai.app",
   "seller_id": 1037,
-  "failures_total": 5,
-  "shown": 5,
+  "failures_total": 0,
+  "shown": 0,
   "window": {
     "size": 50,
     "calls": 32,
-    "failures": 5,
-    "failure_rate": 0.15625,
-    "wilson_low": 0.06864420239074723,
-    "wilson_high": 0.3175414974474705,
+    "failures": 0,
+    "failure_rate": 0,
+    "wilson_low": 0,
+    "wilson_high": 0.10717919976468034,
     "by_type": {
-      "non_delivery": 5,
+      "non_delivery": 0,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T18:33:27.411Z",
     "last_ts": "2026-11-11T19:03:14.884Z",
-    "last_failure_ts": "2026-10-30T03:07:46.499Z"
+    "last_failure_ts": null
   },
-  "samples": [
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-30T03:07:46.499Z",
-      "resource": "https://ask.singitai.app/v1/audio/speech",
-      "method": "POST",
-      "quote_usdc": "0.001082",
-      "reference_price_usdc": "0.001082",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x6d2e92516cb1efa761f918fd5542ea42f4b3de70b3ea1622b548c0cea3ce8ebe",
-      "basescan_url": "https://basescan.org/tx/0x6d2e92516cb1efa761f918fd5542ea42f4b3de70b3ea1622b548c0cea3ce8ebe"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-29T18:19:27.165Z",
-      "resource": "https://ask.singitai.app/v1/audio/speech",
-      "method": "POST",
-      "quote_usdc": "0.001082",
-      "reference_price_usdc": "0.001082",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0xe11acf8490c868565a6679b4e88de17d537856e5f19f303d53a5f69455296330",
-      "basescan_url": "https://basescan.org/tx/0xe11acf8490c868565a6679b4e88de17d537856e5f19f303d53a5f69455296330"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-29T18:13:32.364Z",
-      "resource": "https://ask.singitai.app/v1/audio/speech",
-      "method": "POST",
-      "quote_usdc": "0.001082",
-      "reference_price_usdc": "0.001082",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x0f2ffedf4e13326ce55530d0b19a4667d46f69f7f3f2634076040c53e8aef9f1",
-      "basescan_url": "https://basescan.org/tx/0x0f2ffedf4e13326ce55530d0b19a4667d46f69f7f3f2634076040c53e8aef9f1"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-29T06:24:13.632Z",
-      "resource": "https://ask.singitai.app/v1/audio/speech",
-      "method": "POST",
-      "quote_usdc": "0.001082",
-      "reference_price_usdc": "0.001082",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x46e0c59856182d635d2ea98536dfd4f2d718446141af0f458221ab1ec74c6976",
-      "basescan_url": "https://basescan.org/tx/0x46e0c59856182d635d2ea98536dfd4f2d718446141af0f458221ab1ec74c6976"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-10-29T06:20:31.902Z",
-      "resource": "https://ask.singitai.app/v1/audio/speech",
-      "method": "POST",
-      "quote_usdc": "0.001082",
-      "reference_price_usdc": "0.001082",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [
-        {
-          "validator": "content_type",
-          "reason": "content_type_mismatch"
-        }
-      ],
-      "settlement_tx_hash": "0x856eee9753092cf07a151ecee0bbbe09a2fd15eae6079213ba1b1390ae0bcd2c",
-      "basescan_url": "https://basescan.org/tx/0x856eee9753092cf07a151ecee0bbbe09a2fd15eae6079213ba1b1390ae0bcd2c"
-    }
-  ],
+  "samples": [],
   "corrections_total": 0,
   "corrections": []
 }
