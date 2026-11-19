@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-19T19:36:31.712Z",
+  "network": "eip155:8453",
+  "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
+  "domain": "automaton-lite-production.up.railway.app",
+  "seller_id": 4105,
+  "failures_total": 2,
+  "shown": 2,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 2,
+    "failure_rate": 0.4,
+    "wilson_low": 0.11762077314099717,
+    "wilson_high": 0.7692757205908813,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 2,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-19T07:28:51.805Z",
+    "last_ts": "2026-11-19T19:27:57.673Z",
+    "last_failure_ts": "2026-11-19T13:25:19.338Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-19T13:25:19.338Z",
+      "resource": "https://automaton-lite-production.up.railway.app/br/ptax",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xd5215143aa23586127bf6b40dbfd161a00c1c3738c05da87871947dcba792602",
+      "basescan_url": "https://basescan.org/tx/0xd5215143aa23586127bf6b40dbfd161a00c1c3738c05da87871947dcba792602"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-19T13:21:49.511Z",
+      "resource": "https://automaton-lite-production.up.railway.app/br/ptax",
+      "method": "GET",
+      "quote_usdc": "0.010000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xe52750f5868662ec7982eb20b0a3d1abedb41406ca9562ee027d36173c06da6c",
+      "basescan_url": "https://basescan.org/tx/0xe52750f5868662ec7982eb20b0a3d1abedb41406ca9562ee027d36173c06da6c"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
