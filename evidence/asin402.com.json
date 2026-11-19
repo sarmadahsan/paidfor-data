@@ -1,29 +1,50 @@
 {
-  "generated_at": "2026-11-19T12:37:10.990Z",
+  "generated_at": "2026-11-19T13:39:05.617Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "domain": "asin402.com",
   "seller_id": 2747,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 1,
+  "shown": 1,
   "window": {
     "size": 50,
-    "calls": 15,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.2038833035964871,
+    "calls": 25,
+    "failures": 1,
+    "failure_rate": 0.04,
+    "wilson_low": 0.007096233423382087,
+    "wilson_high": 0.1954406391161776,
     "by_type": {
-      "non_delivery": 0,
+      "non_delivery": 1,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-01T22:01:50.416Z",
-    "last_ts": "2026-11-17T07:18:33.149Z",
-    "last_failure_ts": null
+    "last_ts": "2026-11-19T13:39:00.163Z",
+    "last_failure_ts": "2026-11-19T13:38:55.840Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "audit_demand",
+      "timestamp": "2026-11-19T13:38:55.840Z",
+      "resource": "https://asin402.com/api/data/seller",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.005000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x268121a7c62f730efbba05f9398053fe584b47cbe6d94f8af01c768c98372b3b",
+      "basescan_url": "https://basescan.org/tx/0x268121a7c62f730efbba05f9398053fe584b47cbe6d94f8af01c768c98372b3b"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }
