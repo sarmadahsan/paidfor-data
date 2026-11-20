@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:42:13.776Z",
+  "generated_at": "2026-11-20T19:39:39.281Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "note": "Resources users checked or paid through the index that we had never measured, imported from GET /v1/candidates and probed once without paying.",
@@ -801,6 +801,19 @@
       "last_seen": "2026-11-17T16:08:10.322Z",
       "imported_at": "2026-11-17T19:33:35.195Z",
       "probed_at": "2026-11-17T19:33:35.225Z",
+      "new_seller": true
+    },
+    {
+      "url": "https://kubernetes.default.svc/",
+      "host": "kubernetes.default.svc",
+      "state": "not_x402",
+      "quoted_usdc": null,
+      "checks": 2,
+      "payments": 0,
+      "first_seen": "2026-11-20T15:33:21.712Z",
+      "last_seen": "2026-11-20T15:35:56.117Z",
+      "imported_at": "2026-11-20T19:39:35.217Z",
+      "probed_at": "2026-11-20T19:39:35.234Z",
       "new_seller": true
     },
     {
@@ -1742,7 +1755,7 @@
     {
       "url": "https://glyphcall.com/ai/sentiment",
       "host": "glyphcall.com",
-      "state": "queued",
+      "state": "measuring",
       "quoted_usdc": "0.010000",
       "checks": 1,
       "payments": 0,
@@ -1755,7 +1768,7 @@
     {
       "url": "https://glyphcall.com/weather/forecast",
       "host": "glyphcall.com",
-      "state": "queued",
+      "state": "measuring",
       "quoted_usdc": "0.002000",
       "checks": 1,
       "payments": 0,
