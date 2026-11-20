@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:38:17.853Z",
+  "generated_at": "2026-11-20T13:45:51.625Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "min_calls": 10,
@@ -12,13 +12,13 @@
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
       "overcharge_ratio": 1,
-      "calls": 115,
-      "failures": 115,
+      "calls": 116,
+      "failures": 116,
       "failure_rate": 1,
-      "wilson_low": 0.9676757680572317,
+      "wilson_low": 0.9679454930108872,
       "wilson_high": 1,
       "failures_by_type": {
-        "non_delivery": 115,
+        "non_delivery": 116,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
@@ -32,13 +32,13 @@
       "modal_quote_usdc": "0.020000",
       "max_quote_usdc": "0.050000",
       "overcharge_ratio": 25,
-      "calls": 39,
-      "failures": 39,
+      "calls": 40,
+      "failures": 40,
       "failure_rate": 1,
-      "wilson_low": 0.9103331450047065,
+      "wilson_low": 0.9123783975415363,
       "wilson_high": 1,
       "failures_by_type": {
-        "non_delivery": 39,
+        "non_delivery": 40,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
@@ -52,13 +52,13 @@
       "modal_quote_usdc": "0.020000",
       "max_quote_usdc": "0.050000",
       "overcharge_ratio": 25,
-      "calls": 38,
-      "failures": 38,
+      "calls": 39,
+      "failures": 39,
       "failure_rate": 1,
-      "wilson_low": 0.9081901304590217,
+      "wilson_low": 0.9103331450047065,
       "wilson_high": 1,
       "failures_by_type": {
-        "non_delivery": 38,
+        "non_delivery": 39,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
@@ -965,26 +965,6 @@
       }
     },
     {
-      "url": "https://www.api-xpay.com/x402/quote",
-      "method": "GET",
-      "seller": "api-xpay.com",
-      "listed_price_usdc": "0.005000",
-      "modal_quote_usdc": "0.005000",
-      "max_quote_usdc": "0.005000",
-      "overcharge_ratio": 1,
-      "calls": 76,
-      "failures": 37,
-      "failure_rate": 0.4868421052631579,
-      "wilson_low": 0.37783728697779023,
-      "wilson_high": 0.5971130705429373,
-      "failures_by_type": {
-        "non_delivery": 37,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
       "url": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
       "method": "GET",
       "seller": "mr-river3.makar52nn2016.workers.dev",
@@ -1000,6 +980,26 @@
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 14,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://www.api-xpay.com/x402/quote",
+      "method": "GET",
+      "seller": "api-xpay.com",
+      "listed_price_usdc": "0.005000",
+      "modal_quote_usdc": "0.005000",
+      "max_quote_usdc": "0.005000",
+      "overcharge_ratio": 1,
+      "calls": 77,
+      "failures": 37,
+      "failure_rate": 0.4805194805194805,
+      "wilson_low": 0.3725303782254178,
+      "wilson_high": 0.5903599500601581,
+      "failures_by_type": {
+        "non_delivery": 37,
+        "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
       }
@@ -1112,11 +1112,11 @@
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
       "overcharge_ratio": 1,
-      "calls": 184,
+      "calls": 185,
       "failures": 43,
-      "failure_rate": 0.23369565217391305,
-      "wilson_low": 0.17838003102850242,
-      "wilson_high": 0.2999034076561927,
+      "failure_rate": 0.23243243243243245,
+      "wilson_low": 0.17738704281343576,
+      "wilson_high": 0.2983636711109336,
       "failures_by_type": {
         "non_delivery": 43,
         "overcharge": 0,
@@ -2252,11 +2252,11 @@
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
       "overcharge_ratio": 1,
-      "calls": 40,
+      "calls": 42,
       "failures": 1,
-      "failure_rate": 0.025,
-      "wilson_low": 0.004426831453704344,
-      "wilson_high": 0.12881369088183614,
+      "failure_rate": 0.023809523809523808,
+      "wilson_low": 0.004215404087799038,
+      "wilson_high": 0.12321201693783072,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
@@ -2332,11 +2332,11 @@
       "modal_quote_usdc": "0.003301",
       "max_quote_usdc": "0.003302",
       "overcharge_ratio": 1,
-      "calls": 283,
+      "calls": 285,
       "failures": 3,
-      "failure_rate": 0.01060070671378092,
-      "wilson_low": 0.0036116216420534718,
-      "wilson_high": 0.030698128837108273,
+      "failure_rate": 0.010526315789473684,
+      "wilson_low": 0.0035862319900396913,
+      "wilson_high": 0.030485950443232483,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 2,
@@ -2372,11 +2372,11 @@
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
       "overcharge_ratio": 1,
-      "calls": 126,
+      "calls": 127,
       "failures": 1,
-      "failure_rate": 0.007936507936507936,
-      "wilson_low": 0.001402365045318009,
-      "wilson_high": 0.043586800446394416,
+      "failure_rate": 0.007874015748031496,
+      "wilson_low": 0.001391312026072511,
+      "wilson_high": 0.0432540085874463,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
@@ -2432,11 +2432,11 @@
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
       "overcharge_ratio": 1,
-      "calls": 255,
+      "calls": 257,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.014840972145260868,
+      "wilson_high": 0.01472717909864235,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -2452,11 +2452,11 @@
       "modal_quote_usdc": "0.050000",
       "max_quote_usdc": "0.050000",
       "overcharge_ratio": 1,
-      "calls": 178,
+      "calls": 179,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.02112531930247909,
+      "wilson_high": 0.02100978030256226,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -2472,11 +2472,11 @@
       "modal_quote_usdc": "0.050000",
       "max_quote_usdc": "0.050000",
       "overcharge_ratio": 1,
-      "calls": 173,
+      "calls": 174,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.021722614739762815,
+      "wilson_high": 0.021600468785290733,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -2532,11 +2532,11 @@
       "modal_quote_usdc": "0.001585",
       "max_quote_usdc": "0.001585",
       "overcharge_ratio": 1,
-      "calls": 136,
+      "calls": 137,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.027470100155039222,
+      "wilson_high": 0.027275057442664365,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -2772,11 +2772,11 @@
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
       "overcharge_ratio": 1,
-      "calls": 71,
+      "calls": 72,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.051327952965064906,
+      "wilson_high": 0.05065117335504446,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -2792,11 +2792,11 @@
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
       "overcharge_ratio": 1,
-      "calls": 70,
+      "calls": 71,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.05202306318827403,
+      "wilson_high": 0.051327952965064906,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -5085,6 +5085,26 @@
       }
     },
     {
+      "url": "https://api.kakerapetit.dev/v2/screener",
+      "method": "GET",
+      "seller": "api.kakerapetit.dev",
+      "listed_price_usdc": "0.020000",
+      "modal_quote_usdc": "0.020000",
+      "max_quote_usdc": "0.020000",
+      "overcharge_ratio": 1,
+      "calls": 27,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.12455503146207125,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
       "url": "https://api.macaroonnetwork.com/execute/chain-state-snapshot-v1",
       "method": "POST",
       "seller": "api.macaroonnetwork.com",
@@ -6165,6 +6185,26 @@
       }
     },
     {
+      "url": "https://api-staging.vapinetwork.ai/x402/decode",
+      "method": "POST",
+      "seller": "api-staging.vapinetwork.ai",
+      "listed_price_usdc": "0.005000",
+      "modal_quote_usdc": "0.005000",
+      "max_quote_usdc": "0.005000",
+      "overcharge_ratio": 1,
+      "calls": 24,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.13797620655132792,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
       "url": "https://api.agentmercantile.com/v1/payment-authority-snapshot",
       "method": "POST",
       "seller": "api.agentmercantile.com",
@@ -6211,26 +6251,6 @@
       "listed_price_usdc": "0.005000",
       "modal_quote_usdc": "0.005000",
       "max_quote_usdc": "0.005000",
-      "overcharge_ratio": 1,
-      "calls": 24,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.13797620655132792,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://api.kakerapetit.dev/v2/screener",
-      "method": "GET",
-      "seller": "api.kakerapetit.dev",
-      "listed_price_usdc": "0.020000",
-      "modal_quote_usdc": "0.020000",
-      "max_quote_usdc": "0.020000",
       "overcharge_ratio": 1,
       "calls": 24,
       "failures": 0,
@@ -6357,6 +6377,26 @@
       "failure_rate": 0,
       "wilson_low": 0,
       "wilson_high": 0.13797620655132792,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://api.clawfetch.ai/domains/suggest",
+      "method": "POST",
+      "seller": "api.clawfetch.ai",
+      "listed_price_usdc": "0.003000",
+      "modal_quote_usdc": "0.003000",
+      "max_quote_usdc": "0.003000",
+      "overcharge_ratio": 1,
+      "calls": 23,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.14311662038507353,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -6565,6 +6605,26 @@
       }
     },
     {
+      "url": "https://api.clawfetch.ai/domains/check",
+      "method": "POST",
+      "seller": "api.clawfetch.ai",
+      "listed_price_usdc": "0.003000",
+      "modal_quote_usdc": "0.003000",
+      "max_quote_usdc": "0.003000",
+      "overcharge_ratio": 1,
+      "calls": 22,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.1486548766051456,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
       "url": "https://coord.taifoon.dev/v1/chat/completions",
       "method": "POST",
       "seller": "coord.taifoon.dev",
@@ -6685,46 +6745,6 @@
       }
     },
     {
-      "url": "https://api.clawfetch.ai/domains/check",
-      "method": "POST",
-      "seller": "api.clawfetch.ai",
-      "listed_price_usdc": "0.003000",
-      "modal_quote_usdc": "0.003000",
-      "max_quote_usdc": "0.003000",
-      "overcharge_ratio": 1,
-      "calls": 21,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.15463902098714374,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://api.clawfetch.ai/domains/suggest",
-      "method": "POST",
-      "seller": "api.clawfetch.ai",
-      "listed_price_usdc": "0.003000",
-      "modal_quote_usdc": "0.003000",
-      "max_quote_usdc": "0.003000",
-      "overcharge_ratio": 1,
-      "calls": 21,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.15463902098714374,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
       "url": "https://bob.assimilatethis.com/summarize",
       "method": "GET",
       "seller": "bob.assimilatethis.com",
@@ -6748,6 +6768,26 @@
       "url": "https://coord.taifoon.dev/v1/chat/completions/llama-3.3-70b",
       "method": "POST",
       "seller": "coord.taifoon.dev",
+      "listed_price_usdc": "0.001000",
+      "modal_quote_usdc": "0.001000",
+      "max_quote_usdc": "0.001000",
+      "overcharge_ratio": 1,
+      "calls": 21,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.15463902098714374,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://energy.halowerk.com/demo/paid-sample",
+      "method": "GET",
+      "seller": "energy.halowerk.com",
       "listed_price_usdc": "0.001000",
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
@@ -6817,26 +6857,6 @@
       "failure_rate": 0,
       "wilson_low": 0,
       "wilson_high": 0.15463902098714374,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://api-staging.vapinetwork.ai/x402/decode",
-      "method": "POST",
-      "seller": "api-staging.vapinetwork.ai",
-      "listed_price_usdc": "0.005000",
-      "modal_quote_usdc": "0.005000",
-      "max_quote_usdc": "0.005000",
-      "overcharge_ratio": 1,
-      "calls": 20,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.16112516018512968,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -6925,8 +6945,48 @@
       }
     },
     {
-      "url": "https://energy.halowerk.com/demo/paid-sample",
-      "method": "GET",
+      "url": "https://energy.halowerk.com/carbon/now",
+      "method": "POST",
+      "seller": "energy.halowerk.com",
+      "listed_price_usdc": "0.001000",
+      "modal_quote_usdc": "0.001000",
+      "max_quote_usdc": "0.001000",
+      "overcharge_ratio": 1,
+      "calls": 20,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.16112516018512968,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://energy.halowerk.com/predict/negative-price",
+      "method": "POST",
+      "seller": "energy.halowerk.com",
+      "listed_price_usdc": "0.001000",
+      "modal_quote_usdc": "0.001000",
+      "max_quote_usdc": "0.001000",
+      "overcharge_ratio": 1,
+      "calls": 20,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.16112516018512968,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://energy.halowerk.com/price/spot",
+      "method": "POST",
       "seller": "energy.halowerk.com",
       "listed_price_usdc": "0.001000",
       "modal_quote_usdc": "0.001000",
@@ -7091,66 +7151,6 @@
       "listed_price_usdc": "0.002000",
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
-      "overcharge_ratio": 1,
-      "calls": 19,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.16817922625956366,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://energy.halowerk.com/carbon/now",
-      "method": "POST",
-      "seller": "energy.halowerk.com",
-      "listed_price_usdc": "0.001000",
-      "modal_quote_usdc": "0.001000",
-      "max_quote_usdc": "0.001000",
-      "overcharge_ratio": 1,
-      "calls": 19,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.16817922625956366,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://energy.halowerk.com/predict/negative-price",
-      "method": "POST",
-      "seller": "energy.halowerk.com",
-      "listed_price_usdc": "0.001000",
-      "modal_quote_usdc": "0.001000",
-      "max_quote_usdc": "0.001000",
-      "overcharge_ratio": 1,
-      "calls": 19,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.16817922625956366,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://energy.halowerk.com/price/spot",
-      "method": "POST",
-      "seller": "energy.halowerk.com",
-      "listed_price_usdc": "0.001000",
-      "modal_quote_usdc": "0.001000",
-      "max_quote_usdc": "0.001000",
       "overcharge_ratio": 1,
       "calls": 19,
       "failures": 0,
@@ -7411,6 +7411,26 @@
       "listed_price_usdc": "0.001000",
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
+      "overcharge_ratio": 1,
+      "calls": 17,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.18431813738065556,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://api.nansen.ai/api/v1/prediction-market/market-screener",
+      "method": "POST",
+      "seller": "api.nansen.ai",
+      "listed_price_usdc": "0.010000",
+      "modal_quote_usdc": "0.010000",
+      "max_quote_usdc": "0.010000",
       "overcharge_ratio": 1,
       "calls": 17,
       "failures": 0,
@@ -7751,26 +7771,6 @@
       "listed_price_usdc": "0.002000",
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
-      "overcharge_ratio": 1,
-      "calls": 16,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.1936076829974049,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://api.nansen.ai/api/v1/prediction-market/market-screener",
-      "method": "POST",
-      "seller": "api.nansen.ai",
-      "listed_price_usdc": "0.010000",
-      "modal_quote_usdc": "0.010000",
-      "max_quote_usdc": "0.010000",
       "overcharge_ratio": 1,
       "calls": 16,
       "failures": 0,
@@ -8165,6 +8165,26 @@
       }
     },
     {
+      "url": "https://onchainpulse.theaslangroupllc.com/api/facet/honeypot",
+      "method": "GET",
+      "seller": "onchainpulse.theaslangroupllc.com",
+      "listed_price_usdc": "0.005000",
+      "modal_quote_usdc": "0.005000",
+      "max_quote_usdc": "0.005000",
+      "overcharge_ratio": 1,
+      "calls": 15,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2038833035964871,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
       "url": "https://rpc.nodeflare.app/unichain/x402",
       "method": "POST",
       "seller": "rpc.nodeflare.app",
@@ -8311,6 +8331,26 @@
       "listed_price_usdc": "0.001000",
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
+      "overcharge_ratio": 1,
+      "calls": 14,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.21531080540298042,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://api.clawfetch.ai/render",
+      "method": "POST",
+      "seller": "api.clawfetch.ai",
+      "listed_price_usdc": "0.005000",
+      "modal_quote_usdc": "0.005000",
+      "max_quote_usdc": "0.005000",
       "overcharge_ratio": 1,
       "calls": 14,
       "failures": 0,
@@ -8691,26 +8731,6 @@
       "listed_price_usdc": "0.001000",
       "modal_quote_usdc": "0.001000",
       "max_quote_usdc": "0.001000",
-      "overcharge_ratio": 1,
-      "calls": 13,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.22809537513180025,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://api.clawfetch.ai/render",
-      "method": "POST",
-      "seller": "api.clawfetch.ai",
-      "listed_price_usdc": "0.005000",
-      "modal_quote_usdc": "0.005000",
-      "max_quote_usdc": "0.005000",
       "overcharge_ratio": 1,
       "calls": 13,
       "failures": 0,
@@ -9588,6 +9608,26 @@
       "url": "https://braille.openverbs.com/v1/to-dots",
       "method": "POST",
       "seller": "braille.openverbs.com",
+      "listed_price_usdc": "0.002000",
+      "modal_quote_usdc": "0.002000",
+      "max_quote_usdc": "0.002000",
+      "overcharge_ratio": 1,
+      "calls": 12,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2424940095530979,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://chain.tollkit.dev/chain/history",
+      "method": "POST",
+      "seller": "chain.tollkit.dev",
       "listed_price_usdc": "0.002000",
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
@@ -11105,6 +11145,46 @@
       }
     },
     {
+      "url": "https://mcp.dropenginehq.com/api/analyze-whale-activity",
+      "method": "POST",
+      "seller": "mcp.dropenginehq.com",
+      "listed_price_usdc": "0.020000",
+      "modal_quote_usdc": "0.020000",
+      "max_quote_usdc": "0.020000",
+      "overcharge_ratio": 1,
+      "calls": 11,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2588329699944264,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
+      "url": "https://mcp.dropenginehq.com/api/simulate-transaction",
+      "method": "POST",
+      "seller": "mcp.dropenginehq.com",
+      "listed_price_usdc": "0.020000",
+      "modal_quote_usdc": "0.020000",
+      "max_quote_usdc": "0.020000",
+      "overcharge_ratio": 1,
+      "calls": 11,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2588329699944264,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      }
+    },
+    {
       "url": "https://mono.orthogonal.com/pay/serper/autocomplete",
       "method": "POST",
       "seller": "mono.orthogonal.com",
@@ -11131,26 +11211,6 @@
       "listed_price_usdc": "0.002000",
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
-      "overcharge_ratio": 1,
-      "calls": 11,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2588329699944264,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://onchainpulse.theaslangroupllc.com/api/facet/honeypot",
-      "method": "GET",
-      "seller": "onchainpulse.theaslangroupllc.com",
-      "listed_price_usdc": "0.005000",
-      "modal_quote_usdc": "0.005000",
-      "max_quote_usdc": "0.005000",
       "overcharge_ratio": 1,
       "calls": 11,
       "failures": 0,
@@ -12248,26 +12308,6 @@
       "url": "https://api.powerstripsecurity.workers.dev/v1/scan",
       "method": "POST",
       "seller": "api.powerstripsecurity.workers.dev",
-      "listed_price_usdc": "0.002000",
-      "modal_quote_usdc": "0.002000",
-      "max_quote_usdc": "0.002000",
-      "overcharge_ratio": 1,
-      "calls": 10,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2775328030260577,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      }
-    },
-    {
-      "url": "https://chain.tollkit.dev/chain/history",
-      "method": "POST",
-      "seller": "chain.tollkit.dev",
       "listed_price_usdc": "0.002000",
       "modal_quote_usdc": "0.002000",
       "max_quote_usdc": "0.002000",
