@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T18:38:57.608Z",
+  "generated_at": "2026-11-21T19:38:27.054Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "domain": "money-reactor.makar52nn2016.workers.dev",
   "seller_id": 1566,
-  "failures_total": 187,
+  "failures_total": 189,
   "shown": 25,
   "window": {
     "size": 50,
@@ -19,11 +19,51 @@
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-16T19:24:17.066Z",
-    "last_ts": "2026-11-21T13:37:53.156Z",
-    "last_failure_ts": "2026-11-21T13:37:53.156Z"
+    "first_ts": "2026-11-17T01:25:25.929Z",
+    "last_ts": "2026-11-21T19:35:54.534Z",
+    "last_failure_ts": "2026-11-21T19:35:54.534Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-21T19:35:54.534Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/color",
+      "method": "GET",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0xc2b507b9870cc4e5c3b6878d7f1588e1fbab9f7ac8c1d6fe1b710b6a3432e98b",
+      "basescan_url": "https://basescan.org/tx/0xc2b507b9870cc4e5c3b6878d7f1588e1fbab9f7ac8c1d6fe1b710b6a3432e98b"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-21T19:35:43.631Z",
+      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/base64",
+      "method": "GET",
+      "quote_usdc": "0.020000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 400,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x0f9522a27f2a2e35e08d61af23062350445db1ee28fa32aa4aa309e5581543c1",
+      "basescan_url": "https://basescan.org/tx/0x0f9522a27f2a2e35e08d61af23062350445db1ee28fa32aa4aa309e5581543c1"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -483,46 +523,6 @@
       ],
       "settlement_tx_hash": "0xec1b606cc73c738b3c65260b486ad90f933cf7dfe804920431a9f5624fc6c9b5",
       "basescan_url": "https://basescan.org/tx/0xec1b606cc73c738b3c65260b486ad90f933cf7dfe804920431a9f5624fc6c9b5"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-19T13:24:37.229Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.050000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x422a9f4bd616b76f1450916d5ae9fa4f634de0d3dc1d6ea47957be5b8239462d",
-      "basescan_url": "https://basescan.org/tx/0x422a9f4bd616b76f1450916d5ae9fa4f634de0d3dc1d6ea47957be5b8239462d"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-19T07:30:42.080Z",
-      "resource": "https://money-reactor.makar52nn2016.workers.dev/api/ai-sentiment",
-      "method": "GET",
-      "quote_usdc": "0.100000",
-      "reference_price_usdc": "0.050000",
-      "reference_source": "bazaar",
-      "http_status": 400,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x0cf8d5be583a3e24e4fb87ad7356b7d2f99b7032675414f5f44af0e9b75f60e5",
-      "basescan_url": "https://basescan.org/tx/0x0cf8d5be583a3e24e4fb87ad7356b7d2f99b7032675414f5f44af0e9b75f60e5"
     }
   ],
   "corrections_total": 0,
