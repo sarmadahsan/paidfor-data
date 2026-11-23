@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:44:17.284Z",
+  "generated_at": "2026-11-23T19:30:10.328Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "summary": {
@@ -13,9 +13,9 @@
     "quote_drift": 872
   },
   "report_summary": {
-    "Date range": "2026-10-24T02:57:21.693Z to 2026-11-23T18:43:53.599Z",
-    "Rounds": "497",
-    "Probes": "1362831",
+    "Date range": "2026-10-24T02:57:21.693Z to 2026-11-23T20:02:37.399Z",
+    "Rounds": "498",
+    "Probes": "1363059",
     "Resources in active probe set": "660 (top 60, tail 600)",
     "Client identities used": "A, B",
     "Note": "Identities differ only in HTTP headers. The unpaid x402 request carries no buyer wallet (the payer appears only in the signed PAYMENT-SIGNATURE header), so wallet-based price discrimination is not observable by probing."
@@ -27,7 +27,7 @@
         {
           "Seller": "verdict.kechlab.com",
           "Resources": "2",
-          "Probes": "984",
+          "Probes": "986",
           "402 rate": "99.6%",
           "Modal price": "$0.0088",
           "Min": "$0.0066",
@@ -62,7 +62,7 @@
           "Modal price": "$0.03875",
           "Min": "$0.0275",
           "Max": "$0.04125",
-          "Drift events": "98",
+          "Drift events": "100",
           "Pay-to changes": "0",
           "Price discrimination": "0",
           "Overcharge probes": "16",
@@ -237,8 +237,8 @@
         {
           "Seller": "aeroacepilot.xyz",
           "Resources": "1",
-          "Probes": "796",
-          "402 rate": "51.8%",
+          "Probes": "798",
+          "402 rate": "51.6%",
           "Modal price": "$0.04",
           "Min": "$0.01",
           "Max": "$0.04",
@@ -297,7 +297,7 @@
         {
           "Seller": "api.aizamon.com",
           "Resources": "1",
-          "Probes": "908",
+          "Probes": "910",
           "402 rate": "99.9%",
           "Modal price": "$0.25",
           "Min": "$0.01",
@@ -655,6 +655,21 @@
           "Median latency": "475 ms"
         },
         {
+          "Seller": "api.blockchain.info",
+          "Resources": "2",
+          "Probes": "932",
+          "402 rate": "100.0%",
+          "Modal price": "$0.005",
+          "Min": "$0.0015",
+          "Max": "$0.005",
+          "Drift events": "2",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "78",
+          "Slow probes": "0",
+          "Median latency": "215 ms"
+        },
+        {
           "Seller": "api.companyrecords-api.workers.dev",
           "Resources": "2",
           "Probes": "932",
@@ -668,21 +683,6 @@
           "Overcharge probes": "2",
           "Slow probes": "0",
           "Median latency": "72 ms"
-        },
-        {
-          "Seller": "api.blockchain.info",
-          "Resources": "2",
-          "Probes": "930",
-          "402 rate": "100.0%",
-          "Modal price": "$0.005",
-          "Min": "$0.0015",
-          "Max": "$0.005",
-          "Drift events": "2",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "78",
-          "Slow probes": "0",
-          "Median latency": "215 ms"
         },
         {
           "Seller": "api.eucompliance.tools",
@@ -775,6 +775,21 @@
           "Median latency": "399 ms"
         },
         {
+          "Seller": "wtsp.dev",
+          "Resources": "1",
+          "Probes": "912",
+          "402 rate": "100.0%",
+          "Modal price": "$0.002",
+          "Min": "$0.002",
+          "Max": "$0.004",
+          "Drift events": "2",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "253 ms"
+        },
+        {
           "Seller": "agent-tools.jbarkules.workers.dev",
           "Resources": "1",
           "Probes": "910",
@@ -818,21 +833,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "257 ms"
-        },
-        {
-          "Seller": "wtsp.dev",
-          "Resources": "1",
-          "Probes": "910",
-          "402 rate": "100.0%",
-          "Modal price": "$0.002",
-          "Min": "$0.002",
-          "Max": "$0.004",
-          "Drift events": "2",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "253 ms"
         },
         {
           "Seller": "x402.telnyx.com",
@@ -1120,25 +1120,10 @@
           "Median latency": "324 ms"
         },
         {
-          "Seller": "x402-v2-mint-agent-readiness.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.03",
-          "Min": "$0.03",
-          "Max": "$0.05",
-          "Drift events": "2",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "142 ms"
-        },
-        {
           "Seller": "repo-run-check.nextill-pos.workers.dev",
           "Resources": "1",
-          "Probes": "754",
-          "402 rate": "77.7%",
+          "Probes": "756",
+          "402 rate": "77.5%",
           "Modal price": "$0.25",
           "Min": "$0.005",
           "Max": "$0.25",
@@ -1152,7 +1137,7 @@
         {
           "Seller": "scaudit.madebydevx.com",
           "Resources": "1",
-          "Probes": "754",
+          "Probes": "756",
           "402 rate": "98.8%",
           "Modal price": "$0.09",
           "Min": "$0.09",
@@ -1163,6 +1148,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "62 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-agent-readiness.vercel.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "100.0%",
+          "Modal price": "$0.03",
+          "Min": "$0.03",
+          "Max": "$0.05",
+          "Drift events": "2",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "142 ms"
         },
         {
           "Seller": "app.domainhelp.com",
@@ -1572,7 +1572,7 @@
         {
           "Seller": "api.twitterapi.io",
           "Resources": "1",
-          "Probes": "90",
+          "Probes": "92",
           "402 rate": "100.0%",
           "Modal price": "$0.003",
           "Min": "$0.003",
@@ -1735,6 +1735,21 @@
           "Median latency": "291 ms"
         },
         {
+          "Seller": "brain.usebrainchain.com",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "96.5%",
+          "Modal price": "$1.00",
+          "Min": "$1.00",
+          "Max": "$1.00",
+          "Drift events": "0",
+          "Pay-to changes": "1",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "179 ms"
+        },
+        {
           "Seller": "clouatre.ca",
           "Resources": "1",
           "Probes": "798",
@@ -1765,6 +1780,36 @@
           "Median latency": "127 ms"
         },
         {
+          "Seller": "pulse.xrpl-utilities.io",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "99.7%",
+          "Modal price": "$0.1",
+          "Min": "$0.1",
+          "Max": "$0.1",
+          "Drift events": "0",
+          "Pay-to changes": "1",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "152 ms"
+        },
+        {
+          "Seller": "sentinel.xrpl-utilities.io",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "100.0%",
+          "Modal price": "$0.1",
+          "Min": "$0.1",
+          "Max": "$0.1",
+          "Drift events": "0",
+          "Pay-to changes": "1",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "140 ms"
+        },
+        {
           "Seller": "trust.xrpl-utilities.io",
           "Resources": "1",
           "Probes": "798",
@@ -1793,21 +1838,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "158 ms"
-        },
-        {
-          "Seller": "brain.usebrainchain.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "96.5%",
-          "Modal price": "$1.00",
-          "Min": "$1.00",
-          "Max": "$1.00",
-          "Drift events": "0",
-          "Pay-to changes": "1",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "179 ms"
         },
         {
           "Seller": "flows.xrpl-utilities.io",
@@ -1853,36 +1883,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "72 ms"
-        },
-        {
-          "Seller": "pulse.xrpl-utilities.io",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "99.7%",
-          "Modal price": "$0.1",
-          "Min": "$0.1",
-          "Max": "$0.1",
-          "Drift events": "0",
-          "Pay-to changes": "1",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "152 ms"
-        },
-        {
-          "Seller": "sentinel.xrpl-utilities.io",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "100.0%",
-          "Modal price": "$0.1",
-          "Min": "$0.1",
-          "Max": "$0.1",
-          "Drift events": "0",
-          "Pay-to changes": "1",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "140 ms"
         },
         {
           "Seller": "sml-quant-terminal.onrender.com",
@@ -2022,7 +2022,7 @@
         {
           "Seller": "agent-payment-guard.agent-data-apis.workers.dev",
           "Resources": "1",
-          "Probes": "162",
+          "Probes": "164",
           "402 rate": "100.0%",
           "Modal price": "$0.005",
           "Min": "$0.005",
@@ -2215,6 +2215,21 @@
           "Median latency": "147 ms"
         },
         {
+          "Seller": "jev-x402.vercel.app",
+          "Resources": "1",
+          "Probes": "988",
+          "402 rate": "99.9%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "132 ms"
+        },
+        {
           "Seller": "laso.finance",
           "Resources": "1",
           "Probes": "988",
@@ -2228,6 +2243,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "129 ms"
+        },
+        {
+          "Seller": "market.datapackvibe.com",
+          "Resources": "1",
+          "Probes": "988",
+          "402 rate": "37.3%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "103 ms"
         },
         {
           "Seller": "x402.agentutility.ai",
@@ -2500,21 +2530,6 @@
           "Median latency": "179 ms"
         },
         {
-          "Seller": "jev-x402.vercel.app",
-          "Resources": "1",
-          "Probes": "986",
-          "402 rate": "99.9%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "132 ms"
-        },
-        {
           "Seller": "macro-pulse-x402.onrender.com",
           "Resources": "1",
           "Probes": "986",
@@ -2528,21 +2543,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "70 ms"
-        },
-        {
-          "Seller": "market.datapackvibe.com",
-          "Resources": "1",
-          "Probes": "986",
-          "402 rate": "37.4%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "103 ms"
         },
         {
           "Seller": "scvd.store",
@@ -3355,6 +3355,21 @@
           "Median latency": "70 ms"
         },
         {
+          "Seller": "47620.xyz",
+          "Resources": "2",
+          "Probes": "934",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "922",
+          "Slow probes": "0",
+          "Median latency": "481 ms"
+        },
+        {
           "Seller": "agents.citiviewgroup.com",
           "Resources": "3",
           "Probes": "934",
@@ -3385,6 +3400,36 @@
           "Median latency": "156 ms"
         },
         {
+          "Seller": "currency-api-production-4a8d.up.railway.app",
+          "Resources": "2",
+          "Probes": "934",
+          "402 rate": "100.0%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "111 ms"
+        },
+        {
+          "Seller": "defi-api.agenticfi.wtf",
+          "Resources": "2",
+          "Probes": "934",
+          "402 rate": "100.0%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "102 ms"
+        },
+        {
           "Seller": "fiatdock.com",
           "Resources": "3",
           "Probes": "934",
@@ -3413,6 +3458,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "239 ms"
+        },
+        {
+          "Seller": "modelprices.xyz",
+          "Resources": "3",
+          "Probes": "934",
+          "402 rate": "99.5%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "304 ms"
         },
         {
           "Seller": "proxy.suverse.io",
@@ -3488,21 +3548,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "232 ms"
-        },
-        {
-          "Seller": "47620.xyz",
-          "Resources": "2",
-          "Probes": "932",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "920",
-          "Slow probes": "0",
-          "Median latency": "481 ms"
         },
         {
           "Seller": "7mavs5vu7ggbhtxvbavdgs26qa0cbawg.lambda-url.us-east-1.on.aws",
@@ -3760,36 +3805,6 @@
           "Median latency": "135 ms"
         },
         {
-          "Seller": "currency-api-production-4a8d.up.railway.app",
-          "Resources": "2",
-          "Probes": "932",
-          "402 rate": "100.0%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "111 ms"
-        },
-        {
-          "Seller": "defi-api.agenticfi.wtf",
-          "Resources": "2",
-          "Probes": "932",
-          "402 rate": "100.0%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "102 ms"
-        },
-        {
           "Seller": "deskfeed.dev",
           "Resources": "2",
           "Probes": "932",
@@ -3803,6 +3818,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "282 ms"
+        },
+        {
+          "Seller": "eltociear-tokenguard.hf.space",
+          "Resources": "2",
+          "Probes": "932",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "160 ms"
         },
         {
           "Seller": "email.intel.rallylive.ca",
@@ -3878,21 +3908,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "445 ms"
-        },
-        {
-          "Seller": "modelprices.xyz",
-          "Resources": "3",
-          "Probes": "932",
-          "402 rate": "99.5%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "304 ms"
         },
         {
           "Seller": "pay.edge-agents.ai",
@@ -4073,6 +4088,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "1211 ms"
+        },
+        {
+          "Seller": "agent-tools-production-e6aa.up.railway.app",
+          "Resources": "2",
+          "Probes": "930",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.03",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "176 ms"
         },
         {
           "Seller": "agents.bytemine.ai",
@@ -4450,21 +4480,6 @@
           "Median latency": "76 ms"
         },
         {
-          "Seller": "eltociear-tokenguard.hf.space",
-          "Resources": "2",
-          "Probes": "930",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "160 ms"
-        },
-        {
           "Seller": "filingspulse.theaslangroupllc.com",
           "Resources": "2",
           "Probes": "930",
@@ -4523,6 +4538,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "331 ms"
+        },
+        {
+          "Seller": "manylives.me",
+          "Resources": "2",
+          "Probes": "930",
+          "402 rate": "68.6%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "240 ms"
         },
         {
           "Seller": "marketpulse.theaslangroupllc.com",
@@ -4853,21 +4883,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "118 ms"
-        },
-        {
-          "Seller": "agent-tools-production-e6aa.up.railway.app",
-          "Resources": "2",
-          "Probes": "928",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.03",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "176 ms"
         },
         {
           "Seller": "agentforge-taupe.vercel.app",
@@ -5215,21 +5230,6 @@
           "Median latency": "465 ms"
         },
         {
-          "Seller": "manylives.me",
-          "Resources": "2",
-          "Probes": "928",
-          "402 rate": "68.8%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "240 ms"
-        },
-        {
           "Seller": "mpp.tracefast.xyz",
           "Resources": "2",
           "Probes": "928",
@@ -5485,6 +5485,36 @@
           "Median latency": "295 ms"
         },
         {
+          "Seller": "app.tenna.ai",
+          "Resources": "1",
+          "Probes": "914",
+          "402 rate": "99.5%",
+          "Modal price": "$0.1",
+          "Min": "$0.1",
+          "Max": "$0.1",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "537",
+          "Slow probes": "0",
+          "Median latency": "390 ms"
+        },
+        {
+          "Seller": "x402render-u5vwpxpyua-uc.a.run.app",
+          "Resources": "1",
+          "Probes": "914",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "96 ms"
+        },
+        {
           "Seller": "agentdata-api.sander-van-aard.workers.dev",
           "Resources": "1",
           "Probes": "912",
@@ -5545,19 +5575,19 @@
           "Median latency": "106 ms"
         },
         {
-          "Seller": "app.tenna.ai",
+          "Seller": "backend-production-69ff.up.railway.app",
           "Resources": "1",
           "Probes": "912",
-          "402 rate": "99.5%",
-          "Modal price": "$0.1",
-          "Min": "$0.1",
-          "Max": "$0.1",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "537",
+          "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "390 ms"
+          "Median latency": "130 ms"
         },
         {
           "Seller": "bykaranteli.com",
@@ -5573,6 +5603,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "238 ms"
+        },
+        {
+          "Seller": "clinicalintelpulse.theaslangroupllc.com",
+          "Resources": "1",
+          "Probes": "912",
+          "402 rate": "100.0%",
+          "Modal price": "$0.15",
+          "Min": "$0.15",
+          "Max": "$0.15",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "170 ms"
         },
         {
           "Seller": "concordancehq.duckdns.org",
@@ -5665,19 +5710,19 @@
           "Median latency": "185 ms"
         },
         {
-          "Seller": "x402render-u5vwpxpyua-uc.a.run.app",
+          "Seller": "2-28-111-166.sslip.io",
           "Resources": "1",
-          "Probes": "912",
+          "Probes": "910",
           "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "96 ms"
+          "Median latency": "487 ms"
         },
         {
           "Seller": "aero.lonestaroracle.xyz",
@@ -5693,6 +5738,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "251 ms"
+        },
+        {
+          "Seller": "agent-arcade.use.x402atlas.com",
+          "Resources": "1",
+          "Probes": "910",
+          "402 rate": "100.0%",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "134 ms"
         },
         {
           "Seller": "agent-budget-guard.onrender.com",
@@ -5935,6 +5995,21 @@
           "Median latency": "861 ms"
         },
         {
+          "Seller": "api.glianalabs.com",
+          "Resources": "1",
+          "Probes": "910",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "97 ms"
+        },
+        {
           "Seller": "api.ishob.com",
           "Resources": "1",
           "Probes": "910",
@@ -5993,6 +6068,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "255 ms"
+        },
+        {
+          "Seller": "api.onesource.io",
+          "Resources": "1",
+          "Probes": "910",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "147 ms"
         },
         {
           "Seller": "api.orioncmd.com",
@@ -6145,21 +6235,6 @@
           "Median latency": "181 ms"
         },
         {
-          "Seller": "backend-production-69ff.up.railway.app",
-          "Resources": "1",
-          "Probes": "910",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "130 ms"
-        },
-        {
           "Seller": "base64encode.use.x402atlas.com",
           "Resources": "1",
           "Probes": "910",
@@ -6220,21 +6295,6 @@
           "Median latency": "155 ms"
         },
         {
-          "Seller": "clinicalintelpulse.theaslangroupllc.com",
-          "Resources": "1",
-          "Probes": "910",
-          "402 rate": "100.0%",
-          "Modal price": "$0.15",
-          "Min": "$0.15",
-          "Max": "$0.15",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "170 ms"
-        },
-        {
           "Seller": "coingecko.use.x402atlas.com",
           "Resources": "1",
           "Probes": "910",
@@ -6254,6 +6314,21 @@
           "Resources": "1",
           "Probes": "910",
           "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "152 ms"
+        },
+        {
+          "Seller": "conclavex402.pythonanywhere.com",
+          "Resources": "1",
+          "Probes": "910",
+          "402 rate": "69.2%",
           "Modal price": "$0.02",
           "Min": "$0.02",
           "Max": "$0.02",
@@ -6505,6 +6580,21 @@
           "Median latency": "154 ms"
         },
         {
+          "Seller": "google-patents.use.x402atlas.com",
+          "Resources": "1",
+          "Probes": "910",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "145 ms"
+        },
+        {
           "Seller": "grokzilla.shop",
           "Resources": "1",
           "Probes": "910",
@@ -6728,6 +6818,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "64 ms"
+        },
+        {
+          "Seller": "omniguchi.0000402.xyz",
+          "Resources": "1",
+          "Probes": "910",
+          "402 rate": "99.5%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "829 ms"
         },
         {
           "Seller": "open-pay.jp",
@@ -7300,21 +7405,6 @@
           "Median latency": "256 ms"
         },
         {
-          "Seller": "2-28-111-166.sslip.io",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "100.0%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "487 ms"
-        },
-        {
           "Seller": "402.com.tr",
           "Resources": "1",
           "Probes": "908",
@@ -7358,21 +7448,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "111 ms"
-        },
-        {
-          "Seller": "agent-arcade.use.x402atlas.com",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "100.0%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "134 ms"
         },
         {
           "Seller": "agent-artifact-eta.vercel.app",
@@ -7675,21 +7750,6 @@
           "Median latency": "128 ms"
         },
         {
-          "Seller": "api.glianalabs.com",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "97 ms"
-        },
-        {
           "Seller": "api.helpmyagent.com",
           "Resources": "1",
           "Probes": "908",
@@ -7808,21 +7868,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "28 ms"
-        },
-        {
-          "Seller": "api.onesource.io",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "147 ms"
         },
         {
           "Seller": "api.orcatrace.dev",
@@ -8080,6 +8125,21 @@
           "Median latency": "126 ms"
         },
         {
+          "Seller": "ausref.dev",
+          "Resources": "1",
+          "Probes": "908",
+          "402 rate": "95.6%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "1206 ms"
+        },
+        {
           "Seller": "automaton-tx-explainer.vercel.app",
           "Resources": "1",
           "Probes": "908",
@@ -8258,21 +8318,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "249 ms"
-        },
-        {
-          "Seller": "conclavex402.pythonanywhere.com",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "69.4%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "152 ms"
         },
         {
           "Seller": "conclavex402p04.pythonanywhere.com",
@@ -8665,21 +8710,6 @@
           "Median latency": "161 ms"
         },
         {
-          "Seller": "google-patents.use.x402atlas.com",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "145 ms"
-        },
-        {
           "Seller": "health.memoryapi.org",
           "Resources": "1",
           "Probes": "908",
@@ -8845,6 +8875,21 @@
           "Median latency": "79 ms"
         },
         {
+          "Seller": "mailferret.appin60.com",
+          "Resources": "1",
+          "Probes": "908",
+          "402 rate": "99.9%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "532 ms"
+        },
+        {
           "Seller": "markt.halowerk.com",
           "Resources": "1",
           "Probes": "908",
@@ -8948,21 +8993,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "43 ms"
-        },
-        {
-          "Seller": "omniguchi.0000402.xyz",
-          "Resources": "1",
-          "Probes": "908",
-          "402 rate": "99.4%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "829 ms"
         },
         {
           "Seller": "oracle.cyberwarex.com",
@@ -10060,21 +10090,6 @@
           "Median latency": "126 ms"
         },
         {
-          "Seller": "ausref.dev",
-          "Resources": "1",
-          "Probes": "906",
-          "402 rate": "95.6%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "1206 ms"
-        },
-        {
           "Seller": "ch-cm-kg.ai",
           "Resources": "1",
           "Probes": "906",
@@ -10448,21 +10463,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "155 ms"
-        },
-        {
-          "Seller": "mailferret.appin60.com",
-          "Resources": "1",
-          "Probes": "906",
-          "402 rate": "99.9%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "532 ms"
         },
         {
           "Seller": "material.halowerk.com",
@@ -11320,6 +11320,21 @@
           "Median latency": "95 ms"
         },
         {
+          "Seller": "aeroallocator.app",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "99.9%",
+          "Modal price": "$0.05",
+          "Min": "$0.05",
+          "Max": "$0.05",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "210 ms"
+        },
+        {
           "Seller": "aient.ai",
           "Resources": "1",
           "Probes": "800",
@@ -11348,6 +11363,36 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "76 ms"
+        },
+        {
+          "Seller": "beliefstate.ai",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "243 ms"
+        },
+        {
+          "Seller": "buildingtint.info",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "101 ms"
         },
         {
           "Seller": "checkup.kagurazaka.dev",
@@ -11380,6 +11425,36 @@
           "Median latency": "124 ms"
         },
         {
+          "Seller": "domainref.dev",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "95.3%",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "1237 ms"
+        },
+        {
+          "Seller": "mediagenerator.inrits.tech",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "100.0%",
+          "Modal price": "$0.5",
+          "Min": "$0.5",
+          "Max": "$0.5",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "261 ms"
+        },
+        {
           "Seller": "sanctions-screen.mick8511.workers.dev",
           "Resources": "1",
           "Probes": "800",
@@ -11408,6 +11483,36 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "64 ms"
+        },
+        {
+          "Seller": "tools.usefulwork.app",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "100.0%",
+          "Modal price": "$0.002",
+          "Min": "$0.002",
+          "Max": "$0.002",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "343 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-ripe-prefix-overview.vercel.app",
+          "Resources": "1",
+          "Probes": "800",
+          "402 rate": "98.0%",
+          "Modal price": "$0.020129",
+          "Min": "$0.020129",
+          "Max": "$0.020129",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "134 ms"
         },
         {
           "Seller": "x402-v2-mint-tfl-stop-search.vercel.app",
@@ -11498,21 +11603,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "90 ms"
-        },
-        {
-          "Seller": "aeroallocator.app",
-          "Resources": "1",
-          "Probes": "798",
-          "402 rate": "99.9%",
-          "Modal price": "$0.05",
-          "Min": "$0.05",
-          "Max": "$0.05",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "210 ms"
         },
         {
           "Seller": "agent-read-proxy.agent-read-proxy.workers.dev",
@@ -11770,6 +11860,21 @@
           "Median latency": "76 ms"
         },
         {
+          "Seller": "api.switch402.com",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "100.0%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "116 ms"
+        },
+        {
           "Seller": "arbol-x402-probe-begriff.vercel.app",
           "Resources": "1",
           "Probes": "798",
@@ -11845,22 +11950,7 @@
           "Median latency": "280 ms"
         },
         {
-          "Seller": "beliefstate.ai",
-          "Resources": "1",
-          "Probes": "798",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "245 ms"
-        },
-        {
-          "Seller": "buildingtint.info",
+          "Seller": "canaryguard-402.onrender.com",
           "Resources": "1",
           "Probes": "798",
           "402 rate": "100.0%",
@@ -11872,7 +11962,7 @@
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "101 ms"
+          "Median latency": "74 ms"
         },
         {
           "Seller": "carsonbot402.dev",
@@ -12070,6 +12160,21 @@
           "Median latency": "79 ms"
         },
         {
+          "Seller": "depth.genexxis.com",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "97.2%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "261 ms"
+        },
+        {
           "Seller": "dev.kagurazaka.dev",
           "Resources": "1",
           "Probes": "798",
@@ -12115,19 +12220,19 @@
           "Median latency": "318 ms"
         },
         {
-          "Seller": "domainref.dev",
+          "Seller": "dragonseye-watchlist.dario-9fa.workers.dev",
           "Resources": "1",
           "Probes": "798",
-          "402 rate": "95.2%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
+          "402 rate": "100.0%",
+          "Modal price": "$2.00",
+          "Min": "$2.00",
+          "Max": "$2.00",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "1237 ms"
+          "Median latency": "214 ms"
         },
         {
           "Seller": "edgar.genexxis.com",
@@ -12475,21 +12580,6 @@
           "Median latency": "291 ms"
         },
         {
-          "Seller": "mediagenerator.inrits.tech",
-          "Resources": "1",
-          "Probes": "798",
-          "402 rate": "100.0%",
-          "Modal price": "$0.5",
-          "Min": "$0.5",
-          "Max": "$0.5",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "261 ms"
-        },
-        {
           "Seller": "miningoperationswork.cyou",
           "Resources": "1",
           "Probes": "798",
@@ -12775,6 +12865,21 @@
           "Median latency": "63 ms"
         },
         {
+          "Seller": "research.genexxis.com",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "97.7%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "306 ms"
+        },
+        {
           "Seller": "rtnl1z960zy00xyx.68r.lambda-web.us-east-1.on.aws",
           "Resources": "1",
           "Probes": "798",
@@ -12955,21 +13060,6 @@
           "Median latency": "255 ms"
         },
         {
-          "Seller": "tools.usefulwork.app",
-          "Resources": "1",
-          "Probes": "798",
-          "402 rate": "100.0%",
-          "Modal price": "$0.002",
-          "Min": "$0.002",
-          "Max": "$0.002",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "343 ms"
-        },
-        {
           "Seller": "tvy64m9w0dfvxmkq.68r.lambda-web.us-east-1.on.aws",
           "Resources": "1",
           "Probes": "798",
@@ -13075,6 +13165,21 @@
           "Median latency": "280 ms"
         },
         {
+          "Seller": "webtools.genexxis.com",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "98.2%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "305 ms"
+        },
+        {
           "Seller": "x402-markettwits-news.onrender.com",
           "Resources": "1",
           "Probes": "798",
@@ -13178,21 +13283,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "132 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-ripe-prefix-overview.vercel.app",
-          "Resources": "1",
-          "Probes": "798",
-          "402 rate": "98.0%",
-          "Modal price": "$0.020129",
-          "Min": "$0.020129",
-          "Max": "$0.020129",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "134 ms"
         },
         {
           "Seller": "x402-v2-mint-ror-org-search.vercel.app",
@@ -13750,6 +13840,21 @@
           "Median latency": "113 ms"
         },
         {
+          "Seller": "x402check.genexxis.com",
+          "Resources": "1",
+          "Probes": "798",
+          "402 rate": "97.4%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "277 ms"
+        },
+        {
           "Seller": "yields.genexxis.com",
           "Resources": "1",
           "Probes": "798",
@@ -14095,21 +14200,6 @@
           "Median latency": "118 ms"
         },
         {
-          "Seller": "api.switch402.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "100.0%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "116 ms"
-        },
-        {
           "Seller": "api.x402intel.uk",
           "Resources": "1",
           "Probes": "796",
@@ -14200,21 +14290,6 @@
           "Median latency": "84 ms"
         },
         {
-          "Seller": "canaryguard-402.onrender.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "74 ms"
-        },
-        {
           "Seller": "candle-signal-pro.onrender.com",
           "Resources": "1",
           "Probes": "796",
@@ -14290,21 +14365,6 @@
           "Median latency": "271 ms"
         },
         {
-          "Seller": "depth.genexxis.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "97.2%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "261 ms"
-        },
-        {
           "Seller": "dominion-data.x402-evm-math.workers.dev",
           "Resources": "1",
           "Probes": "796",
@@ -14318,21 +14378,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "55 ms"
-        },
-        {
-          "Seller": "dragonseye-watchlist.dario-9fa.workers.dev",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "100.0%",
-          "Modal price": "$2.00",
-          "Min": "$2.00",
-          "Max": "$2.00",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "214 ms"
         },
         {
           "Seller": "falcon-structures.vercel.app",
@@ -14710,21 +14755,6 @@
           "Median latency": "218 ms"
         },
         {
-          "Seller": "research.genexxis.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "97.7%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "306 ms"
-        },
-        {
           "Seller": "ryanseslow.com",
           "Resources": "1",
           "Probes": "796",
@@ -14903,21 +14933,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "279 ms"
-        },
-        {
-          "Seller": "webtools.genexxis.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "98.2%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "305 ms"
         },
         {
           "Seller": "wt7tysfcmjm8fpzl.68r.lambda-web.us-east-1.on.aws",
@@ -15265,21 +15280,6 @@
           "Median latency": "62 ms"
         },
         {
-          "Seller": "x402check.genexxis.com",
-          "Resources": "1",
-          "Probes": "796",
-          "402 rate": "97.4%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "277 ms"
-        },
-        {
           "Seller": "zonewire.co",
           "Resources": "1",
           "Probes": "796",
@@ -15308,6 +15308,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "435 ms"
+        },
+        {
+          "Seller": "shellpermit.schemasure.com",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "100.0%",
+          "Modal price": "$0.03",
+          "Min": "$0.03",
+          "Max": "$0.03",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "127 ms"
         },
         {
           "Seller": "x402-funding.onrender.com",
@@ -15415,6 +15430,21 @@
           "Median latency": "138 ms"
         },
         {
+          "Seller": "x402-v2-mint-idigbio-records.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020156",
+          "Min": "$0.020156",
+          "Max": "$0.020156",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "139 ms"
+        },
+        {
           "Seller": "x402-v2-mint-interpro-entry-search.vercel.app",
           "Resources": "1",
           "Probes": "758",
@@ -15443,6 +15473,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "132 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-mbta-routes.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020075",
+          "Min": "$0.020075",
+          "Max": "$0.020075",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "140 ms"
         },
         {
           "Seller": "x402-v2-mint-medrxiv-details.vercel.app",
@@ -15475,6 +15520,51 @@
           "Median latency": "140 ms"
         },
         {
+          "Seller": "x402-v2-mint-openaire-datasets.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020121",
+          "Min": "$0.020121",
+          "Max": "$0.020121",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "140 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-openalex-institutions.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020089",
+          "Min": "$0.020089",
+          "Max": "$0.020089",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "138 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-osf-nodes-search.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020122",
+          "Min": "$0.020122",
+          "Max": "$0.020122",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "140 ms"
+        },
+        {
           "Seller": "x402-v2-mint-pride-project-search.vercel.app",
           "Resources": "1",
           "Probes": "758",
@@ -15488,6 +15578,36 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "140 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-uk-police-street.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "97.6%",
+          "Modal price": "$0.020196",
+          "Min": "$0.020196",
+          "Max": "$0.020196",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "133 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-ygoprodeck-card.vercel.app",
+          "Resources": "1",
+          "Probes": "758",
+          "402 rate": "97.6%",
+          "Modal price": "$0.020205",
+          "Min": "$0.020205",
+          "Max": "$0.020205",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "131 ms"
         },
         {
           "Seller": "address-poisoning-check.nextill-pos.workers.dev",
@@ -15955,21 +16075,6 @@
           "Median latency": "217 ms"
         },
         {
-          "Seller": "shellpermit.schemasure.com",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.03",
-          "Min": "$0.03",
-          "Max": "$0.03",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "127 ms"
-        },
-        {
           "Seller": "sweeper-check.nextill-pos.workers.dev",
           "Resources": "1",
           "Probes": "756",
@@ -16028,6 +16133,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "122 ms"
+        },
+        {
+          "Seller": "valuation-api-production-1c7c.up.railway.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "97.4%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "143 ms"
         },
         {
           "Seller": "wallet-balances.nextill-pos.workers.dev",
@@ -16165,6 +16285,21 @@
           "Median latency": "141 ms"
         },
         {
+          "Seller": "x402-v2-mint-base-finality-check.vercel.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020002",
+          "Min": "$0.020002",
+          "Max": "$0.020002",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "138 ms"
+        },
+        {
           "Seller": "x402-v2-mint-base-gas-price.vercel.app",
           "Resources": "1",
           "Probes": "756",
@@ -16193,6 +16328,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "137 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-bluesky-public-did.vercel.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020167",
+          "Min": "$0.020167",
+          "Max": "$0.020167",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "139 ms"
         },
         {
           "Seller": "x402-v2-mint-bna-property-check.vercel.app",
@@ -16810,6 +16960,21 @@
           "Median latency": "142 ms"
         },
         {
+          "Seller": "x402-v2-mint-fr-agencies.vercel.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "100.0%",
+          "Modal price": "$0.020111",
+          "Min": "$0.020111",
+          "Max": "$0.020111",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "138 ms"
+        },
+        {
           "Seller": "x402-v2-mint-fx-spot-rate.vercel.app",
           "Resources": "1",
           "Probes": "756",
@@ -16975,21 +17140,6 @@
           "Median latency": "139 ms"
         },
         {
-          "Seller": "x402-v2-mint-idigbio-records.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020156",
-          "Min": "$0.020156",
-          "Max": "$0.020156",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "139 ms"
-        },
-        {
           "Seller": "x402-v2-mint-ietf-dt-search.vercel.app",
           "Resources": "1",
           "Probes": "756",
@@ -17093,6 +17243,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "138 ms"
+        },
+        {
+          "Seller": "x402-v2-mint-json-sort.vercel.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "100.0%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "139 ms"
         },
         {
           "Seller": "x402-v2-mint-keyword-extract.vercel.app",
@@ -17213,21 +17378,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "137 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-mbta-routes.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020075",
-          "Min": "$0.020075",
-          "Max": "$0.020075",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "140 ms"
         },
         {
           "Seller": "x402-v2-mint-metmuseum-collection-search.vercel.app",
@@ -17500,21 +17650,6 @@
           "Median latency": "140 ms"
         },
         {
-          "Seller": "x402-v2-mint-openaire-datasets.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020121",
-          "Min": "$0.020121",
-          "Max": "$0.020121",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "140 ms"
-        },
-        {
           "Seller": "x402-v2-mint-openaire-publications.vercel.app",
           "Resources": "1",
           "Probes": "756",
@@ -17543,21 +17678,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "140 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-openalex-institutions.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020089",
-          "Min": "$0.020089",
-          "Max": "$0.020089",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "138 ms"
         },
         {
           "Seller": "x402-v2-mint-openalex-sources.vercel.app",
@@ -17710,6 +17830,21 @@
           "Median latency": "138 ms"
         },
         {
+          "Seller": "x402-v2-mint-opentdb-trivia.vercel.app",
+          "Resources": "1",
+          "Probes": "756",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02018",
+          "Min": "$0.02018",
+          "Max": "$0.02018",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "141 ms"
+        },
+        {
           "Seller": "x402-v2-mint-orcid-lookup.vercel.app",
           "Resources": "1",
           "Probes": "756",
@@ -17738,21 +17873,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "141 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-osf-nodes-search.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020122",
-          "Min": "$0.020122",
-          "Max": "$0.020122",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "140 ms"
         },
         {
           "Seller": "x402-v2-mint-osv-vuln-query.vercel.app",
@@ -18055,21 +18175,6 @@
           "Median latency": "133 ms"
         },
         {
-          "Seller": "x402-v2-mint-uk-police-street.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "97.6%",
-          "Modal price": "$0.020196",
-          "Min": "$0.020196",
-          "Max": "$0.020196",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "133 ms"
-        },
-        {
           "Seller": "x402-v2-mint-worldbank-country.vercel.app",
           "Resources": "1",
           "Probes": "756",
@@ -18083,21 +18188,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "133 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-ygoprodeck-card.vercel.app",
-          "Resources": "1",
-          "Probes": "756",
-          "402 rate": "97.6%",
-          "Modal price": "$0.020205",
-          "Min": "$0.020205",
-          "Max": "$0.020205",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "131 ms"
         },
         {
           "Seller": "x402-v2-mint-public-holidays.vercel.app",
@@ -18295,21 +18385,6 @@
           "Median latency": "59 ms"
         },
         {
-          "Seller": "valuation-api-production-1c7c.up.railway.app",
-          "Resources": "1",
-          "Probes": "754",
-          "402 rate": "97.3%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "143 ms"
-        },
-        {
           "Seller": "x402-v2-mint-a11y-color-check.vercel.app",
           "Resources": "1",
           "Probes": "754",
@@ -18385,21 +18460,6 @@
           "Median latency": "138 ms"
         },
         {
-          "Seller": "x402-v2-mint-base-finality-check.vercel.app",
-          "Resources": "1",
-          "Probes": "754",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020002",
-          "Min": "$0.020002",
-          "Max": "$0.020002",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "138 ms"
-        },
-        {
           "Seller": "x402-v2-mint-base-tx-decision.vercel.app",
           "Resources": "1",
           "Probes": "754",
@@ -18452,21 +18512,6 @@
           "Modal price": "$0.020028",
           "Min": "$0.020028",
           "Max": "$0.020028",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "139 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-bluesky-public-did.vercel.app",
-          "Resources": "1",
-          "Probes": "754",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020167",
-          "Min": "$0.020167",
-          "Max": "$0.020167",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
@@ -18895,21 +18940,6 @@
           "Median latency": "144 ms"
         },
         {
-          "Seller": "x402-v2-mint-fr-agencies.vercel.app",
-          "Resources": "1",
-          "Probes": "754",
-          "402 rate": "100.0%",
-          "Modal price": "$0.020111",
-          "Min": "$0.020111",
-          "Max": "$0.020111",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "138 ms"
-        },
-        {
           "Seller": "x402-v2-mint-gbif-species-match.vercel.app",
           "Resources": "1",
           "Probes": "754",
@@ -19088,21 +19118,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "137 ms"
-        },
-        {
-          "Seller": "x402-v2-mint-json-sort.vercel.app",
-          "Resources": "1",
-          "Probes": "754",
-          "402 rate": "100.0%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "139 ms"
         },
         {
           "Seller": "x402-v2-mint-json-toolkit.vercel.app",
@@ -19435,21 +19450,6 @@
           "Median latency": "138 ms"
         },
         {
-          "Seller": "x402-v2-mint-opentdb-trivia.vercel.app",
-          "Resources": "1",
-          "Probes": "754",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02018",
-          "Min": "$0.02018",
-          "Max": "$0.02018",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "141 ms"
-        },
-        {
           "Seller": "x402-v2-mint-osrm-route.vercel.app",
           "Resources": "1",
           "Probes": "754",
@@ -19660,6 +19660,21 @@
           "Median latency": "132 ms"
         },
         {
+          "Seller": "css-design-calc.x402tookit.com",
+          "Resources": "1",
+          "Probes": "564",
+          "402 rate": "77.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "138 ms"
+        },
+        {
           "Seller": "api.mangrovedeveloper.ai",
           "Resources": "1",
           "Probes": "562",
@@ -19690,6 +19705,21 @@
           "Median latency": "156 ms"
         },
         {
+          "Seller": "commerce-nord.halowerk.com",
+          "Resources": "1",
+          "Probes": "562",
+          "402 rate": "100.0%",
+          "Modal price": "$0.002",
+          "Min": "$0.002",
+          "Max": "$0.002",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "234 ms"
+        },
+        {
           "Seller": "cosmos.halowerk.com",
           "Resources": "1",
           "Probes": "562",
@@ -19705,19 +19735,19 @@
           "Median latency": "273 ms"
         },
         {
-          "Seller": "css-design-calc.x402tookit.com",
+          "Seller": "dap.solutions",
           "Resources": "1",
           "Probes": "562",
-          "402 rate": "77.2%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "138 ms"
+          "Median latency": "108 ms"
         },
         {
           "Seller": "linear-algebra.x402tookit.com",
@@ -19735,6 +19765,36 @@
           "Median latency": "136 ms"
         },
         {
+          "Seller": "mcp.xrpl-utilities.io",
+          "Resources": "1",
+          "Probes": "562",
+          "402 rate": "0.0%",
+          "Modal price": "-",
+          "Min": "-",
+          "Max": "-",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "152 ms"
+        },
+        {
+          "Seller": "mcpfax-reliability.bowling-anthony.workers.dev",
+          "Resources": "1",
+          "Probes": "562",
+          "402 rate": "100.0%",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "85 ms"
+        },
+        {
           "Seller": "nohands-coinbase-bazaar.bytoken2023.workers.dev",
           "Resources": "1",
           "Probes": "562",
@@ -19748,6 +19808,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "67 ms"
+        },
+        {
+          "Seller": "nordland.halowerk.com",
+          "Resources": "1",
+          "Probes": "562",
+          "402 rate": "100.0%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "231 ms"
         },
         {
           "Seller": "number-words.x402tookit.com",
@@ -19795,10 +19870,40 @@
           "Median latency": "138 ms"
         },
         {
+          "Seller": "verify-oracle.run402.com",
+          "Resources": "1",
+          "Probes": "562",
+          "402 rate": "99.6%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "324 ms"
+        },
+        {
           "Seller": "web3-tools.x402tookit.com",
           "Resources": "1",
           "Probes": "562",
           "402 rate": "78.3%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "137 ms"
+        },
+        {
+          "Seller": "x402-meta.x402tookit.com",
+          "Resources": "1",
+          "Probes": "562",
+          "402 rate": "76.9%",
           "Modal price": "$0.02",
           "Min": "$0.02",
           "Max": "$0.02",
@@ -19915,6 +20020,21 @@
           "Median latency": "389 ms"
         },
         {
+          "Seller": "api.compatify.io",
+          "Resources": "1",
+          "Probes": "560",
+          "402 rate": "100.0%",
+          "Modal price": "$0.05",
+          "Min": "$0.05",
+          "Max": "$0.05",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "140 ms"
+        },
+        {
           "Seller": "api.ibancheck.co.uk",
           "Resources": "1",
           "Probes": "560",
@@ -19943,6 +20063,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "178 ms"
+        },
+        {
+          "Seller": "api.novarithm.com",
+          "Resources": "1",
+          "Probes": "560",
+          "402 rate": "100.0%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "506 ms"
         },
         {
           "Seller": "api.speechischeap.com",
@@ -20320,21 +20455,6 @@
           "Median latency": "239 ms"
         },
         {
-          "Seller": "commerce-nord.halowerk.com",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "100.0%",
-          "Modal price": "$0.002",
-          "Min": "$0.002",
-          "Max": "$0.002",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "234 ms"
-        },
-        {
           "Seller": "commerce-south.halowerk.com",
           "Resources": "1",
           "Probes": "560",
@@ -20440,21 +20560,6 @@
           "Median latency": "101 ms"
         },
         {
-          "Seller": "dap.solutions",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "108 ms"
-        },
-        {
           "Seller": "data-calc.x402tookit.com",
           "Resources": "1",
           "Probes": "560",
@@ -20498,6 +20603,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "137 ms"
+        },
+        {
+          "Seller": "edge-agents.ai",
+          "Resources": "1",
+          "Probes": "560",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "93 ms"
         },
         {
           "Seller": "eefread.run402.com",
@@ -20920,6 +21040,21 @@
           "Median latency": "136 ms"
         },
         {
+          "Seller": "math-geometry.x402tookit.com",
+          "Resources": "1",
+          "Probes": "560",
+          "402 rate": "77.9%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "137 ms"
+        },
+        {
           "Seller": "math-stats.x402tookit.com",
           "Resources": "1",
           "Probes": "560",
@@ -20933,36 +21068,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "135 ms"
-        },
-        {
-          "Seller": "mcp.xrpl-utilities.io",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "0.0%",
-          "Modal price": "-",
-          "Min": "-",
-          "Max": "-",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "152 ms"
-        },
-        {
-          "Seller": "mcpfax-reliability.bowling-anthony.workers.dev",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "100.0%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "85 ms"
         },
         {
           "Seller": "medical-codes.x402tookit.com",
@@ -20993,6 +21098,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "70 ms"
+        },
+        {
+          "Seller": "mitteleuropa.halowerk.com",
+          "Resources": "1",
+          "Probes": "560",
+          "402 rate": "100.0%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "234 ms"
         },
         {
           "Seller": "music-production-calc.x402tookit.com",
@@ -21038,21 +21158,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "1082 ms"
-        },
-        {
-          "Seller": "nordland.halowerk.com",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "100.0%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "231 ms"
         },
         {
           "Seller": "og.169-58-40-14.sslip.io",
@@ -21490,6 +21595,21 @@
           "Median latency": "140 ms"
         },
         {
+          "Seller": "text-similarity.x402tookit.com",
+          "Resources": "1",
+          "Probes": "560",
+          "402 rate": "77.5%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "135 ms"
+        },
+        {
           "Seller": "time-series-calc.x402tookit.com",
           "Resources": "1",
           "Probes": "560",
@@ -21563,21 +21683,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "138 ms"
-        },
-        {
-          "Seller": "verify-oracle.run402.com",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "99.6%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "324 ms"
         },
         {
           "Seller": "video-calc.x402tookit.com",
@@ -21698,21 +21803,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "138 ms"
-        },
-        {
-          "Seller": "x402-meta.x402tookit.com",
-          "Resources": "1",
-          "Probes": "560",
-          "402 rate": "77.1%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "137 ms"
         },
         {
           "Seller": "x402-seller.vercel.app",
@@ -21940,21 +22030,6 @@
           "Median latency": "344 ms"
         },
         {
-          "Seller": "api.compatify.io",
-          "Resources": "1",
-          "Probes": "558",
-          "402 rate": "100.0%",
-          "Modal price": "$0.05",
-          "Min": "$0.05",
-          "Max": "$0.05",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "140 ms"
-        },
-        {
           "Seller": "api.crawlwitness.com",
           "Resources": "1",
           "Probes": "558",
@@ -22013,21 +22088,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "133 ms"
-        },
-        {
-          "Seller": "api.novarithm.com",
-          "Resources": "1",
-          "Probes": "558",
-          "402 rate": "100.0%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "506 ms"
         },
         {
           "Seller": "api.odilelabs.com",
@@ -22343,21 +22403,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "137 ms"
-        },
-        {
-          "Seller": "edge-agents.ai",
-          "Resources": "1",
-          "Probes": "558",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "93 ms"
         },
         {
           "Seller": "emoji-tools.x402tookit.com",
@@ -22705,21 +22750,6 @@
           "Median latency": "137 ms"
         },
         {
-          "Seller": "math-geometry.x402tookit.com",
-          "Resources": "1",
-          "Probes": "558",
-          "402 rate": "78.1%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "137 ms"
-        },
-        {
           "Seller": "meridian.miodiollc.com",
           "Resources": "1",
           "Probes": "558",
@@ -22748,21 +22778,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "65 ms"
-        },
-        {
-          "Seller": "mitteleuropa.halowerk.com",
-          "Resources": "1",
-          "Probes": "558",
-          "402 rate": "100.0%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "234 ms"
         },
         {
           "Seller": "ml-metrics.x402tookit.com",
@@ -23138,21 +23153,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "136 ms"
-        },
-        {
-          "Seller": "text-similarity.x402tookit.com",
-          "Resources": "1",
-          "Probes": "558",
-          "402 rate": "77.8%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "135 ms"
         },
         {
           "Seller": "tgw-mindset-api.fly.dev",
@@ -24310,6 +24310,36 @@
           "Median latency": "1046 ms"
         },
         {
+          "Seller": "beggar-bot-demand.beggarbot.workers.dev",
+          "Resources": "1",
+          "Probes": "450",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "173 ms"
+        },
+        {
+          "Seller": "blockrun-staging-03ac1b0-074217-vbsbhh7lea-uc.a.run.app",
+          "Resources": "1",
+          "Probes": "450",
+          "402 rate": "0.0%",
+          "Modal price": "-",
+          "Min": "-",
+          "Max": "-",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "79 ms"
+        },
+        {
           "Seller": "changefeed.dev",
           "Resources": "1",
           "Probes": "450",
@@ -24355,21 +24385,6 @@
           "Median latency": "1119 ms"
         },
         {
-          "Seller": "beggar-bot-demand.beggarbot.workers.dev",
-          "Resources": "1",
-          "Probes": "448",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "173 ms"
-        },
-        {
           "Seller": "blockrun-staging-00db5b1-222712-vbsbhh7lea-uc.a.run.app",
           "Resources": "1",
           "Probes": "448",
@@ -24383,21 +24398,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "84 ms"
-        },
-        {
-          "Seller": "blockrun-staging-03ac1b0-074217-vbsbhh7lea-uc.a.run.app",
-          "Resources": "1",
-          "Probes": "448",
-          "402 rate": "0.0%",
-          "Modal price": "-",
-          "Min": "-",
-          "Max": "-",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "79 ms"
         },
         {
           "Seller": "blockrun-staging-37609bc-194619-vbsbhh7lea-uc.a.run.app",
@@ -24715,6 +24715,36 @@
           "Median latency": "67 ms"
         },
         {
+          "Seller": "blockrun-staging-a2ddef6-073013-vbsbhh7lea-uc.a.run.app",
+          "Resources": "1",
+          "Probes": "424",
+          "402 rate": "0.0%",
+          "Modal price": "-",
+          "Min": "-",
+          "Max": "-",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "79 ms"
+        },
+        {
+          "Seller": "date-math.datemath.workers.dev",
+          "Resources": "1",
+          "Probes": "424",
+          "402 rate": "100.0%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "64 ms"
+        },
+        {
           "Seller": "agentum.asimplek.cloud",
           "Resources": "1",
           "Probes": "422",
@@ -24758,36 +24788,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "451 ms"
-        },
-        {
-          "Seller": "blockrun-staging-a2ddef6-073013-vbsbhh7lea-uc.a.run.app",
-          "Resources": "1",
-          "Probes": "422",
-          "402 rate": "0.0%",
-          "Modal price": "-",
-          "Min": "-",
-          "Max": "-",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "79 ms"
-        },
-        {
-          "Seller": "date-math.datemath.workers.dev",
-          "Resources": "1",
-          "Probes": "422",
-          "402 rate": "100.0%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "64 ms"
         },
         {
           "Seller": "diamond.btc-intel.workers.dev",
@@ -24998,6 +24998,36 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "121 ms"
+        },
+        {
+          "Seller": "df-data-agent.app",
+          "Resources": "1",
+          "Probes": "376",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "188 ms"
+        },
+        {
+          "Seller": "dineroenlamesa.com",
+          "Resources": "1",
+          "Probes": "376",
+          "402 rate": "100.0%",
+          "Modal price": "$0.1",
+          "Min": "$0.1",
+          "Max": "$0.1",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "351 ms"
         },
         {
           "Seller": "actuaryai.pro",
@@ -25253,36 +25283,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "358 ms"
-        },
-        {
-          "Seller": "df-data-agent.app",
-          "Resources": "1",
-          "Probes": "374",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "188 ms"
-        },
-        {
-          "Seller": "dineroenlamesa.com",
-          "Resources": "1",
-          "Probes": "374",
-          "402 rate": "100.0%",
-          "Modal price": "$0.1",
-          "Min": "$0.1",
-          "Max": "$0.1",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "345 ms"
         },
         {
           "Seller": "docshield.grindfree.net",
@@ -25660,6 +25660,66 @@
           "Median latency": "64 ms"
         },
         {
+          "Seller": "feegate.org",
+          "Resources": "1",
+          "Probes": "352",
+          "402 rate": "100.0%",
+          "Modal price": "$0.03",
+          "Min": "$0.03",
+          "Max": "$0.03",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "470 ms"
+        },
+        {
+          "Seller": "forge-tools.dentreprise.workers.dev",
+          "Resources": "1",
+          "Probes": "352",
+          "402 rate": "88.4%",
+          "Modal price": "$0.001",
+          "Min": "$0.001",
+          "Max": "$0.001",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "236 ms"
+        },
+        {
+          "Seller": "softbot-evmcheck-mainnet.softbot.workers.dev",
+          "Resources": "1",
+          "Probes": "352",
+          "402 rate": "89.5%",
+          "Modal price": "$0.003",
+          "Min": "$0.003",
+          "Max": "$0.003",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "243 ms"
+        },
+        {
+          "Seller": "trading-signals-toolkit.onrender.com",
+          "Resources": "1",
+          "Probes": "352",
+          "402 rate": "0.0%",
+          "Modal price": "-",
+          "Min": "-",
+          "Max": "-",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "126 ms"
+        },
+        {
           "Seller": "agentdocs-dev.agentdocs.workers.dev",
           "Resources": "1",
           "Probes": "350",
@@ -25885,36 +25945,6 @@
           "Median latency": "344 ms"
         },
         {
-          "Seller": "feegate.org",
-          "Resources": "1",
-          "Probes": "350",
-          "402 rate": "100.0%",
-          "Modal price": "$0.03",
-          "Min": "$0.03",
-          "Max": "$0.03",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "470 ms"
-        },
-        {
-          "Seller": "forge-tools.dentreprise.workers.dev",
-          "Resources": "1",
-          "Probes": "350",
-          "402 rate": "88.3%",
-          "Modal price": "$0.001",
-          "Min": "$0.001",
-          "Max": "$0.001",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "236 ms"
-        },
-        {
           "Seller": "kognai.ai",
           "Resources": "1",
           "Probes": "350",
@@ -26125,21 +26155,6 @@
           "Median latency": "251 ms"
         },
         {
-          "Seller": "softbot-evmcheck-mainnet.softbot.workers.dev",
-          "Resources": "1",
-          "Probes": "350",
-          "402 rate": "89.4%",
-          "Modal price": "$0.003",
-          "Min": "$0.003",
-          "Max": "$0.003",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "243 ms"
-        },
-        {
           "Seller": "stocks.0000402.xyz",
           "Resources": "1",
           "Probes": "350",
@@ -26168,21 +26183,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "508 ms"
-        },
-        {
-          "Seller": "trading-signals-toolkit.onrender.com",
-          "Resources": "1",
-          "Probes": "350",
-          "402 rate": "0.0%",
-          "Modal price": "-",
-          "Min": "-",
-          "Max": "-",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "126 ms"
         },
         {
           "Seller": "x402-gateway.forge-x402.workers.dev",
@@ -26243,6 +26243,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "72 ms"
+        },
+        {
+          "Seller": "tunis-data.hanibal-ai.com",
+          "Resources": "1",
+          "Probes": "306",
+          "402 rate": "100.0%",
+          "Modal price": "$0.05",
+          "Min": "$0.05",
+          "Max": "$0.05",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "254 ms"
         },
         {
           "Seller": "174-138-26-48.sslip.io",
@@ -26485,19 +26500,19 @@
           "Median latency": "769 ms"
         },
         {
-          "Seller": "tunis-data.hanibal-ai.com",
+          "Seller": "verify.gedx402.com",
           "Resources": "1",
-          "Probes": "304",
+          "Probes": "266",
           "402 rate": "100.0%",
-          "Modal price": "$0.05",
-          "Min": "$0.05",
-          "Max": "$0.05",
+          "Modal price": "$0.006",
+          "Min": "$0.006",
+          "Max": "$0.006",
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
           "Overcharge probes": "0",
           "Slow probes": "0",
-          "Median latency": "254 ms"
+          "Median latency": "291 ms"
         },
         {
           "Seller": "api.0mod.com",
@@ -26920,21 +26935,6 @@
           "Median latency": "137 ms"
         },
         {
-          "Seller": "verify.gedx402.com",
-          "Resources": "1",
-          "Probes": "264",
-          "402 rate": "100.0%",
-          "Modal price": "$0.006",
-          "Min": "$0.006",
-          "Max": "$0.006",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "291 ms"
-        },
-        {
           "Seller": "x402-pay-precheck.moneytools.workers.dev",
           "Resources": "1",
           "Probes": "264",
@@ -26963,6 +26963,81 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "603 ms"
+        },
+        {
+          "Seller": "api.cryptoattention.com",
+          "Resources": "1",
+          "Probes": "240",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "455 ms"
+        },
+        {
+          "Seller": "pay.cemforge.ai",
+          "Resources": "1",
+          "Probes": "240",
+          "402 rate": "100.0%",
+          "Modal price": "$10.00",
+          "Min": "$10.00",
+          "Max": "$10.00",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "305 ms"
+        },
+        {
+          "Seller": "pay.shell3d.com",
+          "Resources": "1",
+          "Probes": "240",
+          "402 rate": "100.0%",
+          "Modal price": "$10.00",
+          "Min": "$10.00",
+          "Max": "$10.00",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "425 ms"
+        },
+        {
+          "Seller": "payapi.market",
+          "Resources": "1",
+          "Probes": "240",
+          "402 rate": "97.5%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "166 ms"
+        },
+        {
+          "Seller": "solana-pulse-gateway-1021990235790.us-central1.run.app",
+          "Resources": "1",
+          "Probes": "240",
+          "402 rate": "5.4%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "337 ms"
         },
         {
           "Seller": "159-89-145-109.sslip.io",
@@ -27023,21 +27098,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "444 ms"
-        },
-        {
-          "Seller": "api.cryptoattention.com",
-          "Resources": "1",
-          "Probes": "238",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "455 ms"
         },
         {
           "Seller": "api.cryptobroski.com",
@@ -27145,21 +27205,6 @@
           "Median latency": "265 ms"
         },
         {
-          "Seller": "pay.cemforge.ai",
-          "Resources": "1",
-          "Probes": "238",
-          "402 rate": "100.0%",
-          "Modal price": "$10.00",
-          "Min": "$10.00",
-          "Max": "$10.00",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "305 ms"
-        },
-        {
           "Seller": "pay.polyluthier.com",
           "Resources": "1",
           "Probes": "238",
@@ -27175,21 +27220,6 @@
           "Median latency": "1212 ms"
         },
         {
-          "Seller": "pay.shell3d.com",
-          "Resources": "1",
-          "Probes": "238",
-          "402 rate": "100.0%",
-          "Modal price": "$10.00",
-          "Min": "$10.00",
-          "Max": "$10.00",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "425 ms"
-        },
-        {
           "Seller": "pay.sunn3d.com",
           "Resources": "1",
           "Probes": "238",
@@ -27203,21 +27233,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "322 ms"
-        },
-        {
-          "Seller": "payapi.market",
-          "Resources": "1",
-          "Probes": "238",
-          "402 rate": "97.5%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "166 ms"
         },
         {
           "Seller": "preflight--preflight-api-api.us-east.modal.run",
@@ -27250,21 +27265,6 @@
           "Median latency": "413 ms"
         },
         {
-          "Seller": "solana-pulse-gateway-1021990235790.us-central1.run.app",
-          "Resources": "1",
-          "Probes": "238",
-          "402 rate": "5.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "339 ms"
-        },
-        {
           "Seller": "toolmill.grokademy.si",
           "Resources": "1",
           "Probes": "238",
@@ -27295,6 +27295,66 @@
           "Median latency": "62 ms"
         },
         {
+          "Seller": "api.archibase.dev",
+          "Resources": "1",
+          "Probes": "212",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "123 ms"
+        },
+        {
+          "Seller": "defi-flow.onchainproof.workers.dev",
+          "Resources": "1",
+          "Probes": "212",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "89 ms"
+        },
+        {
+          "Seller": "deutsch-data.hanibal-ai.com",
+          "Resources": "1",
+          "Probes": "212",
+          "402 rate": "6.6%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "541 ms"
+        },
+        {
+          "Seller": "fetch-x402.ai",
+          "Resources": "1",
+          "Probes": "212",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "323 ms"
+        },
+        {
           "Seller": "agentic.clawbots.org",
           "Resources": "1",
           "Probes": "210",
@@ -27323,21 +27383,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "149 ms"
-        },
-        {
-          "Seller": "api.archibase.dev",
-          "Resources": "1",
-          "Probes": "210",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "123 ms"
         },
         {
           "Seller": "api.cotejar.com.br",
@@ -27535,36 +27580,6 @@
           "Median latency": "556 ms"
         },
         {
-          "Seller": "defi-flow.onchainproof.workers.dev",
-          "Resources": "1",
-          "Probes": "210",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "89 ms"
-        },
-        {
-          "Seller": "deutsch-data.hanibal-ai.com",
-          "Resources": "1",
-          "Probes": "210",
-          "402 rate": "6.7%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "541 ms"
-        },
-        {
           "Seller": "eu-vat-checker.onrender.com",
           "Resources": "1",
           "Probes": "210",
@@ -27578,21 +27593,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "207 ms"
-        },
-        {
-          "Seller": "fetch-x402.ai",
-          "Resources": "1",
-          "Probes": "210",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "323 ms"
         },
         {
           "Seller": "linkproof.bsptimber.workers.dev",
@@ -27762,7 +27762,7 @@
         {
           "Seller": "159-65-130-200.sslip.io",
           "Resources": "1",
-          "Probes": "186",
+          "Probes": "188",
           "402 rate": "100.0%",
           "Modal price": "$0.01",
           "Min": "$0.01",
@@ -27770,7 +27770,7 @@
           "Drift events": "0",
           "Pay-to changes": "0",
           "Price discrimination": "0",
-          "Overcharge probes": "186",
+          "Overcharge probes": "188",
           "Slow probes": "0",
           "Median latency": "388 ms"
         },
@@ -28000,6 +28000,21 @@
           "Median latency": "372 ms"
         },
         {
+          "Seller": "data.killbounce.app",
+          "Resources": "1",
+          "Probes": "164",
+          "402 rate": "100.0%",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "93 ms"
+        },
+        {
           "Seller": "agent-utils.threads-cron.workers.dev",
           "Resources": "1",
           "Probes": "162",
@@ -28133,21 +28148,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "130 ms"
-        },
-        {
-          "Seller": "data.killbounce.app",
-          "Resources": "1",
-          "Probes": "162",
-          "402 rate": "100.0%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "93 ms"
         },
         {
           "Seller": "docread.grindfree.net",
@@ -28450,6 +28450,36 @@
           "Median latency": "366 ms"
         },
         {
+          "Seller": "audio.speccy.cloud",
+          "Resources": "1",
+          "Probes": "140",
+          "402 rate": "68.6%",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "584 ms"
+        },
+        {
+          "Seller": "blockrun-staging-9b31895-084804-vbsbhh7lea-uc.a.run.app",
+          "Resources": "1",
+          "Probes": "140",
+          "402 rate": "0.0%",
+          "Modal price": "-",
+          "Min": "-",
+          "Max": "-",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "90 ms"
+        },
+        {
           "Seller": "alpha-sentinel-mcp.vercel.app",
           "Resources": "1",
           "Probes": "138",
@@ -28493,21 +28523,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "241 ms"
-        },
-        {
-          "Seller": "audio.speccy.cloud",
-          "Resources": "1",
-          "Probes": "138",
-          "402 rate": "69.6%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "584 ms"
         },
         {
           "Seller": "blockrun-staging-1e13e7f-210114-vbsbhh7lea-uc.a.run.app",
@@ -28583,21 +28598,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "77 ms"
-        },
-        {
-          "Seller": "blockrun-staging-9b31895-084804-vbsbhh7lea-uc.a.run.app",
-          "Resources": "1",
-          "Probes": "138",
-          "402 rate": "0.0%",
-          "Modal price": "-",
-          "Min": "-",
-          "Max": "-",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "90 ms"
         },
         {
           "Seller": "blockrun-staging-d90095c-231015-vbsbhh7lea-uc.a.run.app",
@@ -29005,6 +29005,66 @@
           "Median latency": "236 ms"
         },
         {
+          "Seller": "check.benmcalilly.com",
+          "Resources": "1",
+          "Probes": "116",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "113 ms"
+        },
+        {
+          "Seller": "goat-lighthouse.site",
+          "Resources": "1",
+          "Probes": "116",
+          "402 rate": "100.0%",
+          "Modal price": "$0.005",
+          "Min": "$0.005",
+          "Max": "$0.005",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "74 ms"
+        },
+        {
+          "Seller": "jobs.sevenfourone.studio",
+          "Resources": "1",
+          "Probes": "116",
+          "402 rate": "89.7%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "208 ms"
+        },
+        {
+          "Seller": "standortdossier.halowerk.com",
+          "Resources": "1",
+          "Probes": "116",
+          "402 rate": "100.0%",
+          "Modal price": "$0.012",
+          "Min": "$0.012",
+          "Max": "$0.012",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "484 ms"
+        },
+        {
           "Seller": "agent-job-board.obtranzat.workers.dev",
           "Resources": "1",
           "Probes": "114",
@@ -29275,21 +29335,6 @@
           "Median latency": "130 ms"
         },
         {
-          "Seller": "check.benmcalilly.com",
-          "Resources": "1",
-          "Probes": "114",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "113 ms"
-        },
-        {
           "Seller": "coinofut-compute.fly.dev",
           "Resources": "1",
           "Probes": "114",
@@ -29335,21 +29380,6 @@
           "Median latency": "123 ms"
         },
         {
-          "Seller": "goat-lighthouse.site",
-          "Resources": "1",
-          "Probes": "114",
-          "402 rate": "100.0%",
-          "Modal price": "$0.005",
-          "Min": "$0.005",
-          "Max": "$0.005",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "74 ms"
-        },
-        {
           "Seller": "grizzly-x402.onrender.com",
           "Resources": "1",
           "Probes": "114",
@@ -29363,21 +29393,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "124 ms"
-        },
-        {
-          "Seller": "jobs.sevenfourone.studio",
-          "Resources": "1",
-          "Probes": "114",
-          "402 rate": "89.5%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "208 ms"
         },
         {
           "Seller": "landdossier.halowerk.com",
@@ -29485,21 +29500,6 @@
           "Median latency": "138 ms"
         },
         {
-          "Seller": "standortdossier.halowerk.com",
-          "Resources": "1",
-          "Probes": "114",
-          "402 rate": "100.0%",
-          "Modal price": "$0.012",
-          "Min": "$0.012",
-          "Max": "$0.012",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "484 ms"
-        },
-        {
           "Seller": "us-bank-financials.use.x402atlas.com",
           "Resources": "1",
           "Probes": "114",
@@ -29573,6 +29573,36 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "69 ms"
+        },
+        {
+          "Seller": "tts.glyphcall.com",
+          "Resources": "1",
+          "Probes": "92",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "161 ms"
+        },
+        {
+          "Seller": "mcp.toolstem.com",
+          "Resources": "1",
+          "Probes": "91",
+          "402 rate": "98.9%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "125 ms"
         },
         {
           "Seller": "3c18b2d704b6940881478ee13baabb5a-dev.ctonew.app",
@@ -30175,21 +30205,6 @@
           "Median latency": "289 ms"
         },
         {
-          "Seller": "tts.glyphcall.com",
-          "Resources": "1",
-          "Probes": "90",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "161 ms"
-        },
-        {
           "Seller": "web.glyphcall.com",
           "Resources": "1",
           "Probes": "90",
@@ -30293,21 +30308,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "60 ms"
-        },
-        {
-          "Seller": "mcp.toolstem.com",
-          "Resources": "1",
-          "Probes": "89",
-          "402 rate": "98.9%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "125 ms"
         },
         {
           "Seller": "crypto.caelaralabs.com",
@@ -30458,6 +30458,21 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "281 ms"
+        },
+        {
+          "Seller": "mcp.ipfacts.com",
+          "Resources": "1",
+          "Probes": "68",
+          "402 rate": "0.0%",
+          "Modal price": "-",
+          "Min": "-",
+          "Max": "-",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "179 ms"
         },
         {
           "Seller": "agent-finance-proxy.samikadry9.workers.dev",
@@ -30820,21 +30835,6 @@
           "Median latency": "141 ms"
         },
         {
-          "Seller": "mcp.ipfacts.com",
-          "Resources": "1",
-          "Probes": "66",
-          "402 rate": "0.0%",
-          "Modal price": "-",
-          "Min": "-",
-          "Max": "-",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "179 ms"
-        },
-        {
           "Seller": "mypivots.com",
           "Resources": "1",
           "Probes": "66",
@@ -31120,6 +31120,36 @@
           "Median latency": "91 ms"
         },
         {
+          "Seller": "alpine-filtering-travesti-qualifying.trycloudflare.com",
+          "Resources": "1",
+          "Probes": "44",
+          "402 rate": "27.3%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "14 ms"
+        },
+        {
+          "Seller": "br-nfe-xml-auditor-x402.architect-x402.workers.dev",
+          "Resources": "1",
+          "Probes": "44",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "65 ms"
+        },
+        {
           "Seller": "a11y.aiagentpay.cloud",
           "Resources": "1",
           "Probes": "42",
@@ -31148,21 +31178,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "63 ms"
-        },
-        {
-          "Seller": "alpine-filtering-travesti-qualifying.trycloudflare.com",
-          "Resources": "1",
-          "Probes": "42",
-          "402 rate": "28.6%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "14 ms"
         },
         {
           "Seller": "api.alicehub.app",
@@ -31268,21 +31283,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "66 ms"
-        },
-        {
-          "Seller": "br-nfe-xml-auditor-x402.architect-x402.workers.dev",
-          "Resources": "1",
-          "Probes": "42",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "65 ms"
         },
         {
           "Seller": "br-tax-payroll-calc-x402.architect-x402.workers.dev",
@@ -33205,6 +33205,66 @@
           "Median latency": "87 ms"
         },
         {
+          "Seller": "doctor.x402.nodeventures.io",
+          "Resources": "1",
+          "Probes": "20",
+          "402 rate": "100.0%",
+          "Modal price": "$0.02",
+          "Min": "$0.02",
+          "Max": "$0.02",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "361 ms"
+        },
+        {
+          "Seller": "logimix.io",
+          "Resources": "1",
+          "Probes": "20",
+          "402 rate": "100.0%",
+          "Modal price": "$0.05",
+          "Min": "$0.05",
+          "Max": "$0.05",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "404 ms"
+        },
+        {
+          "Seller": "onchainproof.dev",
+          "Resources": "1",
+          "Probes": "20",
+          "402 rate": "100.0%",
+          "Modal price": "$0.01",
+          "Min": "$0.01",
+          "Max": "$0.01",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "262 ms"
+        },
+        {
+          "Seller": "pdf.clicndone.com",
+          "Resources": "1",
+          "Probes": "20",
+          "402 rate": "100.0%",
+          "Modal price": "$0.05",
+          "Min": "$0.05",
+          "Max": "$0.05",
+          "Drift events": "0",
+          "Pay-to changes": "0",
+          "Price discrimination": "0",
+          "Overcharge probes": "0",
+          "Slow probes": "0",
+          "Median latency": "374 ms"
+        },
+        {
           "Seller": "agent44labs.com",
           "Resources": "1",
           "Probes": "18",
@@ -33370,21 +33430,6 @@
           "Median latency": "321 ms"
         },
         {
-          "Seller": "doctor.x402.nodeventures.io",
-          "Resources": "1",
-          "Probes": "18",
-          "402 rate": "100.0%",
-          "Modal price": "$0.02",
-          "Min": "$0.02",
-          "Max": "$0.02",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "361 ms"
-        },
-        {
           "Seller": "document-evidence.halowerk.com",
           "Resources": "1",
           "Probes": "18",
@@ -33475,21 +33520,6 @@
           "Median latency": "67 ms"
         },
         {
-          "Seller": "logimix.io",
-          "Resources": "1",
-          "Probes": "18",
-          "402 rate": "100.0%",
-          "Modal price": "$0.05",
-          "Min": "$0.05",
-          "Max": "$0.05",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "378 ms"
-        },
-        {
           "Seller": "npdes.amacunia.fr",
           "Resources": "1",
           "Probes": "18",
@@ -33503,21 +33533,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "218 ms"
-        },
-        {
-          "Seller": "onchainproof.dev",
-          "Resources": "1",
-          "Probes": "18",
-          "402 rate": "100.0%",
-          "Modal price": "$0.01",
-          "Min": "$0.01",
-          "Max": "$0.01",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "233 ms"
         },
         {
           "Seller": "pagemd-x402.m-zikriz.workers.dev",
@@ -33548,21 +33563,6 @@
           "Overcharge probes": "0",
           "Slow probes": "0",
           "Median latency": "198 ms"
-        },
-        {
-          "Seller": "pdf.clicndone.com",
-          "Resources": "1",
-          "Probes": "18",
-          "402 rate": "100.0%",
-          "Modal price": "$0.05",
-          "Min": "$0.05",
-          "Max": "$0.05",
-          "Drift events": "0",
-          "Pay-to changes": "0",
-          "Price discrimination": "0",
-          "Overcharge probes": "0",
-          "Slow probes": "0",
-          "Median latency": "374 ms"
         },
         {
           "Seller": "quno-production.up.railway.app",
@@ -35097,23 +35097,23 @@
       ]
     },
     {
-      "heading": "Not probeable (140199 probes)",
+      "heading": "Not probeable (140236 probes)",
       "rows": [
         {
           "Reason": "no_402:404",
-          "Probes": "35858"
+          "Probes": "35870"
         },
         {
           "Reason": "no_402:530",
-          "Probes": "19154"
+          "Probes": "19156"
         },
         {
           "Reason": "no_402:503",
-          "Probes": "14802"
+          "Probes": "14806"
         },
         {
           "Reason": "no_402:400",
-          "Probes": "7658"
+          "Probes": "7659"
         },
         {
           "Reason": "no_base_exact_requirement",
@@ -35121,15 +35121,15 @@
         },
         {
           "Reason": "unreachable:dns",
-          "Probes": "6554"
+          "Probes": "6556"
         },
         {
           "Reason": "no_402:200",
-          "Probes": "5804"
+          "Probes": "5805"
         },
         {
           "Reason": "no_402:403",
-          "Probes": "5729"
+          "Probes": "5731"
         },
         {
           "Reason": "no_402:401",
@@ -35149,7 +35149,7 @@
         },
         {
           "Reason": "no_402:500",
-          "Probes": "4023"
+          "Probes": "4033"
         },
         {
           "Reason": "unreachable:tls",
@@ -35157,7 +35157,7 @@
         },
         {
           "Reason": "no_402:406",
-          "Probes": "3423"
+          "Probes": "3426"
         },
         {
           "Reason": "no_402:405",
