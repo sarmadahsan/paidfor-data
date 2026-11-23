@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T06:44:16.365Z",
+  "generated_at": "2026-11-23T07:44:15.725Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "domain": "api.slamai.dev",
   "seller_id": 1684,
-  "failures_total": 49,
+  "failures_total": 50,
   "shown": 25,
   "window": {
     "size": 50,
@@ -19,11 +19,26 @@
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-17T01:22:56.890Z",
-    "last_ts": "2026-11-23T01:43:00.533Z",
-    "last_failure_ts": "2026-11-23T01:39:30.711Z"
+    "first_ts": "2026-11-17T07:14:02.673Z",
+    "last_ts": "2026-11-23T07:42:13.352Z",
+    "last_failure_ts": "2026-11-23T07:38:53.717Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-23T07:38:53.717Z",
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x8feceac8170cd6a8bd9613371b5e419bd03afa20d172e7228ff556df5e5da5ee",
+      "basescan_url": "https://basescan.org/tx/0x8feceac8170cd6a8bd9613371b5e419bd03afa20d172e7228ff556df5e5da5ee"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -383,21 +398,6 @@
       "validator_failures": [],
       "settlement_tx_hash": "0x7af113067f3166262895697cedd7ed3c03c165d1956634d599235b584d838801",
       "basescan_url": "https://basescan.org/tx/0x7af113067f3166262895697cedd7ed3c03c165d1956634d599235b584d838801"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-12T07:02:18.329Z",
-      "resource": "https://api.slamai.dev/chain/tokens/trending",
-      "method": "GET",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": null,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x827f922910af46253b1b29b56d43ab655e848dc70c898bd465d18a75bd5993ac",
-      "basescan_url": "https://basescan.org/tx/0x827f922910af46253b1b29b56d43ab655e848dc70c898bd465d18a75bd5993ac"
     }
   ],
   "corrections_total": 0,

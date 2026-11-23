@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:44:16.365Z",
+  "generated_at": "2026-11-23T07:44:15.725Z",
   "network": "eip155:8453",
   "git_commit": "3c125b74b7027cd8b063707da53f91fec8128010",
   "min_calls": 30,
@@ -275,13 +275,13 @@
       "canonical_domain": "makar52nn2016.workers.dev",
       "tier": null,
       "category": "data",
-      "denominator_calls": 220,
-      "failures": 203,
-      "failure_rate": 0.9227272727272727,
-      "wilson_low": 0.8797476501300254,
-      "wilson_high": 0.9511976132254842,
+      "denominator_calls": 222,
+      "failures": 205,
+      "failure_rate": 0.9234234234234234,
+      "wilson_low": 0.8807999930915349,
+      "wilson_high": 0.9516423801168945,
       "failures_by_type": {
-        "non_delivery": 202,
+        "non_delivery": 204,
         "overcharge": 1,
         "duplicate": 0,
         "wrong_goods": 0
@@ -291,9 +291,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.975051975051975,
+      "dollar_weighted_rate": 0.975331713698374,
       "median_quote_usdc": "0.020000",
-      "last_seen": "2026-11-23T06:11:15.030Z",
+      "last_seen": "2026-11-23T07:42:14.939Z",
       "onchain_inflow_30d_usdc": "2.264000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -314,7 +314,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 218,
+        "buy": 221,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 10,
@@ -335,9 +335,9 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-18T13:19:34.846Z",
-        "last_ts": "2026-11-23T01:43:01.345Z",
-        "last_failure_ts": "2026-11-23T01:43:01.345Z"
+        "first_ts": "2026-11-18T13:19:52.028Z",
+        "last_ts": "2026-11-23T07:42:14.939Z",
+        "last_failure_ts": "2026-11-23T07:42:14.939Z"
       },
       "source": "discovery"
     },
@@ -1156,84 +1156,18 @@
       "source": "discovery"
     },
     {
-      "seller_id": 2,
-      "domain": "api-xpay.com",
-      "canonical_domain": "api-xpay.com",
-      "tier": "top",
-      "category": "other",
-      "denominator_calls": 653,
-      "failures": 337,
-      "failure_rate": 0.5160796324655437,
-      "wilson_low": 0.47776790196582625,
-      "wilson_high": 0.5542032833423702,
-      "failures_by_type": {
-        "non_delivery": 337,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0.516079632465543,
-      "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-23T06:13:34.380Z",
-      "onchain_inflow_30d_usdc": "8773.645000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x589a2314a2e05f45e40c4823da3ba58d421db3d8"
-      ],
-      "bazaar_listing_count": 15,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 661,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-24T20:25:34.157Z",
-      "window": {
-        "size": 50,
-        "calls": 50,
-        "failures": 13,
-        "failure_rate": 0.26,
-        "wilson_low": 0.1587152743008956,
-        "wilson_high": 0.39553157378483916,
-        "by_type": {
-          "non_delivery": 13,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-13T18:14:47.088Z",
-        "last_ts": "2026-11-22T19:39:06.093Z",
-        "last_failure_ts": "2026-11-16T13:18:31.916Z"
-      },
-      "source": "discovery"
-    },
-    {
       "seller_id": 1337,
       "domain": "api.vapinetwork.ai",
       "canonical_domain": "vapinetwork.ai",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 281,
-      "failures": 145,
-      "failure_rate": 0.5160142348754448,
-      "wilson_low": 0.45776237369268735,
-      "wilson_high": 0.5738341503363186,
+      "denominator_calls": 283,
+      "failures": 146,
+      "failure_rate": 0.5159010600706714,
+      "wilson_low": 0.457854491930729,
+      "wilson_high": 0.5735217255627278,
       "failures_by_type": {
-        "non_delivery": 145,
+        "non_delivery": 146,
         "overcharge": 0,
         "duplicate": 0,
         "wrong_goods": 0
@@ -1243,9 +1177,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.558441558441558,
+      "dollar_weighted_rate": 0.558064516129032,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T06:40:54.587Z",
+      "last_seen": "2026-11-23T07:40:00.940Z",
       "onchain_inflow_30d_usdc": "256554.875829",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -1261,7 +1195,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 285,
+        "buy": 287,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -1282,9 +1216,75 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-16T13:14:59.975Z",
-        "last_ts": "2026-11-23T01:40:17.724Z",
-        "last_failure_ts": "2026-11-23T01:40:17.724Z"
+        "first_ts": "2026-11-16T19:20:38.301Z",
+        "last_ts": "2026-11-23T07:40:00.940Z",
+        "last_failure_ts": "2026-11-23T07:40:00.940Z"
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 2,
+      "domain": "api-xpay.com",
+      "canonical_domain": "api-xpay.com",
+      "tier": "top",
+      "category": "other",
+      "denominator_calls": 655,
+      "failures": 337,
+      "failure_rate": 0.5145038167938931,
+      "wilson_low": 0.4762559513497596,
+      "wilson_high": 0.5525825495427946,
+      "failures_by_type": {
+        "non_delivery": 337,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0.514503816793893,
+      "median_quote_usdc": "0.005000",
+      "last_seen": "2026-11-23T07:40:06.948Z",
+      "onchain_inflow_30d_usdc": "8773.645000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x589a2314a2e05f45e40c4823da3ba58d421db3d8"
+      ],
+      "bazaar_listing_count": 15,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 663,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-24T20:25:34.157Z",
+      "window": {
+        "size": 50,
+        "calls": 50,
+        "failures": 11,
+        "failure_rate": 0.22,
+        "wilson_low": 0.1275391591451957,
+        "wilson_high": 0.35241549695482816,
+        "by_type": {
+          "non_delivery": 11,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-14T00:12:23.836Z",
+        "last_ts": "2026-11-23T07:40:06.948Z",
+        "last_failure_ts": "2026-11-16T13:18:31.916Z"
       },
       "source": "discovery"
     },
@@ -1888,6 +1888,72 @@
       "source": "discovery"
     },
     {
+      "seller_id": 1684,
+      "domain": "api.slamai.dev",
+      "canonical_domain": "slamai.dev",
+      "tier": "top",
+      "category": "data",
+      "denominator_calls": 344,
+      "failures": 50,
+      "failure_rate": 0.14534883720930233,
+      "wilson_low": 0.11202012989309429,
+      "wilson_high": 0.18651087102687608,
+      "failures_by_type": {
+        "non_delivery": 50,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0.116122439500209,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-23T07:42:13.352Z",
+      "onchain_inflow_30d_usdc": "40682.147019",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0xd85096faec1ac03075667b4c1a1661f5623bf111"
+      ],
+      "bazaar_listing_count": 3,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 345,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-24T20:57:23.317Z",
+      "window": {
+        "size": 50,
+        "calls": 50,
+        "failures": 13,
+        "failure_rate": 0.26,
+        "wilson_low": 0.1587152743008956,
+        "wilson_high": 0.39553157378483916,
+        "by_type": {
+          "non_delivery": 13,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-17T07:14:02.673Z",
+        "last_ts": "2026-11-23T07:42:13.352Z",
+        "last_failure_ts": "2026-11-23T07:38:53.717Z"
+      },
+      "source": "discovery"
+    },
+    {
       "seller_id": 649,
       "domain": "x402engine.app",
       "canonical_domain": "x402engine.app",
@@ -1950,72 +2016,6 @@
         "first_ts": "2026-10-25T17:54:41.711Z",
         "last_ts": "2026-11-03T18:53:33.690Z",
         "last_failure_ts": "2026-10-25T20:46:43.574Z"
-      },
-      "source": "discovery"
-    },
-    {
-      "seller_id": 1684,
-      "domain": "api.slamai.dev",
-      "canonical_domain": "slamai.dev",
-      "tier": "top",
-      "category": "data",
-      "denominator_calls": 342,
-      "failures": 49,
-      "failure_rate": 0.14327485380116958,
-      "wilson_low": 0.11010065544585466,
-      "wilson_high": 0.18437375259858768,
-      "failures_by_type": {
-        "non_delivery": 49,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0.114487318777088,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:25:01.651Z",
-      "onchain_inflow_30d_usdc": "40682.147019",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0xd85096faec1ac03075667b4c1a1661f5623bf111"
-      ],
-      "bazaar_listing_count": 3,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 343,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-24T20:57:23.317Z",
-      "window": {
-        "size": 50,
-        "calls": 50,
-        "failures": 13,
-        "failure_rate": 0.26,
-        "wilson_low": 0.1587152743008956,
-        "wilson_high": 0.39553157378483916,
-        "by_type": {
-          "non_delivery": 13,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-17T01:22:56.890Z",
-        "last_ts": "2026-11-23T01:43:00.533Z",
-        "last_failure_ts": "2026-11-23T01:39:30.711Z"
       },
       "source": "discovery"
     },
@@ -4066,73 +4066,6 @@
       "source": "discovery"
     },
     {
-      "seller_id": 1303,
-      "domain": "chain.tollkit.dev",
-      "canonical_domain": "tollkit.dev",
-      "tier": "tail",
-      "category": "data",
-      "denominator_calls": 39,
-      "failures": 1,
-      "failure_rate": 0.02564102564102564,
-      "wilson_low": 0.004540703050750619,
-      "wilson_high": 0.13180990297042533,
-      "failures_by_type": {
-        "non_delivery": 1,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0.03030303030303,
-      "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-20T13:25:49.488Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x6b11c413f916ecfa846302ff05c171c3b497924e",
-        "0xbbfce2d320de6ab328ba93a771c531ebfc9ce704"
-      ],
-      "bazaar_listing_count": 11,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 40,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T09:01:37.979Z",
-      "window": {
-        "size": 50,
-        "calls": 39,
-        "failures": 1,
-        "failure_rate": 0.02564102564102564,
-        "wilson_low": 0.004540703050750619,
-        "wilson_high": 0.13180990297042533,
-        "by_type": {
-          "non_delivery": 1,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T09:01:37.979Z",
-        "last_ts": "2026-11-20T13:25:49.488Z",
-        "last_failure_ts": "2026-11-02T12:48:40.550Z"
-      },
-      "source": "discovery"
-    },
-    {
       "seller_id": 91,
       "domain": "stabletravel.dev",
       "canonical_domain": "stabletravel.dev",
@@ -4195,6 +4128,73 @@
         "first_ts": "2026-10-25T08:28:16.269Z",
         "last_ts": "2026-11-17T07:18:23.916Z",
         "last_failure_ts": "2026-10-25T11:21:02.802Z"
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 1303,
+      "domain": "chain.tollkit.dev",
+      "canonical_domain": "tollkit.dev",
+      "tier": "tail",
+      "category": "data",
+      "denominator_calls": 41,
+      "failures": 1,
+      "failure_rate": 0.024390243902439025,
+      "wilson_low": 0.00431853152113585,
+      "wilson_high": 0.12595062178093377,
+      "failures_by_type": {
+        "non_delivery": 1,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0.028571428571428,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-23T07:42:08.575Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x6b11c413f916ecfa846302ff05c171c3b497924e",
+        "0xbbfce2d320de6ab328ba93a771c531ebfc9ce704"
+      ],
+      "bazaar_listing_count": 11,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 42,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T09:01:37.979Z",
+      "window": {
+        "size": 50,
+        "calls": 41,
+        "failures": 1,
+        "failure_rate": 0.024390243902439025,
+        "wilson_low": 0.00431853152113585,
+        "wilson_high": 0.12595062178093377,
+        "by_type": {
+          "non_delivery": 1,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T09:01:37.979Z",
+        "last_ts": "2026-11-23T07:42:08.575Z",
+        "last_failure_ts": "2026-11-02T12:48:40.550Z"
       },
       "source": "discovery"
     },
@@ -4336,11 +4336,11 @@
       "canonical_domain": "halowerk.com",
       "tier": "tail",
       "category": "other",
-      "denominator_calls": 43,
+      "denominator_calls": 45,
       "failures": 1,
-      "failure_rate": 0.023255813953488372,
-      "wilson_low": 0.004117087228789958,
-      "wilson_high": 0.12058993558403963,
+      "failure_rate": 0.022222222222222223,
+      "wilson_low": 0.003933598839322983,
+      "wilson_high": 0.11566681882004808,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
@@ -4352,9 +4352,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.028368794326241,
+      "dollar_weighted_rate": 0.027210884353741,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-23T06:34:54.468Z",
+      "last_seen": "2026-11-23T07:42:00.855Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -4369,7 +4369,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 45,
+        "buy": 47,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4379,11 +4379,11 @@
       "first_buy_at": "2026-10-25T18:34:54.062Z",
       "window": {
         "size": 50,
-        "calls": 43,
+        "calls": 45,
         "failures": 1,
-        "failure_rate": 0.023255813953488372,
-        "wilson_low": 0.004117087228789958,
-        "wilson_high": 0.12058993558403963,
+        "failure_rate": 0.022222222222222223,
+        "wilson_low": 0.003933598839322983,
+        "wilson_high": 0.11566681882004808,
         "by_type": {
           "non_delivery": 1,
           "overcharge": 0,
@@ -4391,75 +4391,8 @@
           "wrong_goods": 0
         },
         "first_ts": "2026-10-25T18:34:54.062Z",
-        "last_ts": "2026-11-08T12:40:06.199Z",
+        "last_ts": "2026-11-23T07:42:00.855Z",
         "last_failure_ts": "2026-11-02T12:57:57.720Z"
-      },
-      "source": "discovery"
-    },
-    {
-      "seller_id": 267,
-      "domain": "agent402.tools",
-      "canonical_domain": "agent402.tools",
-      "tier": "tail",
-      "category": "data",
-      "denominator_calls": 48,
-      "failures": 1,
-      "failure_rate": 0.020833333333333332,
-      "wilson_low": 0.003687110936731193,
-      "wilson_high": 0.10899218103056246,
-      "failures_by_type": {
-        "non_delivery": 1,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0.018181818181818,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:05:26.968Z",
-      "onchain_inflow_30d_usdc": "265.009914",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x77065d81e18ad403bcd6e9a0616b288e16744121",
-        "0xabf4fabd7c416fb67202e5f9002389fc75e2a9d0"
-      ],
-      "bazaar_listing_count": 671,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 48,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T08:30:28.788Z",
-      "window": {
-        "size": 50,
-        "calls": 48,
-        "failures": 1,
-        "failure_rate": 0.020833333333333332,
-        "wilson_low": 0.003687110936731193,
-        "wilson_high": 0.10899218103056246,
-        "by_type": {
-          "non_delivery": 1,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T08:30:28.788Z",
-        "last_ts": "2026-11-15T13:14:29.714Z",
-        "last_failure_ts": "2026-10-25T13:55:11.449Z"
       },
       "source": "discovery"
     },
@@ -4526,6 +4459,73 @@
         "first_ts": "2026-10-25T17:37:24.131Z",
         "last_ts": "2026-11-16T19:24:01.448Z",
         "last_failure_ts": "2026-11-16T19:24:01.448Z"
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 267,
+      "domain": "agent402.tools",
+      "canonical_domain": "agent402.tools",
+      "tier": "tail",
+      "category": "data",
+      "denominator_calls": 49,
+      "failures": 1,
+      "failure_rate": 0.02040816326530612,
+      "wilson_low": 0.003611672549881491,
+      "wilson_high": 0.10693521629394012,
+      "failures_by_type": {
+        "non_delivery": 1,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0.017543859649122,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-23T07:40:09.541Z",
+      "onchain_inflow_30d_usdc": "265.009914",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x77065d81e18ad403bcd6e9a0616b288e16744121",
+        "0xabf4fabd7c416fb67202e5f9002389fc75e2a9d0"
+      ],
+      "bazaar_listing_count": 671,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 49,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T08:30:28.788Z",
+      "window": {
+        "size": 50,
+        "calls": 49,
+        "failures": 1,
+        "failure_rate": 0.02040816326530612,
+        "wilson_low": 0.003611672549881491,
+        "wilson_high": 0.10693521629394012,
+        "by_type": {
+          "non_delivery": 1,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T08:30:28.788Z",
+        "last_ts": "2026-11-23T07:39:49.651Z",
+        "last_failure_ts": "2026-10-25T13:55:11.449Z"
       },
       "source": "discovery"
     },
@@ -4865,11 +4865,11 @@
       "canonical_domain": "oneshotagent.com",
       "tier": null,
       "category": "data",
-      "denominator_calls": 63,
+      "denominator_calls": 65,
       "failures": 1,
-      "failure_rate": 0.015873015873015872,
-      "wilson_low": 0.0028074941828306332,
-      "wilson_high": 0.08458525545283889,
+      "failure_rate": 0.015384615384615385,
+      "wilson_low": 0.0027209445719428432,
+      "wilson_high": 0.08213284813120839,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
@@ -4881,9 +4881,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.010309278350515,
+      "dollar_weighted_rate": 0.009900990099009,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T06:19:00.643Z",
+      "last_seen": "2026-11-23T07:41:51.999Z",
       "onchain_inflow_30d_usdc": "448.168100",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -4898,7 +4898,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 113,
+        "buy": 115,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -4919,8 +4919,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-24T23:25:22.600Z",
-        "last_ts": "2026-11-22T07:36:38.091Z",
+        "first_ts": "2026-10-24T23:29:59.719Z",
+        "last_ts": "2026-11-23T07:41:51.999Z",
         "last_failure_ts": "2026-11-02T12:57:57.721Z"
       },
       "source": "discovery"
@@ -4997,11 +4997,11 @@
       "canonical_domain": "nansen.ai",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 170,
+      "denominator_calls": 172,
       "failures": 2,
-      "failure_rate": 0.011764705882352941,
-      "wilson_low": 0.003232258115576255,
-      "wilson_high": 0.041874696990284746,
+      "failure_rate": 0.011627906976744186,
+      "wilson_low": 0.0031946050605992336,
+      "wilson_high": 0.04139930886154057,
       "failures_by_type": {
         "non_delivery": 2,
         "overcharge": 0,
@@ -5013,9 +5013,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.011764705882352,
+      "dollar_weighted_rate": 0.011627906976744,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:05:34.903Z",
+      "last_seen": "2026-11-23T07:40:06.177Z",
       "onchain_inflow_30d_usdc": "4436.416000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5030,7 +5030,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 203,
+        "buy": 205,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -5051,8 +5051,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-11T00:22:25.921Z",
-        "last_ts": "2026-11-22T07:38:13.425Z",
+        "first_ts": "2026-11-11T07:06:18.607Z",
+        "last_ts": "2026-11-23T07:40:06.177Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -5129,11 +5129,11 @@
       "canonical_domain": "surplusintelligence.ai",
       "tier": "top",
       "category": "inference",
-      "denominator_calls": 305,
+      "denominator_calls": 307,
       "failures": 3,
-      "failure_rate": 0.009836065573770493,
-      "wilson_low": 0.003350679713543997,
-      "wilson_high": 0.02851505138662734,
+      "failure_rate": 0.009771986970684038,
+      "wilson_low": 0.0033288152655835783,
+      "wilson_high": 0.028331886999535604,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 2,
@@ -5145,9 +5145,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.009837579633647,
+      "dollar_weighted_rate": 0.009773481366156,
       "median_quote_usdc": "0.003301",
-      "last_seen": "2026-11-23T06:25:39.495Z",
+      "last_seen": "2026-11-23T07:41:41.676Z",
       "onchain_inflow_30d_usdc": "136235.441000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5162,7 +5162,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 309,
+        "buy": 311,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -5183,8 +5183,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-17T01:22:39.516Z",
-        "last_ts": "2026-11-23T01:42:18.772Z",
+        "first_ts": "2026-11-17T07:14:00.419Z",
+        "last_ts": "2026-11-23T07:41:41.676Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -5459,11 +5459,11 @@
       "canonical_domain": "bitrefill.com",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 315,
+      "denominator_calls": 317,
       "failures": 1,
-      "failure_rate": 0.0031746031746031746,
-      "wilson_low": 0.0005606153873040053,
-      "wilson_high": 0.017760273313279826,
+      "failure_rate": 0.0031545741324921135,
+      "wilson_low": 0.0005570770014758919,
+      "wilson_high": 0.017649606454159455,
       "failures_by_type": {
         "non_delivery": 1,
         "overcharge": 0,
@@ -5475,9 +5475,9 @@
         "last_ts": null,
         "by_type": []
       },
-      "dollar_weighted_rate": 0.001926782273603,
+      "dollar_weighted_rate": 0.001912045889101,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T06:09:28.931Z",
+      "last_seen": "2026-11-23T07:40:03.628Z",
       "onchain_inflow_30d_usdc": "607445.877402",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5492,7 +5492,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 520,
+        "buy": 522,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -5513,8 +5513,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-15T13:14:23.317Z",
-        "last_ts": "2026-11-23T01:40:16.108Z",
+        "first_ts": "2026-11-15T19:27:46.430Z",
+        "last_ts": "2026-11-23T07:40:03.628Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -5658,11 +5658,11 @@
       "canonical_domain": "degenscan.io",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 540,
+      "denominator_calls": 542,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.0070635638724528965,
+      "wilson_high": 0.0070376824969819686,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -5676,7 +5676,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:38:43.337Z",
+      "last_seen": "2026-11-23T07:40:10.121Z",
       "onchain_inflow_30d_usdc": "2063.711611",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5691,7 +5691,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 541,
+        "buy": 543,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -5712,8 +5712,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-04T07:06:19.607Z",
-        "last_ts": "2026-11-23T01:40:20.596Z",
+        "first_ts": "2026-11-04T13:05:48.214Z",
+        "last_ts": "2026-11-23T07:40:10.121Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -5790,11 +5790,11 @@
       "canonical_domain": "clashofcoins.com",
       "tier": "top",
       "category": "other",
-      "denominator_calls": 389,
+      "denominator_calls": 390,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.009778649362099953,
+      "wilson_high": 0.00975382046422344,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -5808,7 +5808,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:31:52.602Z",
+      "last_seen": "2026-11-23T07:39:53.688Z",
       "onchain_inflow_30d_usdc": "6906.444368",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -5823,7 +5823,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 394,
+        "buy": 395,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -5844,8 +5844,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-13T07:10:45.332Z",
-        "last_ts": "2026-11-23T01:42:25.728Z",
+        "first_ts": "2026-11-13T12:09:04.102Z",
+        "last_ts": "2026-11-23T07:39:53.688Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -5988,11 +5988,11 @@
       "canonical_domain": "laso.finance",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 277,
+      "denominator_calls": 279,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.013678389567544866,
+      "wilson_high": 0.013581668318675298,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -6006,7 +6006,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:25:45.074Z",
+      "last_seen": "2026-11-23T07:41:33.912Z",
       "onchain_inflow_30d_usdc": "34680.733340",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6021,7 +6021,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 280,
+        "buy": 282,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -6042,8 +6042,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-17T01:22:45.991Z",
-        "last_ts": "2026-11-23T01:42:16.252Z",
+        "first_ts": "2026-11-17T07:13:58.136Z",
+        "last_ts": "2026-11-23T07:41:33.912Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -6454,11 +6454,11 @@
       "canonical_domain": "baes.so",
       "tier": "top",
       "category": "data",
-      "denominator_calls": 175,
+      "denominator_calls": 177,
       "failures": 0,
       "failure_rate": 0,
       "wilson_low": 0,
-      "wilson_high": 0.02147968879993159,
+      "wilson_high": 0.02124213609567,
       "failures_by_type": {
         "non_delivery": 0,
         "overcharge": 0,
@@ -6472,7 +6472,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:25:46.573Z",
+      "last_seen": "2026-11-23T07:41:56.398Z",
       "onchain_inflow_30d_usdc": "1578.184469",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -6487,7 +6487,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 175,
+        "buy": 177,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -6508,8 +6508,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-01T22:04:31.674Z",
-        "last_ts": "2026-11-22T13:41:05.113Z",
+        "first_ts": "2026-11-02T06:48:48.628Z",
+        "last_ts": "2026-11-23T07:41:56.398Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -7650,6 +7650,76 @@
       "source": "discovery"
     },
     {
+      "seller_id": 2290,
+      "domain": "api.signalfuse.co",
+      "canonical_domain": "signalfuse.co",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 77,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.047518425996450994,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-23T07:40:07.289Z",
+      "onchain_inflow_30d_usdc": "1.125000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x7677a0ec93c75b540dada06e9f1952c950ee2dbb",
+        "0x9173fc7aca730ae34838f08dfe85d4a608f38c38",
+        "0xb856b2c501a91d8dc13411dbaeafdcaca8d39901",
+        "0xca87adbcffdf6539a387783fef17a91dbabeef52",
+        "0xf080a1aab08650946acda41410a7edc14f7be035"
+      ],
+      "bazaar_listing_count": 40,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 77,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T09:16:09.620Z",
+      "window": {
+        "size": 50,
+        "calls": 50,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.07134760017861413,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T15:52:23.288Z",
+        "last_ts": "2026-11-23T07:40:07.289Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery"
+    },
+    {
       "seller_id": 652,
       "domain": "x402.agentutility.ai",
       "canonical_domain": "agentutility.ai",
@@ -7711,76 +7781,6 @@
         },
         "first_ts": "2026-10-25T00:30:38.233Z",
         "last_ts": "2026-11-21T19:35:19.395Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery"
-    },
-    {
-      "seller_id": 2290,
-      "domain": "api.signalfuse.co",
-      "canonical_domain": "signalfuse.co",
-      "tier": null,
-      "category": "other",
-      "denominator_calls": 75,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.04872384321400895,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:31:08.851Z",
-      "onchain_inflow_30d_usdc": "1.125000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x7677a0ec93c75b540dada06e9f1952c950ee2dbb",
-        "0x9173fc7aca730ae34838f08dfe85d4a608f38c38",
-        "0xb856b2c501a91d8dc13411dbaeafdcaca8d39901",
-        "0xca87adbcffdf6539a387783fef17a91dbabeef52",
-        "0xf080a1aab08650946acda41410a7edc14f7be035"
-      ],
-      "bazaar_listing_count": 40,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 75,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T09:16:09.620Z",
-      "window": {
-        "size": 50,
-        "calls": 50,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.07134760017861413,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T15:48:23.028Z",
-        "last_ts": "2026-11-21T01:35:20.755Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -15880,6 +15880,72 @@
       "source": "discovery"
     },
     {
+      "seller_id": 76,
+      "domain": "api.stocktrends.com",
+      "canonical_domain": "stocktrends.com",
+      "tier": "tail",
+      "category": "data",
+      "denominator_calls": 32,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.10717919976468034,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.007500",
+      "last_seen": "2026-11-23T07:42:05.213Z",
+      "onchain_inflow_30d_usdc": "67.581000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0xaeeb8eabdc05532a26123045f99d208eb1cc00ab"
+      ],
+      "bazaar_listing_count": 19,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 32,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T18:32:43.870Z",
+      "window": {
+        "size": 50,
+        "calls": 32,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.10717919976468034,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-25T18:32:43.870Z",
+        "last_ts": "2026-11-23T07:42:05.213Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery"
+    },
+    {
       "seller_id": 329,
       "domain": "api.webbersites.com",
       "canonical_domain": "webbersites.com",
@@ -18941,72 +19007,6 @@
       "source": "discovery"
     },
     {
-      "seller_id": 76,
-      "domain": "api.stocktrends.com",
-      "canonical_domain": "stocktrends.com",
-      "tier": "tail",
-      "category": "data",
-      "denominator_calls": 30,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.11351339476145206,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.007500",
-      "last_seen": "2026-11-23T06:02:03.118Z",
-      "onchain_inflow_30d_usdc": "67.581000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0xaeeb8eabdc05532a26123045f99d208eb1cc00ab"
-      ],
-      "bazaar_listing_count": 19,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 30,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T18:32:43.870Z",
-      "window": {
-        "size": 50,
-        "calls": 30,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.11351339476145206,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T18:32:43.870Z",
-        "last_ts": "2026-11-20T07:36:34.170Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery"
-    },
-    {
       "seller_id": 1613,
       "domain": "api.usenami.io",
       "canonical_domain": "usenami.io",
@@ -19068,6 +19068,72 @@
         },
         "first_ts": "2026-10-25T20:36:41.457Z",
         "last_ts": "2026-11-05T07:03:44.336Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery"
+    },
+    {
+      "seller_id": 1257,
+      "domain": "api.x402ai.dev",
+      "canonical_domain": "x402ai.dev",
+      "tier": null,
+      "category": "inference",
+      "denominator_calls": 30,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.11351339476145206,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-23T07:37:24.992Z",
+      "onchain_inflow_30d_usdc": "0.400000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0xece637d74ab1a000abcf69956e22f1131501ae8b"
+      ],
+      "bazaar_listing_count": 4,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 31,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-11-04T19:01:44.841Z",
+      "window": {
+        "size": 50,
+        "calls": 30,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.11351339476145206,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-04T19:01:44.841Z",
+        "last_ts": "2026-11-23T07:37:24.992Z",
         "last_failure_ts": null
       },
       "source": "discovery"
@@ -19360,7 +19426,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-23T06:07:15.861Z",
+      "last_seen": "2026-11-23T07:42:13.354Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -19375,7 +19441,7 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 32,
+        "buy": 34,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
@@ -20284,7 +20350,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-01T22:07:46.626Z",
+      "last_seen": "2026-11-23T07:41:52.764Z",
       "onchain_inflow_30d_usdc": "6.859511",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -23806,73 +23872,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 1257,
-      "domain": "api.x402ai.dev",
-      "canonical_domain": "x402ai.dev",
-      "tier": null,
-      "category": "inference",
-      "denominator_calls": 29,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.11696980012918376,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:43:47.718Z",
-      "onchain_inflow_30d_usdc": "0.400000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0xece637d74ab1a000abcf69956e22f1131501ae8b"
-      ],
-      "bazaar_listing_count": 4,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 30,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-11-04T19:01:44.841Z",
-      "window": {
-        "size": 50,
-        "calls": 29,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.11696980012918376,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-04T19:01:44.841Z",
-        "last_ts": "2026-11-23T01:44:06.710Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 650,
       "domain": "agents.withzero.xyz",
       "canonical_domain": "withzero.xyz",
@@ -23934,6 +23933,140 @@
         },
         "first_ts": "2026-10-24T20:45:56.392Z",
         "last_ts": "2026-11-11T19:04:20.349Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 107,
+      "domain": "api.qist.info",
+      "canonical_domain": "qist.info",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 23,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.14311662038507353,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-23T07:43:15.574Z",
+      "onchain_inflow_30d_usdc": "0.400000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x21353452e547b306a6007d834c433a118638d3b3"
+      ],
+      "bazaar_listing_count": 2,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 23,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-11-04T19:01:39.501Z",
+      "window": {
+        "size": 50,
+        "calls": 23,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.14311662038507353,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-04T19:01:39.501Z",
+        "last_ts": "2026-11-23T07:43:15.574Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 1129,
+      "domain": "settled.tools",
+      "canonical_domain": "settled.tools",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 22,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.1486548766051456,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-23T07:41:29.030Z",
+      "onchain_inflow_30d_usdc": "196.218000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0xb92bb76e3c5575160a2a561913047727d33af9a6"
+      ],
+      "bazaar_listing_count": 8,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 22,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-29T18:07:25.672Z",
+      "window": {
+        "size": 50,
+        "calls": 22,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.1486548766051456,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-29T18:07:25.672Z",
+        "last_ts": "2026-11-23T07:41:29.030Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -24208,73 +24341,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 1129,
-      "domain": "settled.tools",
-      "canonical_domain": "settled.tools",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 20,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.16112516018512968,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T06:17:18.663Z",
-      "onchain_inflow_30d_usdc": "196.218000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0xb92bb76e3c5575160a2a561913047727d33af9a6"
-      ],
-      "bazaar_listing_count": 8,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 20,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-29T18:07:25.672Z",
-      "window": {
-        "size": 50,
-        "calls": 20,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.16112516018512968,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-29T18:07:25.672Z",
-        "last_ts": "2026-11-17T07:17:49.089Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 3046,
       "domain": "x402-v2-mint-isbn-lookup.vercel.app",
       "canonical_domain": "x402-v2-mint-isbn-lookup.vercel.app",
@@ -24342,11 +24408,11 @@
       "low_sample": true
     },
     {
-      "seller_id": 107,
-      "domain": "api.qist.info",
-      "canonical_domain": "qist.info",
-      "tier": null,
-      "category": "other",
+      "seller_id": 174,
+      "domain": "open-pay.jp",
+      "canonical_domain": "open-pay.jp",
+      "tier": "tail",
+      "category": "data",
       "denominator_calls": 19,
       "failures": 0,
       "failure_rate": 0,
@@ -24365,13 +24431,13 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:16:12.940Z",
-      "onchain_inflow_30d_usdc": "0.400000",
+      "last_seen": "2026-11-23T07:43:17.489Z",
+      "onchain_inflow_30d_usdc": "0.307000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
-        "0x21353452e547b306a6007d834c433a118638d3b3"
+        "0x52d4901142e2b5680027da5eb47c86cb02a3ca81"
       ],
-      "bazaar_listing_count": 2,
+      "bazaar_listing_count": 5,
       "audit_purchases": 0,
       "audit_purchases_by_source": {
         "audit_disagreement": 0,
@@ -24387,7 +24453,7 @@
         "audit_operator": 0
       },
       "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-11-04T19:01:39.501Z",
+      "first_buy_at": "2026-10-25T23:32:49.772Z",
       "window": {
         "size": 50,
         "calls": 19,
@@ -24401,8 +24467,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-11-04T19:01:39.501Z",
-        "last_ts": "2026-11-23T01:44:08.689Z",
+        "first_ts": "2026-10-25T23:32:49.772Z",
+        "last_ts": "2026-11-23T07:43:17.489Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -24977,6 +25043,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 219,
+      "domain": "hyperliquid.use.x402atlas.com",
+      "canonical_domain": "x402atlas.com",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 16,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.1936076829974049,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-23T07:43:19.028Z",
+      "onchain_inflow_30d_usdc": "0.675000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x383190a4f26f075fc2c73f6738eabf4dc6f33442"
+      ],
+      "bazaar_listing_count": 9,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 17,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-11-04T00:50:11.649Z",
+      "window": {
+        "size": 50,
+        "calls": 16,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.1936076829974049,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-04T00:50:11.649Z",
+        "last_ts": "2026-11-23T07:43:19.028Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2850,
       "domain": "sec-filings.mick8511.workers.dev",
       "canonical_domain": "mick8511.workers.dev",
@@ -25239,73 +25372,6 @@
         },
         "first_ts": "2026-10-25T18:33:48.055Z",
         "last_ts": "2026-11-21T19:37:13.693Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 174,
-      "domain": "open-pay.jp",
-      "canonical_domain": "open-pay.jp",
-      "tier": "tail",
-      "category": "data",
-      "denominator_calls": 15,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2038833035964871,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:19:16.222Z",
-      "onchain_inflow_30d_usdc": "0.307000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x52d4901142e2b5680027da5eb47c86cb02a3ca81"
-      ],
-      "bazaar_listing_count": 5,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 15,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-10-25T23:32:49.772Z",
-      "window": {
-        "size": 50,
-        "calls": 15,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.2038833035964871,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-25T23:32:49.772Z",
-        "last_ts": "2026-11-23T01:44:09.683Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -25708,6 +25774,73 @@
         },
         "first_ts": "2026-10-30T12:34:16.471Z",
         "last_ts": "2026-11-19T01:28:39.263Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 2777,
+      "domain": "verify-uk.verifyuk.workers.dev",
+      "canonical_domain": "verifyuk.workers.dev",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 14,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.21531080540298042,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-23T07:42:03.663Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x2a88637eb74d9bb67c93261f39307f3be8d6d64f"
+      ],
+      "bazaar_listing_count": 1,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 14,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T03:23:29.216Z",
+      "first_buy_at": "2026-10-30T12:34:07.872Z",
+      "window": {
+        "size": 50,
+        "calls": 14,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.21531080540298042,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-30T12:34:07.872Z",
+        "last_ts": "2026-11-23T07:42:03.663Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -26183,6 +26316,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 2821,
+      "domain": "hn.genexxis.com",
+      "canonical_domain": "genexxis.com",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 13,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.22809537513180025,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.003000",
+      "last_seen": "2026-11-23T07:41:44.357Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x9287e3102d411029025c7617d75245bfc7920f17"
+      ],
+      "bazaar_listing_count": 3,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 13,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T03:23:29.217Z",
+      "first_buy_at": "2026-10-30T18:37:36.175Z",
+      "window": {
+        "size": 50,
+        "calls": 13,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.22809537513180025,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-30T18:37:36.175Z",
+        "last_ts": "2026-11-23T07:41:44.357Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 3649,
       "domain": "mono.orthogonal.com",
       "canonical_domain": "orthogonal.com",
@@ -26520,6 +26720,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 2864,
+      "domain": "x402-preflight-grokbot.netlify.app",
+      "canonical_domain": "x402-preflight-grokbot.netlify.app",
+      "tier": null,
+      "category": "scraping",
+      "denominator_calls": 13,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.22809537513180025,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-23T07:41:47.412Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x6573467528c349fa9b2afa6993116fc7be1d10c1"
+      ],
+      "bazaar_listing_count": 2,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 13,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T03:23:29.217Z",
+      "first_buy_at": "2026-10-30T12:35:35.893Z",
+      "window": {
+        "size": 50,
+        "calls": 13,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.22809537513180025,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-30T12:35:35.893Z",
+        "last_ts": "2026-11-23T07:41:47.412Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 3147,
       "domain": "x402-v2-mint-base-gas-price.vercel.app",
       "canonical_domain": "x402-v2-mint-base-gas-price.vercel.app",
@@ -26581,6 +26848,73 @@
         },
         "first_ts": "2026-10-31T12:39:25.452Z",
         "last_ts": "2026-11-04T13:10:19.800Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 3087,
+      "domain": "x402-v2-mint-dns-lookup.vercel.app",
+      "canonical_domain": "x402-v2-mint-dns-lookup.vercel.app",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 13,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.22809537513180025,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.003000",
+      "last_seen": "2026-11-23T07:41:34.909Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xc22f9caebac37fe72d5142f35f21f6696ea9ef69"
+      ],
+      "bazaar_listing_count": 1,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 17,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T03:23:29.217Z",
+      "first_buy_at": "2026-10-31T18:42:06.965Z",
+      "window": {
+        "size": 50,
+        "calls": 13,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.22809537513180025,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-31T18:42:06.965Z",
+        "last_ts": "2026-11-23T07:41:34.909Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -26788,73 +27122,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 219,
-      "domain": "hyperliquid.use.x402atlas.com",
-      "canonical_domain": "x402atlas.com",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 12,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2424940095530979,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:33:35.921Z",
-      "onchain_inflow_30d_usdc": "0.675000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x383190a4f26f075fc2c73f6738eabf4dc6f33442"
-      ],
-      "bazaar_listing_count": 9,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 13,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-11-04T00:50:11.649Z",
-      "window": {
-        "size": 50,
-        "calls": 12,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.2424940095530979,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-04T00:50:11.649Z",
-        "last_ts": "2026-11-23T01:44:10.706Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 961,
       "domain": "mcp-snowy-dew-9447.fly.dev",
       "canonical_domain": "mcp-snowy-dew-9447.fly.dev",
@@ -26983,73 +27250,6 @@
         },
         "first_ts": "2026-10-30T12:34:52.557Z",
         "last_ts": "2026-11-20T01:29:14.547Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 2777,
-      "domain": "verify-uk.verifyuk.workers.dev",
-      "canonical_domain": "verifyuk.workers.dev",
-      "tier": null,
-      "category": "other",
-      "denominator_calls": 12,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2424940095530979,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:34:23.565Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x2a88637eb74d9bb67c93261f39307f3be8d6d64f"
-      ],
-      "bazaar_listing_count": 1,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 12,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-30T03:23:29.216Z",
-      "first_buy_at": "2026-10-30T12:34:07.872Z",
-      "window": {
-        "size": 50,
-        "calls": 12,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.2424940095530979,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-30T12:34:07.872Z",
-        "last_ts": "2026-11-14T13:15:03.348Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -28195,6 +28395,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 3747,
+      "domain": "fourzerotwo.app",
+      "canonical_domain": "fourzerotwo.app",
+      "tier": null,
+      "category": "inference",
+      "denominator_calls": 11,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2588329699944264,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-23T07:42:10.683Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xefc229bce73e7e9ae8cd8fd0cf3eba6c4d336120"
+      ],
+      "bazaar_listing_count": 2,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 11,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-10T00:38:34.726Z",
+      "first_buy_at": "2026-11-15T19:24:01.056Z",
+      "window": {
+        "size": 50,
+        "calls": 11,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.2588329699944264,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-15T19:24:01.056Z",
+        "last_ts": "2026-11-23T07:42:10.683Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2740,
       "domain": "fundamental-scores-x402.onrender.com",
       "canonical_domain": "fundamental-scores-x402.onrender.com",
@@ -28329,9 +28596,9 @@
       "low_sample": true
     },
     {
-      "seller_id": 2821,
-      "domain": "hn.genexxis.com",
-      "canonical_domain": "genexxis.com",
+      "seller_id": 4168,
+      "domain": "glyphcall.com",
+      "canonical_domain": "glyphcall.com",
       "tier": null,
       "category": "data",
       "denominator_calls": 11,
@@ -28351,14 +28618,14 @@
         "by_type": []
       },
       "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-23T06:04:05.089Z",
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-23T07:39:56.695Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
-        "0x9287e3102d411029025c7617d75245bfc7920f17"
+        "0x6293ded2684f1a76e26becef87c137d691fbf800"
       ],
-      "bazaar_listing_count": 3,
+      "bazaar_listing_count": 1,
       "audit_purchases": 0,
       "audit_purchases_by_source": {
         "audit_disagreement": 0,
@@ -28367,14 +28634,14 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 11,
+        "buy": 14,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
         "audit_operator": 0
       },
-      "discovered_at": "2026-10-30T03:23:29.217Z",
-      "first_buy_at": "2026-10-30T18:37:36.175Z",
+      "discovered_at": "2026-11-20T13:34:00.392Z",
+      "first_buy_at": "2026-11-20T19:34:53.641Z",
       "window": {
         "size": 50,
         "calls": 11,
@@ -28388,11 +28655,14 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-30T18:37:36.175Z",
-        "last_ts": "2026-11-16T19:23:30.666Z",
+        "first_ts": "2026-11-20T19:35:14.922Z",
+        "last_ts": "2026-11-23T07:39:56.695Z",
         "last_failure_ts": null
       },
-      "source": "discovery",
+      "source": "user",
+      "entered_at": "2026-11-20T13:34:00.392Z",
+      "entered_after_checks": 1,
+      "entered_after_payments": 0,
       "low_sample": true
     },
     {
@@ -29133,73 +29403,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 2864,
-      "domain": "x402-preflight-grokbot.netlify.app",
-      "canonical_domain": "x402-preflight-grokbot.netlify.app",
-      "tier": null,
-      "category": "scraping",
-      "denominator_calls": 11,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2588329699944264,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T06:34:15.827Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x6573467528c349fa9b2afa6993116fc7be1d10c1"
-      ],
-      "bazaar_listing_count": 2,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 11,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-30T03:23:29.217Z",
-      "first_buy_at": "2026-10-30T12:35:35.893Z",
-      "window": {
-        "size": 50,
-        "calls": 11,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.2588329699944264,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-30T12:35:35.893Z",
-        "last_ts": "2026-11-03T13:00:10.234Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 1620,
       "domain": "x402-tools-production-2755.up.railway.app",
       "canonical_domain": "x402-tools-production-2755.up.railway.app",
@@ -29267,11 +29470,11 @@
       "low_sample": true
     },
     {
-      "seller_id": 3087,
-      "domain": "x402-v2-mint-dns-lookup.vercel.app",
-      "canonical_domain": "x402-v2-mint-dns-lookup.vercel.app",
+      "seller_id": 3146,
+      "domain": "x402-v2-mint-hex-decode.vercel.app",
+      "canonical_domain": "x402-v2-mint-hex-decode.vercel.app",
       "tier": null,
-      "category": "data",
+      "category": "other",
       "denominator_calls": 11,
       "failures": 0,
       "failure_rate": 0,
@@ -29289,8 +29492,8 @@
         "by_type": []
       },
       "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-23T06:43:30.835Z",
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-23T07:42:06.171Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
@@ -29305,14 +29508,14 @@
       },
       "breadth_purchases": 0,
       "purchases_by_source": {
-        "buy": 15,
+        "buy": 11,
         "breadth": 0,
         "audit_disagreement": 0,
         "audit_demand": 0,
         "audit_operator": 0
       },
       "discovered_at": "2026-10-30T03:23:29.217Z",
-      "first_buy_at": "2026-10-31T18:42:06.965Z",
+      "first_buy_at": "2026-10-31T12:39:01.322Z",
       "window": {
         "size": 50,
         "calls": 11,
@@ -29326,8 +29529,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-31T18:42:06.965Z",
-        "last_ts": "2026-11-04T13:10:05.797Z",
+        "first_ts": "2026-10-31T12:39:01.322Z",
+        "last_ts": "2026-11-23T07:42:06.171Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -29736,6 +29939,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 3791,
+      "domain": "x402.nanotrans.io",
+      "canonical_domain": "nanotrans.io",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 11,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2588329699944264,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.008000",
+      "last_seen": "2026-11-23T07:41:31.162Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xa07cb60d5fa61bca397430d5be1aec29f238fb89"
+      ],
+      "bazaar_listing_count": 6,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 11,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-11T00:30:17.377Z",
+      "first_buy_at": "2026-11-11T13:00:07.737Z",
+      "window": {
+        "size": 50,
+        "calls": 11,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.2588329699944264,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-11T13:00:07.737Z",
+        "last_ts": "2026-11-23T07:41:31.162Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2767,
       "domain": "api.magentlab.com",
       "canonical_domain": "magentlab.com",
@@ -29864,6 +30134,73 @@
         },
         "first_ts": "2026-10-30T12:34:47.746Z",
         "last_ts": "2026-11-14T00:13:33.143Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 2830,
+      "domain": "cryptonews.genexxis.com",
+      "canonical_domain": "genexxis.com",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 10,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.2775328030260577,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.003000",
+      "last_seen": "2026-11-23T07:42:01.917Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x9287e3102d411029025c7617d75245bfc7920f17"
+      ],
+      "bazaar_listing_count": 2,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 10,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-30T03:23:29.217Z",
+      "first_buy_at": "2026-10-30T18:37:13.664Z",
+      "window": {
+        "size": 50,
+        "calls": 10,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.2775328030260577,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-10-30T18:37:13.664Z",
+        "last_ts": "2026-11-23T07:42:01.917Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -30002,76 +30339,6 @@
         "last_failure_ts": null
       },
       "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 4168,
-      "domain": "glyphcall.com",
-      "canonical_domain": "glyphcall.com",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 10,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.2775328030260577,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T01:40:07.131Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x6293ded2684f1a76e26becef87c137d691fbf800"
-      ],
-      "bazaar_listing_count": 1,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 13,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-20T13:34:00.392Z",
-      "first_buy_at": "2026-11-20T19:34:53.641Z",
-      "window": {
-        "size": 50,
-        "calls": 10,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.2775328030260577,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-20T19:35:14.922Z",
-        "last_ts": "2026-11-23T01:40:07.131Z",
-        "last_failure_ts": null
-      },
-      "source": "user",
-      "entered_at": "2026-11-20T13:34:00.392Z",
-      "entered_after_checks": 1,
-      "entered_after_payments": 0,
       "low_sample": true
     },
     {
@@ -32430,73 +32697,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 3747,
-      "domain": "fourzerotwo.app",
-      "canonical_domain": "fourzerotwo.app",
-      "tier": null,
-      "category": "inference",
-      "denominator_calls": 9,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.299145051727044,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:00:58.770Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0xefc229bce73e7e9ae8cd8fd0cf3eba6c4d336120"
-      ],
-      "bazaar_listing_count": 2,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 9,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-10T00:38:34.726Z",
-      "first_buy_at": "2026-11-15T19:24:01.056Z",
-      "window": {
-        "size": 50,
-        "calls": 9,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.299145051727044,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-15T19:24:01.056Z",
-        "last_ts": "2026-11-21T07:34:43.627Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 352,
       "domain": "gankdat.com",
       "canonical_domain": "gankdat.com",
@@ -33100,6 +33300,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 3688,
+      "domain": "promptshield.grindfree.net",
+      "canonical_domain": "grindfree.net",
+      "tier": null,
+      "category": "inference",
+      "denominator_calls": 9,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.299145051727044,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.002000",
+      "last_seen": "2026-11-23T07:41:49.760Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xe4b5827994b7b3cd38f9830d9ecf58b51b77721b"
+      ],
+      "bazaar_listing_count": 3,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 11,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-07T00:14:16.662Z",
+      "first_buy_at": "2026-11-07T07:08:20.320Z",
+      "window": {
+        "size": 50,
+        "calls": 9,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.299145051727044,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-07T18:10:28.569Z",
+        "last_ts": "2026-11-23T07:41:49.760Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2711,
       "domain": "readfetch.com",
       "canonical_domain": "readfetch.com",
@@ -33228,6 +33495,73 @@
         },
         "first_ts": "2026-11-04T06:58:12.597Z",
         "last_ts": "2026-11-19T13:27:04.716Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 2069,
+      "domain": "stablecrypto.dev",
+      "canonical_domain": "stablecrypto.dev",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 9,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.299145051727044,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-23T07:41:39.435Z",
+      "onchain_inflow_30d_usdc": "0.160000",
+      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
+      "pay_to_addresses": [
+        "0x124f620b4f3b53559cd9148c9b1b2773ca104478"
+      ],
+      "bazaar_listing_count": 6,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 9,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-11-06T01:01:32.628Z",
+      "window": {
+        "size": 50,
+        "calls": 9,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.299145051727044,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-06T01:01:32.628Z",
+        "last_ts": "2026-11-23T07:41:39.435Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -34100,73 +34434,6 @@
         },
         "first_ts": "2026-10-31T12:39:57.531Z",
         "last_ts": "2026-11-10T12:23:26.218Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 3146,
-      "domain": "x402-v2-mint-hex-decode.vercel.app",
-      "canonical_domain": "x402-v2-mint-hex-decode.vercel.app",
-      "tier": null,
-      "category": "other",
-      "denominator_calls": 9,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.299145051727044,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:33:31.921Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0xc22f9caebac37fe72d5142f35f21f6696ea9ef69"
-      ],
-      "bazaar_listing_count": 1,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 9,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-30T03:23:29.217Z",
-      "first_buy_at": "2026-10-31T12:39:01.322Z",
-      "window": {
-        "size": 50,
-        "calls": 9,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.299145051727044,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-10-31T12:39:01.322Z",
-        "last_ts": "2026-11-10T12:23:26.217Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -35111,73 +35378,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 3791,
-      "domain": "x402.nanotrans.io",
-      "canonical_domain": "nanotrans.io",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 9,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.299145051727044,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.008000",
-      "last_seen": "2026-11-23T06:04:27.551Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0xa07cb60d5fa61bca397430d5be1aec29f238fb89"
-      ],
-      "bazaar_listing_count": 6,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 9,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-11T00:30:17.377Z",
-      "first_buy_at": "2026-11-11T13:00:07.737Z",
-      "window": {
-        "size": 50,
-        "calls": 9,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.299145051727044,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-11T13:00:07.737Z",
-        "last_ts": "2026-11-22T19:39:52.445Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 1782,
       "domain": "x402.shizu.me",
       "canonical_domain": "shizu.me",
@@ -35982,10 +36182,10 @@
       "low_sample": true
     },
     {
-      "seller_id": 2830,
-      "domain": "cryptonews.genexxis.com",
-      "canonical_domain": "genexxis.com",
-      "tier": null,
+      "seller_id": 2367,
+      "domain": "defi.halowerk.com",
+      "canonical_domain": "halowerk.com",
+      "tier": "tail",
       "category": "data",
       "denominator_calls": 8,
       "failures": 0,
@@ -36004,14 +36204,14 @@
         "by_type": []
       },
       "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-23T06:16:28.413Z",
+      "median_quote_usdc": "0.008000",
+      "last_seen": "2026-11-23T07:43:20.674Z",
       "onchain_inflow_30d_usdc": null,
       "onchain_inflow_computed_at": null,
       "pay_to_addresses": [
-        "0x9287e3102d411029025c7617d75245bfc7920f17"
+        "0x2880edfff13100677bf97a3cbdf3bc34771c4e5e"
       ],
-      "bazaar_listing_count": 2,
+      "bazaar_listing_count": 3,
       "audit_purchases": 0,
       "audit_purchases_by_source": {
         "audit_disagreement": 0,
@@ -36026,8 +36226,8 @@
         "audit_demand": 0,
         "audit_operator": 0
       },
-      "discovered_at": "2026-10-30T03:23:29.217Z",
-      "first_buy_at": "2026-10-30T18:37:13.664Z",
+      "discovered_at": "2026-10-24T01:40:24.478Z",
+      "first_buy_at": "2026-10-25T18:34:49.951Z",
       "window": {
         "size": 50,
         "calls": 8,
@@ -36041,8 +36241,8 @@
           "duplicate": 0,
           "wrong_goods": 0
         },
-        "first_ts": "2026-10-30T18:37:13.664Z",
-        "last_ts": "2026-11-14T06:13:47.961Z",
+        "first_ts": "2026-10-25T18:34:49.951Z",
+        "last_ts": "2026-11-23T07:43:20.674Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -39133,6 +39333,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 3537,
+      "domain": "baltikum.halowerk.com",
+      "canonical_domain": "halowerk.com",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 7,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.35433043867586833,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.003000",
+      "last_seen": "2026-11-23T07:41:47.415Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x2880edfff13100677bf97a3cbdf3bc34771c4e5e"
+      ],
+      "bazaar_listing_count": 125,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 7,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-04T01:14:32.206Z",
+      "first_buy_at": "2026-11-04T06:59:38.481Z",
+      "window": {
+        "size": 50,
+        "calls": 7,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.35433043867586833,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-04T06:59:38.481Z",
+        "last_ts": "2026-11-23T07:41:47.415Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 867,
       "domain": "billitright.co",
       "canonical_domain": "billitright.co",
@@ -40741,6 +41008,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 3929,
+      "domain": "forge.fizzl.eu",
+      "canonical_domain": "fizzl.eu",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 7,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.35433043867586833,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.001000",
+      "last_seen": "2026-11-23T07:41:50.700Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x1f6f7a67336f4bc31556475999417def2b311680"
+      ],
+      "bazaar_listing_count": 89,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 7,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-15T01:23:24.870Z",
+      "first_buy_at": "2026-11-19T07:27:48.680Z",
+      "window": {
+        "size": 50,
+        "calls": 7,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.35433043867586833,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-19T07:27:48.680Z",
+        "last_ts": "2026-11-23T07:41:50.700Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2449,
       "domain": "fracht.halowerk.com",
       "canonical_domain": "halowerk.com",
@@ -41338,6 +41672,73 @@
         },
         "first_ts": "2026-11-11T07:05:19.310Z",
         "last_ts": "2026-11-17T07:18:41.468Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 3568,
+      "domain": "landvergleich.halowerk.com",
+      "canonical_domain": "halowerk.com",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 7,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.35433043867586833,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.008000",
+      "last_seen": "2026-11-23T07:41:36.841Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x2880edfff13100677bf97a3cbdf3bc34771c4e5e"
+      ],
+      "bazaar_listing_count": 50,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 7,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-04T01:14:32.206Z",
+      "first_buy_at": "2026-11-04T13:02:33.226Z",
+      "window": {
+        "size": 50,
+        "calls": 7,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.35433043867586833,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-04T13:02:33.226Z",
+        "last_ts": "2026-11-23T07:41:36.841Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -42484,73 +42885,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 3688,
-      "domain": "promptshield.grindfree.net",
-      "canonical_domain": "grindfree.net",
-      "tier": null,
-      "category": "inference",
-      "denominator_calls": 7,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.35433043867586833,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.002000",
-      "last_seen": "2026-11-23T06:37:29.014Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0xe4b5827994b7b3cd38f9830d9ecf58b51b77721b"
-      ],
-      "bazaar_listing_count": 3,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 9,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-07T00:14:16.662Z",
-      "first_buy_at": "2026-11-07T07:08:20.320Z",
-      "window": {
-        "size": 50,
-        "calls": 7,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.35433043867586833,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-07T18:10:28.569Z",
-        "last_ts": "2026-11-21T13:40:20.851Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 2796,
       "domain": "qcb7fnxsbd7fbhj4.68r.lambda-web.us-east-1.on.aws",
       "canonical_domain": "on.aws",
@@ -43082,73 +43416,6 @@
         },
         "first_ts": "2026-11-04T06:59:19.240Z",
         "last_ts": "2026-11-05T01:04:09.332Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 2069,
-      "domain": "stablecrypto.dev",
-      "canonical_domain": "stablecrypto.dev",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 7,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.35433043867586833,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-23T06:08:00.858Z",
-      "onchain_inflow_30d_usdc": "0.160000",
-      "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
-      "pay_to_addresses": [
-        "0x124f620b4f3b53559cd9148c9b1b2773ca104478"
-      ],
-      "bazaar_listing_count": 6,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 7,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-10-24T01:40:24.478Z",
-      "first_buy_at": "2026-11-06T01:01:32.628Z",
-      "window": {
-        "size": 50,
-        "calls": 7,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.35433043867586833,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-06T01:01:32.628Z",
-        "last_ts": "2026-11-17T01:27:18.123Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -45993,7 +46260,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.010000",
-      "last_seen": "2026-11-20T01:23:22.838Z",
+      "last_seen": "2026-11-23T07:37:29.029Z",
       "onchain_inflow_30d_usdc": "43.020000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -46464,7 +46731,7 @@
       },
       "dollar_weighted_rate": 0,
       "median_quote_usdc": "0.005000",
-      "last_seen": "2026-11-23T06:13:25.744Z",
+      "last_seen": "2026-11-23T07:43:19.937Z",
       "onchain_inflow_30d_usdc": "1.354000",
       "onchain_inflow_computed_at": "2026-10-24T03:00:45.815Z",
       "pay_to_addresses": [
@@ -51604,73 +51871,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 3537,
-      "domain": "baltikum.halowerk.com",
-      "canonical_domain": "halowerk.com",
-      "tier": null,
-      "category": "other",
-      "denominator_calls": 5,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.4344824686593928,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.003000",
-      "last_seen": "2026-11-23T06:11:03.523Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x2880edfff13100677bf97a3cbdf3bc34771c4e5e"
-      ],
-      "bazaar_listing_count": 125,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 5,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-04T01:14:32.206Z",
-      "first_buy_at": "2026-11-04T06:59:38.481Z",
-      "window": {
-        "size": 50,
-        "calls": 5,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.4344824686593928,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-04T06:59:38.481Z",
-        "last_ts": "2026-11-04T18:59:42.353Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 3963,
       "domain": "base-token-lens-phs6048.phs6048.chatgpt.site",
       "canonical_domain": "chatgpt.site",
@@ -53012,6 +53212,73 @@
       "low_sample": true
     },
     {
+      "seller_id": 3648,
+      "domain": "crypto.penguindriver.com",
+      "canonical_domain": "penguindriver.com",
+      "tier": null,
+      "category": "other",
+      "denominator_calls": 5,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.4344824686593928,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.010000",
+      "last_seen": "2026-11-23T07:37:24.987Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0xe336075e447ec3f2aae1d7317bb314b0cd580644"
+      ],
+      "bazaar_listing_count": 1,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 5,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-06T01:09:54.842Z",
+      "first_buy_at": "2026-11-22T19:36:59.878Z",
+      "window": {
+        "size": 50,
+        "calls": 5,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.4344824686593928,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-22T19:36:59.878Z",
+        "last_ts": "2026-11-23T07:37:24.987Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
       "seller_id": 2825,
       "domain": "cve.genexxis.com",
       "canonical_domain": "genexxis.com",
@@ -54017,73 +54284,6 @@
       "low_sample": true
     },
     {
-      "seller_id": 3929,
-      "domain": "forge.fizzl.eu",
-      "canonical_domain": "fizzl.eu",
-      "tier": null,
-      "category": "other",
-      "denominator_calls": 5,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.4344824686593928,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.001000",
-      "last_seen": "2026-11-23T06:33:19.325Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x1f6f7a67336f4bc31556475999417def2b311680"
-      ],
-      "bazaar_listing_count": 89,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 5,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-15T01:23:24.870Z",
-      "first_buy_at": "2026-11-19T07:27:48.680Z",
-      "window": {
-        "size": 50,
-        "calls": 5,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.4344824686593928,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-19T07:27:48.680Z",
-        "last_ts": "2026-11-19T19:27:53.874Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
       "seller_id": 3880,
       "domain": "format.halowerk.com",
       "canonical_domain": "halowerk.com",
@@ -54547,73 +54747,6 @@
         },
         "first_ts": "2026-10-30T18:37:25.027Z",
         "last_ts": "2026-10-31T12:37:29.359Z",
-        "last_failure_ts": null
-      },
-      "source": "discovery",
-      "low_sample": true
-    },
-    {
-      "seller_id": 3568,
-      "domain": "landvergleich.halowerk.com",
-      "canonical_domain": "halowerk.com",
-      "tier": null,
-      "category": "data",
-      "denominator_calls": 5,
-      "failures": 0,
-      "failure_rate": 0,
-      "wilson_low": 0,
-      "wilson_high": 0.4344824686593928,
-      "failures_by_type": {
-        "non_delivery": 0,
-        "overcharge": 0,
-        "duplicate": 0,
-        "wrong_goods": 0
-      },
-      "format_mismatch": {
-        "calls": 0,
-        "last_ts": null,
-        "by_type": []
-      },
-      "dollar_weighted_rate": 0,
-      "median_quote_usdc": "0.008000",
-      "last_seen": "2026-11-23T06:15:45.381Z",
-      "onchain_inflow_30d_usdc": null,
-      "onchain_inflow_computed_at": null,
-      "pay_to_addresses": [
-        "0x2880edfff13100677bf97a3cbdf3bc34771c4e5e"
-      ],
-      "bazaar_listing_count": 50,
-      "audit_purchases": 0,
-      "audit_purchases_by_source": {
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "breadth_purchases": 0,
-      "purchases_by_source": {
-        "buy": 5,
-        "breadth": 0,
-        "audit_disagreement": 0,
-        "audit_demand": 0,
-        "audit_operator": 0
-      },
-      "discovered_at": "2026-11-04T01:14:32.206Z",
-      "first_buy_at": "2026-11-04T13:02:33.226Z",
-      "window": {
-        "size": 50,
-        "calls": 5,
-        "failures": 0,
-        "failure_rate": 0,
-        "wilson_low": 0,
-        "wilson_high": 0.4344824686593928,
-        "by_type": {
-          "non_delivery": 0,
-          "overcharge": 0,
-          "duplicate": 0,
-          "wrong_goods": 0
-        },
-        "first_ts": "2026-11-04T13:02:33.226Z",
-        "last_ts": "2026-11-05T00:59:08.738Z",
         "last_failure_ts": null
       },
       "source": "discovery",
@@ -61317,6 +61450,73 @@
         },
         "first_ts": "2026-11-04T06:58:58.498Z",
         "last_ts": "2026-11-04T18:59:39.547Z",
+        "last_failure_ts": null
+      },
+      "source": "discovery",
+      "low_sample": true
+    },
+    {
+      "seller_id": 4234,
+      "domain": "x402ti.malwowar.workers.dev",
+      "canonical_domain": "malwowar.workers.dev",
+      "tier": null,
+      "category": "data",
+      "denominator_calls": 5,
+      "failures": 0,
+      "failure_rate": 0,
+      "wilson_low": 0,
+      "wilson_high": 0.4344824686593928,
+      "failures_by_type": {
+        "non_delivery": 0,
+        "overcharge": 0,
+        "duplicate": 0,
+        "wrong_goods": 0
+      },
+      "format_mismatch": {
+        "calls": 0,
+        "last_ts": null,
+        "by_type": []
+      },
+      "dollar_weighted_rate": 0,
+      "median_quote_usdc": "0.005000",
+      "last_seen": "2026-11-23T07:37:24.981Z",
+      "onchain_inflow_30d_usdc": null,
+      "onchain_inflow_computed_at": null,
+      "pay_to_addresses": [
+        "0x9478a3d5579a378eb91241b2ec03e8c014c244cf"
+      ],
+      "bazaar_listing_count": 2,
+      "audit_purchases": 0,
+      "audit_purchases_by_source": {
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "breadth_purchases": 0,
+      "purchases_by_source": {
+        "buy": 8,
+        "breadth": 0,
+        "audit_disagreement": 0,
+        "audit_demand": 0,
+        "audit_operator": 0
+      },
+      "discovered_at": "2026-11-22T01:43:47.967Z",
+      "first_buy_at": "2026-11-22T07:35:47.059Z",
+      "window": {
+        "size": 50,
+        "calls": 5,
+        "failures": 0,
+        "failure_rate": 0,
+        "wilson_low": 0,
+        "wilson_high": 0.4344824686593928,
+        "by_type": {
+          "non_delivery": 0,
+          "overcharge": 0,
+          "duplicate": 0,
+          "wrong_goods": 0
+        },
+        "first_ts": "2026-11-22T07:39:42.149Z",
+        "last_ts": "2026-11-23T07:37:24.981Z",
         "last_failure_ts": null
       },
       "source": "discovery",
