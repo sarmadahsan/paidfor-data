@@ -1,29 +1,49 @@
 {
-  "generated_at": "2026-11-24T06:11:41.493Z",
+  "generated_at": "2026-11-24T07:22:39.775Z",
   "network": "eip155:8453",
   "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
   "domain": "x402factory.ai",
   "seller_id": 1180,
-  "failures_total": 30,
+  "failures_total": 31,
   "shown": 25,
   "window": {
     "size": 50,
-    "calls": 30,
-    "failures": 30,
+    "calls": 31,
+    "failures": 31,
     "failure_rate": 1,
-    "wilson_low": 0.886486605238548,
+    "wilson_low": 0.889744602991977,
     "wilson_high": 1,
     "by_type": {
-      "non_delivery": 30,
+      "non_delivery": 31,
       "overcharge": 0,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T20:36:28.055Z",
-    "last_ts": "2026-11-11T12:58:53.962Z",
-    "last_failure_ts": "2026-11-11T12:58:53.962Z"
+    "last_ts": "2026-11-24T07:20:24.600Z",
+    "last_failure_ts": "2026-11-24T07:20:24.600Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-24T07:20:24.600Z",
+      "resource": "https://x402factory.ai/base/xprofile",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 500,
+      "validator_failures": [
+        {
+          "validator": "http_status",
+          "reason": "non_2xx_status"
+        }
+      ],
+      "settlement_tx_hash": "0x199d54a0b91bb87fd5d655b3c9a239c390899c1d65ddb6efcd43929e81beb5c8",
+      "basescan_url": "https://basescan.org/tx/0x199d54a0b91bb87fd5d655b3c9a239c390899c1d65ddb6efcd43929e81beb5c8"
+    },
     {
       "correction": null,
       "outcome": "non_delivery",
@@ -503,26 +523,6 @@
       ],
       "settlement_tx_hash": "0xcc6e9185d2e60d07c6f577f715df9e36870ec148274274657a148c3fb3a3705e",
       "basescan_url": "https://basescan.org/tx/0xcc6e9185d2e60d07c6f577f715df9e36870ec148274274657a148c3fb3a3705e"
-    },
-    {
-      "correction": null,
-      "outcome": "non_delivery",
-      "source": "buy",
-      "timestamp": "2026-11-07T18:10:20.745Z",
-      "resource": "https://x402factory.ai/base/xprofile",
-      "method": "POST",
-      "quote_usdc": "0.001000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 500,
-      "validator_failures": [
-        {
-          "validator": "http_status",
-          "reason": "non_2xx_status"
-        }
-      ],
-      "settlement_tx_hash": "0x38fd720baa101a0bf66b32825dfbcd623c65f0ba7b44395c00be1e84124a1ef0",
-      "basescan_url": "https://basescan.org/tx/0x38fd720baa101a0bf66b32825dfbcd623c65f0ba7b44395c00be1e84124a1ef0"
     }
   ],
   "corrections_total": 0,
