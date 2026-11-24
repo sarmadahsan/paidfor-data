@@ -1,29 +1,45 @@
 {
-  "generated_at": "2026-11-24T18:11:53.288Z",
+  "generated_at": "2026-11-24T19:28:10.804Z",
   "network": "eip155:8453",
   "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
   "domain": "alalanet.com",
   "seller_id": 3697,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 1,
+  "shown": 1,
   "window": {
     "size": 50,
-    "calls": 5,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.4344824686593928,
+    "calls": 6,
+    "failures": 1,
+    "failure_rate": 0.16666666666666666,
+    "wilson_low": 0.030053369411815023,
+    "wilson_high": 0.5635028250257673,
     "by_type": {
       "non_delivery": 0,
-      "overcharge": 0,
+      "overcharge": 1,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-11-08T06:11:15.110Z",
-    "last_ts": "2026-11-10T00:31:14.548Z",
-    "last_failure_ts": null
+    "last_ts": "2026-11-24T19:24:57.038Z",
+    "last_failure_ts": "2026-11-24T19:24:57.038Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-24T19:24:57.038Z",
+      "resource": "https://alalanet.com/x402/check",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.002000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x862ca868289365c69277782d25f227349ad6f264f81a3947ca57d3ad682f6750",
+      "basescan_url": "https://basescan.org/tx/0x862ca868289365c69277782d25f227349ad6f264f81a3947ca57d3ad682f6750"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }

@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-24T19:28:10.804Z",
+  "network": "eip155:8453",
+  "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
+  "domain": "api.laminarity.uk",
+  "seller_id": 1035,
+  "failures_total": 2,
+  "shown": 2,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 2,
+    "failure_rate": 0.4,
+    "wilson_low": 0.11762077314099717,
+    "wilson_high": 0.7692757205908813,
+    "by_type": {
+      "non_delivery": 2,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-24T01:30:51.139Z",
+    "last_ts": "2026-11-24T19:15:44.436Z",
+    "last_failure_ts": "2026-11-24T12:15:45.896Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-24T12:15:45.896Z",
+      "resource": "https://api.laminarity.uk/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xb5ea4026ba7123b8cf7f2d24f22b515845b01625fa4bc33935aafa99ef58a595",
+      "basescan_url": "https://basescan.org/tx/0xb5ea4026ba7123b8cf7f2d24f22b515845b01625fa4bc33935aafa99ef58a595"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-24T01:35:13.213Z",
+      "resource": "https://api.laminarity.uk/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": null,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x92f290d4012b63155e3ee842baf9b8355b69be1ee44abb641718eb42baa87721",
+      "basescan_url": "https://basescan.org/tx/0x92f290d4012b63155e3ee842baf9b8355b69be1ee44abb641718eb42baa87721"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

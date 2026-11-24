@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-24T19:28:10.804Z",
+  "network": "eip155:8453",
+  "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
+  "domain": "omenz.org",
+  "seller_id": 4011,
+  "failures_total": 1,
+  "shown": 1,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 1,
+    "failure_rate": 0.2,
+    "wilson_low": 0.03622410822563066,
+    "wilson_high": 0.6244653729700049,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 1,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-17T07:12:28.257Z",
+    "last_ts": "2026-11-24T19:15:39.656Z",
+    "last_failure_ts": "2026-11-24T19:15:39.656Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-24T19:15:39.656Z",
+      "resource": "https://www.omenz.org/api/tollbooth/v1/authorize",
+      "method": "POST",
+      "quote_usdc": "0.002000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x8892ac737c1e987ae36efc5e11e8781fb3d8f5e9ec203f427ef187ce5f065ec7",
+      "basescan_url": "https://basescan.org/tx/0x8892ac737c1e987ae36efc5e11e8781fb3d8f5e9ec203f427ef187ce5f065ec7"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
