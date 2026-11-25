@@ -1,29 +1,45 @@
 {
-  "generated_at": "2026-11-25T00:11:51.559Z",
+  "generated_at": "2026-11-25T01:33:04.128Z",
   "network": "eip155:8453",
   "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
   "domain": "mart402.com",
   "seller_id": 556,
-  "failures_total": 0,
-  "shown": 0,
+  "failures_total": 1,
+  "shown": 1,
   "window": {
     "size": 50,
-    "calls": 38,
-    "failures": 0,
-    "failure_rate": 0,
-    "wilson_low": 0,
-    "wilson_high": 0.09180986954097846,
+    "calls": 39,
+    "failures": 1,
+    "failure_rate": 0.02564102564102564,
+    "wilson_low": 0.004540703050750619,
+    "wilson_high": 0.13180990297042533,
     "by_type": {
       "non_delivery": 0,
-      "overcharge": 0,
+      "overcharge": 1,
       "duplicate": 0,
       "wrong_goods": 0
     },
     "first_ts": "2026-10-25T18:33:14.182Z",
-    "last_ts": "2026-11-20T01:26:39.808Z",
-    "last_failure_ts": null
+    "last_ts": "2026-11-25T01:28:07.182Z",
+    "last_failure_ts": "2026-11-25T01:28:07.182Z"
   },
-  "samples": [],
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-25T01:28:07.182Z",
+      "resource": "https://mart402.com/v1/extract",
+      "method": "POST",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.002500",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x002c3fa33c12cf6aee86bdd0898ae906cf438f47ccd0f8215703340d99039698",
+      "basescan_url": "https://basescan.org/tx/0x002c3fa33c12cf6aee86bdd0898ae906cf438f47ccd0f8215703340d99039698"
+    }
+  ],
   "corrections_total": 0,
   "corrections": []
 }
