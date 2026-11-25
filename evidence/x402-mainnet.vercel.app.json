@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-11-25T07:31:54.042Z",
+  "network": "eip155:8453",
+  "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
+  "domain": "x402-mainnet.vercel.app",
+  "seller_id": 2646,
+  "failures_total": 5,
+  "shown": 5,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 5,
+    "failure_rate": 1,
+    "wilson_low": 0.5655175313406071,
+    "wilson_high": 1,
+    "by_type": {
+      "non_delivery": 5,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-24T07:18:32.379Z",
+    "last_ts": "2026-11-25T07:21:46.453Z",
+    "last_failure_ts": "2026-11-25T07:21:46.453Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-25T07:21:46.453Z",
+      "resource": "https://x402-mainnet.vercel.app/protected",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x1a79edf1ebe4a64800411380170be75ac529d6b31322bdc3ed47d6bc3e48b53a",
+      "basescan_url": "https://basescan.org/tx/0x1a79edf1ebe4a64800411380170be75ac529d6b31322bdc3ed47d6bc3e48b53a"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-25T01:21:31.815Z",
+      "resource": "https://x402-mainnet.vercel.app/protected",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x35100c15b58362893ab2862551c12327bcadc09e1ae30c72a17f43934c58cbea",
+      "basescan_url": "https://basescan.org/tx/0x35100c15b58362893ab2862551c12327bcadc09e1ae30c72a17f43934c58cbea"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-24T19:16:56.682Z",
+      "resource": "https://x402-mainnet.vercel.app/protected",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x68b7204026ec2f918c91966b76ac2afa97775e782dec2835500b2d0a348e6f2e",
+      "basescan_url": "https://basescan.org/tx/0x68b7204026ec2f918c91966b76ac2afa97775e782dec2835500b2d0a348e6f2e"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-24T12:16:48.314Z",
+      "resource": "https://x402-mainnet.vercel.app/protected",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0x38f00c8dae49e28c5936aa622e27b5e3a7d95c0fe1029c9ad3592c4b1ad5a8e4",
+      "basescan_url": "https://basescan.org/tx/0x38f00c8dae49e28c5936aa622e27b5e3a7d95c0fe1029c9ad3592c4b1ad5a8e4"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-24T07:18:32.379Z",
+      "resource": "https://x402-mainnet.vercel.app/protected",
+      "method": "GET",
+      "quote_usdc": "0.001000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "content_type_mismatch"
+        }
+      ],
+      "settlement_tx_hash": "0xb1f8a649bf4f3ed9554f44d888dde6dadc8d44fcedb083683719b67896755215",
+      "basescan_url": "https://basescan.org/tx/0xb1f8a649bf4f3ed9554f44d888dde6dadc8d44fcedb083683719b67896755215"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
