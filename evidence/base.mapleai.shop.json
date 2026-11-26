@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-11-26T01:36:03.373Z",
+  "network": "eip155:8453",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
+  "domain": "base.mapleai.shop",
+  "seller_id": 997,
+  "failures_total": 5,
+  "shown": 5,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 5,
+    "failure_rate": 1,
+    "wilson_low": 0.5655175313406071,
+    "wilson_high": 1,
+    "by_type": {
+      "non_delivery": 5,
+      "overcharge": 0,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-25T01:26:26.239Z",
+    "last_ts": "2026-11-26T01:24:54.695Z",
+    "last_failure_ts": "2026-11-26T01:24:54.695Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-26T01:24:54.695Z",
+      "resource": "https://base.mapleai.shop/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001023",
+      "reference_price_usdc": "0.001023",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x610507bf77f87f614dfc6ea8a597fe2418032c4890cc0f5d7c56b135d9b54088",
+      "basescan_url": "https://basescan.org/tx/0x610507bf77f87f614dfc6ea8a597fe2418032c4890cc0f5d7c56b135d9b54088"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-25T19:24:16.642Z",
+      "resource": "https://base.mapleai.shop/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001023",
+      "reference_price_usdc": "0.001023",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x065cbc9e2a199f06f0aada5bbb3c46eba40ac5b776fa9217feda48c7bc832adc",
+      "basescan_url": "https://basescan.org/tx/0x065cbc9e2a199f06f0aada5bbb3c46eba40ac5b776fa9217feda48c7bc832adc"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-25T13:23:25.730Z",
+      "resource": "https://base.mapleai.shop/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001023",
+      "reference_price_usdc": "0.001023",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0xd34a8732eeaa49c1bd950553550c838b94cf61e2602d18748c80afc625af62b0",
+      "basescan_url": "https://basescan.org/tx/0xd34a8732eeaa49c1bd950553550c838b94cf61e2602d18748c80afc625af62b0"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-25T07:23:50.576Z",
+      "resource": "https://base.mapleai.shop/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001023",
+      "reference_price_usdc": "0.001023",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0x98fbdb0409034584f741b9e1e7711d1ecac3963cd648e0792e053f357aa634ef",
+      "basescan_url": "https://basescan.org/tx/0x98fbdb0409034584f741b9e1e7711d1ecac3963cd648e0792e053f357aa634ef"
+    },
+    {
+      "correction": null,
+      "outcome": "non_delivery",
+      "source": "buy",
+      "timestamp": "2026-11-25T01:26:26.239Z",
+      "resource": "https://base.mapleai.shop/v1/chat/completions",
+      "method": "POST",
+      "quote_usdc": "0.001023",
+      "reference_price_usdc": "0.001023",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [
+        {
+          "validator": "content_type",
+          "reason": "body_not_json"
+        }
+      ],
+      "settlement_tx_hash": "0xc407ced22f504fe2935d128bcf0b01cebf5f8f1a7ea8db959264a22466c26ed6",
+      "basescan_url": "https://basescan.org/tx/0xc407ced22f504fe2935d128bcf0b01cebf5f8f1a7ea8db959264a22466c26ed6"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

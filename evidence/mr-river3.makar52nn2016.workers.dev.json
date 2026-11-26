@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T00:11:27.862Z",
+  "generated_at": "2026-11-26T01:36:03.373Z",
   "network": "eip155:8453",
   "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
   "domain": "mr-river3.makar52nn2016.workers.dev",
   "seller_id": 3236,
-  "failures_total": 41,
+  "failures_total": 42,
   "shown": 25,
   "window": {
     "size": 50,
@@ -14,16 +14,31 @@
     "wilson_low": 0.6258731612803865,
     "wilson_high": 0.8570260866267341,
     "by_type": {
-      "non_delivery": 14,
-      "overcharge": 24,
+      "non_delivery": 13,
+      "overcharge": 25,
       "duplicate": 0,
       "wrong_goods": 0
     },
-    "first_ts": "2026-11-02T13:27:08.306Z",
-    "last_ts": "2026-11-25T19:28:37.178Z",
-    "last_failure_ts": "2026-11-25T19:28:37.178Z"
+    "first_ts": "2026-11-02T13:27:47.820Z",
+    "last_ts": "2026-11-26T01:30:45.853Z",
+    "last_failure_ts": "2026-11-26T01:30:45.853Z"
   },
   "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-26T01:30:45.853Z",
+      "resource": "https://mr-river3.makar52nn2016.workers.dev/api/bounties",
+      "method": "GET",
+      "quote_usdc": "0.100000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xffd896cef40462ac1bc362a0049491298a1028ff936b2c816dc3b0441c41a403",
+      "basescan_url": "https://basescan.org/tx/0xffd896cef40462ac1bc362a0049491298a1028ff936b2c816dc3b0441c41a403"
+    },
     {
       "correction": null,
       "outcome": "overcharge",
@@ -398,21 +413,6 @@
       ],
       "settlement_tx_hash": "0x88c19efe34a2c2f951474ea9f12f5a4cd07c5a8a68a762932eb2304c5b634314",
       "basescan_url": "https://basescan.org/tx/0x88c19efe34a2c2f951474ea9f12f5a4cd07c5a8a68a762932eb2304c5b634314"
-    },
-    {
-      "correction": null,
-      "outcome": "overcharge",
-      "source": "audit_demand",
-      "timestamp": "2026-11-06T13:13:38.837Z",
-      "resource": "https://mr-river3.makar52nn2016.workers.dev/api/uuid",
-      "method": "GET",
-      "quote_usdc": "0.010000",
-      "reference_price_usdc": "0.001000",
-      "reference_source": "bazaar",
-      "http_status": 200,
-      "validator_failures": [],
-      "settlement_tx_hash": "0x340f40f778fd8d5889db05bc79da9efcc7da5f197f16884a4b996bde9e458a29",
-      "basescan_url": "https://basescan.org/tx/0x340f40f778fd8d5889db05bc79da9efcc7da5f197f16884a4b996bde9e458a29"
     }
   ],
   "corrections_total": 0,
