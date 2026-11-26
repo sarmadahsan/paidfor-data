@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-26T07:31:24.630Z",
+  "network": "eip155:8453",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
+  "domain": "entityresolve.kopachelli.workers.dev",
+  "seller_id": 4387,
+  "failures_total": 1,
+  "shown": 1,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 1,
+    "failure_rate": 0.2,
+    "wilson_low": 0.03622410822563066,
+    "wilson_high": 0.6244653729700049,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 1,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-25T07:25:40.746Z",
+    "last_ts": "2026-11-26T07:24:56.969Z",
+    "last_failure_ts": "2026-11-25T13:23:57.750Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-25T13:23:57.750Z",
+      "resource": "https://entityresolve.kopachelli.workers.dev/v1/entity",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0xab436773eecd47eba19baa877deb13e2862ae34d5d77941352d6cf997a9c4069",
+      "basescan_url": "https://basescan.org/tx/0xab436773eecd47eba19baa877deb13e2862ae34d5d77941352d6cf997a9c4069"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

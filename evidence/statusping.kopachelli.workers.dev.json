@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-26T07:31:24.630Z",
+  "network": "eip155:8453",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
+  "domain": "statusping.kopachelli.workers.dev",
+  "seller_id": 4353,
+  "failures_total": 2,
+  "shown": 2,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 2,
+    "failure_rate": 0.4,
+    "wilson_low": 0.11762077314099717,
+    "wilson_high": 0.7692757205908813,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 2,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-25T07:26:00.036Z",
+    "last_ts": "2026-11-26T07:24:46.809Z",
+    "last_failure_ts": "2026-11-26T01:25:07.284Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-26T01:25:07.284Z",
+      "resource": "https://statusping.kopachelli.workers.dev/v1/ping",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x7b06fbcd03376f5ff997e36ef4db40c9fa4c17260e7ba7cd90bddec003b8d6fe",
+      "basescan_url": "https://basescan.org/tx/0x7b06fbcd03376f5ff997e36ef4db40c9fa4c17260e7ba7cd90bddec003b8d6fe"
+    },
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-25T19:24:37.260Z",
+      "resource": "https://statusping.kopachelli.workers.dev/v1/ping",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x961116abfe74149c46eab06b9a971f8d1e364e1b4f8bfb11b7dc73848a207e13",
+      "basescan_url": "https://basescan.org/tx/0x961116abfe74149c46eab06b9a971f8d1e364e1b4f8bfb11b7dc73848a207e13"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

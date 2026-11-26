@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-26T07:31:24.630Z",
+  "network": "eip155:8453",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
+  "domain": "georesolve.kopachelli.workers.dev",
+  "seller_id": 4391,
+  "failures_total": 1,
+  "shown": 1,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 1,
+    "failure_rate": 0.2,
+    "wilson_low": 0.03622410822563066,
+    "wilson_high": 0.6244653729700049,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 1,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-25T07:25:46.743Z",
+    "last_ts": "2026-11-26T07:24:58.890Z",
+    "last_failure_ts": "2026-11-25T13:23:43.912Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-25T13:23:43.912Z",
+      "resource": "https://georesolve.kopachelli.workers.dev/v1/distance",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x15b52ef058b0f25ca1dad0a71aa1fa5a53bc5c12a2d6d01ab95757b8466d56aa",
+      "basescan_url": "https://basescan.org/tx/0x15b52ef058b0f25ca1dad0a71aa1fa5a53bc5c12a2d6d01ab95757b8466d56aa"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

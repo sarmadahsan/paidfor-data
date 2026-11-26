@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-26T07:31:24.630Z",
+  "network": "eip155:8453",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
+  "domain": "blobkeep.kopachelli.workers.dev",
+  "seller_id": 4385,
+  "failures_total": 1,
+  "shown": 1,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 1,
+    "failure_rate": 0.2,
+    "wilson_low": 0.03622410822563066,
+    "wilson_high": 0.6244653729700049,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 1,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-25T07:27:30.272Z",
+    "last_ts": "2026-11-26T07:24:58.571Z",
+    "last_failure_ts": "2026-11-25T13:23:47.751Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-25T13:23:47.751Z",
+      "resource": "https://blobkeep.kopachelli.workers.dev/v1/blob/list",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x17ce41cac7d52638a3280b52ad14a0bf7aa2ce9177f1c2388265cc6f15c9f8ac",
+      "basescan_url": "https://basescan.org/tx/0x17ce41cac7d52638a3280b52ad14a0bf7aa2ce9177f1c2388265cc6f15c9f8ac"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}

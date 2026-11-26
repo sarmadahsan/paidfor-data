@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-11-26T07:31:24.630Z",
+  "network": "eip155:8453",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
+  "domain": "schemaguard.kopachelli.workers.dev",
+  "seller_id": 4357,
+  "failures_total": 1,
+  "shown": 1,
+  "window": {
+    "size": 50,
+    "calls": 5,
+    "failures": 1,
+    "failure_rate": 0.2,
+    "wilson_low": 0.03622410822563066,
+    "wilson_high": 0.6244653729700049,
+    "by_type": {
+      "non_delivery": 0,
+      "overcharge": 1,
+      "duplicate": 0,
+      "wrong_goods": 0
+    },
+    "first_ts": "2026-11-25T07:25:19.511Z",
+    "last_ts": "2026-11-26T07:25:01.415Z",
+    "last_failure_ts": "2026-11-25T13:23:43.440Z"
+  },
+  "samples": [
+    {
+      "correction": null,
+      "outcome": "overcharge",
+      "source": "buy",
+      "timestamp": "2026-11-25T13:23:43.440Z",
+      "resource": "https://schemaguard.kopachelli.workers.dev/v1/validate",
+      "method": "GET",
+      "quote_usdc": "0.005000",
+      "reference_price_usdc": "0.001000",
+      "reference_source": "bazaar",
+      "http_status": 200,
+      "validator_failures": [],
+      "settlement_tx_hash": "0x0f5437f0b99754676809fde97b12935fe3bba929a71ca83cf9679d4e2f49c894",
+      "basescan_url": "https://basescan.org/tx/0x0f5437f0b99754676809fde97b12935fe3bba929a71ca83cf9679d4e2f49c894"
+    }
+  ],
+  "corrections_total": 0,
+  "corrections": []
+}
