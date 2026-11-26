@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T22:11:42.855Z",
+  "generated_at": "2026-11-26T00:11:27.862Z",
   "network": "eip155:8453",
-  "git_commit": "12b0dc745b01f2da64dfed1e31db141916fcee1a",
+  "git_commit": "91f21a964ca1a86bdb66d745f8c1ccecc2ff3974",
   "summary": {
     "duplicate": {
       "intents": 10,
@@ -228,5 +228,1053 @@
         }
       ]
     }
-  ]
+  ],
+  "intents": [
+    {
+      "test": "duplicate",
+      "intent": "d717441a-ee48-4ab1-81cb-20d7743734f5",
+      "intent_short": "d717441a",
+      "resource": "https://api.bitrefill.com/x402/checkout/info",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "557218a5-4fef-4a91-87b1-3e9de4a63d17",
+      "intent_short": "557218a5",
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "e788793a-9438-4629-8e7f-9d55648785b8",
+      "intent_short": "e788793a",
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "3ca5dbaa-e801-4535-94d3-8e70278b9a45",
+      "intent_short": "3ca5dbaa",
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "6f2944d6-97b5-4878-a2c4-b1814ff62dae",
+      "intent_short": "6f2944d6",
+      "resource": "https://laso.finance/auth",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "e33d5379-8bfb-4dc8-81bd-edc09b93140e",
+      "intent_short": "e33d5379",
+      "resource": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "f2e0026c-bd0c-4f4b-b117-e403de660416",
+      "intent_short": "f2e0026c",
+      "resource": "https://www.api-xpay.com/x402/quote",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "73896b42-6968-4741-9a23-2bcf83617bc2",
+      "intent_short": "73896b42",
+      "resource": "https://x402.clashofcoins.com/x402/cheap-health",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "d26a8b15-758d-4781-8535-15f4051bb227",
+      "intent_short": "d26a8b15",
+      "resource": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "508f3511-8915-49f9-9c65-07b3d7d1118c",
+      "intent_short": "508f3511",
+      "resource": "https://api.locus.report/api/locus-parcel-lookup",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "534b1425-1d0e-4637-9b78-6407ae3af2fa",
+      "intent_short": "534b1425",
+      "resource": "https://api.bitrefill.com/x402/checkout/info",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "b4345dfd-2f14-49ab-8c86-4bb785c06bd1",
+      "intent_short": "b4345dfd",
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "085ae8ad-466a-4256-934e-dd738bb1fb21",
+      "intent_short": "085ae8ad",
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "52a8bcd4-da2d-40ad-b27d-a4da619b918f",
+      "intent_short": "52a8bcd4",
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "ae7860bd-8ab5-41c3-b5ff-22c83d676fc6",
+      "intent_short": "ae7860bd",
+      "resource": "https://laso.finance/auth",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "5693407e-d1c9-4362-9421-c8d713776b9e",
+      "intent_short": "5693407e",
+      "resource": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "058583df-f025-44d8-80c3-b18e0eb8cf4b",
+      "intent_short": "058583df",
+      "resource": "https://www.api-xpay.com/x402/quote",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "deb8f6de-8b54-4d10-a6d3-d48b85514ed2",
+      "intent_short": "deb8f6de",
+      "resource": "https://x402.clashofcoins.com/x402/cheap-health",
+      "calls": 2,
+      "settlements": 2,
+      "double_settled": true,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "ef90f48b-24da-4341-9d8b-a106906657b8",
+      "intent_short": "ef90f48b",
+      "resource": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "1de75784-c7bc-450e-8f56-69cf76bc8ee8",
+      "intent_short": "1de75784",
+      "resource": "https://api.locus.report/api/locus-parcel-lookup",
+      "calls": 2,
+      "settlements": 0,
+      "double_settled": false,
+      "unattributed_settlements": []
+    }
+  ],
+  "calls": [
+    {
+      "test": "duplicate",
+      "intent": "d717441a-ee48-4ab1-81cb-20d7743734f5",
+      "intent_short": "d717441a",
+      "call": 1,
+      "resource": "https://api.bitrefill.com/x402/checkout/info",
+      "called_at": "2026-10-25T07:56:49.965Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+      "signed_nonce": "0x97bd2a82543f877ba5593b2b713d179be689c6dea4d50ca7fbaf08eb7171d971",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0x5d2bcae2ef51c96d20180a5815d6f1198e068d002bb2f7845d92d55cbdbecf6b",
+          "log_index": 6,
+          "block_number": 53062834,
+          "block_at": "2026-10-25T07:56:55.000Z",
+          "to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+          "value_usdc": "0.001000",
+          "nonce": "0x97bd2a82543f877ba5593b2b713d179be689c6dea4d50ca7fbaf08eb7171d971",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x5d2bcae2ef51c96d20180a5815d6f1198e068d002bb2f7845d92d55cbdbecf6b"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "d717441a-ee48-4ab1-81cb-20d7743734f5",
+      "intent_short": "d717441a",
+      "call": 2,
+      "resource": "https://api.bitrefill.com/x402/checkout/info",
+      "called_at": "2026-10-25T07:57:10.571Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+      "signed_nonce": "0xb2517dfb0e07e15bdf3b5a1bff00e01b831e568927e44c9c80ac7d52ae0be532",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0x3fa342a37d310ba3100cfb06fef8e7f572b4bd0cd13d86b696448d3e143edea6",
+          "log_index": 196,
+          "block_number": 53062844,
+          "block_at": "2026-10-25T07:57:15.000Z",
+          "to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+          "value_usdc": "0.001000",
+          "nonce": "0xb2517dfb0e07e15bdf3b5a1bff00e01b831e568927e44c9c80ac7d52ae0be532",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x3fa342a37d310ba3100cfb06fef8e7f572b4bd0cd13d86b696448d3e143edea6"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "557218a5-4fef-4a91-87b1-3e9de4a63d17",
+      "intent_short": "557218a5",
+      "call": 1,
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "called_at": "2026-10-25T07:57:30.836Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.002000",
+      "pay_to": "0x1cAa1962428382106Eb3f29B9719bdF797621C90",
+      "signed_nonce": "0xf7bac9aef346d674ba143f6967123ab11b8573e197fa54f5703c2703a2beec11",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "557218a5-4fef-4a91-87b1-3e9de4a63d17",
+      "intent_short": "557218a5",
+      "call": 2,
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "called_at": "2026-10-25T07:57:44.494Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.002000",
+      "pay_to": "0x1cAa1962428382106Eb3f29B9719bdF797621C90",
+      "signed_nonce": "0x4fbff2dd5697c4006d5bad0c94c0c9c5c48ad367004ba7e8ccc820c14e9e5039",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "e788793a-9438-4629-8e7f-9d55648785b8",
+      "intent_short": "e788793a",
+      "call": 1,
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "called_at": "2026-10-25T07:57:57.900Z",
+      "aborted_by_us": false,
+      "paid": false,
+      "amount_usdc": null,
+      "pay_to": null,
+      "signed_nonce": null,
+      "outcome": "not_paid",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "e788793a-9438-4629-8e7f-9d55648785b8",
+      "intent_short": "e788793a",
+      "call": 2,
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "called_at": "2026-10-25T07:57:59.344Z",
+      "aborted_by_us": false,
+      "paid": false,
+      "amount_usdc": null,
+      "pay_to": null,
+      "signed_nonce": null,
+      "outcome": "not_paid",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "3ca5dbaa-e801-4535-94d3-8e70278b9a45",
+      "intent_short": "3ca5dbaa",
+      "call": 1,
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "called_at": "2026-10-25T07:58:00.720Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+      "signed_nonce": "0x95c104eb202952be8b71e6111b654a9429241880af863af1a17efcbb0765263d",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0xae7f2bbae8a411ccdbd1a948b3c03a0d56d6cad131ceb10e0adaca3d846877c6",
+          "log_index": 222,
+          "block_number": 53062877,
+          "block_at": "2026-10-25T07:58:21.000Z",
+          "to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+          "value_usdc": "0.001000",
+          "nonce": "0x95c104eb202952be8b71e6111b654a9429241880af863af1a17efcbb0765263d",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0xae7f2bbae8a411ccdbd1a948b3c03a0d56d6cad131ceb10e0adaca3d846877c6"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "3ca5dbaa-e801-4535-94d3-8e70278b9a45",
+      "intent_short": "3ca5dbaa",
+      "call": 2,
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "called_at": "2026-10-25T07:58:37.367Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+      "signed_nonce": "0x6f02b2fef351659dd85ef0e99f9d70ac7810d087750805fed38da1f4c933c00e",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0x7fb18d0432783bd9ff0f57cad0323eaf36a6647ee724352bd4c7984b0d3b6511",
+          "log_index": 144,
+          "block_number": 53062888,
+          "block_at": "2026-10-25T07:58:43.000Z",
+          "to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+          "value_usdc": "0.001000",
+          "nonce": "0x6f02b2fef351659dd85ef0e99f9d70ac7810d087750805fed38da1f4c933c00e",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x7fb18d0432783bd9ff0f57cad0323eaf36a6647ee724352bd4c7984b0d3b6511"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "6f2944d6-97b5-4878-a2c4-b1814ff62dae",
+      "intent_short": "6f2944d6",
+      "call": 1,
+      "resource": "https://laso.finance/auth",
+      "called_at": "2026-10-25T07:58:58.452Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37",
+      "signed_nonce": "0x53afcacd570b620f8666b81a64ead8c8625fd7cd9878c3fa4182da82b87afdc5",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0x32b9962aa05915ea9050a2f1abd4d7f268c3651f1ecfafb2967c7e5153c96620",
+          "log_index": 283,
+          "block_number": 53062897,
+          "block_at": "2026-10-25T07:59:01.000Z",
+          "to": "0x3291E96b3bff7eD56e3ca8364273C5b4654b2B37",
+          "value_usdc": "0.001000",
+          "nonce": "0x53afcacd570b620f8666b81a64ead8c8625fd7cd9878c3fa4182da82b87afdc5",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x32b9962aa05915ea9050a2f1abd4d7f268c3651f1ecfafb2967c7e5153c96620"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "6f2944d6-97b5-4878-a2c4-b1814ff62dae",
+      "intent_short": "6f2944d6",
+      "call": 2,
+      "resource": "https://laso.finance/auth",
+      "called_at": "2026-10-25T07:59:17.686Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37",
+      "signed_nonce": "0x2ed4dc43cd63a3db8872e163ba8fb332f410dfb2618b4e6b19168268e3625b62",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0x3d6a776480638276753f8e41af95682127363be546aa0de5172132e8796cb24b",
+          "log_index": 88,
+          "block_number": 53062907,
+          "block_at": "2026-10-25T07:59:21.000Z",
+          "to": "0x3291E96b3bff7eD56e3ca8364273C5b4654b2B37",
+          "value_usdc": "0.001000",
+          "nonce": "0x2ed4dc43cd63a3db8872e163ba8fb332f410dfb2618b4e6b19168268e3625b62",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x3d6a776480638276753f8e41af95682127363be546aa0de5172132e8796cb24b"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "e33d5379-8bfb-4dc8-81bd-edc09b93140e",
+      "intent_short": "e33d5379",
+      "call": 1,
+      "resource": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
+      "called_at": "2026-10-25T07:59:37.309Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.020000",
+      "pay_to": "0x7284D41b5b852F2bd4c99bDf95043D84452d299C",
+      "signed_nonce": "0x7337bc006085acbf4a5198e870398512ee46794d8767fe632d87bb0cab8dafd6",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "e33d5379-8bfb-4dc8-81bd-edc09b93140e",
+      "intent_short": "e33d5379",
+      "call": 2,
+      "resource": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
+      "called_at": "2026-10-25T07:59:50.672Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.020000",
+      "pay_to": "0x7284D41b5b852F2bd4c99bDf95043D84452d299C",
+      "signed_nonce": "0xf62a7a0429b8fae08a0f4bdeacbe08856cbce51e090b94863bffbaa960437e6f",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "f2e0026c-bd0c-4f4b-b117-e403de660416",
+      "intent_short": "f2e0026c",
+      "call": 1,
+      "resource": "https://www.api-xpay.com/x402/quote",
+      "called_at": "2026-10-25T08:00:04.534Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.005000",
+      "pay_to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+      "signed_nonce": "0x190a341751a8334c94a28e06abfecc51d6267dd47c44d9f80c4852a0ec684224",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0xa608803ab6a3a9a7d694068b67a7536d4b39caa8da7b3066c9e14ec5ac4facb2",
+          "log_index": 37,
+          "block_number": 53062932,
+          "block_at": "2026-10-25T08:00:11.000Z",
+          "to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+          "value_usdc": "0.005000",
+          "nonce": "0x190a341751a8334c94a28e06abfecc51d6267dd47c44d9f80c4852a0ec684224",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0xa608803ab6a3a9a7d694068b67a7536d4b39caa8da7b3066c9e14ec5ac4facb2"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "f2e0026c-bd0c-4f4b-b117-e403de660416",
+      "intent_short": "f2e0026c",
+      "call": 2,
+      "resource": "https://www.api-xpay.com/x402/quote",
+      "called_at": "2026-10-25T08:00:26.844Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.005000",
+      "pay_to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+      "signed_nonce": "0x97fec59df46cf17a176804943f907051b0cfae9a52a2c728c2a9b1e0e0c47799",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0xe39458fc78d1ea49a2c3f51e5fca17ff7858f28b2c69ac2e1af668967fe52461",
+          "log_index": 8,
+          "block_number": 53062943,
+          "block_at": "2026-10-25T08:00:33.000Z",
+          "to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+          "value_usdc": "0.005000",
+          "nonce": "0x97fec59df46cf17a176804943f907051b0cfae9a52a2c728c2a9b1e0e0c47799",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0xe39458fc78d1ea49a2c3f51e5fca17ff7858f28b2c69ac2e1af668967fe52461"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "73896b42-6968-4741-9a23-2bcf83617bc2",
+      "intent_short": "73896b42",
+      "call": 1,
+      "resource": "https://x402.clashofcoins.com/x402/cheap-health",
+      "called_at": "2026-10-25T08:00:49.476Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+      "signed_nonce": "0xe748c87d89f2477cafba9313c13faa608bb80dd20d622520ea955ab403a8e21f",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0xf0d4140980a843e0a67ddceaa6824d6fafe7f1b5d7638824694a90adc8242ceb",
+          "log_index": 411,
+          "block_number": 53062953,
+          "block_at": "2026-10-25T08:00:53.000Z",
+          "to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+          "value_usdc": "0.001000",
+          "nonce": "0xe748c87d89f2477cafba9313c13faa608bb80dd20d622520ea955ab403a8e21f",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0xf0d4140980a843e0a67ddceaa6824d6fafe7f1b5d7638824694a90adc8242ceb"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "73896b42-6968-4741-9a23-2bcf83617bc2",
+      "intent_short": "73896b42",
+      "call": 2,
+      "resource": "https://x402.clashofcoins.com/x402/cheap-health",
+      "called_at": "2026-10-25T08:01:08.203Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+      "signed_nonce": "0xf71e067b71b70574c89e96ad162685c812fb6ddbb43dd10a2ca7db562ae59f2b",
+      "outcome": "duplicate",
+      "settlements": [
+        {
+          "tx_hash": "0x832d813a8dcdf74a98c6022adaa6bda9bbe8d7062a2409a21faa41fb1a1eb7a0",
+          "log_index": 291,
+          "block_number": 53062962,
+          "block_at": "2026-10-25T08:01:11.000Z",
+          "to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+          "value_usdc": "0.001000",
+          "nonce": "0xf71e067b71b70574c89e96ad162685c812fb6ddbb43dd10a2ca7db562ae59f2b",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x832d813a8dcdf74a98c6022adaa6bda9bbe8d7062a2409a21faa41fb1a1eb7a0"
+        }
+      ]
+    },
+    {
+      "test": "duplicate",
+      "intent": "d26a8b15-758d-4781-8535-15f4051bb227",
+      "intent_short": "d26a8b15",
+      "call": 1,
+      "resource": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+      "called_at": "2026-10-25T08:01:27.030Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f",
+      "signed_nonce": "0xad944f86626335e669349818f20a2e168d9fdb208543b2d22def192563f4d81e",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "d26a8b15-758d-4781-8535-15f4051bb227",
+      "intent_short": "d26a8b15",
+      "call": 2,
+      "resource": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+      "called_at": "2026-10-25T08:01:41.910Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f",
+      "signed_nonce": "0x898dce8f671b12ae13ee463933b7c2f62d2ca0d1c1b379aead096a4c7406a075",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "508f3511-8915-49f9-9c65-07b3d7d1118c",
+      "intent_short": "508f3511",
+      "call": 1,
+      "resource": "https://api.locus.report/api/locus-parcel-lookup",
+      "called_at": "2026-10-25T08:01:55.387Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0xF121fbeceC43e1B616D47285851c20d5fC64431b",
+      "signed_nonce": "0x2af3bb09857ff379ec033532c329d1f1c0569a6f00b9da78ebed184b283c0657",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "duplicate",
+      "intent": "508f3511-8915-49f9-9c65-07b3d7d1118c",
+      "intent_short": "508f3511",
+      "call": 2,
+      "resource": "https://api.locus.report/api/locus-parcel-lookup",
+      "called_at": "2026-10-25T08:02:10.225Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0xF121fbeceC43e1B616D47285851c20d5fC64431b",
+      "signed_nonce": "0xf0f760b023334e85d78fe97340f593a7190f8dacd5b6b8db9835bc1ba030a672",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "534b1425-1d0e-4637-9b78-6407ae3af2fa",
+      "intent_short": "534b1425",
+      "call": 1,
+      "resource": "https://api.bitrefill.com/x402/checkout/info",
+      "called_at": "2026-10-25T08:03:38.217Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+      "signed_nonce": "0x4b34624f9f63078130a31a0e3f433d083884aa9b1c6a68bbedbe8c5c5d2e362c",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0xd5c66f248bdc93f733a71d04e3635da7d6a93b0810c85648fadd9f2d4c28fdb7",
+          "log_index": 7,
+          "block_number": 53063038,
+          "block_at": "2026-10-25T08:03:43.000Z",
+          "to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+          "value_usdc": "0.001000",
+          "nonce": "0x4b34624f9f63078130a31a0e3f433d083884aa9b1c6a68bbedbe8c5c5d2e362c",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0xd5c66f248bdc93f733a71d04e3635da7d6a93b0810c85648fadd9f2d4c28fdb7"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "534b1425-1d0e-4637-9b78-6407ae3af2fa",
+      "intent_short": "534b1425",
+      "call": 2,
+      "resource": "https://api.bitrefill.com/x402/checkout/info",
+      "called_at": "2026-10-25T08:03:58.577Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+      "signed_nonce": "0xed655eeb0c3bec0a3af8ccca1f9cf43d0f09824e78035881d847d6e18a5e3147",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0xbc6f197d17db22bcdf87cf4b2cfb7cec71b1b16b1ce7081522a115a497000d28",
+          "log_index": 192,
+          "block_number": 53063048,
+          "block_at": "2026-10-25T08:04:03.000Z",
+          "to": "0x480CD46E6faDe651a0437DeaddA53D5c8e7D846A",
+          "value_usdc": "0.001000",
+          "nonce": "0xed655eeb0c3bec0a3af8ccca1f9cf43d0f09824e78035881d847d6e18a5e3147",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0xbc6f197d17db22bcdf87cf4b2cfb7cec71b1b16b1ce7081522a115a497000d28"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "b4345dfd-2f14-49ab-8c86-4bb785c06bd1",
+      "intent_short": "b4345dfd",
+      "call": 1,
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "called_at": "2026-10-25T08:04:18.715Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.002000",
+      "pay_to": "0x1cAa1962428382106Eb3f29B9719bdF797621C90",
+      "signed_nonce": "0xef34448b3cc90f24deee4c2e6426e1d41248c178ece0995d063e10b8671ced46",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "b4345dfd-2f14-49ab-8c86-4bb785c06bd1",
+      "intent_short": "b4345dfd",
+      "call": 2,
+      "resource": "https://api.vapinetwork.ai/shim/o1/tokens",
+      "called_at": "2026-10-25T08:04:32.074Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.002000",
+      "pay_to": "0x1cAa1962428382106Eb3f29B9719bdF797621C90",
+      "signed_nonce": "0x67416d4bdb8c5d1d7fb1ca0e0d2eb787b8654ca47ee36c2ab7cd140cfeba2db4",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "085ae8ad-466a-4256-934e-dd738bb1fb21",
+      "intent_short": "085ae8ad",
+      "call": 1,
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "called_at": "2026-10-25T08:04:45.589Z",
+      "aborted_by_us": false,
+      "paid": false,
+      "amount_usdc": null,
+      "pay_to": null,
+      "signed_nonce": null,
+      "outcome": "not_paid",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "085ae8ad-466a-4256-934e-dd738bb1fb21",
+      "intent_short": "085ae8ad",
+      "call": 2,
+      "resource": "https://api.surplusintelligence.ai/v1/chat/completions",
+      "called_at": "2026-10-25T08:04:46.797Z",
+      "aborted_by_us": false,
+      "paid": false,
+      "amount_usdc": null,
+      "pay_to": null,
+      "signed_nonce": null,
+      "outcome": "not_paid",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "52a8bcd4-da2d-40ad-b27d-a4da619b918f",
+      "intent_short": "52a8bcd4",
+      "call": 1,
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "called_at": "2026-10-25T08:04:48.081Z",
+      "aborted_by_us": true,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+      "signed_nonce": "0xb19313dbb04c75c7e58f95d59ae344c20b7d6b5363335d109363f0e3efc664ce",
+      "outcome": "non_delivery",
+      "settlements": [
+        {
+          "tx_hash": "0x35e5fd0aa17a10b66eb6a0091970c0348cb47926b0acae90d653ff62c3125146",
+          "log_index": 195,
+          "block_number": 53063074,
+          "block_at": "2026-10-25T08:04:55.000Z",
+          "to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+          "value_usdc": "0.001000",
+          "nonce": "0xb19313dbb04c75c7e58f95d59ae344c20b7d6b5363335d109363f0e3efc664ce",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x35e5fd0aa17a10b66eb6a0091970c0348cb47926b0acae90d653ff62c3125146"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "52a8bcd4-da2d-40ad-b27d-a4da619b918f",
+      "intent_short": "52a8bcd4",
+      "call": 2,
+      "resource": "https://api.slamai.dev/chain/tokens/trending",
+      "called_at": "2026-10-25T08:05:08.816Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+      "signed_nonce": "0xf2590d951c821b853bd5e958654651ee8be9f78d4bb6cdb07af66995b334bd2c",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0x53fc01f556305bc22bc92345f28595dd5cc74921d4da41b32ff965d870848199",
+          "log_index": 339,
+          "block_number": 53063083,
+          "block_at": "2026-10-25T08:05:13.000Z",
+          "to": "0xd85096fAeC1aC03075667B4C1a1661F5623Bf111",
+          "value_usdc": "0.001000",
+          "nonce": "0xf2590d951c821b853bd5e958654651ee8be9f78d4bb6cdb07af66995b334bd2c",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x53fc01f556305bc22bc92345f28595dd5cc74921d4da41b32ff965d870848199"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "ae7860bd-8ab5-41c3-b5ff-22c83d676fc6",
+      "intent_short": "ae7860bd",
+      "call": 1,
+      "resource": "https://laso.finance/auth",
+      "called_at": "2026-10-25T08:05:29.531Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37",
+      "signed_nonce": "0xa0201029123ef661a563a5a50c500abf13e29f3bbc0cd982af06c4cce5d71ebe",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0x9e9254e5bb0b1e8c740f26e6bb8898f81ab763effa7f5ade9cb14bf43f83bdec",
+          "log_index": 882,
+          "block_number": 53063093,
+          "block_at": "2026-10-25T08:05:33.000Z",
+          "to": "0x3291E96b3bff7eD56e3ca8364273C5b4654b2B37",
+          "value_usdc": "0.001000",
+          "nonce": "0xa0201029123ef661a563a5a50c500abf13e29f3bbc0cd982af06c4cce5d71ebe",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x9e9254e5bb0b1e8c740f26e6bb8898f81ab763effa7f5ade9cb14bf43f83bdec"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "ae7860bd-8ab5-41c3-b5ff-22c83d676fc6",
+      "intent_short": "ae7860bd",
+      "call": 2,
+      "resource": "https://laso.finance/auth",
+      "called_at": "2026-10-25T08:05:49.167Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x3291e96b3bff7ed56e3ca8364273c5b4654b2b37",
+      "signed_nonce": "0x6e0d78d38af16932d09624e4b6e2fc2927504fd524bd2de00da0d37fcc61b200",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0x3fbd734b78a445503d633aa7270eeb7723c30bff33db88ce04cfa12c26b74268",
+          "log_index": 20,
+          "block_number": 53063103,
+          "block_at": "2026-10-25T08:05:53.000Z",
+          "to": "0x3291E96b3bff7eD56e3ca8364273C5b4654b2B37",
+          "value_usdc": "0.001000",
+          "nonce": "0x6e0d78d38af16932d09624e4b6e2fc2927504fd524bd2de00da0d37fcc61b200",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x3fbd734b78a445503d633aa7270eeb7723c30bff33db88ce04cfa12c26b74268"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "5693407e-d1c9-4362-9421-c8d713776b9e",
+      "intent_short": "5693407e",
+      "call": 1,
+      "resource": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
+      "called_at": "2026-10-25T08:06:08.879Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.020000",
+      "pay_to": "0x7284D41b5b852F2bd4c99bDf95043D84452d299C",
+      "signed_nonce": "0x76e1e05f3faaef99585fade94662d1898f08b6d1f551bdf232f5f83b518ab4d3",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "5693407e-d1c9-4362-9421-c8d713776b9e",
+      "intent_short": "5693407e",
+      "call": 2,
+      "resource": "https://www.ax1.vc/api/dashboard/q-verdict/resource",
+      "called_at": "2026-10-25T08:06:22.891Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.020000",
+      "pay_to": "0x7284D41b5b852F2bd4c99bDf95043D84452d299C",
+      "signed_nonce": "0x0675a9ee0db5950cd9baf0a44fa82a60b5698101c84b6eb35fe085f3a18b8386",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "058583df-f025-44d8-80c3-b18e0eb8cf4b",
+      "intent_short": "058583df",
+      "call": 1,
+      "resource": "https://www.api-xpay.com/x402/quote",
+      "called_at": "2026-10-25T08:06:36.674Z",
+      "aborted_by_us": true,
+      "paid": true,
+      "amount_usdc": "0.005000",
+      "pay_to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+      "signed_nonce": "0x081fc718751b9db3d8075fd8b4c377a3ea146aec1ce6a4fb5f2a5c91eae34a58",
+      "outcome": "non_delivery",
+      "settlements": [
+        {
+          "tx_hash": "0x30bc029cbc6e834c0d385c7113ddc61eff91a10e6affccd60c7e9411afbe0091",
+          "log_index": 367,
+          "block_number": 53063127,
+          "block_at": "2026-10-25T08:06:41.000Z",
+          "to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+          "value_usdc": "0.005000",
+          "nonce": "0x081fc718751b9db3d8075fd8b4c377a3ea146aec1ce6a4fb5f2a5c91eae34a58",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x30bc029cbc6e834c0d385c7113ddc61eff91a10e6affccd60c7e9411afbe0091"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "058583df-f025-44d8-80c3-b18e0eb8cf4b",
+      "intent_short": "058583df",
+      "call": 2,
+      "resource": "https://www.api-xpay.com/x402/quote",
+      "called_at": "2026-10-25T08:06:57.376Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.005000",
+      "pay_to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+      "signed_nonce": "0xb5c9fadfd5a5e5fe9bac6cff3c9384d23fff5fb2fc1c9ebd91834422b4b05fa2",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0x1b417dfc15bbfd88fe4e48c3876002590fdd5a1e067be6546f2f8b3e4da125e3",
+          "log_index": 11,
+          "block_number": 53063138,
+          "block_at": "2026-10-25T08:07:03.000Z",
+          "to": "0x589a2314a2E05F45e40C4823Da3Ba58D421dB3d8",
+          "value_usdc": "0.005000",
+          "nonce": "0xb5c9fadfd5a5e5fe9bac6cff3c9384d23fff5fb2fc1c9ebd91834422b4b05fa2",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x1b417dfc15bbfd88fe4e48c3876002590fdd5a1e067be6546f2f8b3e4da125e3"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "deb8f6de-8b54-4d10-a6d3-d48b85514ed2",
+      "intent_short": "deb8f6de",
+      "call": 1,
+      "resource": "https://x402.clashofcoins.com/x402/cheap-health",
+      "called_at": "2026-10-25T08:07:19.531Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+      "signed_nonce": "0x6d51ddafe8856241054b9d481099e90c46e6446964334e2100487108d7b699f0",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0x7abfbd64dc914d2f697b8360eb8aad418b5e899cb339318cdf1037ecc0322b66",
+          "log_index": 169,
+          "block_number": 53063148,
+          "block_at": "2026-10-25T08:07:23.000Z",
+          "to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+          "value_usdc": "0.001000",
+          "nonce": "0x6d51ddafe8856241054b9d481099e90c46e6446964334e2100487108d7b699f0",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x7abfbd64dc914d2f697b8360eb8aad418b5e899cb339318cdf1037ecc0322b66"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "deb8f6de-8b54-4d10-a6d3-d48b85514ed2",
+      "intent_short": "deb8f6de",
+      "call": 2,
+      "resource": "https://x402.clashofcoins.com/x402/cheap-health",
+      "called_at": "2026-10-25T08:07:39.268Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.001000",
+      "pay_to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+      "signed_nonce": "0xbc6028bfdfa4d19a767d5d92d3eb2093ee2f833659a93fecd11ba660c3e3f1c5",
+      "outcome": "ok",
+      "settlements": [
+        {
+          "tx_hash": "0x550a3b185df847feab7653c9125507c743da15efd971cb3d3e5a6ed8af2c23e3",
+          "log_index": 102,
+          "block_number": 53063158,
+          "block_at": "2026-10-25T08:07:43.000Z",
+          "to": "0x8b29DABD6fBb5A09DAcbC7978eaed66A8540721d",
+          "value_usdc": "0.001000",
+          "nonce": "0xbc6028bfdfa4d19a767d5d92d3eb2093ee2f833659a93fecd11ba660c3e3f1c5",
+          "source": "chain",
+          "explorer_url": "https://basescan.org/tx/0x550a3b185df847feab7653c9125507c743da15efd971cb3d3e5a6ed8af2c23e3"
+        }
+      ]
+    },
+    {
+      "test": "timeout",
+      "intent": "ef90f48b-24da-4341-9d8b-a106906657b8",
+      "intent_short": "ef90f48b",
+      "call": 1,
+      "resource": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+      "called_at": "2026-10-25T08:07:59.094Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f",
+      "signed_nonce": "0xe8a76d1bc5c1b9f977813ac36e89a542c2f0e82d552ba398acc860685704c377",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "ef90f48b-24da-4341-9d8b-a106906657b8",
+      "intent_short": "ef90f48b",
+      "call": 2,
+      "resource": "https://api.nansen.ai/api/v1/profiler/address/current-balance",
+      "called_at": "2026-10-25T08:08:14.160Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f",
+      "signed_nonce": "0x59288553ed399079aa8273521a3a7ac1c4e2f32ff78a359fd7477e944815d430",
+      "outcome": "our_error",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "1de75784-c7bc-450e-8f56-69cf76bc8ee8",
+      "intent_short": "1de75784",
+      "call": 1,
+      "resource": "https://api.locus.report/api/locus-parcel-lookup",
+      "called_at": "2026-10-25T08:08:32.335Z",
+      "aborted_by_us": true,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0xF121fbeceC43e1B616D47285851c20d5fC64431b",
+      "signed_nonce": "0x65e5d7c29f4fb6f43504959dfee50915ac5713a7adcf42d06dc47a86f5834adf",
+      "outcome": "not_paid",
+      "settlements": []
+    },
+    {
+      "test": "timeout",
+      "intent": "1de75784-c7bc-450e-8f56-69cf76bc8ee8",
+      "intent_short": "1de75784",
+      "call": 2,
+      "resource": "https://api.locus.report/api/locus-parcel-lookup",
+      "called_at": "2026-10-25T08:18:39.852Z",
+      "aborted_by_us": false,
+      "paid": true,
+      "amount_usdc": "0.010000",
+      "pay_to": "0xF121fbeceC43e1B616D47285851c20d5fC64431b",
+      "signed_nonce": "0xfb3091cabfbf804427cf62f539805afdfffc3547d4507442c2c553ecf215c9a6",
+      "outcome": "our_error",
+      "settlements": []
+    }
+  ],
+  "verification": {
+    "usdc_contract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "how": "For a call, read the transfer in each settlement's tx_hash: its from is the authorizer. authorizationState(authorizer, signed_nonce) on the USDC contract is true once the authorization settled. Two settlements on one intent with two different signed nonces are two signatures by the client; the same nonce on two transactions cannot settle twice. The tables' settlements column counts distinct tx_hash per intent."
+  }
 }
